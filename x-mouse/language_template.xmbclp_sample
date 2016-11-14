@@ -1,0 +1,754 @@
+﻿# Sample XMBC Language template file. 
+# Base version 2.14
+#
+# Changes to this template are marked:
+#   -- Updated in <version> --
+# or 
+#   -- Added in <version> --
+# or 
+#   -- Removed in <version> (and left in template for backwards compatibility) --
+#
+# Ensure the file extension is .xmbclp (XMouse Button Control Language Pack)
+# which you can "install" into XMBC simply by double clicking it, or drop it into the profile folder.
+#
+# All comments must be prefixed with s hash/pound '#' character.
+#
+# Submit translations to the Highrez Forums or directly to the Author and they will be included in 
+# future versions of the installation package and the language pack website.
+#
+#
+
+#
+#Describe the language pack here - this is displayed in the language drop-down in the settings tab.
+#Ideally (for consistency) put your localised language name, followed by the English language name in brackets
+#EG. Language=Français (French)
+#
+Language=Template (English)
+Description=Sample language file to provide language translation for XMBC. Please help me by translating this to you language!
+
+#
+#Put your name here and you will be credited in the user interface
+#
+Author=Phillip Gibbons
+
+
+#Section: Setup screen
+"Scrolling && Navigation" => ""
+"Default" => ""
+"A&dd" => ""
+"Edi&t" => ""
+"C&opy" => ""
+"Remo&ve" => ""
+"&Settings" => ""
+"Abo&ut" => ""
+"&Apply" => ""
+"&Close" => ""
+"Description" => ""	#Also shared with the language settings tab!
+"Process" => ""
+"Class" => ""
+"Window Class" => ""
+"Parent Class" => ""
+"Application / Window Profiles:" => ""
+"Profile Information" => ""
+"Setup" => ""
+
+# -- Added in 2.7 Beta 4 --
+"Disabled because Scroll Lock is ON!" => ""
+"Disabled under Remote Desktop!" => ""
+# --
+
+# -- Added in 2.8 Beta 7 --
+"U&p" => ""
+"Do&wn" => ""
+"&Export" => ""
+"&Import" => ""
+"Unable to save the settings file" => ""
+"Please check you installation settings." => ""
+"Contact the developer for support." => ""
+# --
+
+# -- Added in 2.8 Beta 10 --
+"Window Caption" => ""
+# --
+
+#Section: Global strings (used everywhere)
+"Layer" => ""
+"Portable" => ""
+"All" => ""
+"Not Defined" => ""
+"Default: All windows that do not match any profile." => ""
+"&OK" => ""
+"&Cancel" => ""
+"OK" => ""
+"Cancel" => ""
+"Global Settings" => ""
+
+# -- Added in 2.10 Beta 10 --
+"Number of  &layers" => ""
+
+
+#Section: General settings tab
+"General" => ""
+"Mouse &Speed" => ""
+"Ma&ke scroll wheel scroll window under cursor" => ""
+"B&ypass ALL actions when SCROLL LOCK is ON" => ""
+"By&pass 'disabled' actions when SCROLL LOCK is ON" => ""
+"S&wap 4th and 5th buttons" => ""
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => ""
+"&Disable when running under remote desktop (RDP)" => ""
+"Show layer switch &balloon notifications" => ""
+"A&ctivate window when scrolling" => ""
+"Always show the volume &On Screen Display" => "" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
+"&Enable On Screen Display for volume and brightness settings" => "" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
+"Change cursor when using &Movement To Scroll" => ""
+"Enable &notifications" => ""
+"En&hance pointer precision" => ""
+
+# -- Updated in 2.14 Beta 7 --
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => ""
+
+# -- Added in 2.14 Beta 10
+"So&rt mouse button action list alphabetically" => ""
+
+#Section: Advanced settings tab
+"Advanced" => ""
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => ""
+"Enable profi&le switching on mouse move" => ""
+"Process &Non-Client mouse messages *RECOMMENDED*" => ""
+"Reset &sticky buttons when any other button is pressed" => ""
+"R&eset sticky buttons when any other key is pressed" => ""
+"Show &tray icon by default" => ""
+"&Ignore numlock state for Simulated Keystrokes" => ""
+"Cycle l&ayers by left clicking tray icon" => ""					# -- Updated in 2.5 beta 4 --
+"&Fixup (de-bounce) tilt wheel auto-repeat" => ""
+"Initial re&peat rate" => ""										# -- Changed in 2.8 Beta 1 --
+"&Repeat tilt rate" => ""
+"(ms)" => ""
+"Dela&y between simulated keystrokes" => ""
+"&CPU Priority" => ""
+"Realtime" => ""
+"High" => ""
+"Above normal" => ""
+"Normal" => ""
+"Below normal" => ""
+"&De-bounce (ignore) rapid mouse button clicks" => ""
+"Start de-bounce timer when button is released" => ""
+"Load &US English keyboard if no equivalent is available" => ""
+"Reset stic&ky buttons when the layer changes" => ""
+"Disable inactivity timer while inactive for" => ""
+"(min)" => ""
+"&Windows Low Level Hook Timeout (Reboot required)" => ""
+
+#Section: Language settings tab (Added in 2.14 Beta 7)
+"NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => ""
+"Author" => "" #The label on the language settings page. The word 'Author' should be directly translated, i.e. Don't put your name here :)
+"Language" => ""
+
+#Section: Update and Logging Settings tab (Added in 2.14 Beta 7)
+"Updates && Logging" => ""
+"Check for new &version every" => ""
+"Check for &beta versions" => ""
+"days (at application startup)" => ""
+"Enable &DEBUG logging" => ""
+"*** Debug logging will degrade performance and response times! ***" => ""
+"&Log File Folder" => ""
+"Leave blank to use the default folder!" => ""
+"*** Changes to the log file folder will be applied next time you start XMBC! ***" => ""
+"Updates" => ""
+"Logging" => ""
+
+#Section: Hotkey settings tab
+"Hotkeys" => ""
+"Enable &global hotkeys" => ""
+"You can assign your hotkeys using the boxes below..." => ""
+"Switch to Layer &1" => ""
+"Switch to Layer &2" => ""
+"Switch to Layer &3" => ""
+"Switch to Layer &4" => ""
+"Switch to Layer &5" => ""
+"Switch to Layer &6" => ""
+"Switch to Layer &7" => ""
+"Switch to Layer &8" => ""
+"Switch to Layer &9" => ""
+"Switch to Layer 1&0" => ""
+"&Next Layer" => ""
+"&Previous Layer" => ""
+"&Enable/Disable XMBC" => ""
+"&Toggle Debug mode" => ""
+"&Save desktop icon layout" => ""
+"Restore desktop icon &layout" => ""			# -- Updated in 2.5 beta 4 --
+"Toggle &X Axis Lock" => ""
+"Toggle &Y Axis Lock" => ""
+"Open Settings Window" => ""					# -- Added in 2.10 beta 5 --
+"NOTE: Only valid hotkey combinations will be allowed." => ""
+
+"Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => ""
+"Global hotkeys" => ""
+"F12 can not be used as a hotkey on its own as this is reserved by Windows." => ""	#Error shown if user tries to assign F12 as a global hotkey.
+# -- Updated in 2.14 Beta 7 --
+"Layer Hotkeys" => ""
+"Other Hotkeys" => ""
+# --
+
+#Section: Layer Modifier key settings tab
+"Modifier Keys" => ""
+"Enab&le modifier keys (switching layers && axis locking)" => ""
+"Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => ""
+"Layers" => ""
+"Activate Layer 1" => ""
+"Activate Layer 2" => ""
+"Activate Layer 3" => ""
+"Activate Layer 4" => ""
+"Activate Layer 5" => ""
+# -- Added in 2.10 Beta 2 --
+"Activate Layer 6" => ""
+"Activate Layer 7" => ""
+"Activate Layer 8" => ""
+# -- Added in 2.10 Beta 3 --
+"Activate Layer 9" => ""
+"Activate Layer 10" => ""
+# --
+"Axis Locking" => ""
+"Lock X-Axis" => ""
+"Lock Y-Axis" => ""
+"NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => ""
+"None" => ""
+"Shift" => ""
+"Control" => ""
+"Alt" => ""
+"Shift + Control" => ""
+"Shift + Alt" => ""
+"Shift + Control + Alt" => ""
+"Control + Alt" => ""
+"Left Window Key" => ""
+"Right Window Key" => ""
+"App Menu Key" => ""
+
+# -- Updated in 2.14 Beta 7 --
+"Layer Modifiers" => ""
+"Other Modifiers" => ""
+# -- 
+
+#Section: Context Menus
+"Edit" => ""
+"Copy" => ""
+"Remove" => ""
+"Import" => ""
+"Export Selected" => ""
+"Export All" => ""
+"&Layers" => ""
+"Layer &1" => ""
+"Layer &2" => ""
+"Layer &3" => ""
+"Layer &4" => ""
+"Layer &5" => ""
+# -- Added in 2.10 Beta 2 --
+"Layer &6" => ""
+"Layer &7" => ""
+"Layer &8" => ""
+# -- Added in 2.10 Beta 3 --
+"Layer &9" => ""
+"Layer 1&0" => ""
+# --
+"&Setup" => ""
+"&Hide Icon" => ""
+"&Open log file" => ""
+"&Disable X-Mouse Button Control" => ""
+"S&ave desktop icon layout" => ""
+"&Restore desktop icon layout" => ""			# -- Updated in 2.6 beta 1 --
+"Exit" => ""
+
+#Section: Tooltips 
+# -- Updated in 2.10 Beta 3
+"This graphic shows the active window regions that apply to this profile.\nYou can define these regions in the profile editor." => ""
+"Add/Edit setting for individual layers\nor specific scrolling and navigation behaviour." => ""
+# -- Added in 2.10 Beta 2
+"Add a new application or window specific profile." => ""
+"Clone the selected application or window specific profile." => ""
+"Edit the selected application or window specific profile." => ""
+"Delete the selected application or window specific profile." => ""
+"Export the selected application or window specific profile." => ""
+"Import a saved application or window specific profile." => ""
+"Move the selected application or window specific profile up." => ""
+"Move the selected application or window specific profile down." => ""
+# --
+
+#Section: Layer tab(s)
+"Layer name" => ""
+"&Left Button" => ""
+"&Right Button" => ""
+"&Middle Button" => ""
+"&Middle Button 2" => ""
+"Mouse Button &4" => ""
+"Mouse Button &5" => ""
+"W&heel Up" => ""
+"Wh&eel Down" => ""
+"Tilt Wheel Le&ft" => ""
+"Tilt Wheel Ri&ght" => ""
+"Reset Layer" => ""
+
+# -- Added in 2.4 Beta 17 --
+"This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => ""
+"Layer changing commands need to be applied to all affected layers.\n\nContinue?" => ""
+"You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => ""
+"If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => ""
+#--
+
+# -- Added in 2.8 Beta 6 --
+"Switch to" => ""
+"after" => ""
+"seconds" => ""
+"Always revert to layer 1" => ""
+# --
+
+# -- Added in 2.10 Beta 2 --
+"Disable in Next/Previous layer commands" => ""
+# --
+
+# -- Added in 2.14 Beta 5 --
+"Are you sure you want to replace layer %d in the default profile?" => ""		# The %d is replaced at runtime - leave it there!
+"Are you sure you want to replace layer %d in %s (%s)?" => ""					# The %d and %s are replaced at runtime - leave them there!
+"Do you want to apply your settings before copying the layer?" => ""
+"Do you want to apply your settings before swapping the layer?" => ""
+
+# -- Added in 2.14 Beta 6 --
+"Copy Layer" => ""
+"Swap Layer" => ""
+# --
+
+#Section: Copy Layer dialog - Added in 2.14 Beta 5
+"Copy Layer" => ""
+"Destination Profile:" => ""
+"Destination Layer:" => ""
+
+#Section: Swap Layer dialog - Added in 2.14 Beta 5
+"Swap Layer" => ""
+"Swap with layer:" => ""
+"Swap" => ""
+
+#Section: Simulated keystroke methods
+"(undefined)" => ""
+"(pressed)" => ""
+"(released)" => ""
+"(during)" => ""
+"(thread-down)" => ""
+"(thread-up)" => ""
+"(repeat)" => ""
+"(sticky repeat)" => ""
+"(sticky hold)" => ""
+"(pressed & released)" => ""									# -- Added in 2.4 Beta 12 --
+
+
+#Section: Simulated Keystrokes dialog
+"Simulated Keystrokes" => ""									# -- Updated in 2.4 Beta 15 --
+"Enter the custom key(s)" => ""
+"How to send the simulated key strokes:" => ""
+"1 As mouse button is pressed" => ""
+"2 As mouse button is released" => ""
+"3 During (press on down, release on up)" => ""
+"4 In another thread as mouse button is pressed" => ""
+"5 In another thread as mouse button is released" => ""
+"6 Repeatedly while the button is down" => ""
+"7 Sticky (repeatedly until button is pressed again)" => ""
+"8 Sticky (held down until button is pressed again)" => ""
+"9 As mouse button is pressed & when released" => ""			# -- Added in 2.4 Beta 12 --
+"Only send if profile's process is active" => ""
+"Block original mouse input" => ""								# -- Added in 2.7 Beta 5 --
+"Randomise auto repeat delay by 10%" => ""						# -- Added in 2.11 Beta 6 --
+"Auto repeat delay" => ""
+"(milliseconds)" => ""
+"0 = Windows default repeat delay && speed." => ""
+
+
+#Section: Simulated Keystrokes dialog - help text
+# NOTE: For the following texts, \r\n is a NEW LINE and \t is a TAB. Be sure to check the layout on the simkeys 
+# dialog when making translations to ensure your text is visible and fits nicely.
+"Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => ""
+"Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => ""
+
+# -- Updated in 2.14 beta 2 --
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => ""
+
+# -- Updated in 2.9 beta 6 --
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => ""
+
+# -- Added in 2.9 beta 6 --
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following keys\r\n\t\t\t{RELEASE} Release (let go of) the following keys\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => ""
+"To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => ""
+# -- 
+
+# -- Updated in 2.4 Beta 10 and removed in 2.9 Beta 6 --
+"NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => ""
+
+# -- Updated in 2.4 Beta 15 --
+"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => ""
+
+# -- Updated in 2.14 Beta 2 --
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => ""
+
+# -- Updated in 2.14 Beta 9 --
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => ""
+
+# -- Added in 2.11 Beta 16 --
+"Movement tags\t\t{MXSET:n} {MYSET:n} {MXADD:n} {MYADD:n}\r\n\t\t\tSET sets the mouse cursor's X or Y position to <n>\r\n\t\t\tADD moves the mouse cursor's X or Y position by <n> pixels" => ""
+
+#Run Application dialog
+"Type the name of a program, folder, document or internet resource, and XMouse button will open it for you when the button is pressed." => ""
+
+
+#Section: Scrolling &navigation tab
+"&Invert mouse wheel scrolling" => ""
+"I&nvert mouse horizontal (tilt) scrolling" => ""
+"Wheel scrolls i&n pages instead of lines" => ""
+"Lines to scroll using the scroll wheel:" => ""		# -- Removed in 2.7 Beta 4. Left for backward compatibility --
+"Lines to scroll using the scroll wheel" => ""		# -- Added/Updated in 2.7 Beta 4 --
+"Enable a&xis locking modifier keys" => ""
+"Advanced Window Scrolling" => ""
+"&Scroll Method" => ""
+"&Vertical Lines" => ""
+"&Horizontal characters" => ""
+"Method 1 (SCROLL Msg)" => ""
+"Method 2 (ScrollInfo)" => ""
+"Method 3 (Left/Right Keys)" => ""
+"Method 4 (Wheel Msg)" => ""
+"Method 5 (WPF Scroll Msg)" => ""
+"None (Disable Scroll)" => ""
+
+# -- Added in 2.7 Beta 7 --
+"&Disable Scroll Window Under Cursor" => ""
+
+# -- Added in 2.8 Beta 6 --
+"Switch primary and secondary mouse buttons" => ""
+"Don't swap buttons" => ""
+"Swap buttons" => ""
+# --
+
+# -- Added in 2.9 Beta 3 --
+"Ignore &repeated remapped vertical scroll" => ""
+"Ignore repeated remapped hori&zontal scroll" => ""
+"for" => ""
+"milliseconds" => ""
+# --
+
+# -- Added in 2.13 Beta 9 --
+"&Force Scroll Pages/Lines (If application does not respond to setting)" => "" # This option forces the scroll lins/button swap setting to be pushed to ALL open windows.
+
+#Section: About Dialog
+"XML support provided by XML++ from Michael at turboirc.com" => ""
+"XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => ""
+"More information can be found on my download page or user forums." => ""
+"Homepage" => ""
+"Donate" => ""
+"Forums" => ""
+
+# -- Added in 2.4 Beta 15 --
+"About" => ""
+"Version" => ""	
+"This application is designed and written by %s of %s." => "" # NOTE: The %s are replace at runtime; leave them there!
+# --
+
+#Section: Find Window Dialog
+"Find Window" => ""
+"Find Method" => ""
+"Click and drag the window finder icon to the window you want to select." => ""
+"Hover" => ""
+"Move the mouse over the window you want to select && turn on CAPS LOCK to lock the window details in place." => ""
+"You can also manually enter/edit the window details below." => ""
+"Window Details" => ""
+"Caption" => ""
+"Handle" => ""
+"&Process" => ""
+"C&lass" => ""
+"Pa&rent Class" => ""
+"Only match if there is no parent class." => ""
+"Enable Regular Expression Matching" => ""						# -- Added in 2.8 Beta 1 --
+"NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => ""
+
+# -- Added in 2.8 Beta 3 --
+"Window Regions" => ""
+"Activate the profile only if the cursor is over the selected areas of the window." => ""
+"You must define at least one window region!" => ""
+# --
+
+
+#Section: Choose Application dialog (custom window profile)
+"Choose Application" => ""
+"Select from the list of running applications:" => ""
+"Or type in/browse to the application executable (.EXE) file" => ""
+"Application" => ""
+"&Specific Window" => ""
+
+# -- Added in 2.4 Beta 15 --
+"&Refresh" => ""
+"Process Name" => ""
+"Window Title" => ""
+# --
+
+
+#Section: Errors/Message boxes
+"Please close the settings dialog in order to fully apply your language selection." => ""
+"The specified application already exists.\nYou can not add two entries for the same application." => ""
+"You must select a profile to remove!" => ""
+"You can not edit the default profile!" => ""
+"You can not remove the default profile!" => ""
+"You must select a profile to edit." => ""
+"The specified window configuration is invalid!" => ""
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window." => ""
+"You must select an application to copy." => ""
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => ""
+"Do you want to overwrite profile" => ""	# -- Updated in 2.7 Beta 5 --
+"The selected file is not a valid settings file." => ""
+"The log file can not be opened as it does not exist." => ""
+"is unable to open the log file" => ""
+"Unable to save the desktop icons using your current shell and this version of" => ""
+"Unable to restore the desktop icons using your current shell and this version of" => ""
+
+# -- Updated in v2.4 Beta 14 --
+"There is a new version available!" => ""
+"A new version is available." => ""
+"Open the setup dialog and hit the about button for more information." => ""
+"Click the 'Homepage' button to go and download it." => ""
+"There is a new beta version available!" => ""
+"A new beta version is available." => ""
+"Click the 'Forums' button to go and download it." => ""
+# --
+
+# -- Updated / Added in v2.14 Beta 3 --
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window/region." => ""
+"The specified profile already exists.\nYou can not add two profile entries for the same window with overlapping regions." => ""
+# --
+
+
+"You have to select or enter a process name, or press cancel." => ""
+"Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. As such, the debug setting will not be saved." => ""
+"Are you sure you want to enable debug logging?" => ""
+"Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => ""
+"This can slow down mouse operation in general, sometimes causing strange results." => ""
+"Are you sure you want to ignore non-client messages?" => ""
+"By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => ""
+"To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => ""
+
+#Section: Balloon pop-up windows
+"Debugging enabled" => ""
+"Debugging disabled" => ""
+"Successfully saved desktop icon positions" => ""
+"Successfully restored desktop icon positions" => ""
+"Mouse button re-mapping is now disabled" => ""
+"Mouse button re-mapping is now enabled" => ""
+
+#Section: Import / Export dialogs
+# -- Added in 2.7 Beta 3 --
+"The file to import is corrupt or not a valid file." => ""
+"The XML settings file is corrupt and could not be loaded.\nYou can not make any changes until this error has been fixed." => ""
+"The XML settings file is corrupt and could not be updated safely.\nPlease fix the error and try again." => ""
+# --
+
+#Section: Actions (displayed in the drop-down lists)
+"Left Click" => ""
+"Right Click" => ""
+"Next Window" => ""
+"Back" => ""
+"Forward" => ""
+"Middle Click" => ""
+"Disable" => ""
+"Close (Alt+F4)" => ""
+"Copy (Ctrl+C)" => ""
+"Cut (Ctrl+X)" => ""
+"Double Click" => ""
+"Enter" => ""
+"Maximize Window" => ""
+"Minimize Window" => ""
+"New" => ""
+"Open" => ""
+"Paste (Ctrl+V)" => ""
+"Redo (Ctrl+Y)" => ""
+"Show/Hide Desktop" => ""
+"Undo (Ctrl+Z)" => ""
+"Media - Mute" => ""
+"Media - Volume Up" => ""
+"Media - Volume Down" => ""
+"Media - Next Track" => ""
+"Media - Last Track" => ""
+"Media - Stop" => ""
+"Media - Play/Pause" => ""
+"Launch EMail" => ""
+"Simulated Keys" => ""
+"Lock Workstation" => ""
+"Open Explorer" => ""
+"Open RUN Command" => ""
+"Restore Window" => ""
+"Escape" => ""
+"Open Help" => ""
+"Open Web Browser" => ""
+"Browser Stop" => ""
+"Browser Refresh" => ""
+"Browser Search" => ""						# Updated in 2.14 Beta 10
+"Browser Favourites" => ""
+"** No Change (Don't intercept) **" => ""
+"Run Application" => ""
+"Mouse Wheel Up" => ""
+"Mouse Wheel Down" => ""
+"Print Screen" => ""
+"Print Active Window" => ""
+"Sticky Left Button [Click-Drag]" => ""
+"Sticky Right Button" => ""
+"Sticky Middle Button" => ""
+"Layer (Next)" => ""
+"Layer (Previous)" => ""
+"Layer 1" => ""
+"Layer 2" => ""
+"Layer 3" => ""
+"Layer 4" => ""
+"Layer 5" => ""
+#-- Added in 2.10 Beta 2
+"Layer 6" => ""
+"Layer 7" => ""
+"Layer 8" => ""
+#-- Added in 2.10 Beta 3
+"Layer 9" => ""
+"Layer 10" => ""
+# --
+"Open Explorer at specified folder" => ""
+"Open Explorer at My Documents" => ""
+"Open Explorer at My Computer" => ""
+"Open Explorer at Network Favourites" => ""
+"Open Control Panel" => ""
+"Double Click Drag" => ""
+"Mouse Wheel Tilt Left" => ""
+"Mouse Wheel Tilt Right" => ""
+"Scroll Window Up" => ""
+"Scroll Window Down" => ""
+"Scroll Window Left" => ""
+"Scroll Window Right" => ""
+"Previous Window" => ""
+"Activate Screensaver" => ""
+"Activate Monitor Power Saving" => ""
+"** Same As Default Profile **" => ""
+"Sticky 4th Button" => ""
+"Sticky 5th Button" => ""
+"Change Movement to Scroll" => ""
+"Change Movement to Scroll (Sticky)" => ""
+"Sticky Left Button [Click-Drag] X-Axis" => ""
+"Sticky Left Button [Click-Drag] Y-Axis" => ""
+
+# -- Updated in 2.4 Beta 12 --
+"Flip 3D" => ""
+"ALT-TAB" => ""
+"Show sidebar" => ""
+"Reveal Desktop" => ""							 # -- Added in 2.4 Beta 12 -- same action as Show sidebar
+"** Same As Layer 1 (current profile) **" => ""  # -- Added in 2.4 Beta 12 --
+
+# -- Updated in 2.4 Beta 15 --
+"Layer Modifier Revert" => ""
+
+# -- Updated in 2.6 Beta 1 (For Windows 8) --
+"Task Switcher" => ""
+"Charms Bar (WIN+C)" => ""
+"PC Settings (WIN+I)" => ""
+"Search Charm (WIN+Q)" => ""
+"Search Apps (WIN+W)" => ""
+"Search Files (WIN+F)" => ""
+"Metro Snap Right" => ""
+"Metro Snap Left" => ""
+
+# -- Updated in 2.14 Beta 6 (for Windows 10) --
+"Cortana Search" => ""
+
+# -- Added in 2.7 Beta 7 --
+"Magnifier Toggle On/Off" => ""
+
+
+# -- Added in 2.8 Beta 1 --
+"Brightness Down" => ""
+"Brightness Up" => ""
+
+# -- Added in 2.9 Beta 1 --
+"Snap Modern UI Left" => ""
+"Snap Modern UI Right" => ""
+"Snap Window Left" => ""
+"Snap Window Right" => ""
+"Snap Window Up" => ""
+"Snap Window Down" => ""
+"Virtual Desktop: New" => ""
+"Virtual Desktop: Close" => ""
+"Virtual Desktop: Switch Left" => ""
+"Virtual Desktop: Switch Right" => ""
+# --
+
+# -- Added in 2.11 Beta 15
+"Task View" => ""				#Was "Desktop Switcher"
+
+# -- Added in 2.11 Beta 15
+"Magnifier Zoom In" => ""
+"Magnifier Zoom Out" => ""
+
+# -- Added in 2.12 Beta 1
+"Click Button 4" => ""
+"Click Button 5" => ""
+
+# -- Added in 2.12 Beta 11
+"Change Movement to Scroll (Lock Axis)" => ""
+"Change Movement to Scroll (Sticky Lock Axis)" => ""
+
+# -- Added in 2.13 Beta 1
+"Change Movement to Scroll Inverted" => ""
+"Change Movement to Scroll Inverted (Sticky)" => ""
+"Change Movement to Scroll Inverted (Lock Axis)" => ""
+"Change Movement to Scroll Inverted (Sticky Lock Axis)" => ""
+
+# -- Added in 2.13 Beta 4
+"Search Selected Text" => ""
+
+# -- Changed in 2.14 Beta 6
+"Web Search Selected Text" => ""
+
+# -- Added in 2.14 Beta 6 (missing for some time!) --
+"System Menu (WIN+X)" => ""
+
+# -- Added in 2.14 Beta 10
+"Lock Mouse X-Axis (While pressed)" => ""
+"Lock Mouse X-Axis (Toggle)" => ""
+"Lock Mouse Y-Axis (While pressed)" => ""
+"Lock Mouse Y-Axis (Toggle)" => ""
+
+
+# -- Added in 2.10 Beta 14 --
+"Activating layer %d" => ""				#In the balloon tooltip when switching layers %d is the layer number
+"Activating layer '%s'" => ""			#In the balloon tooltip when switching layers %s is the layer name
+
+#Section: Version/Update checking
+# -- Added in 2.10 Beta 1 --
+"&Check for update..." => ""
+"Click here to update." => ""
+"Right click the XMBC Icon to download the update." => ""
+"Would you like to upgrade %s from v%s to v%s" => ""			# NOTE: The %s are replace at runtime; leave them there!
+"Portable v%s is available. Would you to visit the website to find out more?" => ""
+"You have the latest available version of %s" => ""
+"An error occurred while attempting to download the update package." => ""
+"Please visit the website to download the latest version or try again later." => ""
+"An error occurred while running the update package" => ""
+
+# -- Updated in 2.14 Beta 9
+"Click here for more details." => ""
+
+
+# -- Added in 2.10 Beta 12 --
+"Downloading" => ""
+"Launching the update installation..." => ""
+"Downloading update..." => ""					#Initial progress on download dialog
+"Downloaded %d of %d bytes" => ""				#Progress on download dialog
+
+#Section: Button Chording
+# -- Added in 2.14 Beta 1 --
+"Button Chording" => ""
+"Default (No Chord)" => ""
+"Button chording allows you to make assign chorded actions that apply when one button is pressed, followed by a second button." => ""
+
+# -- Added in 2.14 Beta 3 --
+"&Block / Delay original button action until chord is established" => ""
+
+# -- Added in 2.14 Beta 7
+"Change Log:" => ""
+"Unable to locate change log!" => ""
+"Upgrade" => ""
+"Skip" => ""

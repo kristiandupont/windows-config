@@ -1,0 +1,469 @@
+﻿# Sample XMBC Language template file. 
+# Base version 2.4
+#
+# Changes to this template are marked
+#   -- Updated in <version> --
+# or 
+#   -- Added in <version> --
+#
+
+#Describe the language pack here - this is displayed in the language dropdown in the settings tab.
+Language=Español
+Description=Traducción al español de X-Mouse Button Control.
+#Put your name here and (at some point in the future) you will be creditied in the user interface
+Author=sonoro (sonoro.mail@gmail.com)
+
+
+#Setup screen: Configuración de pantalla
+"Scrolling && Navigation" => "Desplazamiento && Navegación"
+"Default" => "Por Defecto"
+"A&dd" => "Agregar"
+"Edi&t" => "Modificar"
+"C&opy" => "Copiar"
+"Remo&ve" => "Eliminar"
+"&Settings" => "Configuración"
+"Abo&ut" => "Acerca de"
+"&Apply" => "Aplicar"
+"&Close" => "Cerrar"
+"Description" => "Descripción"
+"Process" => "Protocolo"
+"Class" => "Grupo"
+"Window Class" => "Grupo Ventana"
+"Parent Class" => "Grupo Principal"
+"Application / Window Profiles:" => "Aplicación / Perfiles de Ventana"
+"Profile Information" => "Información del Perfil"
+"Setup" => "Ejecutar"
+
+
+#General strings: Cadenas generales
+"Layer" => "Capa"
+"Portable" => "Portátil"
+"All" => "Todo"
+"Not Defined" => "No Definido"
+"Default: All windows that do not match any profile." => "Predefinido : Todas las ventanas que no corresponden a ningún perfil."
+"&OK" => "OK"
+"&Cancel" => "Cancelar"
+"OK" => "OK"
+"Cancel" => "Cancelar"
+"Global Settings" => "Configuración Global"
+
+
+#Global settings: Configuración General
+"General" => "General"
+"Mouse &Speed" => "Velocidad del Ratón"
+"Ma&ke scroll wheel scroll window under cursor" => "Mover la rueda de desplazamiento bajo el cursor"
+"B&ypass ALL actions when SCROLL LOCK is ON" => "Evitar todas las acciones cuando SCROLL BLOQ está activa."
+"By&pass 'disabled' actions when SCROLL LOCK is ON" => "'Desactiva' evitar todas las acciones cuando SCROLL BLOQ está activa."
+"S&wap 4th and 5th buttons" => "Intercambiar botones 4 º y 5 º"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Intercambiar botones 4 º y 5 º, cuando conecta el escritorio remoto (RDP)"
+"&Disable when running under remote desktop (RDP)" => "Desabilitar cuando funciona el escritorio remoto (RDP)"
+"Show layer switch &balloon notifications" => "Mostrar notificaciones de conmutación de capa con un globo"
+"Language" => "Idioma"
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "AVISO: Debe pulsar Aceptar y Aplicar en la pantalla principal de configuración para que tenga efecto. Los cámbios de idioma no se aplicarán hasta que la ventana principal se abra de nuevo"
+
+# The following tag is the LABEL displayed on the general settings page.
+# The word 'Author' should be directly translated, ie. Don't put your name here :)
+# NOTE: The description labe is also on the setup screen with the same meaning.
+"Author" => "Autor"
+# --
+
+#Global settings: Configuración Avanzada
+"Advanced" => "Avanzado"
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "AVISO: Debe pulsar Aceptar y Aplicar en la pantalla principal de configuración para que tenga efecto."
+"Enable profi&le switching on mouse move" => "Activar el cambio de perfil con movimento del ratón"
+"Process &Non-Client mouse messages *RECOMMENDED*" => "Usar 'Non-Client' para mensajes del ratón *RECOMENDADO*"
+"Reset &sticky buttons when any other button is pressed" => "Reiniciar botones Sticky cuando se presiona cualquier botón"
+"R&eset sticky buttons when any other key is pressed" => "Reiniciar botones Sticky cuando se presiona cualquier tecla"
+"Show &tray icon by default" => "Mostrar icono predefinido en la barra de tareas"
+"&Ignore numlock state for Simulated Keystrokes" => "Ignorar estado 'BloqNum' para simular pulsaciones de tecla"
+"Cycle l&ayers by left clicking tray icon" => "Ciclo de capas pulsando el botón izquierdo en el icono"					# -- Updated in 2.5 beta 4 --
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "soluciona efecto rebote en la ruleta con auto-repetición"
+"&Initial repeat rate" => "Tasa Inicial"
+"Initial re&peat rate" => "Tasa Inicial"							# -- Changed in 2.8 Beta 1 --
+"&Repeat tilt rate" => "Tasa Inclinación"
+"(ms)" => "(ms)"
+"Dela&y between simulated keystrokes" => "Retardo de simulación pulsaciones de tecla"
+"&CPU Priority" => "Prioridad CPU"
+"Check for new &version every" => "Verificar una nueva versión"
+"days (at application startup)" => "Días (al iniciar la aplicación)"
+"Enable &DEBUG logging" => "Activar el registro de depuración"
+"*** Debug logging will degrade performace and response times! ***" => "*** El registro de depuración afecta el rendimiento y tiempos de respuesta! ***"
+# -- Updated in 2.6 Beta 1 --
+"*** Debug logging will degrade performance and response times! ***" => "*** El registro de depuración afecta el rendimiento y tiempos de respuesta! ***"
+
+# -- Added in 2.4 Beta 15 --El registro de depuración afecta al rendimiento y tiempos de respuesta!
+"Realtime" => "Tiempo Real"
+"High" => "Alto"
+"Above normal" => "Sobre lo normal"
+"Normal" => "Normal"
+"Below normal" => "Bajo lo normal"
+# --
+
+
+#Global settings: Pestaña Teclas Rápidas
+"Hotkeys" => "Teclas Rápidas"
+"Enable &global hotkeys" => "Activar Teclas Rápidas""
+"You can assign your hotkeys using the boxes below..." => "Puede asignar las Teclas Rápidas utilizando las casillas de abajo ..."
+"Switch to Layer &1" => "Cámbiar a la capa &1"
+"Switch to Layer &2" => "Cámbiar a la capa &2"
+"Switch to Layer &3" => "Cámbiar a la capa &3"
+"Switch to Layer &4" => "Cámbiar a la capa &4"
+"Switch to Layer &5" => "Cámbiar a la capa &5"
+"Switch to Layer &6" => "Cámbiar a la capa &6"
+"Switch to Layer &7" => "Cámbiar a la capa &7"
+"Switch to Layer &8" => "Cámbiar a la capa &8"
+"Switch to Layer &9" => "Cámbiar a la capa &9"
+"Switch to Layer 1&0" => "Cámbiar a la capa 1&0"
+"&Next Layer" => "Capa Siguiente"
+"&Previous Layer" => "Capa Anterior"
+"&Enable/Disable XMBC" => "Activar/Desactivar XMBC"
+"&Toggle Debug mode" => "Activar Modo Depuración"
+"&Save desktop icon layout" => "Guardar posición de los iconos del escritorio"
+"Restore desktop icon &layout" => "Restaurar posición de los iconos del escritorio"
+"Toggle &X Axis Lock" => "Activar Bloqueo eje X "
+"Toggle &Y Axis Lock" => "Activar Bloqueo eje Y "
+"NOTE: Only valid hotkey combinations will be allowed." => "AVISO: Solo se permiten combinaciones de Teclas Rapidas."
+
+# -- Added in 2.4 Beta 15 --
+"Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "Las Teclas Rapidas globales se desactivan en el diálogo de configuración. Hay que Aplicar y Cerrar la configuración para que puedan funcionar."
+
+
+#Global settings: Modificar Pestaña Teclas
+"Modifier Keys" => "Modificar Teclas"
+"Enab&le modifier keys (switching layers && axis locking)" => "Activar Modificar Teclas (Cámbio de Capas && Bloquear Ejes)"
+"Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => "Las teclas modificadoras son combinaciones de teclas que activan temporalmente la función de combinación de teclas mientras se mantiene pulsado. Tan pronto como se suelte la tecla(s), volverá al estado anterior."
+"Layers" => "Capas"
+"Activate Layer 1" => "Activar Capa 1"
+"Activate Layer 2" => "Activar Capa 2"
+"Activate Layer 3" => "Activar Capa 3"
+"Activate Layer 4" => "Activar Capa 4"
+"Activate Layer 5" => "Activar Capa 5"
+"Activate Layer 5" => "Activar Capa 6"
+"Activate Layer 5" => "Activar Capa 7"
+"Activate Layer 5" => "Activar Capa 8"
+"Activate Layer 5" => "Activar Capa 9"
+"Activate Layer 5" => "Activar Capa 10"
+"Axis Locking" => "Bloquear Ejes"
+"Lock X-Axis" => "Bloquear Eje-X"
+"Lock Y-Axis" => "Bloquear Eje-Y"
+"NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "AVISO: Bloquear el Eje requiere activar el bloqueo del Eje para cada perfil de aplicación específico en el que desea utilizarlo. Esto le permite bloquear el Eje sólo para una aplicación específica."
+"None" => "Ninguno"
+"Shift" => "Shift"
+"Control" => "Ctrl"
+"Alt" => "Alt"
+"Shift + Control" => "Shift + Ctrl"
+"Shift + Alt" => "Shift + Alt"
+"Shift + Control + Alt" => "Shift + Ctrl + Alt"
+"Control + Alt" => "Ctrl + Alt"
+"Left Window Key" => "Tecla Windows Izquierda"
+"Right Window Key" => "Tecla Windows Derecha"
+"App Menu Key" => "Tecla Menú"
+
+
+#Context Menus
+"Edit" => "Modificar"
+"Copy" => "Copiar"
+"Remove" => "Eliminar"
+"Import" => "Importar"
+"Export Selected" => "Exportar Selección"
+"Export All" => "Exportar Todo"
+"&Layers" => "Capas"
+"Layer &1" => "Capa &1"
+"Layer &2" => "Capa &2"
+"Layer &3" => "Capa &3"
+"Layer &4" => "Capa &4"
+"Layer &5" => "Capa &5"
+"Layer &6" => "Capa &6"
+"Layer &7" => "Capa &7"
+"Layer &8" => "Capa &8"
+"Layer &9" => "Capa &9"
+"Layer 1&0" => "Capa 1&0"
+"&Setup" => "Iniciar X-Mouse Button Control"
+"&Hide Icon" => "Ocultar Icono"
+"&Open log file" => "Abrir archivo de registro"
+"&Disable X-Mouse Button Control" => "Desabilitar X-Mouse Button Control"
+"S&ave desktop icon layout" => "Guardar posición de los iconos del escritorio"
+"&Restore desktop icon layout" => "Restaurar posición de los iconos del escritorio"
+"Exit" => "Salir"
+
+
+#Layer tab(s)
+"Layer name" => "Nombre de Capa"
+"&Left Button" => "Botón Izquierdo"
+"&Right Button" => "Botón Derecho"
+"&Middle Button" => "Botón Central"
+"&Middle Button 2" => "Botón Central 2"
+"Mouse Button &4" => "Botón Ratón &4"
+"Mouse Button &5" => "Botón Ratón &5"
+"W&heel Up" => "Rueda hacia arriba"
+"Wh&eel Down" => "Rueda hacia abajo"
+"Tilt Wheel Le&ft" => "Inclinación Izquierda"
+"Tilt Wheel Ri&ght" => "Inclinación Derecha"
+"Reset Layer" => "Reiniciar Capa"
+
+# -- Added in 2.4 Beta 17 --
+"This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => "Este apartado está reservado para cuando un modificador de la capa se usa para cambiar a esta capa.Usted no lo puede seleccionar directamente"
+"Layer changing commands need to be applied to all affected layers.\n\nContinue?" => "Los comandos de cámbio de capas necesitan ser aplicados a todas las capas afectadas.\n\nContinuar?"
+"You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => "No se puede apicar modificación a CAPA X porque otra capa ya tiene una configuración modificada. Así provocaría un comportamiento indeterminado y por lo tanto no se admite."
+"If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => "Si se elimina una capa para cámbiar el comando, se eliminarán de todas las capas afectadas.\n\nContinuar?"
+#--
+
+#simulated keystrokes: simular pulsaciones de tecla
+"(undefined)" => "(no definido)"
+"(pressed)" => "(presión)"
+"(released)" => "(liberado)"
+"(during)" => "(duración)"
+"(thread-down)" => "(hacia abajo)"
+"(thread-up)" => "(hacia arriba)"
+"(repeat)" => "(repetición)"
+"(sticky repeat)" => "(repetición sticky)"
+"(sticky hold)" => "(mantener sticky)"
+"(pressed & released)" => "(presionado & liberado)"									# -- Added in 2.4 Beta 12 --
+
+
+#Simulated Keystrokes dialog: dialogos simular pulsaciones de tecla
+"Simulated Keystrokes" => "Simular pulsaciones de tecla"									# -- Updated in 2.4 Beta 15 --
+"Enter the custom key(s)" => "Insertar Tecla(s) Personalizada(s)"
+"How to send the simulated key strokes:" => "Como enviar la Simulación de pulsaciones de tecla:"
+"1 As mouse button is pressed" => "1 Botón del ratón está presionado"
+"2 As mouse button is released" => "2 Botón del ratón está liberado"
+"3 During (press on down, release on up)" => "3 Durante (presionado arriba, liberado abajo)"
+"4 In another thread as mouse button is pressed" => "4 Otro botón del ratón está presionado"
+"5 In another thread as mouse button is released" => "5 Otro botón del ratón está liberado"
+"6 Repeatedly while the button is down" => "6 Repetidamente el botón abajo"
+"7 Sticky (repeatedly until button is pressed again)" => "7 Sticky (repetidamente hasta que se pulsa el botón de nuevo)"
+"8 Sticky (held down until button is pressed again)" => "8 Sticky(mantiene pulsado el botón hasta que se vuelva a pulsar)"
+"9 As mouse button is pressed & when released" => "9 Botón del ratón está presionado y cuando se libera"			
+# -- Added in 2.4 Beta 12 --
+"Only send if profile's process is active" => "enviar solo si el perfil está activo"
+"Auto repeat delay" => "Retardo auto repetición"
+"(milliseconds)" => "(milisegundos)"
+"0 = Windows default repeat delay && speed." => "0 = Windows por defecto, repite retardo y velocidad."
+"Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Escriba la secuencia de teclas en el cuadro de arriba.\r\nPuede simular las siguientes teclas extendidas con el TAG especifio..."
+"Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "TAGS Modificados:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  AVISO:\tTAGS modificados como {CTRL}{ALT} se pueden combinar.Solo si se aplica en la SIGUIENTE TECLA.\r\n\tPor Ejenplo, para enviar CTRL+a+CTRL+s pulse '{CTRL}A{CTRL}S'." 
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "TAGS de teclas extendidas:\r\n {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "TAGS de teclas dirección:\t\t{ARRIBA} {ABAJO} {IZQUIERDA} {DERECHA}\r\nTAGS teclas Función:\t\t{F1, F2, F3 ... F24}\r\nTAGS teclas volumen:\t\t{VOL+}, {VOL-}, {MUTE}\r\nTAGS botones Ratón:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nTAGS tecla rueda\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nTAGS teclado numérico:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nteclas Navegado:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nCámbio de tecla:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Por Ejemplo:\r\n  Cerrar una ventana: {ALT}{F4}\r\n  Seleccionar todos los elementos: {CTRL}A\r\n  Teclear 'mi texto' en Microsoft Word:{CTRL}bmi texto{CTRL}b\r\n  Enviar con 'r' y un retardo de 50ms, {HOLDMS50}r\r\n  Desactivar 'BLOQ NUM', {NUMLOCKOFF}"
+# -- Updated in 2.9 beta 6 --
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Por Ejemplo:\r\n  Cerrar una ventana: {ALT}{F4}\r\n  Seleccionar todos los elementos: {CTRL}A\r\n  Teclear 'mi texto' en Microsoft Word:{CTRL}bmi texto{CTRL}b\r\n  Enviar con 'r' y un retardo de 50ms, {HOLDMS50}r\r\n  Desactivar 'BLOQ NUM', {NUMLOCKOFF}"
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "AVISO: Para enviar el retardo cuando se usa {WAIT}, {WAITMS}, {HOLD} o {HOLDMS} tags, puede usar los métodos\r\de envío en el desplegable de arriba."
+
+# -- Updated in 2.4 Beta 15 --
+"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "TAGS de función especial:\t{WAIT<n>}  Retardos en <n> segundos.\r\n\t\t\t{WAITMS<n>} Retardos en <n> milisegundos.\r\n\t\t\t{HOLD<n> Mantener la siguiente tecla abajo para <n> segundos.\r\n\t\t\t{HOLDMS<n>} Mantener la siguiente tecla arriba parar <n> millisegundos.\r\n\t\t\t{VKC:<n>} Envía el código especificado con tecla virtual.\r\n\t\t\t{EXT:<n>} Envía el código especificado extendido con tecla virtual\r\n\t\t\t{CLEAR} Cancelar y Modificar TAGS {CTRL},{ALT} etc."
+
+# -- Updated in 2.14 Beta 2 --
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "TAGS de teclas dirección:\t\t{ARRIBA} {ABAJO} {IZQUIERDA} {DERECHA}\r\nTAGS teclas Función:\t\t{F1, F2, F3 ... F24}\r\nTAGS teclas volumen:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nTAGS botones Ratón:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nTAGS tecla rueda\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nTAGS teclado numérico:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nteclas Navegado:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nCámbio de tecla:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+
+#Run Application dialog
+"Run Application" => "Lanzar Aplicación"
+"Type the name of a program, folder, document or internet resource, and XMouse button will open it for you when the button is pressed." => "Escriba el nombre de un programa, carpeta, documento o URL de Internet, y XMouse button lo abrirá para usted cuando se presiona el botón."
+
+#Scrolling tab
+"&Invert mouse wheel scrolling" => "Invertir desplazamiento de la rueda"
+"I&nvert mouse horizontal (tilt) scrolling" => "Invertir desplazamiento horizontal (inclinación)"
+"Wheel scrolls i&n pages instead of lines" => "Rueda desplaza paginas en lugar de lineas"
+"Lines to scroll using the scroll wheel" => "Desplazamiento de lineas con la rueda"
+"Enable a&xis locking modifier keys" => "Habilita blokeo de ejes con teclas modificadoras"
+"Advanced Window Scrolling" => "Avanzar Desplazamiento de Ventana"
+"&Scroll Method" => "Método de Desplazamiento"
+"&Vertical Lines" => "Lineas verticales"
+"&Horizontal characters" => "Caracteres horizontales"
+"Method 1 (SCROLL Msg)" => "Método 1 (SCROLL Msg)"
+"Method 2 (ScrollInfo)" => "Método 2 (ScrollInfo)"
+"Method 3 (Left/Right Keys)" => "Método 3 (TCLA Izq/Dcha)"
+"Method 4 (Wheel Msg)" => "Método 4 (Wheel Msg)"
+"Method 5 (WPF Scroll Msg)" => "Método 5 (WPF Scroll Msg)"
+"None (Disable Scroll)" => "Ninguno (Desactiva Scroll)"
+
+#About Dialog
+"XML support provided by XML++ from Michael at turboirc.com" => "Soporte de XML proporcionado por XML++ de Michael en turboirc.com"
+"XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC se distribuye libremente (sin garantía) para el uso de cualquier persona y en cualquier lugar. Si le gusta XMBC y desea mostrar su agradecimiento no dude en hacer una donación haciendo clic en el botón de PayPal de abajo."
+"More information can be found on my download page or user forums." => "Se puede encontrar más información en mi página de descarga o foros de usuarios."
+"Homepage" => "Sitio Web"
+"Donate" => "Donación"
+"Forums" => "Foros"
+
+# -- Added in 2.4 Beta 15 --
+"About" => "Sobre XMBC"
+"Version" => "Versión"	
+"This application is designed and written by %s of %s." => "Esta aplicación está diseñada y escrita por %s de %s." 
+# NOTE: The %s are replace at runtime
+# --
+
+#Find Window Dialog
+"Find Window" => "Encontrar Ventana"
+"Find Method" => "Encontrar Método"
+"Click and drag the window finder icon to the window you want to select." => "Arrastre el icono de la ventana del explorador a la ventana que desea seleccionar."
+"Hover" => "Flotar"
+"Move the mouse over the window you want to select && turn on CAPS LOCK to lock the window details in place." => "Mueva el ratón sobre la ventana que desea seleccionar && encienda CAPS LOCK para bloquear los detalles de la ventana en su lugar."
+"You can also manually enter/edit the window details below." => "También puede introducir/editar manualmente los detalles de las ventanas abajo."
+"Window Details" => "Detalles de Ventana"
+"Caption" => "Subtítulo"
+"Handle" => "Modifica"
+"&Process" => "Procedimiento"
+"C&lass" => "Clase"
+"Pa&rent Class" => "Clase Padre"
+"Only match if there is no parent class." => "Solo corresponder si no hay clase padre"
+"NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => "AVISO: Los campos pueden estar vacíos que coincidirá con todas las (*) Ventanas (a menos que usted marque la casilla de verificación para ninguna clase padre). Cuando se establece, el texto debe coincidir con el de las propiedades de la ventana."
+#Choose Application dialog (custom window profile)
+"Choose Application" => "Elejir Aplicación"
+"Select from the list of running applications:" => "Seleccione de la lista de aplicaciones que se ejecutan"
+"Or type in/browse to the application executable (.EXE) file" => "O introducir/buscar el ejecutable de la aplicación (.EXE)"
+"Application" => "Aplicación"
+"&Specific Window" => "Ventana Específica"
+
+# -- Added in 2.4 Beta 15 --
+"&Refresh" => "Refrescar"
+"Process Name" => "Nombre de Proceso"
+"Window Title" => "Titulo de Ventana"
+# --
+
+
+#Errors/Message boxes
+"Please close the settings dialog in order to fully apply your language selection." => "Por favor, cierre el diálogo de configuración con el fin de aplicar plenamente el idioma seleccionado."
+"The specified application already exists.\nYou can not add two entries for the same application." => "Ya existe la aplicación especificada.\nNo puede agregar dos entradas para la misma aplicación."
+"You must select a profile to remove!" => "Debe seleccionar un perfil para eliminar!"
+"You can not edit the default profile!" => "No puede editar el perfil predeterminado!"
+"You can not remove the default profile!" => "No se puede quitar el perfil predeterminado!"
+"You must select a profile to edit." => "Debe seleccionar un perfil que desea editar."
+"The specified window configuation is invalid!" => La ventana de configuración especificada no es válida!"
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "Ya existe el perfil especificado.\nNo puede agregar dos entradas de perfil para la misma aplicación/ventana."
+"You must select an application to copy." => "Debe seleccionar una aplicación para copiar."
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "¿Desea guardar los cámbios realizados a la configuración\n\nAdvertencia: Si dice 'No', se perderán todos los cámbios!"
+"Do you want to overwrite profile" => "¿Desea sobrescribir el perfil?"				# -- Updated in 2.7 Beta 5 --
+"The selected file is not a valid settings file." => "El archivo seleccionado no es un archivo de configuración válido."
+"You must select an application to copy." => "Debe seleccionar una aplicación para copiar."
+"The log file can not be opened as it does not exist." => "El archivo de registro no se puede abrir, ya que no existe".
+"is unable to open the log file" => "no sw puede abrir el archivo de registro"
+"Unable to save the desktop icons using your current shell and this version of" => "No se pueden guardar los iconos del escritorio utilizando el shell actual y esta versión de"
+"Unable to restore the desktop icons using your current shell and this version of" => "No se pueden restaurar los iconos del escritorio utilizando el shell actual y esta versión de"
+
+# -- Updated in v2.4 Beta 14 --
+"There is a new version available!" => "Hay una nueva versión disponible!"
+"A new version is available." => "Una nueva versión está disponible."
+"Click the 'Homepage' button to go and download it." => "Haga click en el botón 'Inicio' para ir a descargarla."
+"There is a new beta version available!" => "Hay una nueva versión beta disponible!"
+"A new beta version is available." => "Una nueva versión beta está disponible."
+"Click the 'Forums' button to go and download it." => "Haga click en el botón "Foros" para ir a descargarla."
+# --
+
+"You have to select or enter a process name, or press cancel." => "Usted tiene que seleccionar o introducir un nombre de proceso, o pulse Cancelar."
+"The specified window configuation is invalid!" => "La ventana de configuración especificada no es válida!"
+"Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. As such, the debug setting will not be saved." => "Habilitar el registro de depuración disminuirá el rendimiento del ratón. Se recomienda que sólo se habilite temporalmente para ayudar a encontrar problemas. s
+como tal, no se guardará la configuración de depuración"
+"Are you sure you want to enable debug logging?" => "¿Está seguro de que desea habilitar el registro de depuración?"
+"Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => "Por favor, tenga en cuenta comprobar si un mensaje de ratón es 'Non-Client', con el fin de determinar si debe ser ignorado o no, se requiere mucho más procesamiento."
+"This can slow down mouse operation in general, sometimes causing strange results." => "Esto puede ralentizar el funcionamiento del ratón, en general, a veces producir resultados extraños."
+"Are you sure you want to ignore non-client messages?" => ¿Está seguro de que desea ignorar los mensajes que son 'Non-Client'?"
+"By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => "Por defecto, se muestra siempre el icono en la bandeja del sistema (junto al reloj). Si l0 desactivas, no habrá ningún icono en la bandeja del sistema de forma predeterminada."
+"To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => "Para restaurar el icono, puede ejecutar el programa de nuevo desde el menú de inicio. Esto hará que el icono se muestre temporalmente, lo que le permite acceder a esta pantalla de configuración."
+
+
+#Balloon popup windows
+"Debugging enabled" => "Depuración Habilitada"
+"Debugging disabled" => "Depuración Deshabilitada"
+"Successfully saved desktop icon positions" => "Guardadas las Posiciones de los Iconos del Escritorio"
+"Successfully restored desktop icon positions" => "Restauradas las Posiciones de los Iconos del Escritorio"
+"Mouse button re-mapping is now disabled" => "Re-Mapear Botones del Ratón Deshabilitado"
+"Mouse button re-mapping is now enabled" => "Re-Mapear Botones del Ratón Habilitado"
+
+
+
+# Actions (displayed in the dropdown lists)
+"Left Click" => "Click Izquierdo"
+"Right Click" => "Click Derecho"
+"Next Window" => "Siguiente Ventana"
+"Back" => "Detras"
+"Forward" => "Avanzar"
+"Middle Click" => "Click Central"
+"Disable" => "Desabilitar"
+"Close (Alt+F4)" => "Cerrar (Alt+F4)"
+"Copy (Ctrl+C)" => "Copiar (Ctrl+C)"
+"Cut (Ctrl+X)" => "Cortar (Ctrl+X)"
+"Double Click" => "Doble Click"
+"Enter" => "Enter"
+"Maximize Window" => "Maximizar Ventana"
+"Minimize Window" => "Minimizar Ventana"
+"New" => "Nuevo"
+"Open" => "Abrir"
+"Paste (Ctrl+V)" => "Pegar (Ctrl+V)
+"Redo (Ctrl+Y)" => "Rehacer (Ctrl+Y)"
+"Show/Hide Desktop" => "Mostrar/Ocultar Escritorio"
+"Undo (Ctrl+Z)" => "Deshacer (Ctrl+Z)"
+"Media - Mute" => "Media - Mute"
+"Media - Volume Up" => "Media - Volumen Arriba"
+"Media - Volume Down" => "Media - Volumen Abajo"
+"Media - Next Track" => "Media - Siguiente Pista"
+"Media - Last Track" => "Media - Ultima Pista"
+"Media - Stop" => "Media - Stop"
+"Media - Play/Pause" => "Media - Play/Pausa"
+"Launch EMail" => "Enviar E-Mail"
+"Simulated Keys" => "Teclas Simuladas"
+"Lock Workstation" => "Bloquear Workstation"
+"Open Explorer" => "Abrir Explorador"
+"Open RUN Command" => "Abrir Comando Iniciar"
+"Restore Window" => "Restaurar Ventana"
+"Escape" => "Escape"
+"Open Help" => "Abrir Ayuda"
+"Open Web Browser" => "Abrir Navegador Web"
+"Browser Stop" => "Cerrar Navegador"
+"Browser Refresh" => "Refrescar Navegador"
+"Browser Search" => "Abrir Busqueda"					# Updated in 2.14 Beta 10
+"Browser Favourites" => "Faboritos Navegador"
+"** No Change (Don't intercept) **" => "** Sin Cámbio (No Interceptar) **"
+"Run Application" => "Iniciar Aplicación"
+"Mouse Wheel Up" => "Rueda Arriba"
+"Mouse Wheel Down" => "Rueda Abajo"
+"Print Screen" => "Imprimir Pantalla"
+"Print Active Window" => "Iprimir Ventana Activa"
+"Sticky Left Button [Click-Drag]" => "Botón Izquierdo Pulsado [Click-Arrastra]"
+"Sticky Right Button" => "Botón Derecho Pulsado"
+"Sticky Middle Button" => "Botón Central Pulsado"
+"Layer (Next)" => "Capa (Siguiente)"
+"Layer (Previous)" => "Capa (Anterior)"
+"Layer 1" => "Capa 1"
+"Layer 2" => "Capa 2"
+"Layer 3" => "Capa 3"
+"Layer 4" => "Capa 4"
+"Layer 5" => "Capa 5"
+"Layer 6" => "Capa 6"
+"Layer 7" => "Capa 7"
+"Layer 8" => "Capa 8"
+"Layer 9" => "Capa 9"
+"Layer 10" => "Capa 10"
+"Open Explorer at specified folder" => "Abrir Explorador en la Carpeta Especificada"
+"Open Explorer at My Documents" => "Abrir Explorador en Mis Documentos"
+"Open Explorer at My Computer" => "Abrir Explorador en Mi Equipo"
+"Open Explorer at Network Favourites" => "Abrir Explorador en Faboritos de Red"
+"Open Control Panel" => "Abrir Panel de Control"
+"Double Click Drag" => "Doble Click Arrastra"
+"Mouse Wheel Tilt Left" => "Rueda Inclinación Izquierda"
+"Mouse Wheel Tilt Right" => "Rueda Inclinación Derecha"
+"Scroll Window Up" => "Desplazar Ventana Arriba"
+"Scroll Window Down" => "Desplazar Ventana Abajo"
+"Scroll Window Left" => "Desplazar Ventana Izquierda"
+"Scroll Window Right" => "Desplazar Ventana Derecha"
+"Previous Window" => "Ventana Anterior"
+"Activate Screensaver" => "Activar Salvapantalla"
+"Activate Monitor Power Saving" => "Activar Ahorro de Energía del Monitor"
+"** Same As Default Profile **" => "** Igual al Perfil por Defecto **"
+"Sticky 4th Button" => "Pulsado 4º Botón"
+"Sticky 5th Button" => "Pulsado 5º Botón"
+"Change Movement to Scroll" => "Cámbiar Movimiento Desplazar"
+"Change Movement to Scroll (Sticky)" => "Cámbiar Movimiento Desplazar (Pulsado)"
+"Sticky Left Button [Click-Drag] X-Axis" => "Botón Izquierdo Pulsado [Click-Arrastra] eje-X"
+"Sticky Left Button [Click-Drag] Y-Axis" => "Botón Derecho Pulsado [Click-Arrastra] eje-Y"
+
+# -- Updated in 2.4 Beta 12 --
+"Flip 3D" => "Flip 3D"
+"ALT-TAB" => "ALT-TAB"
+"Show sidebar" => "Mostrar barra lateral"
+"Reveal Desktop" => "Mostrar Escritorio"							 # -- Added in 2.4 Beta 12 -- same action as Show sidebar
+"** Same As Layer 1 (current profile) **" => "** Igual a Capa 1 (perfil actual) **"# -- Added in 2.4 Beta 12 --
+
+# -- Updated in 2.4 Beta 15 --
+"Layer Modifier Revert" => "Capa Modificada Invertida"

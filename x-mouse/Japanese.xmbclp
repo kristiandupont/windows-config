@@ -1,0 +1,470 @@
+﻿# Sample XMBC Language template file. 
+# Base version 2.4 Beta 15
+#
+# Changes to this template are marked
+#   -- Updated in <version> --
+# or 
+#   -- Added in <version> --
+#
+
+#Describe the language pack here - this is displayed in the language dropdown in the settings tab.
+Language=日本語 (Japanese)
+Description=Because of MY being inexperienced, there might be wrong or strange translations. If you find them, please send new language file(japanese.xmbclp) to the forum or to the homepage.
+
+#Put your name here and (at some point in the future) you will be creditied in the user interface
+Author=prairial
+
+
+#Setup screen
+"Scrolling && Navigation" => "スクロール及びナビゲーション"
+"Default" => "デフォルト"
+"A&dd" => "追加"
+"Edi&t" => "編集"
+"C&opy" => "コピー"
+"Remo&ve" => "削除"
+"&Settings" => "設定"
+"Abo&ut" => "このソフトについて"
+"&Apply" => "適用"
+"&Close" => "閉じる"
+"Description" => "説明"
+"Process" => "プロセス"
+"Class" => "クラス"
+"Window Class" => "ウインドウ・クラス"
+"Parent Class" => "親クラス"
+"Application / Window Profiles:" => "アプリケーション / ウインドウ・プロファイル"
+"Profile Information" => "プロファイル情報"
+"Setup" => "セットアップ"
+
+
+#General strings
+"Layer" => "レイヤー"
+"Portable" => "ポータブル"
+"All" => "すべて"
+"Not Defined" => "未定義"
+"Default: All windows that do not match any profile." => "すべてのプロファイルに一致しないウインドウ"
+"&OK" => "OK"
+"&Cancel" => "キャンセル"
+"OK" => "OK"
+"Cancel" => "キャンセル"
+"Global Settings" => "共通設定"
+
+
+#Global settings: General settings
+"General" => "一般"
+"Mouse &Speed" => "マウス速度"
+"Ma&ke scroll wheel scroll window under cursor" => "カーソル下のウインドウをスクロールさせる"
+"B&ypass ALL actions when SCROLL LOCK is ON" => "スクロールロックが有効な場合動作しない"
+"By&pass 'disabled' actions when SCROLL LOCK is ON" => "スクロールロックが有効な場合無効設定を無視する"
+"S&wap 4th and 5th buttons" => "マウスボタン4と5の動作を入れ替える"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "リモートデスクトップ環境下にてマウスボタン4と5の動作を入れ替える"
+"&Disable when running under remote desktop (RDP)" => "リモートデスクトップ環境下で動作しない"
+"Show layer switch &balloon notifications" => "レイヤースイッチのバルーンメッセージを表示する"
+"Language" => "言語"
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "注：設定を有効にするには、メイン画面で「OK」を押して適用する必要があります。メイン・ウインドウが再開されるまで、変更した言語は適用されません。"
+
+# The following tag is the LABEL displayed on the general settings page.
+# The word 'Author' should be directly translated, ie. Don't put your name here :)
+# NOTE: The description labe is also on the setup screen with the same meaning.
+"Author" => "翻訳担当"
+# --
+
+#Global settings: Advanced settings
+"Advanced" => "詳細"
+"NOTE: You must press OK and apply the settings on the main screen before they take effect." => "注：設定を有効にするには、メイン画面で「OK」を押して適用する必要があります。"
+"Enable profi&le switching on mouse move" => "マウス動作時にプロファイルの切り替えを有効にする"
+"Process &Non-Client mouse messages *RECOMMENDED*" => "非クライアントのマウス・メッセージを処理する（推奨）"
+"Reset &sticky buttons when any other button is pressed" => "他のボタンが押された時に固定ボタンをリセットする"
+"R&eset sticky buttons when any other key is pressed" => "他のキーが押された時に固定ボタンをリセットする"
+"Show &tray icon by default" => "トレイアイコンを表示する"
+"&Ignore numlock state for Simulated Keystrokes" => "シミュレート・キーストロークの場合NumLockを無視する"
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "チルトホイールの自動リピート速度を変更する"
+"&Initial repeat rate" => "초기 반복 속도(&I)"
+"Initial re&peat rate" => "初期リピート速度"							# -- Changed in 2.8 Beta 1 --
+"&Repeat tilt rate" => "チルトリピート速度"
+"(ms)" => "(ms)"
+"Dela&y between simulated keystrokes" => "キーストローク間のディレイ"
+"&CPU Priority" => "CPU優先度"
+"Check for new &version every" => "新バージョンをチェックする"
+"days (at application startup)" => "日おき（スタートアップから起動する）"
+"Enable &DEBUG logging" => "デバッグログを有効にする"
+"*** Debug logging will degrade performace and response times! ***" => "*** デバッグを有効にするとパフォーマンス及びレスポンスが低下します! ***"
+# -- Updated in 2.6 Beta 1 --
+"*** Debug logging will degrade performance and response times! ***" => "*** デバッグを有効にするとパフォーマンス及びレスポンスが低下します! ***"
+
+# -- Added in 2.4 Beta 15 --
+"Realtime" => "リアルタイム"
+"High" => "高"
+"Above normal" => "通常以上"
+"Normal" => "通常"
+"Below normal" => "通常以下"
+# --
+
+
+#Global settings: Hotkey tab
+"Hotkeys" => "ホットキー"
+"Enable &global hotkeys" => "グローバルホットキーを有効にする"
+"You can assign your hotkeys using the boxes below..." => "ボックスに入力することによりホットキーに割り当てることができます"
+"Switch to Layer &1" => "レイヤー1に切り替える"
+"Switch to Layer &2" => "レイヤー2に切り替える"
+"Switch to Layer &3" => "レイヤー3に切り替える"
+"Switch to Layer &4" => "レイヤー4に切り替える"
+"Switch to Layer &5" => "レイヤー5に切り替える"
+"Switch to Layer &6" => "レイヤー6に切り替える"
+"Switch to Layer &7" => "レイヤー7に切り替える"
+"Switch to Layer &8" => "レイヤー8に切り替える"
+"Switch to Layer &9" => "レイヤー9に切り替える"
+"Switch to Layer 1&0" => "レイヤー10に切り替える"
+"&Next Layer" => "次のレイヤー"
+"&Previous Layer" => "前のレイヤー"
+"&Enable/Disable XMBC" => "XMBCを有効にする/無効にする"
+"&Toggle Debug mode" => "デバッグモードを切り替える"
+"&Save desktop icon layout" => "デスクトップのアイコンレイアウトを保存する"
+"&Restore desktop icon layout" => "デスクトップのアイコンレイアウトを復元する"
+"Toggle &X Axis Lock" => "X軸ロックを切り替える"
+"Toggle &Y Axis Lock" => "Y軸ロックを切り替える"
+"NOTE: Only valid hotkey combinations will be allowed." => "注意：有効なホットキーの組み合わせのみ選択可能です。"
+
+# -- Added in 2.4 Beta 15 --
+"Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "グローバルホットキーは設定ダイアログでは無効になっています。有効にするには設定ダイアログを閉じて適用する必要があります。"
+
+
+#Global settings: Modifyer key tab
+"Modifier Keys" => "修飾キー"
+"Enab&le modifier keys (switching layers && axis locking)" => "修飾キーを有効にする（レイヤー切替・軸ロック）"
+"Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => "修飾キーは特定の組み合わせのキーを押している間のみ機能が一時的に有効になります。キーを放した瞬間に元の状態に戻ります。"
+"Layers" => "レイヤー"
+"Activate Layer 1" => "レイヤー1を起動する"
+"Activate Layer 2" => "レイヤー2を起動する"
+"Activate Layer 3" => "レイヤー3を起動する"
+"Activate Layer 4" => "レイヤー4を起動する"
+"Activate Layer 5" => "レイヤー5を起動する"
+"Activate Layer 6" => "レイヤー6を起動する"
+"Activate Layer 7" => "レイヤー7を起動する"
+"Activate Layer 8" => "レイヤー8を起動する"
+"Activate Layer 9" => "レイヤー9を起動する"
+"Activate Layer 10" => "レイヤー10を起動する"
+"Axis Locking" => "軸ロック"
+"Lock X-Axis" => "X軸ロック"
+"Lock Y-Axis" => "Y軸ロック"
+"NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "軸ロックを有効にするためには、利用したい各アプリケーションのプロファイルで設定する必要があります。これにより特定のアプリケーション上だけで軸ロックを行うことが出来ます。"
+"None" => "なし"
+"Shift" => "Shift"
+"Control" => "Ctrl"
+"Alt" => "Alt"
+"Shift + Control" => "Shift + Ctrl"
+"Shift + Alt" => "Shift + Alt"
+"Shift + Control + Alt" => "Shift + Ctrl + Alt"
+"Control + Alt" => "Ctrl + Alt"
+"Left Window Key" => "左Windowキー"
+"Right Window Key" => "右Windowキー"
+"App Menu Key" => "アプリケーションキー"
+
+
+#Context Menus
+"Edit" => "編集"
+"Copy" => "コピー"
+"Remove" => "削除"
+"Import" => "インポート"
+"Export Selected" => "選択してエクスポート"
+"Export All" => "すべてエクスポート"
+"&Layers" => "レイヤー"
+"Layer &1" => "レイヤー1"
+"Layer &2" => "レイヤー2"
+"Layer &3" => "レイヤー3"
+"Layer &4" => "レイヤー4"
+"Layer &5" => "レイヤー5"
+"Layer &6" => "レイヤー6"
+"Layer &7" => "レイヤー7"
+"Layer &8" => "レイヤー8"
+"Layer &9" => "レイヤー9"
+"Layer 1&0" => "レイヤー10"
+"&Setup" => "設定"
+"&Hide Icon" => "アイコンを表示しない"
+"&Open log file" => "ログファイルを開く"
+"&Disable X-Mouse Button Control" => "X-Mouse Button Controlの無効化"
+"S&ave desktop icon layout" => "デスクトップのアイコンレイアウトを保存する"
+"Restore desktop icon &layout" => "デスクトップのアイコンレイアウトを復元する"
+"Exit" => "終了する"
+
+
+#Layer tab(s)
+"Layer name" => "レイヤー名"
+"&Left Button" => "左ボタン"
+"&Right Button" => "右ボタン"
+"&Middle Button" => "中ボタン"
+"&Middle Button 2" => "中ボタン2"
+"Mouse Button &4" => "進むボタン"
+"Mouse Button &5" => "戻るボタン"
+"W&heel Up" => "ホイール上回転"
+"Wh&eel Down" => "ホイール下回転"
+"Tilt Wheel Le&ft" => "左チルト"
+"Tilt Wheel Ri&ght" => "右チルト"
+"Reset Layer" => "レイヤーの初期化"
+
+# -- Added in 2.4 Beta 17 --
+"This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => "この項目はレイヤー修飾子がこのレイヤーに切り替わった時専用のものです。\n\n直接選択することは出来ません。"
+"Layer changing commands need to be applied to all affected layers.\n\nContinue?" => "影響がある全てのレイヤーに対してレイヤー変更を適用する必要があります。\n\n続行しますか？"
+"You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => "同じレイヤー修飾子が別のレイヤーに既に存在するため、このレイヤーに対して設定することは出来ません。\n異常な動作をする可能性があるため、サポート外になります。"
+"If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => "レイヤー変更を削除する場合、影響がある全てのレイヤーから削除されます。\n\n続行しますか？"
+#--
+
+
+#simulated keystrokes
+"(undefined)" => "(未定義)"
+"(pressed)" => "(押す)"
+"(released)" => "(放す)"
+"(during)" => "(間)"
+"(thread-down)" => "(スレッド上)"
+"(thread-up)" => "(スレッド下)"
+"(repeat)" => "(繰り返す)"
+"(sticky repeat)" => "(連打状態にする)"
+"(sticky hold)" => "(押し込み固定)"
+"(pressed & released)" => "押してから放す"									# -- Added in 2.4 Beta 12 --
+
+
+#Simulated Keystrokes dialog
+"Simulated Keystrokes" => "キーストロークシミュレート"									# -- Updated in 2.4 Beta 15 --
+"Enter the custom key(s)" => "カスタムキーを入力してください"
+"How to send the simulated key strokes:" => "キーストロークを送信する方法"
+"1 As mouse button is pressed" => "1 マウスのボタンが押された時"
+"2 As mouse button is released" => "2 マウスのボタンを放された時"
+"3 During (press on down, release on up)" => "3 押している間"
+"4 In another thread as mouse button is pressed" => "4 別スレッドでマウスボタンが押された時"
+"5 In another thread as mouse button is released" => "5 別スレッドでマウスボタンが放された時"
+"6 Repeatedly while the button is down" => "6 ボタンが押されている間連続"
+"7 Sticky (repeatedly until button is pressed again)" => "7 固定(ボタンが再び押されるまで連続)"
+"8 Sticky (held down until button is pressed again)" => "8 固定(ボタンが再び押されるまで押し込み固定)"
+"9 As mouse button is pressed & when released" => "9 マウスボタンが押されて放された時"			# -- Added in 2.4 Beta 12 --
+"Only send if profile's process is active" => "ﾌﾟﾛﾌｧｲﾙのﾌﾟﾛｾｽがｱｸﾃｨﾌﾞな時だけ送信する"
+"Auto repeat delay" => "自動リピートのディレイ"
+"(milliseconds)" => "ミリ秒"
+"0 = Windows default repeat delay && speed." => "0 = Windowsのデフォルトのリピートのディレイとスピード"
+"Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "上のボックスにキーの組み合わせを入力して下さい。\r\n以下のタグを使って修飾キー・拡張キーをシミュレートすることが出来ます。"
+"Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "修飾キータグ:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  注意:\n修飾キータグは{CTRL}{ALT}のように組み合わせることができますが、「次の」キーのみに適用されます。\r\n  例えば、CTRL+a+CTRL+sを送信するには'{CTRL}A{CTRL}S'と入力する必要があります。"
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "拡張キータグ:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "方向キータグ:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nファンクションキータグ:\t{F1, F2, F3 ... F24}\r\n音量キータグ:\t\t{VOL+}, {VOL-}, {MUTE}\r\nマウスボタンタグ:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nマウスホイールタグ:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nテンキータグ:\t\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWebブラウザキー:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nトグルキー:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例:\r\n  ウィンドウを閉じる: {ALT}{F4}\r\n  全ての項目を選択する: {CTRL}A\r\n  Microsoft Wordで太字で'my text'と入力する: {CTRL}bmy text{CTRL}b\r\n  'r'キーを50msのディレイで送信する: {HOLDMS50}r\r\n  NumLockをオフにする, {NUMLOCKOFF}"
+# -- Updated in 2.9 beta 6 --
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例:\r\n  ウィンドウを閉じる: {ALT}{F4}\r\n  全ての項目を選択する: {CTRL}A\r\n  Microsoft Wordで太字で'my text'と入力する: {CTRL}bmy text{CTRL}b\r\n  'r'キーを50msのディレイで送信する: {HOLDMS50}r\r\n  NumLockをオフにする, {NUMLOCKOFF}"
+
+# -- Updated in 2.4 Beta 10 --
+"NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "ヒント:{WAIT}、{WAITMS}、{HOLD}や{HOLDMS}タグのラグを回避する場合、上のドロップダウンから別スレッドのスレッド送信方法を試してください"
+
+# -- Updated in 2.4 Beta 15 --
+"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "特別機能タグ:\t\t{WAIT<n>} <n>秒のディレイを挿入する\r\n\t\t\t{WAITMS<n>} <n>ミリ秒のディレイを挿入する\r\n\t\t\t{HOLD<n>} 次のキーを<n>秒間押し込み固定する。\r\n\t\t\t{HOLDMS<n>} 次のキーを<n>ミリ秒間押し込み固定する。\r\n\t\t\t{VKC:<n>} 特定の仮想キーコードを送信する\r\n\t\t\t{EXT:<n>} 特定の拡張仮想キーコードを送信する\r\n\t\t\t{CLEAR} 修飾タグ {CTRL},{ALT} などをクリアする"
+
+# -- Updated in 2.14 Beta 2 --
+"Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "方向キータグ:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nファンクションキータグ:\t{F1, F2, F3 ... F24}\r\n音量キータグ:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nマウスボタンタグ:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nマウスホイールタグ:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nテンキータグ:\t\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWebブラウザキー:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nトグルキー:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+
+#Run Application dialog
+"Run Application" => "アプリケーションを実行する"
+"Type the name of a program, folder, document or internet resource, and XMouse button will open it for you when the button is pressed." => "プログラム、フォルダ、ドキュメント、インターネット上のリソースの名前を入力して下さい。ボタンを押した際にXMouse buttonから開くことが出来ます。"
+
+
+#Scrolling tab
+"&Invert mouse wheel scrolling" => "マウスホイールを逆転させる"
+"I&nvert mouse horizontal (tilt) scrolling" => "マウス横ホイール（チルト）を逆転させる"
+"Wheel scrolls i&n pages instead of lines" => "行数ではなくページ分スクロールさせる"
+"Lines to scroll using the scroll wheel" => "行分スクロールさせる"
+"Enable a&xis locking modifier keys" => "修飾キーを軸ロックする"
+"Advanced Window Scrolling" => "ウィンドウスクロールの詳細設定"
+"&Scroll Method" => "スクロール方法"
+"&Vertical Lines" => "縦（行）"
+"&Horizontal characters" => "横（文字）"
+"Method 1 (SCROLL Msg)" => "方法1(SCROLL Msg)"
+"Method 2 (ScrollInfo)" => "方法2(ScrollInfo)"
+"Method 3 (Left/Right Keys)" => "方法3(左/右キー)"
+"Method 4 (Wheel Msg)" => "方法4(Wheel Msg)"
+"Method 5 (WPF Scroll Msg)" => "方法5(WPF Scroll Msg)"
+"None (Disable Scroll)" => "なし(スクロールを無効にする)"
+
+
+#About Dialog
+"XML support provided by XML++ from Michael at turboirc.com" => "XMLサポートの提供:XML++(turboirc.com Michael)"
+"XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBCはフリーソフトです。動作保証は致しません。もしXMBCを気に入り、評価したいという方が居ましたら下のPayPalボタンを押して寄付をお願いします。"
+"More information can be found on my download page or user forums." => "詳細についてはホームページまたはユーザーフォーラムを参照下さい。"
+"Homepage" => "ホームページ"
+"Donate" => "寄付する"
+"Forums" => "フォーラム"
+
+# -- Added in 2.4 Beta 15 --
+"About" => "このソフトについて"
+"Version" => "バージョン"	
+"This application is designed and written by %s of %s." => "このアプリケーションは%s(%s)がデザイン・開発を行いました。" # NOTE: The %s are replace at runtime
+# --
+
+#Find Window Dialog
+"Find Window" => "ウィンドウ指定"
+"Find Method" => "指定方法"
+"Click and drag the window finder icon to the window you want to select." => "左のアイコンを指定したいウィンドウ上にドラッグして下さい。"
+"Hover" => "ホバー"
+"Move the mouse over the window you want to select && turn on CAPS LOCK to lock the window details in place." => "指定したいウィンドウ上にマウスを動かし、CAP LOCKをオンにしてウィンドウの詳細を表示して下さい。(Shift+CapsLock)"
+"You can also manually enter/edit the window details below." => "ウィンドウの詳細を手動で入力/編集することも出来ます。"
+"Window Details" => "ウィンドウ詳細"
+"Caption" => "キャプション"
+"Handle" => "ハンドル"
+"&Process" => "プロセス"
+"C&lass" => "クラス"
+"Pa&rent Class" => "親クラス"
+"Only match if there is no parent class." => "親クラスが無い時のみマッチさせる"
+"NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => "入力欄を空にすることで全てのウィンドウにマッチさせることが出来ます（チェックボックスをオンにしない場合）。入力したテキストはウィンドウプロパティのテキストにマッチする必要があります。"
+
+
+#Choose Application dialog (custom window profile)
+"Choose Application" => "アプリケーションを選択"
+"Select from the list of running applications:" => "実行中のアプリケーションリストから選択"
+"Or type in/browse to the application executable (.EXE) file" => "実行ファイル(.EXE)を直接入力するか、参照から選択する"
+"Application" => "アプリケーション"
+"&Specific Window" => "特定のウィンドウ"
+
+# -- Added in 2.4 Beta 15 --
+"&Refresh" => "更新"
+"Process Name" => "プロセス名"
+"Window Title" => "ウィンドウタイトル"
+# --
+
+
+#Errors/Message boxes
+"Please close the settings dialog in order to fully apply your language selection." => "言語設定を完全に適用するために、設定ウィンドウを閉じてください。"
+"The specified application already exists.\nYou can not add two entries for the same application." => "指定されたアプリケーションが既に存在します。同じアプリケーションに2個のエントリーを追加することは出来ません。"
+"You must select a profile to remove!" => "削除するプロファイルを選択して下さい。"
+"You can not edit the default profile!" => "デフォルトのプロファイルを編集することは出来ません。"
+"You can not remove the default profile!" => "デフォルトのプロファイルを削除することは出来ません。"
+"You must select a profile to edit." => "編集するプロファイルを選択して下さい。"
+"The specified window configuration is invalid!" => "指定したウィンドウの設定は無効です。"
+"The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "指定したプロファイルは既に存在します。\n同じアプリケーション/ウィンドウに対して2個のエントリーを追加することは出来ません。"
+"You must select an application to copy." => "コピーするアプリケーションを選択して下さい。"
+"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "設定の変更を保存しますか？\n\n警告：「いいえ」を選択すると変更は失われます。"
+"Do you want to overwrite profile" => "プロファイルを上書き保存しますか？"		# -- Updated in 2.7 Beta 5 --
+"The selected file is not a valid settings file." => "選択したファイルは有効な設定ファイルではありません。"
+"You must select an application to copy." => "コピーするアプリケーションを選択して下さい。"
+"The log file can not be opened as it does not exist." => "ログファイルが存在しないため開くことが出来ません。"
+"is unable to open the log file" => "ログファイルを開くことが出来ません。"
+"Unable to save the desktop icons using your current shell and this version of" => "カレントシェルと後述のバージョンでデスクトップアイコンを保存することが出来ません。"
+"Unable to restore the desktop icons using your current shell and this version of" => "カレントシェルと後述のバージョンでデスクトップアイコンを復元することが出来ません。"
+
+# -- Updated in v2.4 Beta 14 --
+"There is a new version available!" => "新しいバージョンを利用することが出来ます。"
+"A new version is available." => "新しいバージョンを利用することが出来ます。"
+"Click the 'Homepage' button to go and download it." => "「ホームページ」ボタンをクリックしてダウンロードして下さい。"
+"There is a new beta version available!" => "新しいベータ版を利用することが出来ます。"
+"A new beta version is available." => "新しいベータ版を利用することが出来ます。"
+"Click the 'Forums' button to go and download it." => "「フォーラム」ボタンをクリックしてダウンロードして下さい。"
+# --
+
+"You have to select or enter a process name, or press cancel." => "プロセス名を選択/入力するか、キャンセルボタンを押して下さい。"
+"Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. As such, the debug setting will not be saved." => "デバッグログを有効にするとマウスのパフォーマンスが下がります。問題解決の手助けのためだけに一時的に有効することをお勧めします。そのため、デバッグの設定は保存されません。"
+"Are you sure you want to enable debug logging?" => "本当にデバッグログを有効にしますか？"
+"Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => "無視するべきかしないべきか判断するためにマウスメッセージが'non-client'か確認することは、より多くの処理を必要とすることに注意して下さい。"
+"This can slow down mouse operation in general, sometimes causing strange results." => "一般的にマウス操作が遅くなり、時には異常が発生することがあります。"
+"Are you sure you want to ignore non-client messages?" => "本当に非クライアントのメッセージを無視しますか？"
+"By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => "デフォルトではシステムトレイ（時計の近く）にアイコンが表示されます。オフにするとアイコンが表示されなくなります。"
+"To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => "アイコンを元に戻す場合は、スタートメニューからこのプログラムを実行することが出来ます。アイコンが一時的に表示され、この設定画面を開くことが出来ます。"
+
+
+#Balloon popup windows
+"Debugging enabled" => "デバッグは有効です"
+"Debugging disabled" => "デバッグは無効です"
+"Successfully saved desktop icon positions" => "デスクトップのアイコン位置を保存しました"
+"Successfully restored desktop icon positions" => "デスクトップのアイコン位置を復元しました"
+"Mouse button re-mapping is now disabled" => "マウスボタンのリマップが無効になっています"
+"Mouse button re-mapping is now enabled" => "マウスボタンのリマップが有効になっています"
+
+
+# Actions (displayed in the dropdown lists)
+"Left Click" => "左クリック"
+"Right Click" => "右クリック"
+"Next Window" => "次ウインドウ"
+"Back" => "戻る"
+"Forward" => "進む"
+"Middle Click" => "中クリック"
+"Disable" => "無効"
+"Close (Alt+F4)" => "閉じる (Alt+F4)"
+"Copy (Ctrl+C)" => "コピー (Ctrl+C)"
+"Cut (Ctrl+X)" => "切り取り (Ctrl+X)"
+"Double Click" => "ダブルクリック"
+"Enter" => "Enter"
+"Maximize Window" => "ウインドウ最大化"
+"Minimize Window" => "ウインドウ最小化"
+"New" => "新規"
+"Open" => "開く"
+"Paste (Ctrl+V)" => "ペースト (Ctrl+V)"
+"Redo (Ctrl+Y)" => "やり直し (Ctrl+Y)"
+"Show/Hide Desktop" => "デスクトップ表示/非表示"
+"Undo (Ctrl+Z)" => "元に戻す (Ctrl+Z)"
+"Media - Mute" => "メディア-消音"
+"Media - Volume Up" => "メディア-音量大"
+"Media - Volume Down" => "メディア-音量小"
+"Media - Next Track" => "メディア-次の曲"
+"Media - Last Track" => "メディア-最後の曲"
+"Media - Stop" => "メディア-停止"
+"Media - Play/Pause" => "メディア-再生/一時停止"
+"Launch EMail" => "メーラーを起動"
+"Simulated Keys" => "キーシミュレーション"
+"Lock Workstation" => "ウインドウ・ロック"
+"Open Explorer" => "エクスプローラ表示"
+"Open RUN Command" => "ファイル名を指定して実行"
+"Restore Window" => "ウィンドウを復元する"
+"Escape" => "Esc"
+"Open Help" => "ヘルプを開く"
+"Open Web Browser" => "Webブラウザを開く"
+"Browser Stop" => "ブラウザの読み込みを停止する"
+"Browser Refresh" => "ブラウザを更新する"
+"Browser Search" => "検索する"						# Updated in 2.14 Beta 10
+"Browser Favourites" => "ブラウザのお気に入りを開く"
+"** No Change (Don't intercept) **" => "** 変更しない(インターセプトしない) **"
+"Run Application" => "アプリケーションを実行する"
+"Mouse Wheel Up" => "ホイール上回転"
+"Mouse Wheel Down" => "ホイール下回転"
+"Print Screen" => "プリントスクリーン"
+"Print Active Window" => "アクティブウィンドウのみプリント"
+"Sticky Left Button [Click-Drag]" => "左ボタン押し込み固定"
+"Sticky Right Button" => "右ボタン押し込み固定"
+"Sticky Middle Button" => "中ボタン押し込み固定"
+"Layer (Next)" => "次のレイヤー"
+"Layer (Previous)" => "前のレイヤー"
+"Layer 1" => "レイヤー1"
+"Layer 2" => "レイヤー2"
+"Layer 3" => "レイヤー3"
+"Layer 4" => "レイヤー4"
+"Layer 5" => "レイヤー5"
+"Layer 6" => "レイヤー6"
+"Layer 7" => "レイヤー7"
+"Layer 8" => "レイヤー8"
+"Layer 9" => "レイヤー9"
+"Layer 10" => "レイヤー10"
+"Open Explorer at specified folder" => "特定のフォルダでエクスプローラーを開く"
+"Open Explorer at My Documents" => "マイドキュメントでエクスプローラーを開く"
+"Open Explorer at My Computer" => "マイコンピュータでエクスプローラーを開く"
+"Open Explorer at Network Favourites" => "ネットワーク上のお気に入りフォルダでエクスプローラを開く"
+"Open Control Panel" => "コントロールパネルを開く"
+"Double Click Drag" => "ダブルクリックドラッグ"
+"Mouse Wheel Tilt Left" => "左チルト"
+"Mouse Wheel Tilt Right" => "右チルト"
+"Scroll Window Up" => "上スクロール"
+"Scroll Window Down" => "下スクロール"
+"Scroll Window Left" => "左スクロール"
+"Scroll Window Right" => "右スクロール"
+"Previous Window" => "前のウィンドウ"
+"Activate Screensaver" => "スクリーンセーバー起動"
+"Activate Monitor Power Saving" => "モニタの省電力を起動"
+"** Same As Default Profile **" => "** デフォルトのプロファイルと同じ **"
+"Sticky 4th Button" => "4ボタンを押し込み固定する"
+"Sticky 5th Button" => "5ボタンを押し込み固定する"
+"Change Movement to Scroll" => "動作をスクロールに変更する"
+"Change Movement to Scroll (Sticky)" => "動作をスクロールに変更する（押し込み固定）"
+"Sticky Left Button [Click-Drag] X-Axis" => "左ボタンをX軸ロックして押し込み固定(ドラッグ)する"
+"Sticky Left Button [Click-Drag] Y-Axis" => "左ボタンをY軸ロックして押し込み固定(ドラッグ)する"
+
+# -- Updated in 2.4 Beta 12 --
+"Flip 3D" => "フリップ3D"
+"ALT-TAB" => "Alt+Tab"
+"Show sidebar" => "サイドバー表示"
+"Reveal Desktop" => "デスクトップ表示"							 # -- Added in 2.4 Beta 12 -- same action as Show sidebar
+"** Same As Layer 1 (current profile) **" => "** レイヤー1と同じ **"  # -- Added in 2.4 Beta 12 --
+
+# -- Updated in 2.4 Beta 15 --
+"Layer Modifier Revert" => "レイヤー修飾子復帰"
+

@@ -1,0 +1,474 @@
+﻿    # Sample XMBC Language template file.
+    # Base version 2.6.2
+    #
+    # Changes to this template are marked
+    #   -- Updated in <version> --
+    # or
+    #   -- Added in <version> --
+    #
+    # Ensure the file extension is .xmbclp (XMouse Button Control Language Pack)
+    # which you can "install" into XMBC simply by double clicking it, or drop it into the profile folder.
+    #
+
+    #Describe the language pack here - this is displayed in the language dropdown in the settings tab.
+    Language=繁體中文 (Traditional Chineese)
+    Description=有任何問題請寄信至yangwen5301@me.com
+
+    #Put your name here and (at some point in the future) you will be creditied in the user interface
+    Author=Kevin Huang
+
+    #Setup screen
+    "Scrolling && Navigation" => "滾動與導航"
+    "Default" => "預設"
+    "A&dd" => "增加"
+    "Edi&t" => "編輯"
+    "C&opy" => "複製"
+    "Remo&ve" => "移除"
+    "&Settings" => "設置"
+    "Abo&ut" => "關於"
+    "&Apply" => "套用"
+    "&Close" => "關閉"
+    #Next line is Also shared with the general settings tab!
+    "Description" => "描述"
+    "Process" => "處理程序"
+    "Class" => "類"
+    "Window Class" => "視窗類"
+    "Parent Class" => "父類"
+    "Application / Window Profiles:" => "應用程式/視窗配置"
+    "Profile Information" => "配置資訊"
+    "Setup" => "設置"
+
+
+    #General strings
+    "Layer" => "層"
+    "Portable" => "攜帶版"
+    "All" => "全部"
+    "Not Defined" => "尚未定義"
+    "Default: All windows that do not match any profile." => "預設: 所有視窗不符合任何配置"
+    "&OK" => "確定"
+    "&Cancel" => "取消"
+    "OK" => "確定"
+    "Cancel" => "取消"
+    "Global Settings" => "全域設置"
+
+
+    #Global settings: General settings
+    "General" => "全域"
+    "Mouse &Speed" => "滑鼠速度"
+    "Ma&ke scroll wheel scroll window under cursor" => "使滾輪可以滾動滑鼠下的視窗"
+    "B&ypass ALL actions when SCROLL LOCK is ON" => "開啟捲動鎖定鍵時忽略所有動作"
+    "By&pass 'disabled' actions when SCROLL LOCK is ON" => "開啟捲動鎖定鍵時忽略「禁用」的動作"
+    "S&wap 4th and 5th buttons" => "交換第四和第五按鍵"
+    "Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "當連接到遠端桌面(RDP)時交換第四和第五按鍵"
+    "&Disable when running under remote desktop (RDP)" => "當連接到遠端桌面(RDP)時禁用"
+    "Show layer switch &balloon notifications" => "在通知區域顯示層切換設置"
+    "Language" => "語言"
+
+    # -- Updated in 2.6 Beta 1 --
+    "A&ctivate window when scrolling" => "滾動時啟動視窗"
+    # --
+
+    # -- Updated in 2.4 Beta 10 --
+    "NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "提示: 你必須按在程式主畫面的「確定」或「套用」使設置生效。修改語言介面必須重新打開程式主畫面得以生效"
+
+    # The following tag is the LABEL displayed on the general settings page.
+    # The word 'Author' should be directly translated, ie. Don't put your name here :)
+    # NOTE: The description labe is also on the setup screen with the same meaning.
+    "Author" => "作者"
+    # --
+
+    #Global settings: Advanced settings
+    "Advanced" => "進階"
+    "NOTE: You must press OK and apply the settings on the main screen before they take effect." => "提示: 你必須按在程式主畫面的「確定」或「套用」使設置生效。"
+    "Enable profi&le switching on mouse move" => "當滑鼠移動時開啟配置切換"
+    "Process &Non-Client mouse messages *RECOMMENDED*" => "處理非客戶端的滑鼠訊息(建議)"
+    "Reset &sticky buttons when any other button is pressed" => "當按下其他滑鼠按鍵時重置相黏鍵"
+    "R&eset sticky buttons when any other key is pressed" => "當按下其他按鍵時重置相黏鍵"
+    "Show &tray icon by default" => "預設顯示通知區域圖示"
+    "&Ignore numlock state for Simulated Keystrokes" => "在模擬按鍵時忽略數字鍵盤狀態"
+    "Cycle l&ayers by left clicking tray icon" => "左擊通知區域圖示以循環切換層"               # -- Updated in 2.5 beta 4 --
+    "&Fixup (de-bounce) tilt wheel auto-repeat" => "修正傾斜滾輪自動重複速率"
+    "&Initial repeat rate" => "初始重複速率"
+    "Initial re&peat rate" => "初始重複速率"							# -- Changed in 2.8 Beta 1 --
+    "&Repeat tilt rate" => "重複傾斜速率"
+    "(ms)" => ""
+    "Dela&y between simulated keystrokes" => "模擬按鍵延遲"
+    "&CPU Priority" => "CPU 優先順序"
+    "Check for new &version every" => "檢查更新版本"
+    "days (at application startup)" => "天(當應用程式啟動時)"
+    "Enable &DEBUG logging" => "開啟除錯日誌"
+    "*** Debug logging will degrade performance and response times! ***" => "*** 開啟除錯日誌會降低效能和反應時間! ***"
+
+    # -- Added in 2.4 Beta 15 --
+    "Realtime" => "及時"
+    "High" => "高"
+    "Above normal" => "高於標準"
+    "Normal" => "標準"
+    "Below normal" => "低於標準"
+    # --
+
+
+    #Global settings: Hotkey tab
+    "Hotkeys" => "熱鍵"
+    "Enable &global hotkeys" => "開啟全域熱鍵"
+    "You can assign your hotkeys using the boxes below..." => "使用下列框配置你的熱鍵"
+    "Switch to Layer &1" => "切換到層 &1"
+    "Switch to Layer &2" => "切換到層 &2"
+    "Switch to Layer &3" => "切換到層 &3"
+    "Switch to Layer &4" => "切換到層 &4"
+    "Switch to Layer &5" => "切換到層 &5"
+    "Switch to Layer &6" => "切換到層 &6"
+    "Switch to Layer &7" => "切換到層 &7"
+    "Switch to Layer &8" => "切換到層 &8"
+    "Switch to Layer &9" => "切換到層 &9"
+    "Switch to Layer 1&0" => "切換到層 1&0"
+    "&Next Layer" => "下一層"
+    "&Previous Layer" => "上一層"
+    "&Enable/Disable XMBC" => "啟用/禁用 XMBC"
+    "&Toggle Debug mode" => "切換除錯模式"
+    "&Save desktop icon layout" => "保存桌面布局"
+    "Restore desktop icon &layout" => "還原桌面布局"         # -- Updated in 2.5 beta 4 --
+    "Toggle &X Axis Lock" => "切換 X 軸鎖定"
+    "Toggle &Y Axis Lock" => "切換 Y 軸鎖定"
+    "NOTE: Only valid hotkey combinations will be allowed." => "提示: 只有有效的熱鍵組合被允許"
+
+    # -- Added in 2.4 Beta 15 --
+    "Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "全域熱鍵在設置視窗會被禁用，套用然後關閉設置視窗得以生效。"
+
+
+    #Global settings: Modifyer key tab
+    "Modifier Keys" => "組合鍵"
+    "Enab&le modifier keys (switching layers && axis locking)" => "啟用組合鍵(切換層和軸鎖定)"
+    "Modifier keys are keyboard shortcuts that will temporarily activate the function while the key combination is held down. As soon as you release the key(s), the previous state will return." => "組合鍵為一鍵盤快捷鍵，當被觸發時會短暫執行快捷鍵的功能；當放開按鍵時會回到先前狀態。"
+    "Layers" => "層"
+    "Activate Layer 1" => "激活層 1"
+    "Activate Layer 2" => "激活層 2"
+    "Activate Layer 3" => "激活層 3"
+    "Activate Layer 4" => "激活層 4"
+    "Activate Layer 5" => "激活層 5"
+    "Activate Layer 6" => "激活層 6"
+    "Activate Layer 7" => "激活層 7"
+    "Activate Layer 8" => "激活層 8"
+    "Activate Layer 9" => "激活層 9"
+    "Activate Layer 10" => "激活層 10"
+    "Axis Locking" => "軸鎖定"
+    "Lock X-Axis" => "鎖定 X 軸"
+    "Lock Y-Axis" => "鎖定 Y 軸"
+    "NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "提示: 鎖定軸時必須啟用該應用程式配置的軸鎖定選項，這可以允許使用者在僅在特定的應用程式下鎖定軸。"
+    "None" => "無"
+    "Shift" => ""
+    "Control" => ""
+    "Alt" => ""
+    "Shift + Control" => ""
+    "Shift + Alt" => ""
+    "Shift + Control + Alt" => ""
+    "Control + Alt" => ""
+    "Left Window Key" => "左 Windows 鍵"
+    "Right Window Key" => "右 Windows 鍵"
+    "App Menu Key" => "開始鍵"
+
+
+    #Context Menus
+    "Edit" => "編輯"
+    "Copy" => "複製"
+    "Remove" => "移除"
+    "Import" => "匯入"
+    "Export Selected" => "選擇匯出"
+    "Export All" => "全部匯出"
+    "&Layers" => "層"
+    "Layer &1" => "層 &1"
+    "Layer &2" => "層 &2"
+    "Layer &3" => "層 &3"
+    "Layer &4" => "層 &4"
+    "Layer &5" => "層 &5"
+    "Layer &6" => "層 &6"
+    "Layer &7" => "層 &7"
+    "Layer &8" => "層 &8"
+    "Layer &9" => "層 &9"
+    "Layer 1&0" => "層 1&0"
+    "&Setup" => "設置"
+    "&Hide Icon" => "隱藏圖示"
+    "&Open log file" => "開啟日誌"
+    "&Disable X-Mouse Button Control" => "禁用 X-Mouse Button Control"
+    "S&ave desktop icon layout" => "保存桌面布局"
+    "&Restore desktop icon layout" => "回復桌面布局"
+    "Exit" => "離開"
+
+
+    #Layer tab(s)
+    "Layer name" => "層名稱"
+    "&Left Button" => "滑鼠左鍵"
+    "&Right Button" => "滑鼠右鍵"
+    "&Middle Button" => "滑鼠中鍵"
+    "&Middle Button 2" => "滑鼠中鍵2"
+    "Mouse Button &4" => "滑鼠功能鍵4"
+    "Mouse Button &5" => "滑鼠功能鍵5"
+    "W&heel Up" => "滾輪上滾"
+    "Wh&eel Down" => "滾輪下滾"
+    "Tilt Wheel Le&ft" => "滾輪左傾"
+    "Tilt Wheel Ri&ght" => "滾輪右傾"
+    "Reset Layer" => "重置層"
+
+    # -- Added in 2.4 Beta 17 --
+    "This item is reserved to when a layer modifier\nis used to switch to this layer.\n\nYou can not select it directly." => "這個物件是為了保留給層修改時可以切換到此層，您不能直接選擇它。"
+    "Layer changing commands need to be applied to all affected layers.\n\nContinue?" => "層改變指令必須被套用才能對全部的層生效。\n\n繼續?"
+    "You can not add a LAYER X modifier to this layer because another layer already has a layer modifier setup to this layer.\nDoing so would cause undetermined behaviour and is therefore not supported." => "您不能新增一個層 X 去修改這個層因為已經有相同的層設定。這樣做會導致為預期的結果所以無法支援。"
+    "If you remove a layer changing command, it will be removed from ALL affected layers.\n\nContinue?" => "如果你移除了層改變的指令，它將會從所有被影響到的層中移除。\n\n繼續?"
+    #--
+
+
+    #simulated keystrokes
+    "(undefined)" => "(未定義)"
+    "(pressed)" => "(按下)"
+    "(released)" => "(釋放)"
+    "(during)" => "(持續)"
+    "(thread-down)" => ""
+    "(thread-up)" => ""
+    "(repeat)" => "重複"
+    "(sticky repeat)" => "重複相黏鍵"
+    "(sticky hold)" => "按住相黏鍵"
+    "(pressed & released)" => "按下並釋放"                           # -- Added in 2.4 Beta 12 --
+
+
+    #Simulated Keystrokes dialog
+    "Simulated Keystrokes" => "模擬按鍵"                           # -- Updated in 2.4 Beta 15 --
+    "Enter the custom key(s)" => "輸入自定義按鍵"
+    "How to send the simulated key strokes:" => "如何送出模擬按鍵"
+    "1 As mouse button is pressed" => "1 滑鼠按鍵按下"
+    "2 As mouse button is released" => "2 滑鼠按鍵釋放"
+    "3 During (press on down, release on up)" => "3 持續(按下並釋放期間)"
+    "4 In another thread as mouse button is pressed" => "4 在另一個執行序按下滑鼠按鍵"
+    "5 In another thread as mouse button is released" => "5 在另一個執行序釋放滑鼠按鍵"
+    "6 Repeatedly while the button is down" => "6 在滑鼠按住時持續重複"
+    "7 Sticky (repeatedly until button is pressed again)" => "7 相黏鍵(持續重複直到按鍵再度被按下)"
+    "8 Sticky (held down until button is pressed again)" => "8 相黏鍵(按住直到按鍵再度按下)"
+    "9 As mouse button is pressed & when released" => "9 當釋放時按下"         # -- Added in 2.4 Beta 12 --
+    "Only send if profile's process is active" => "僅在該配置的程序在運行狀態下時送出"
+    "Auto repeat delay" => "自動重複延遲"
+    "(milliseconds)" => "(毫秒)"
+    "0 = Windows default repeat delay && speed." => "0= 系統默認重複延遲和速度"
+    "Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "輸入按鍵序列。 \r\n你可以使用以下指定標籤模擬延伸按鍵"
+    "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "組合標籤:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  提示:\t組合標籤可以如 {CTRL}{ALT} 但僅對下一次按鍵有效。\r\n\t例如送出 CTRL+a+CTRL+s 訊號你必須輸入 '{CTRL}A{CTRL}S'"
+    "Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "延伸標籤:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+    "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "方向鍵標籤:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\n功能鍵標籤:\t\t{F1, F2, F3 ... F24}\r\n音量鍵標籤:\t\t{VOL+}, {VOL-}, {MUTE}\r\n滑鼠按鍵標籤:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\n滑鼠滾輪標籤:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\n數字鍵盤標籤:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\n瀏覽器標籤:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\n切換鍵標籤:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+    "For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例如:\r\n  關閉視窗: {ALT}{F4}\r\n  全選物件: {CTRL}A\r\n  在Microsoft Word 輸入粗體 'my text': {CTRL}bmy text{CTRL}b\r\n  送出一個延遲50毫秒的'r'鍵， {HOLDMS50}r\r\n  關閉數字鍵盤， {NUMLOCKOFF}"
+    # -- Updated in 2.9 beta 6 --
+    "For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例如:\r\n  關閉視窗: {ALT}{F4}\r\n  全選物件: {CTRL}A\r\n  在Microsoft Word 輸入粗體 'my text': {CTRL}bmy text{CTRL}b\r\n  送出一個延遲50毫秒的'r'鍵， {HOLDMS50}r\r\n  關閉數字鍵盤， {NUMLOCKOFF}"
+
+
+    # -- Updated in 2.4 Beta 10 --
+    "NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "提示: 為避免使用 {WAIT}, {WAITMS}, {HOLD} 或 {HOLDMS} 造成的延遲現象，請使用上述方法。"
+
+    # -- Updated in 2.4 Beta 15 --
+    "Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "特殊功能標籤:\t{WAIT<n>} 輸入一個 <n> 秒延遲。\r\n\t\t\t{WAITMS<n>} 輸入一個 <n> 毫秒延遲。\r\n\t\t\t{HOLD<n>} 按住下一個按下的按鍵 <n> 秒。\r\n\t\t\t{HOLDMS<n>} 按住下一個按下的按鍵 <n> 毫秒。\r\n\t\t\t{VKC:<n>} 送出一個指定的虛擬鍵碼。\r\n\t\t\t{EXT:<n>} 送出一個指定的延伸虛擬鍵碼。\r\n\t\t\t{CLEAR} 清除任何組合標籤如 {CTRL},{ALT}等等。"
+
+	# -- Updated in 2.14 Beta 2 --
+    "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "方向鍵標籤:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\n功能鍵標籤:\t\t{F1, F2, F3 ... F24}\r\n音量鍵標籤:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\n滑鼠按鍵標籤:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\n滑鼠滾輪標籤:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\n數字鍵盤標籤:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\n瀏覽器標籤:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\n切換鍵標籤:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
+
+    #Run Application dialog
+    "Type the name of a program, folder, document or internet resource, and XMouse button will open it for you when the button is pressed." => "輸入程式、資料夾、文件或是網址名稱，當滑鼠按下時Xmouse會為您打開。"
+
+
+    #Scrolling tab
+    "&Invert mouse wheel scrolling" => "反轉滾輪滾動方向"
+    "I&nvert mouse horizontal (tilt) scrolling" => "反轉滾輪左右滾動方向"
+    "Wheel scrolls i&n pages instead of lines" => "滾輪滾動一頁"
+    "Lines to scroll using the scroll wheel" => "滾輪滾動行數"
+    "Enable a&xis locking modifier keys" => "啟用軸鎖定組合鍵"
+    "Advanced Window Scrolling" => "進階視窗滾動"
+    "&Scroll Method" => "滾動方法"
+    "&Vertical Lines" => "垂直行數"
+    "&Horizontal characters" => "水平字元"
+    "Method 1 (SCROLL Msg)" => "方法1 (滾動訊息)"
+    "Method 2 (ScrollInfo)" => "方法2 (滾動資訊)"
+    "Method 3 (Left/Right Keys)" => "方法3 (左/右鍵)"
+    "Method 4 (Wheel Msg)" => "方法4 (滾輪訊息)"
+    "Method 5 (WPF Scroll Msg)" => "方法5 (WPF 滾動訊息)"
+    "None (Disable Scroll)" => "無 (禁用滾輪)"
+
+
+    #About Dialog
+    "XML support provided by XML++ from Michael at turboirc.com" => "XML 支持由 XML++ 提供，來自 turboirc.com 的 Michael"
+    "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC 可以被自由分發，如果你喜歡 XMBC 可以隨意透過以下 paypal 按鈕捐贈。"
+    "More information can be found on my download page or user forums." => "更多訊息可以參訪我的下載頁面和論壇。"
+    "Homepage" => "首頁"
+    "Donate" => "捐贈"
+    "Forums" => "論壇"
+
+    # -- Added in 2.4 Beta 15 --
+    "About" => "關於"
+    "Version" => "版本"   
+    "This application is designed and written by %s of %s." => "該應用由 %s of %s 設計和開發。" # NOTE: The %s are replace at runtime
+    # --
+
+    #Find Window Dialog
+    "Find Window" => "尋找視窗"
+    "Find Method" => "尋找方法"
+    "Click and drag the window finder icon to the window you want to select." => "點擊和拖曳視窗尋找圖示到您想選擇的視窗上。"
+    "Hover" => "劃過"
+    "Move the mouse over the window you want to select && turn on CAPS LOCK to lock the window details in place." => "移動滑鼠到您想選擇的視窗並打開 CAPS LOCK 來鎖定視窗細節訊息。"
+    "You can also manually enter/edit the window details below." => "您可以手動輸入或編輯視窗細節訊息"
+    "Window Details" => "視窗細節"
+    "Caption" => "說明"
+    "Handle" => "控制代碼"
+    "&Process" => "程序"
+    "C&lass" => "類"
+    "Pa&rent Class" => "父類"
+    "Only match if there is no parent class." => "僅匹配沒有父類"
+    "NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => "提示: 這些欄位可以保持空白，而會套用到全部視窗上(除非您勾選複選框為空的父類)。當設置完成時，文本必須符合視窗的屬性。"
+
+
+    #Choose Application dialog (custom window profile)
+    "Choose Application" => "選擇應用"
+    "Select from the list of running applications:" => "從下列運行的應用程式選取:"
+    "Or type in/browse to the application executable (.EXE) file" => "或是輸入或瀏覽一個可執行的應用程式"
+    "Application" => "應用程式"
+    "&Specific Window" => "特定視窗"
+
+    # -- Added in 2.4 Beta 15 --
+    "&Refresh" => "重新整理"
+    "Process Name" => "程序名稱"
+    "Window Title" => "視窗名稱"
+    # --
+
+
+    #Errors/Message boxes
+    "Please close the settings dialog in order to fully apply your language selection." => "請關閉設置對話窗以套用語言。"
+    "The specified application already exists.\nYou can not add two entries for the same application." => "指定應用程式已存在。\n您不能同時新增兩個相同條目的應用程式。"
+    "You must select a profile to remove!" => "您必須選擇一個配置移除!"
+    "You can not edit the default profile!" => "您不能編輯預設配置!"
+    "You can not remove the default profile!" => "您不能移除預設配置!"
+    "You must select a profile to edit." => "您必須選擇一個配置編輯"
+    "The specified window configuration is invalid!" => "指定視窗設定無效!"
+    "The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "指定配置已存在。\n您不能同時新增兩個相同配置的條目在同一應用程式中。"
+    "You must select an application to copy." => "您必須選擇應用程式複製。"
+    "Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "您要儲存更動的設定嗎?\n\n警告: 如果選擇「否」會失去所有更動!"
+    "Do you want to overwrite profile" => "您要覆蓋配置嗎?"		# -- Updated in 2.7 Beta 5 --
+    "The selected file is not a valid settings file." => "選擇的檔案是無效的設定文件。"
+    "The log file can not be opened as it does not exist." => "日誌檔案不存在，無法開啟。"
+    "is unable to open the log file" => "無法開啟日誌檔案"
+    "Unable to save the desktop icons using your current shell and this version of" => "無法使用當前殼層和此版本儲存桌面配置"
+    "Unable to restore the desktop icons using your current shell and this version of" => "無法使用當前殼層和此版本回復桌面配置"
+
+    # -- Updated in v2.4 Beta 14 --
+    "There is a new version available!" => "有新版本可用!"
+    "A new version is available." => "有新版本可用。"
+    "Click the 'Homepage' button to go and download it." => "點擊「首頁」下載"
+    "There is a new beta version available!" => "有新的測試版本可用!"
+    "A new beta version is available." => "有新的測試版本可用。"
+    "Click the 'Forums' button to go and download it." => "點擊「論壇」下載"
+    # --
+
+    "You have to select or enter a process name, or press cancel." => "您必須選擇或輸入一個程序名稱，或是取消。"
+    "Enabling debug logging will decrease the performance of the mouse. It is recommended that you only enable this temporarily to assist in problem finding. As such, the debug setting will not be saved." => "開啟除錯日誌會降低滑鼠效能，建議只有在尋找錯誤訊息時開啟。除錯設定將不會被儲存。"
+    "Are you sure you want to enable debug logging?" => "您確定要啟用除錯日誌?"
+    "Please be aware that checking if a mouse message is 'non-client', in order to determine if it should be ignored or not, much more processing is required." => "請注意檢查滑鼠訊息是否為「非客戶端」，以決定是否該忽略它。需要更多處理。"
+    "This can slow down mouse operation in general, sometimes causing strange results." => "這會降低一般滑鼠操作，有時會造成意外的結果。"
+    "Are you sure you want to ignore non-client messages?" => "您確定要忽略非客戶端訊息嗎?"
+    "By default, the icon in the system tray (by the clock) is always shown. If you turn this off, there will be no icon in the system tray by default." => "在預設情況下，在系統通知區域的圖示為顯示圖示與通知。如果您關閉它，在系統通知區域的圖示將會預設為關閉。"
+    "To restore the icon, you can run the program again from your start menu. This will force the icon to be displayed temporarily, allowing you to access this setup screen." => "回復圖示時，您可以從開始從新啟動程式。這可以強制使圖示出現一段時間，讓您可以進入設定頁面調整。"
+
+
+    #Balloon popup windows
+    "Debugging enabled" => "啟動除錯"
+    "Debugging disabled" => "關閉除錯"
+    "Successfully saved desktop icon positions" => "成功儲存桌面布局"
+    "Successfully restored desktop icon positions" => "成功復原桌面布局"
+    "Mouse button re-mapping is now disabled" => "滑鼠按鍵重繪已禁用"
+    "Mouse button re-mapping is now enabled" => "滑鼠按鍵重繪已啟動"
+
+
+    # Actions (displayed in the dropdown lists)
+    "Left Click" => "點擊左鍵"
+    "Right Click" => "點擊右鍵"
+    "Next Window" => "下一視窗"
+    "Back" => "後退"
+    "Forward" => "前進"
+    "Middle Click" => "點擊中鍵"
+    "Disable" => "禁用"
+    "Close (Alt+F4)" => "關閉(Alt+F4)"
+    "Copy (Ctrl+C)" => "複製(Ctrl+C)"
+    "Cut (Ctrl+X)" => "剪下(Ctrl+X)"
+    "Double Click" => "雙擊"
+    "Enter" => "輸入"
+    "Maximize Window" => "最大化視窗"
+    "Minimize Window" => "最小化視窗"
+    "New" => "新增"
+    "Open" => "打開"
+    "Paste (Ctrl+V)" => "貼上(Ctrl+V)"
+    "Redo (Ctrl+Y)" => "重做(Ctrl+Y)"
+    "Show/Hide Desktop" => "顯示/隱藏 桌面"
+    "Undo (Ctrl+Z)" => "還原(Ctrl+Z)"
+    "Media - Mute" => "媒體 - 靜音"
+    "Media - Volume Up" => "媒體 - 增加音量"
+    "Media - Volume Down" => "媒體 - 減少音量"
+    "Media - Next Track" => "媒體 - 下一首"
+    "Media - Last Track" => "媒體 - 最後一首"
+    "Media - Stop" => "媒體 - 停止"
+    "Media - Play/Pause" => "媒體 - 播放/暫停"
+    "Launch EMail" => "打開電子郵件"
+    "Simulated Keys" => "模擬按鍵"
+    "Lock Workstation" => "鎖定工作站"
+    "Open Explorer" => "打開管理器"
+    "Open RUN Command" => "打開命令列"
+    "Restore Window" => "回復視窗"
+    "Escape" => "取消"
+    "Open Help" => "打開幫助"
+    "Open Web Browser" => "打開瀏覽器"
+    "Browser Stop" => "瀏覽器停止"
+    "Browser Refresh" => "瀏覽器重新整理"
+    "Browser Search" => "開啟搜尋"				# Updated in 2.14 Beta 10
+    "Browser Favourites" => "查看我的最愛"
+    "** No Change (Don't intercept) **" => "** 不修改(不攔截) **"
+    "Run Application" => "打開應用程式"
+    "Mouse Wheel Up" => "滑鼠滾輪向上"
+    "Mouse Wheel Down" => "滑鼠滾輪向下"
+    "Print Screen" => "螢幕截圖"
+    "Print Active Window" => "當前活動視窗截圖"
+    "Sticky Left Button [Click-Drag]" => "相黏左鍵(點擊拖放)"
+    "Sticky Right Button" => "相黏右鍵"
+    "Sticky Middle Button" => "相黏中鍵"
+    "Layer (Next)" => "層(下一個)"
+    "Layer (Previous)" => "層(上一個)"
+    "Layer 1" => "層 1"
+    "Layer 2" => "層 2"
+    "Layer 3" => "層 3"
+    "Layer 4" => "層 4"
+    "Layer 5" => "層 5"
+    "Layer 6" => "層 6"
+    "Layer 7" => "層 7"
+    "Layer 8" => "層 8"
+    "Layer 9" => "層 9"
+    "Layer 10" => "層 10"
+    "Open Explorer at specified folder" => "開啟指定資料夾"
+    "Open Explorer at My Documents" => "開啟我的文件"
+    "Open Explorer at My Computer" => "開啟我的電腦"
+    "Open Explorer at Network Favourites" => "開啟網路最愛"
+    "Open Control Panel" => "開啟控制面板"
+    "Double Click Drag" => "雙擊拖曳"
+    "Mouse Wheel Tilt Left" => "滾輪左傾"
+    "Mouse Wheel Tilt Right" => "滾輪右傾"
+    "Scroll Window Up" => "視窗上捲"
+    "Scroll Window Down" => "視窗下捲"
+    "Scroll Window Left" => "視窗左捲"
+    "Scroll Window Right" => "視窗右捲"
+    "Previous Window" => "前一個窗口"
+    "Activate Screensaver" => "啟動螢幕保護程式"
+    "Activate Monitor Power Saving" => "啟動螢幕省電模式"
+    "** Same As Default Profile **" => "** 和默認配置相同 **"
+    "Sticky 4th Button" => "相黏第 4 按鍵"
+    "Sticky 5th Button" => "相黏第 5 按鍵"
+    "Change Movement to Scroll" => "修改移動為捲動"
+    "Change Movement to Scroll (Sticky)" => "修改移動為捲動(相黏)"
+    "Sticky Left Button [Click-Drag] X-Axis" => "相黏左鍵(點擊拖放) X 軸"
+    "Sticky Left Button [Click-Drag] Y-Axis" => "相黏右鍵(點擊拖放) Y 軸"
+
+    # -- Updated in 2.4 Beta 12 --
+    "Flip 3D" => ""
+    "ALT-TAB" => ""
+    "Show sidebar" => "顯示側邊攔"
+    "Reveal Desktop" => "顯示桌面"                      # -- Added in 2.4 Beta 12 -- same action as Show sidebar
+    "** Same As Layer 1 (current profile) **" => "** 和層 1 (當前配置)相同**"  # -- Added in 2.4 Beta 12 --
+
+    # -- Updated in 2.4 Beta 15 --
+    "Layer Modifier Revert" => "回復層修改"

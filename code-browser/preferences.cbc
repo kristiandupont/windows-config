@@ -1,0 +1,1798 @@
+allow-multiple-instances	= false
+reload-mode	= ask
+save-session	= true
+search-patterns	= *.c;*.cpp;*.cxx;*.h;*.hpp
+search-directory	= 
+search-patterns-history	= *.*:*.c;*.cpp;*.cxx;*.h;*.hpp
+search-history	= 
+search-replace-history	= 
+fisheye-view	= false
+key-mapping	= windows-style
+theme	= zenburn
+
+//[of]:Themes
+def themes
+//[of]:	blue
+def blue
+	prototype	= themes.system
+		
+	text-back-color	= #E0E0EC
+	description-back-color	= #C0C0CC
+	section-back-color	= #E0E0EC
+	link-back-color	= #E0E0EC
+	selected-back-color	= #E0B8C0
+	inactive-back-color	= #B8C8E0
+	highlight-back-color	= #90A0E0
+	inactive-line-back-color	= #B8C8E0
+		
+	description-color	= #202030
+	section-color	= #5050B0
+	link-color	= #50A060
+	preproc-color	= #0040A0
+	string-color	= #2A00FF
+	number-color	= #283CC8
+	comment-color	= #3F7F5F
+	word-1-color	= #7F0055
+	word-2-color	= #8050DC
+	word-3-color	= #DC5080
+	word-4-color	= #8000C0
+	char-1-color	= #7F0055
+	char-2-color	= #8050DC
+	char-3-color	= #DC5080
+	char-4-color	= #DC503C
+	invalid-color	= #D02020
+
+	tree-view-back-color	= #E0E0EC
+
+end
+//[cf]
+//[of]:	dark-purple
+def dark-purple
+
+	workspace-color	= #505068
+	description-back-color	= #505068
+	text-back-color	= #404050
+	section-back-color	= #404050
+	link-back-color	= #404050
+	selected-back-color	= #505068
+	inactive-back-color	= #505070
+	highlight-back-color	= #606080
+	inactive-line-back-color	= #505070
+		
+//[c]
+//[c]	Style for each tag
+//[c]	
+	color	= #8C8CB4
+	font-family	= Arial, Sans
+	font-size	= 9
+	font-style	= bold
+		
+	description-color	= #8C8CB4
+	section-color	= #8080E0
+	link-color	= #70A080
+	normal-color	= #8C8CB4
+	preproc-color	= #B08098
+	string-color	= #509090
+	number-color	= #509090
+	comment-color	= #B07090
+	word-1-color	= #8080E0
+	word-2-color	= #C05080
+	word-3-color	= #D080D0
+	word-4-color	= #E08050
+	char-1-color	= #8080E0
+	char-2-color	= #C05080
+	char-3-color	= #D080D0
+	char-4-color	= #E08050
+	invalid-color	= #C03060
+
+//[c]
+//[c]	Font to use when a fixed font is required
+//[c]
+	fixed-font-family	= Fixedsys, Monospace
+	fixed-font-size	= 9
+	fixed-font-style	= none
+		
+//[c]
+//[c]	Markers
+//[c]	
+	bookmark-color	= #505498
+	match-color	= #E0E0B0
+	error-color	= #804040
+	pair-color	= #507050
+	breakpoint-color	= #406040
+		
+//[c]
+	title-font-family	= Arial, Sans
+	title-font-size	= 12
+	title-font-style	= bold
+	title-fore-color	= #8C8CB4
+	title-back-color	= #505068
+	tree-view-font-family	= Arial, Sans
+	tree-view-font-size	= 9
+	tree-view-font-style	= bold
+	tree-view-fore-color	= #8C8CB4
+	tree-view-back-color	= #404050
+
+end
+//[cf]
+//[of]:	eclipse
+//[c]Same as system with minor changes
+//[c]
+def eclipse
+	prototype	= themes.system
+		
+	preproc-color	= #0040A0
+	string-color	= #2A00FF
+	number-color	= #283CC8
+	comment-color	= #3F7F5F
+	word-1-color	= #7F0055
+	word-1-font-style	= bold
+	word-2-color	= #8050DC
+	word-3-color	= #DC5080
+	word-4-color	= #DC503C
+	char-1-color	= #7F0055
+	char-2-color	= #8050DC
+	char-3-color	= #DC5080
+	char-4-color	= #DC503C
+	invalid-color	= #D02020
+	
+end
+//[cf]
+//[of]:	paper
+//[c]Paper color theme
+//[c]
+def paper
+
+	workspace-color	= workspace
+	description-back-color	= medium
+	text-back-color	= background
+	section-back-color	= background
+	link-back-color	= background
+	selected-back-color	= #96A0B4
+	inactive-back-color	= inactive
+	highlight-back-color	= medium
+	inactive-line-back-color	= inactive
+		
+//[c]
+//[c]	Style for each tag
+//[c]	
+	color	= text
+	font-family	= DejaVu Serif, Georgia
+	font-size	= 13
+	font-style	= none
+		
+	section-color	= #283C78
+	link-color	= #20643C
+	comment-color	= #555555
+	comment-font-style	= italic
+	word-1-font-style	= bold
+
+//[c]
+//[c]	Font to use when a fixed font is required
+//[c]
+	fixed-font-family	= Courier New, Monospace
+	fixed-font-size	= 13
+	fixed-font-style	= none
+		
+//[c]
+//[c]	Markers
+//[c]	
+	bookmark-color	= #B0C0FF
+	match-color	= #FFFFB0
+	error-color	= #C8FFC8
+	pair-color	= #B0FFB0
+	breakpoint-color	= #F0A0A0
+		
+//[c]
+	title-font-family	= DejaVu Serif, Georgia
+	title-font-size	= 13
+	title-font-style	= bold
+	title-fore-color	= text
+	title-back-color	= medium
+	tree-view-font-family	= DejaVu Serif, Georgia
+	tree-view-font-size	= 13
+	tree-view-font-style	= none
+	tree-view-fore-color	= text
+	tree-view-back-color	= background
+
+end
+//[cf]
+//[of]:	system
+//[c]System color theme
+//[c]
+def system
+
+	workspace-color	= workspace
+	description-back-color	= medium
+	text-back-color	= background
+	section-back-color	= background
+	link-back-color	= background
+	selected-back-color	= #96A0B4
+	inactive-back-color	= inactive
+	highlight-back-color	= medium
+	inactive-line-back-color	= inactive
+		
+//[c]
+//[c]	Style for each tag
+//[c]	
+	color	= text
+	font-family	= Tahoma, Sans
+	font-size	= 10
+	font-style	= none
+		
+	description-color	= text
+	section-color	= #283C78
+	link-color	= #20643C
+	normal-color	= text
+	preproc-color	= #0040A0
+	string-color	= #008080
+	number-color	= #283CC8
+	comment-color	= #208040
+	word-1-color	= #3C50DC
+	word-2-color	= #8050DC
+	word-3-color	= #DC5080
+	word-4-color	= #DC503C
+	char-1-color	= #3C50DC
+	char-2-color	= #8050DC
+	char-3-color	= #DC5080
+	char-4-color	= #DC503C
+	invalid-color	= #800000
+
+//[c]
+//[c]	Font to use when a fixed font is required
+//[c]
+	fixed-font-family	= Courier New, Monospace
+	fixed-font-size	= 10
+	fixed-font-style	= none
+		
+//[c]
+//[c]	Markers
+//[c]	
+	bookmark-color	= #B0C0FF
+	match-color	= #FFFFB0
+	error-color	= #C8FFC8
+	pair-color	= #B0FFB0
+	breakpoint-color	= #F0A0A0
+		
+//[c]
+	title-font-family	= Tahoma, Sans
+	title-font-size	= 12
+	title-font-style	= none
+	title-fore-color	= text
+	title-back-color	= medium
+	tree-view-font-family	= Tahoma, Sans
+	tree-view-font-size	= 10
+	tree-view-font-style	= none
+	tree-view-fore-color	= text
+	tree-view-back-color	= background
+
+end
+//[cf]
+//[of]:	zenburn
+//[c]Zenburn style theme
+//[c]
+def zenburn
+
+	workspace-color	= #464646
+	description-back-color	= #464646
+	text-back-color	= #3F3F3F
+	section-back-color	= #3F3F3F
+	link-back-color	= #3F3F3F
+	selected-back-color	= #455878
+	inactive-back-color	= #455878
+	highlight-back-color	= #455878
+	inactive-line-back-color	= #606060
+		
+//[c]
+//[c]	Style for each tag
+//[c]	
+	color	= #DCDCCC
+	font-family	= Arial, Sans
+	font-size	= 10
+	font-style	= none
+		
+	description-color	= #7F9F7F
+	section-color	= #BCBCE8
+	link-color	= #B3D3C3	
+	normal-color	= #DCDCCC
+	preproc-color	= #FFCFAF
+	string-color	= #CC9393
+	number-color	= #8CD0D3
+	comment-color	= #7F9F7F
+	word-1-color	= #F0DFAF
+	word-1-font-style	= bold
+	word-2-color	= #EFDCBC
+	word-3-color	= #EFEF8F
+	word-4-color	= #DCDCA3
+	char-1-color	= #F0EFD0
+	char-2-color	= #C05080
+	char-3-color	= #D080D0
+	char-4-color	= #E08050
+	invalid-color	= #C03060
+
+//[c]
+//[c]	Font to use when a fixed font is required
+//[c]
+	fixed-font-family	= Courier New, Monospace
+	fixed-font-size	= 10
+	fixed-font-style	= none
+		
+//[c]
+//[c]	Markers
+//[c]	
+	bookmark-color	= #505498
+	match-color	= #8C8C49
+	error-color	= #804040
+	pair-color	= #507050
+	breakpoint-color	= #406040
+		
+//[c]
+	title-font-family	= Arial, Sans
+	title-font-size	= 12
+	title-font-style	= none
+	title-fore-color	= #8C8C8C
+	title-back-color	= #464646
+	tree-view-font-family	= Arial, Sans
+	tree-view-font-size	= 10
+	tree-view-font-style	= none
+	tree-view-fore-color	= #DCDCCC
+	tree-view-back-color	= #3F3F3F
+
+end
+//[cf]
+end
+//[cf]
+//[of]:Languages
+def languages
+//[of]:	Default
+def Default
+	fixed	= false
+	auto-indentation	= true
+	expand-tabulation	= true
+	tabulation-size	= 4
+	word-wrap	= true
+	elastic-tabstops	= false
+	show-line-type	= true
+	layout	= default
+	line-comment	= #
+	encoding	= UTF-8
+end
+//[cf]
+//[of]:	Assembler x86
+def Assembler-x86
+	prototype	= languages.Default
+	patterns	= *.asm;*.inc;*.fasm
+	fixed	= true
+		
+	stylizer	= asm
+	line-comment	= ;
+	preprocessor	= %%
+	hexa-prefix	= $
+	string-delimiter	= "
+	char-delimiter	= '
+	string-escape-char	= \
+	char-escape-char	= \
+	escape-char	= \
+
+	words-1	= %
+		aaa aad aam aas adc add addps addss and andnps andps arpl %
+		bound bsf bsr bswap bt btc btr bts call cbw cdq clc cld cli clts cmc cmp %
+		cmpeqps cmpeqss cmpleps cmpless cmpltps cmpltss cmpneqps cmpneqss %
+		cmpnleps cmpnless cmpnltps cmpnltss cmpordps cmpordss cmpps cmpsb %
+		cmpsd cmpss cmpsw cmpunordps cmpunordss cmpxchg cmpxchg486 %
+		cmpxchg8b comiss cpuid cvtpi2ps cvtps2pi cvtsi2ss cvtss2si cvttps2pi %
+		cvttss2si cwd cwde daa das  dec div divps divss emms enter  %
+		f2xm1 fabs fadd faddp fbld fbstp fchs fclex fcmovb fcmovbe %
+		fcmove fcmovnb fcmovnbe fcmovne fcmovnu fcmovu fcom %
+		fcomi fcomip fcomp fcompp fcos fdecstp fdisi fdiv fdivp fdivr %
+		fdivrp femms feni ffree fiadd ficom ficomp fidiv fidivr fild fimul %
+		fincstp finit fist fistp fisub fisubr fld fld1 fldcw fldenv fldl2e fldl2t %
+		fldlg2 fldln2 fldpi fldz fmul fmulp fnclex fndisi fneni fninit fnop fnsave %
+		fnstcw fnstenv fnstsw fpatan fprem fprem1 fptan frndint frstor %
+		fsave fscale fsetpm fsin fsincos fsqrt fst fstcw fstenv fstp fstsw %
+		fsub fsubp fsubr fsubrp ftst fucom fucomi fucomip fucomp fucompp %
+		fxam fxch fxrstor fxsave fxtract fyl2x fyl2xp1 %
+		hlt ibts icebp idiv imul in inc insb insd insw int int01 int03 int1 int3 %
+		into invd invlpg iret iretd iretw jcxz jecxz jmp lahf lar ldmxcsr lds %
+		lea leave les lfs lgdt lgs lidt lldt lmsw loadall loadall286 %
+		lods lodsb lodsd lodsw loop loope loopne loopnz loopz lsl lss ltr %
+		maskmovq maxps maxss minps minss mov movaps movd %
+		movhlps movhps movlhps movlps movmskps movntps movntq %
+		movq movsb movsd movss movsw movsx movups movzx %
+		mul mulps mulss neg nop not or orps out outsb outsd outsw %
+		packssdw packsswb packuswb paddb paddd paddsb paddsiw paddsw %
+		paddusb paddusw paddw pand pandn paveb pavgb pavgusb pavgw %
+		pcmpeqb pcmpeqd pcmpeqw pcmpgtb pcmpgtd pcmpgtw pdistib pextrw %
+		pf2id pfacc pfadd pfcmpeq pfcmpge pfcmpgt pfmax pfmin pfmul pfrcp %
+		pfrcpit1 pfrcpit2 pfrsqit1 pfrsqrt pfsub pfsubr pi2fd pinsrw pmachriw %
+		pmaddwd pmagw pmaxsw pmaxub pminsw pminub pmovmskb %
+		pmulhriw pmulhrwa pmulhrwc pmulhuw pmulhw pmullw pmvgezb %
+		pmvlzb pmvnzb pmvzb pop popa popad popaw popf popfd popfw %
+		por prefetch prefetchnta prefetcht0 prefetcht1 prefetcht2 prefetchw %
+		psadbw pshufw pslld psllq psllw psrad psraw psrld psrlq psrlw psubb %
+		psubd psubsb psubsiw psubsw psubusb psubusw psubw punpckhbw %
+		punpckhdq punpckhwd punpcklbw punpckldq punpcklwd push pusha %
+		pushad pushaw pushf pushfd pushfw pxor rcl rcpps rcpss rcr rdmsr %
+		rdpmc rdshr rdtsc rep ret retf retn rol ror rsdc rsldt rsm rsqrtps rsqrtss %
+		sahf sal salc sar sbb scasb scasd scasw sfence sgdt shl shld shr shrd %
+		shufps sidt sldt smi smint smintold smsw sqrtps sqrtss stc std sti %
+		stmxcsr stos stosb stosd stosw str sub subps subss svdc svldt svts syscall %
+		sysenter sysexit sysret test ucomiss ud1 ud2 umov unpckhps unpcklps %
+		verr verw wait wbinvd wrmsr wrshr xadd xbts xchg xlatb xor xorps %
+		setb setc sete setg setl seto setp sets setz %
+		setae setbe setge setle setna setnb setnc setne setng setnl %
+		setno setnp setns setnz setpe setpo %
+		ja jb jc je jg jl jo jp js jz %
+		jbe jae jge jle jmp jna jnb jnc jne jng jnl jno jnp jns jnz jpe jpo
+		
+//[c]		Additional keywords for Fasm:
+//[c]		db dw dd dp df dq dt du rb rw rd rp rf rq rt %
+//[c]		align at define display else end entry equ extrn file fix format if include label load %
+//[c]		macro match public repeat rept section store struc times virtual while %
+//[c]		mod rva eqtype defined %
+//[c]		byte word dword pword fword qword tword dqword far near
+//[c]		
+//[c]		Additional keywords for Nasm:
+//[c]		db dd dq dt dw incbin resb resd resq rest resw equ times
+//[c]		
+	words-2	= %
+		ah al ax bh bl bp bx ch cl cs cx dh di dl  dx ip si sp %
+		cs ds es fs gs ss %
+		eax ebx ebp ecx edi edx esi esp %
+		cr0 cr2 cr3 cr4 dr0 dr1 dr2 dr3 dr6 dr7 %
+		st0 st1 st2 st3 st4 st5 st6 st7 %
+		mm0 mm1 mm2 mm3 mm4 mm5 mm6 mm7 %
+		xmm8 xmm9 xmm10 xmm11 xmm12 xmm13 xmm14 xmm15v %
+		spl bpl sil dil r8b r9b r10b r11b r12b r13b r14b r15b %
+		r8w r9w r10w r11w r12w r13w r14w r15w %
+		r8d r9d r10d r11d r12d r13d r14d r15d %
+		rax rcx rdx rbx rsp rbp rsi rdi r8 r9 r10 r11 r12 r13 r14 r15
+		
+	chars-1	= ,()[]+-*~#`\{}=:
+
+end
+//[cf]
+//[of]:	batch
+def Batch
+	prototype	= languages.Default
+	patterns	= *.bat;*.btm
+	fixed	= true
+		
+	stylizer	= batch
+	line-comment	= REM%_
+end
+//[cf]
+//[of]:	C / Obj-C / C++
+def C
+	prototype	= languages.Default
+	patterns	= *.c;*.h;*.cpp;*.hpp;*.cxx;*.hxx;*.cc;*.hh;*.m;*.ino
+	fixed	= true
+	expand-tabulation	= true
+	tabulation-size	= 4
+	relative-indentation = true
+		
+	stylizer	= generic
+	line-comment	= //
+	open-comment	= /*
+	close-comment	= */
+	hexa-prefix	= 0x
+	string-delimiter	= "
+	string-escape-char	= \
+	char-delimiter	= '
+	char-escape-char	= \
+	escape-char	= \
+	preprocessor	= #
+	
+	words-1 = %
+	 	auto break case catch class const const_cast continue %
+	 	default delete do dynamic_cast else enum explicit extern %
+		for friend goto if inline %
+	 	mutable namespace new operator private protected public %
+		register reinterpret_cast restrict return sizeof %
+	 	static static_cast struct switch template this %
+	 	throw try typedef typeid typename union %
+	 	using virtual volatile while %
+	 	@protocol @implementation @class @interface @end %
+	 	@private @protected @public @selector @encode @defs %
+	 	@synchronized @try @throw @catch @finally self super %
+		not not_eq xor xor_eq or or_eq and and_eq bitor bitand compl
+
+	words-2 = bool char double false float int long short signed true %
+		unsigned wchar_t size_t ssize_t off_t wchar_t ptrdiff_t void %
+		sig_atomic_t fpos_t clock_t time_t va_list jmp_buf FILE DIR div_t %
+		ldiv_t mbstate_t wctrans_t wint_t wctype_t complex int8_t int16_t %
+		int32_t int64_t uint8_t uint16_t uint32_t uint64_t int_least8_t %
+		int_least16_t int_least32_t int_least64_t uint_least8_t uint_least16_t %
+		uint_least32_t uint_least64_t int_fast8_t int_fast16_t int_fast32_t %
+		int_fast64_t uint_fast8_t uint_fast16_t uint_fast32_t uint_fast64_t %
+		intptr_t uintptr_t intmax_t uintmax_t BOOL apply_t Class id IMP %
+		MetaClass Object Protocol retval_t SEL STR TypedStream NO YES %
+		nil Nil METHOD_NULL NULL
+
+	chars-1 = ;(){}[]&:+-%%*/<>!?|~^=.,
+end
+//[cf]
+//[of]:	C#
+def C-Sharp
+	prototype	= languages.Default
+	patterns	= *.cs
+	fixed	= true
+	tabulation-size	= 4
+
+	stylizer	= generic
+	line-comment	= //
+	open-comment	= /*
+	close-comment	= */
+	hexa-prefix 	= 0x
+	string-delimiter	= "
+	string-escape-char	= \
+	char-delimiter	= '
+	char-escape-char	= \
+	escape-char	= \
+	preprocessor	= #
+
+	words-1 = %
+		abstract as base bool break byte case catch char checked %
+		class const continue decimal default delegate do double else %
+		enum event explicit extern false finally fixed float for foreach %
+		goto if implicit in int interface internal is lock long namespace %
+		new null object operator out override params private protected %
+		public readonly ref return sbyte sealed short sizeof stackalloc %
+		static string struct struct switch this throw true try typeof uint %
+		ulong unchecked unsafe ushort using virtual volatile void while
+end
+//[cf]
+//[of]:	CMake
+def CMake
+	prototype	= languages.Default
+	patterns	= *.cmake;CMakeLists.txt
+	fixed	= false
+	tabulation-size	= 4
+		
+	stylizer	= generic
+	line-comment	= #
+	hexa-prefix	= 0x
+	multiline-string-delimiter	= "
+	string-escape-char	= \
+	multiline-char-delimiter	= '
+	char-escape-char	= \
+	escape-char	= \
+	ignore-case	= true
+
+	words-1	= %
+		add_custom_command add_custom_target add_definitions add_dependencies %
+		add_executable add_library add_subdirectory add_test aux_source_directory %
+		build_command build_name cmake_minimum_required %
+		configure_file create_test_sourcelist %
+		else elseif enable_language enable_testing endforeach endif endmacro %
+		endwhile exec_program execute_process export_library_dependencies %
+		file find_file find_library find_package find_path find_program %
+		fltk_wrap_ui foreach %
+		get_cmake_property get_directory_property get_filename_component %
+		get_source_file_property get_target_property get_test_property %
+		if include include_directories include_external_msproject %
+		include_regular_expression install install_files install_programs %
+		install_targets %
+		link_directories link_libraries list load_cache load_command %
+		macro make_directory mark_as_advanced math message %
+		option output_required_files %
+		project %
+		qt_wrap_cpp qt_wrap_ui %
+		remove remove_definitions %
+		separate_arguments set set_directory_properties %
+		set_source_files_properties set_target_properties set_tests_properties %
+		site_name source_group string subdir_depends subdirs %
+		target_link_libraries try_compile try_run %
+		use_mangled_mesa utility_source %
+		variable_requires %
+		vtk_make_instantiator vtk_wrap_java vtk_wrap_python vtk_wrap_tcl %
+		while write_file
+end
+//[cf]
+//[of]:	Copper
+def Copper
+	prototype	= languages.Default
+	patterns	= *.co
+	tabulation-size	= 4
+	word-wrap	= false
+	elastic-tabstops	= true
+	layout	= list
+	show-line-type	= false
+
+	stylizer	= generic
+	line-comment	= //
+	hexa-prefix	= 0x
+	string-delimiter	= "
+	char-delimiter	= '
+	string-escape-char	= \
+	char-prefix	= $
+	escape-char	= \
+	
+	chars-1 = ()[]{},<>=+-:&|^?@#.
+
+	words-1	=	and attr break case cond const do else elsif end enum %
+			extend function global if import method not or %
+			ref repeat return static struct switch var while yield
+end
+//[cf]
+//[of]:	Code Browser Config
+//[c]Configuration for code browser configurations files
+//[c]
+def Code-Browser-Config
+	prototype	= languages.Default
+	patterns	= *.cbc;*.cb-config
+	fixed	= false
+	tabulation-size	= 4
+	elastic-tabstops	= true
+	layout	= tree
+		
+	stylizer	= code-browser-config
+	line-comment	= //
+	hexa-prefix	= #
+	words-1	= def end
+end
+//[cf]
+//[of]:	Code Browser Script
+def Code-Browser-Script
+	prototype	= languages.Default
+	patterns	= *.cbs
+	tabulation-size	= 4
+	word-wrap	= false
+	elastic-tabstops	= true
+	layout	= default
+	show-line-type	= false
+
+	stylizer	= generic
+	line-comment	= //
+	hexa-prefix	= 0x
+	string-delimiter	= "
+	string-escape-char	= \
+	char-prefix	= $
+	escape-char	= \
+	
+	chars-1 = ()[],<>=+-:&|^
+
+	words-1	=	and attr break class cond const do else elsif end function %
+			if import method not or return struct var while yield
+end
+//[cf]
+//[of]:	CSS
+def CSS
+	prototype	= languages.Default
+	patterns	= *.css
+	fixed	= false
+		
+	stylizer	= css
+	line-comment	=
+	open-comment	= /*
+	close-comment	= */
+
+	words-1 = %
+		azimuth background-attachment background-color background-image %
+		background-position background-repeat background border-collapse %
+		border-color border-spacing border-style border-top border-bottom %
+		border-left border-right border-top-color %
+		border-right-color border-bottom-color border-left-color border-top-style %
+		border-right-style border-bottom-style border-left-style %
+		border-top-width border-right-width border-bottom-width border-left-width %
+		border-width border bottom caption-side clear clip color content  %
+		counter-increment counter-reset cue-after cue-before cue cursor direction %
+		display elevation empty-cells float font-family font-size font-style font-variant %
+		font-weight font height left letter-spacing line-height list-style-image %
+		list-style-position list-style-type list-style margin-right margin-left %
+		margin-top margin-bottom margin max-height max-width min-height min-width %
+		orphans outline-color outline-style outline-width outline overflow %
+		padding-top padding-right padding-bottom padding-left padding %
+		page-break-after page-break-before page-break-inside pause-after %
+		pause-before pause pitch-range pitch play-during position quotes %
+		richness right speak-header speak-numeral speak-punctuation %
+		speak speech-rate stress table-layout text-align text-decoration %
+		text-indent text-transform top unicode-bidi vertical-align visibility %
+		voice-family volume white-space widows width word-spacing z-index
+end
+//[cf]
+//[of]:	HTML
+def HTML
+	prototype	= languages.Default
+	patterns	= *.html;*.htm
+	fixed	= false
+	tabulation-size	= 4
+		
+	stylizer	= html
+	line-comment	=
+	open-comment	= <!--
+	close-comment	= -->
+	ignore-case	= true
+
+	words-1 = %
+		a abbr acronym address applet area b base basefont bdo big blockquote %
+		body br button caption center cite code col colgroup dd del dfn dir %
+		div dl dt em fieldset font form frame frameset h1 h2 h3 h4 h5 h6 head %
+		hr html i iframe img input ins isindex kbd label legend li link %
+		map menu meta noframes noscript object ol optgroup option p param %
+		pre q s samp script select small span strike strong style sub sup table %
+		tbody td textarea tfoot th thead title tr tt u ul var
+
+	words-2 = %
+		abbr accept-charset accept accesskey action align alink alt archive %
+		axis background bgcolor border cellpadding cellspacing char charoff charset %
+		checked cite class classid clear code codebase codetype color %
+		cols colspan compact content coords data datetime declare defer dir %
+		disabled enctype face for frame frameborder headers height href %
+		hreflang hspace http-equiv id ismap label lang language link longdesc %
+		marginheight marginwidth maxlength media method multiple name nohref %
+		noresize noshade nowrap object onblur onchange onclick ondblclick %
+		onfocus onkeydown onkeypress onkeyup onload onload onmousedown %
+		onmousemove onmouseout onmouseover onmouseup onreset onselect %
+		onsubmit onunload profile prompt readonly rel rev rows rowspan %
+		rules scheme scope scrolling selected shape shape size span src %
+		standby start style summary tabindex target text title type usemap %
+		valign value valuetype version vlink vspace width
+end
+//[cf]
+//[of]:	Java
+def Java
+	prototype	= languages.Default
+	patterns	= *.java;*.jav
+	fixed	= true
+	tabulation-size	= 4
+		
+	stylizer	= generic
+	line-comment	= //
+	open-comment	= /*
+	close-comment	= */
+	hexa-prefix	= 0x
+	string-delimiter	= "
+	string-escape-char	= \
+	char-delimiter	= '
+	char-escape-char	= \
+	escape-char	= \
+
+	words-1	= %
+		abstract boolean break byte case catch char class const continue %
+		default do double else extends final finally float for goto if %
+		implements import instanceof int interface long native new %
+		package private protected public return short static strictfp super%
+		switch synchronized this throw throws transient try %
+		void volatile while
+
+	words-2	= false true null
+end
+//[cf]
+//[of]:	JavaScript
+def JavaScript
+	prototype	= languages.Default
+	patterns	= *.js;*.jsx
+	fixed	= false
+	tabulation-size	= 4
+	relative-indentation = true
+		
+	stylizer	= generic
+	line-comment	= //
+	open-comment	= /*
+	close-comment	= */
+	hexa-prefix	= 0x
+	string-delimiter	= "
+	string-escape-char	= \
+	char-delimiter	= '
+	char-escape-char	= \
+	escape-char	= \
+	
+	words-1	= %
+		as default final instanceof public true with %
+		break delete finally is return try %
+		case do for namespace static typeof %
+		catch else function new super use %
+		class export if null switch var %
+		const extends import package this void %
+		continue false in private throw while
+		
+	words-2	= %
+		exclude get include named set %
+		boolean byte char double float int long short
+end
+//[cf]
+//[of]:	Lua
+def Lua
+	prototype	= languages.Default
+	patterns	= *.lua
+	first-line-patterns	= #!*lua*
+	fixed	= true
+		
+	stylizer	= generic
+	line-comment	= --
+	line-comment-2	= #!
+	open-comment	= --[[
+	close-comment	= ]]
+	string-delimiter	= "
+	char-delimiter	= '
+	string-escape-char	= \
+	char-escape-char	= \
+	hexa-prefix	= 0x
+	
+	words-1	= %
+		do end while repeat until if then elseif else for in function local %
+		return break nil false true and or not
+		
+	chars-1	= %
+		=;,.:[](){}+-*/^%%<>~#
+end
+//[cf]
+//[of]:	Makefile
+def Makefile
+	prototype	= languages.Default
+	patterns	= makefile;Makefile;Makefile.in;Makefile.am;*.mak;*.mk
+	fixed	= false
+		
+	stylizer	= makefile
+	line-comment	= #
+	escape-char	= \
+end
+//[cf]
+//[of]:	NSIS Script Files
+def NSIS
+	prototype	= languages.Default
+	patterns	= *.nsi;*.nsh
+	fixed	= false
+	expand-tabulation	= true
+	tabulation-size	= 2
+		
+	stylizer	= generic
+	line-comment	= ;
+	line-comment-2	= #
+	open-comment	= /*
+	close-comment	= */
+	hexa-prefix	= 0x
+	preprocessor	= !
+	string-delimiter	= "
+	string-escape-char	= \
+	char-delimiter	= '
+	char-escape-char	= \
+	escape-char	= \
+	ignore-case	= true
+
+	words-1	= %
+		Abort AllowRootDirInstall AllowSkipFiles AutoCloseWindow %
+		BGGradient BringToFront %
+		Call Caption CheckBitmap ClearErrors ComponentText CopyFiles CRCCheck CreateDirectory CreateShortCut %
+		Delete DeleteINIStr DeleteINISec DeleteRegKey DeleteRegValue DetailPrint DirText %
+		Exch Exec ExecShell ExecWait %
+		File FileOpen FileWrite FileClose FindFirst FindNext FindClose Function FunctionEnd  %
+		GetFunctionAddress GetFullPathName GetLabelAddress Goto %
+		HideWindow %
+		Icon IfErrors IfFileExists IfSilent InstallColors InstallDir InstallDirRegKey InstType %
+		IntCmp IntOp %
+		LangString LicenseData LicenseText LoadLanguageFile %
+		MessageBox %
+		Name Nop %
+		OutFile %
+		Page Pop Push %
+		Quit %
+		ReadINIStr ReadRegDWORD ReadRegStr RegDLL Rename ReserveFile Return RMDir %
+		SearchPath Section SectionEnd SectionGetFlags SectionGetText SectionIn SectionSetFlags SectionSetText %
+		SendMessage SetCompress SetCompressor SetDatablockOptimize SetDateSave SetDetailsPrint SetDetailsView SetOutPath SetOverwrite SetSilent %
+		ShowInstDetails SilentInstall Sleep StrCmp StrCpy StrLen SubSection SubSectionEnd %
+		UninstallIcon UninstPage UninstallText UnRegDLL %
+		Var VIAddVersionKey VIProductVersion %
+		WriteINIStr WriteRegBin WriteRegDWORD WriteRegExpandStr WriteRegStr WriteUninstaller %
+		XPStyle
+end
+//[cf]
+//[of]:	Pascal
+def Pascal
+	prototype	= languages.Default
+	patterns	= *.pas;*.pp;*.p
+	fixed	= true
+	tabulation-size	= 4
+		
+	stylizer	= generic
+	line-comment	= //
+	open-comment	= {
+	close-comment	= }
+	open-comment-2	= (*
+	close-comment-2	= *)
+	hexa-prefix	= $
+	string-delimiter	= "
+	string-escape-char	= \
+	char-delimiter	= '
+	char-escape-char	= \
+	escape-char	= \
+	ignore-case	= true
+
+	words-1	= %
+		absolute abstract alias and array as asm assembler automated begin %
+		bitpacked break case cdecl class const constructor contains continue %
+		cppdecl default destructor dispid dispinterface dispose div do downto %
+		dynamic else end except exit export exports external false far far16 file %
+		finalization finally for forward function generic goto if implementation %
+		implements in index inherited initialization inline interface interrupt is %
+		label library local message mod name near new nil nodefault nostackframe %
+		not object of oldfpccall on operator or otherwise out overload override package %
+		packed pascal private procedure program property protected public published %
+		raise read readonly record register reintroduce repeat requires resident result %
+		safecall saveregisters self set shl shr softfloat specialize stdcall stored then %
+		threadvar to true try type unit until uses var varargs virtual while with write %
+		writeonly xor
+
+	// types
+	words-2	= %
+		ansichar ansistring boolean byte bytebool cardinal char comp currency double %
+		extended int64 integer longbool longint longword pansichar pchar pointer pwidechar %
+		qword real real48 resourcestring shortint shortstring single smallint smallword string %
+		text variant widechar widestring word wordbool
+end
+//[cf]
+//[of]:	Perl
+def Perl
+	prototype	= languages.Default
+	patterns	= *.pl;*.PL;*.pm;*.pod
+	first-line-patterns	= #!*/perl*
+	fixed	= true
+	tabulation-size	= 4
+		
+	stylizer	= perl
+	line-comment	= #
+	multiline-string-delimiter	= "
+	string-escape-char	= \
+	multiline-char-delimiter	= '
+	char-escape-char	= \
+	escape-char	= \
+
+	words-1	= %
+		else elsif for foreach if not unless until while
+
+	words-2	= %
+		__FILE__ __LINE__ __PACKAGE__ %
+		abs accept alarm atan2 bind binmode bless caller chdir chmod chomp %
+		chop chown chr chroot close closedir connect continue cos crypt %
+		dbmclose dbmopen defined delete die do dump each endgrent %
+		endhostent endnetent endprotoent endpwent endservent eof eval exec %
+		exists exit exp fcntl fileno flock fork format formline getc getgrent %
+		getgrgid getgrnam gethostbyaddr gethostbyname gethostent getlogin %
+		getnetbyaddr getnetbyname getnetent getpeername getpgrp getppid %
+		getpriority getprotobyname getprotobynumber getprotoent getpwent %
+		getpwnam getpwuid getservbyname getservbyport getservent getsockname %
+		getsockopt glob gmtime goto grep hex import index int ioctl join keys %
+		kill last lc lcfirst length link listen local localtime lock log  %
+		lstat m map mkdir msgctl msgget msgrcv msgsnd my next no oct open %
+		opendir ord our pack package pipe pop pos print printf prototype push %
+		q qq qr quotemeta qw qx rand read readdir readline readlink readpipe %
+		recv redo ref rename require reset return reverse rewinddir rindex %
+		rmdir s scalar seek seekdir select semctl semget semop send setgrent %
+		sethostent setnetent setpgrp setpriority setprotoent setpwent %
+		setservent setsockopt shift shmctl shmget shmread shmwrite shutdown %
+		sin sleep socket socketpair sort splice split sprintf sqrt srand stat %
+		study sub substr symlink syscall sysopen sysread sysseek system %
+		syswrite tell telldir tie tied time times tr truncate uc ucfirst %
+		umask undef unlink unpack unshift untie use utime values vec wait %
+		waitpid wantarray warn write y
+    
+	chars-1	= (){}[]<>=|+-*/~!&$%%^,?:
+end
+//[cf]
+//[of]:	Python
+def Python
+	prototype	= languages.Default
+	patterns	= *.py
+	fixed	= false
+	relative-indentation	= true
+	tabulation-size	= 4
+
+	stylizer	= python
+	line-comment	= #
+	hexa-prefix	= 0x
+	string-delimiter	= "
+	string-escape-char	= \
+	char-delimiter	= '
+	char-escape-char	= \
+	escape-char	= \
+	
+	words-1	= %
+		and assert break class continue def del %
+		elif else except exec finally for from global %
+		if import in is lambda not or pass raise return %
+		try while
+		
+	chars-1	= (){}[]<>=|+-*~!&$%^
+end
+//[cf]
+//[of]:	Ruby
+//[c]The ruby colorizer uses the following color classes:
+//[c]	word-2 constants (identifiers starting by an uppercase letter)
+//[c]	word-3 instance variables
+//[c]	word-4 class variables
+//[c]	
+def Ruby
+	prototype	= languages.Default
+	patterns	= *.rb
+	first-line-patterns	= #!*/ruby*
+	fixed	= false
+	tabulation-size	= 4
+		
+	stylizer	= ruby
+	line-comment	= #
+	open-comment	= =begin
+	close-comment	= =end
+	multiline-string-delimiter	= "
+	string-escape-char	= \
+	multiline-char-delimiter	= '
+	char-escape-char	= \
+	escape-char	= \
+
+	words-1	= %
+		__FILE__ and def end in or self unless %
+		__LINE__ begin defined? ensure module redo super until %
+		BEGIN break do false next rescue then when %
+		END case else for nil retry true while %
+		alias class elsif if not return undef yield 
+
+	chars-1	= (){}[]<>=|+-*/~!&$%%^,?:
+end
+//[cf]
+//[of]:	XML
+def XML
+	prototype	= languages.Default
+	patterns	= *.xml;*.xsl;*.xsd
+	fixed	= false
+	tabulation-size	= 4
+		
+	stylizer	= html
+	line-comment	=
+	open-comment	= <!--
+	close-comment	= -->
+end
+//[cf]
+//[of]:	Sh
+def Sh
+	prototype	= languages.Default
+	patterns	= csh.cshrc;csh.login;*bashrc;*bash_profile;zlogin;zlogout;zprofile;zshenv;zshrc
+	first-line-patterns	= #!*/sh;#!*/bash
+	fixed	= false
+		
+	stylizer	= sh
+	line-comment	= #
+end
+//[cf]
+//[of]:	SQL
+def SQL
+	prototype	= languages.Default
+	patterns	= *.sql
+	fixed	= false
+		
+	stylizer	= generic
+	line-comment	= --
+	open-comment	= /*
+	close-comment	= */
+	string-delimiter	= '
+	string-escape-char	= \
+	ignore-case	= true
+	
+	words-1	= %
+		absolute action add all allocate alter and any are as asc %
+		assertion at authorization avg %
+		begin between bit bit_length both by %
+		cascade cascaded case cast catalog char character char_length %
+		character_length check close coalesce collate collation %
+		column commit connect connection constraint constraints continue %
+		convert corresponding count create cross current %
+		current_date current_time current_timestamp current_user cursor %
+		date day deallocate dec decimal declare default deferrable %
+		deferred delete desc describe descriptor diagnostics disconnect  %
+		distinct domain double drop else end end-exec escape except exception %
+		exec execute exists external extract false fetch first float for  %
+		foreign found from full get global go goto grant group %
+		having hour identity immediate in indicator initially inner input %
+		insensitive insert int integer intersect interval into is isolation %
+		join key language last leading left level like local lower %
+		match max min minute module month names national natural nchar %
+		next no not null nullif numeric octet_length of on only open option  %
+		or order outer output overlaps pad partial position precision  %
+		prepare preserve primary prior privileges procedure public %
+		read real references relative restrict revoke right rollback rows %
+		schema scroll second section select session session_user set %
+		size smallint some space sql sqlcode sqlerror sqlstate  %
+		substring sum system_user table temporary then time timestamp %
+		timezone_hour timezone_minute to trailing transaction translate %
+		translation trim true union unique unknown update upper usage user %
+		using value values varchar varying view when whenever where with %
+		work write year zone %
+		limit if loop return
+	
+	chars-1	= @
+end
+//[cf]
+//[of]:	TeX
+def TeX
+	prototype	= languages.Default
+	patterns	= *.tex;*.sty
+	fixed	= false
+		
+	stylizer	= tex
+	line-comment	= %%
+	chars-1	= {}[]=
+
+	// Plain TeX
+//[c]	words-1	= %
+//[c]		@cclv @cclvi @crfalse @crtrue @foot @if @ins @lign @m @M %
+//[c]		@midfalse @midtrue @MM @ne @nother @penup @sf @vereq %
+//[c]		aa AA above abovedisplayshortskip abovedisplayskip %
+//[c]		abovewithdelims accent active acute adjdemerits %
+//[c]		advance advancepageno ae AE afterassignment aftergroup %
+//[c]		aleph alloc@ allocationnumber allowbreak alpha amalg %
+//[c]		angle approx arccos arcsin arctan arg arrowvert Arrowvert %
+//[c]		ast asymp atop atopwithdelims %
+//[c]		b backslash bar baselineskip batchmode begingroup beginsection %
+//[c]		belowdisplayshortskip belowdisplayskip beta bf bffam bgroup %
+//[c]		big Big bigbreak bigcap bigcirc bigcup bigg Bigg biggl Biggl %
+//[c]		biggm Biggm biggr Biggr bigl Bigl bigm Bigm bigodot bigoplus %
+//[c]		bigotimes bigr Bigr bigskip bigskipamount bigsqcup bigtriangledown %
+//[c]		bigtriangleup biguplus bigvee bigwedge binoppenalty bmod body %
+//[c]		bordermatrix bot botmark bowtie box box255 boxmaxdepth brace %
+//[c]		braceld bracelu bracerd braceru bracevert brack break breve %
+//[c]		brokenpenalty buildrel bullet bye %
+//[c]		c c@ncel cal cap cases catcode cdot cdotp cdots centering %
+//[c]		centerline ch@ck char chardef check chi choose circ cleaders %
+//[c]		cleartabs closein closeout clubpenalty clubsuit colon columns %
+//[c]		cong coprod copy copyright cos cosh cot coth count count@ %
+//[c]		count0 countdef cr crcr csc csname cup %
+//[c]		d dag dagger dashv day ddag ddagger ddot ddots deadcycles %
+//[c]		def defaulthyphenchar defaultskewchar deg delcode delimiter %
+//[c]		delimiterfactor delimitershortfall delta Delta det diamond %
+//[c]		diamondsuit dim dimen dimen@ dimen@i dimen@ii dimendef %
+//[c]		discretionary displ@y displayindent displaylimits displaylines %
+//[c]		displaystyle displaywidowpenalty displaywidth div divide do %
+//[c]		dospecials dosupereject dot doteq dotfill dots %
+//[c]		doublehyphendemerits downarrow Downarrow downbracefill dp %
+//[c]		dt@pfalse dt@ptrue dump %
+//[c]		edef egroup eject ell else empty emptyset end endcsname endgraf %
+//[c]		endgroup endinput endinsert endline endlinechar enskip enspace %
+//[c]		epsilon eqalign eqalignno eqno equiv errhelp errmessage %
+//[c]		errorstopmode escapechar eta everycr everydisplay everyhbox %
+//[c]		everyjob everymath everypar everyvbox exhyphenpenalty exists %
+//[c]		exp expandafter %
+//[c]		f@@t f@t fam fi filbreak finalhyphendemerits finph@nt finsm@sh %
+//[c]		firstmark fivebf fivei fiverm fivesy flat floatingpenalty %
+//[c]		fmtname fmtversion fo@t folio font fontdimen fontname footins %
+//[c]		footline footnote footnoterule footstrut forall frenchspacing %
+//[c]		frown futurelet %
+//[c]		gamma Gamma gcd gdef ge geq gets gg global globaldefs %
+//[c]		goodbreak grave %
+//[c]		H h@false h@true halign hang hangafter hangindent hat hbadness %
+//[c]		hbar hbox headline heartsuit hfil hfill hfilneg hfuzz hgl@ %
+//[c]		hglue hideskip hidewidth hoffset hom hookleftarrow %
+//[c]		hookrightarrow hphantom hrule hrulefill hsize hskip hss ht %
+//[c]		hyphenation hyphenchar hyphenpenalty %
+//[c]		i ialign if if@ if@cr if@mid ifcase ifcat ifdim ifdt@p ifeof %
+//[c]		iff iffalse ifh@ ifhbox ifhmode ifinner ifmmode ifnum ifodd %
+//[c]		ifp@ge ifr@ggedbottom iftrue ifus@ ifv@ ifvbox ifvmode ifvoid %
+//[c]		ifx ignorespaces Im imath immediate in indent inf infty %
+//[c]		input insc@unt insert insertpenalties int interdisplaylinepenalty %
+//[c]		interfootnotelinepenalty interlinepenalty intop iota it item %
+//[c]		itemitem iterate itfam %
+//[c]		j jmath jobname joinrel jot %
+//[c]		kappa ker kern %
+//[c]		l L lambda Lambda land langle lastbox lastkern lastpenalty %
+//[c]		lastskip lbrace lbrack lccode lceil ldotp ldots le leaders %
+//[c]		leavevmode left leftarrow Leftarrow leftarrowfill leftharpoondown %
+//[c]		leftharpoonup leftline leftrightarrow Leftrightarrow leftskip %
+//[c]		leq leqalignno leqno let lfloor lg lgroup lhook lim liminf %
+//[c]		limits limsup line linepenalty lineskip lineskiplimit ll %
+//[c]		llap lmoustache ln lnot log long longleftarrow Longleftarrow %
+//[c]		longleftrightarrow Longleftrightarrow longmapsto Longrightarrow %
+//[c]		longrightarrow loop looseness lor lower lowercase lq %
+//[c]		m@g m@ketabbox m@ne m@th mag magnification magstep magstephalf %
+//[c]		makefootline makeheadline makeph@nt makesm@sh mapsto mapstochar %
+//[c]		mark mathaccent mathbin mathchar mathchardef mathchoice mathclose %
+//[c]		mathcode mathhexbox mathinner mathop mathopen mathord mathpalette %
+//[c]		mathph@nt mathpunct mathrel mathsm@sh mathstrut mathsurround %
+//[c]		matrix max maxdeadcycles maxdepth maxdimen meaning medbreak medmuskip %
+//[c]		medskip medskipamount message mid midinsert min mit mkern models %
+//[c]		month moveleft moveright mp mscount mskip mu multiply multispan %
+//[c]		muskip muskipdef %
+//[c]		n@space nabla narrower natural ne nearrow neg %
+//[c]		negthinspace neq newbox newcount newdimen newfam newhelp newif %
+//[c]		newinsert newlinechar newmuskip newread newskip newtoks newwrite %
+//[c]		next ni noalign nobreak noexpand noindent nointerlineskip %
+//[c]		nolimits nonfrenchspacing nonscript nonstopmode nopagenumbers %
+//[c]		normalbaselines normalbaselineskip normalbottom normallineskip %
+//[c]		normallineskiplimit not notin nu null nulldelimiterspace number %
+//[c]		nwarrow %
+//[c]		o O oalign obeylines obeyspaces odot oe OE of offinterlineskip %
+//[c]		oint ointop oldstyle omega Omega ominus omit ooalign openin %
+//[c]		openout openup oplus or oslash otimes outer output outputpenalty %
+//[c]		over overbrace overfullrule overleftarrow overline overrightarrow %
+//[c]		overwithdelims owns %
+//[c]		P p@ p@gefalse p@getrue p@renwd pagebody pagecontents pagedepth %
+//[c]		pagefilllstretch pagefillstretch pagefilstretch pagegoal %
+//[c]		pageinsert pageno pageshrink pagestretch pagetotal par parallel %
+//[c]		parfillskip parindent parshape parskip partial patterns pausing %
+//[c]		penalty perp ph@nt phantom phi Phi pi Pi plainoutput pm pmatrix %
+//[c]		pmod postdisplaypenalty Pr pr@@@s pr@@@t pr@m@s prec preceq %
+//[c]		predisplaypenalty predisplaysize preloaded pretolerance %
+//[c]		prevdepth prevgraf prim@s prime proclaim prod propto psi Psi %
+//[c]		qquad quad %
+//[c]		r@@t r@ggedbottomfalse r@ggedbottomtrue radical raggedbottom %
+//[c]		raggedright raise rangle rbrace rbrack rceil Re read relax %
+//[c]		relbar Relbar relpenalty removelastskip repeat rfloor rgroup %
+//[c]		rho rhook right rightarrow Rightarrow rightarrowfill %
+//[c]		rightharpoondown rightharpoonup rightleftharpoons rightline %
+//[c]		rightskip rlap rlh@ rm rmoustache romannumeral root rootbox %
+//[c]		rq %
+//[c]		S s@tcols s@tt@b sb scriptfont scriptscriptfont %
+//[c]		scriptscriptstyle scriptspace scriptstyle scrollmode searrow %
+//[c]		sec setbox setminus sett@b settabs sevenbf seveni sevenrm %
+//[c]		sevensy sfcode sharp shipout show showbox showboxbreadth %
+//[c]		showboxdepth showhyphens showlists showthe sigma Sigma sim %
+//[c]		simeq sin sinh sixt@@n skew skewchar skip skip@ skipdef sl %
+//[c]		slash slfam smallbreak smallint smallskip smallskipamount %
+//[c]		smash smile sp sp@n space spacefactor spaceskip spadesuit %
+//[c]		span special splitbotmark splitfirstmark splitmaxdepth %
+//[c]		splittopskip sqcap sqcup sqrt sqsupseteq ss star string %
+//[c]		strut strutbox subset subseteq succ succeq sum sup supereject %
+//[c]		supset supseteq surd swarrow %
+//[c]		t t@bb@x t@bbox tabalign tabs tabsdone tabskip tabsyet tan %
+//[c]		tanh tau tenbf tenex teni tenit tenrm tensl tensy tentt %
+//[c]		TeX textfont textindent textstyle the theta Theta thickmuskip %
+//[c]		thinmuskip thinspace thr@@ tilde time times to toks toks@ %
+//[c]		toksdef tolerance top topins topinsert topmark topskip %
+//[c]		tracingall tracingcommands tracinglostchars tracingmacros %
+//[c]		tracingonline tracingoutput tracingpages tracingparagraphs %
+//[c]		tracingrestores tracingstats triangle triangleleft triangleright %
+//[c]		tt ttfam ttraggedright tw@ %
+//[c]		u uccode uchyph undefined underbar underbrace underline unhbox %
+//[c]		unhcopy unkern unpenalty unskip unvbox unvcopy uparrow Uparrow %
+//[c]		upbracefill updownarrow Updownarrow uplus uppercase upsilon %
+//[c]		Upsilon us@false us@true %
+//[c]		v v@false v@true vadjust valign varepsilon varphi varpi varrho %
+//[c]		varsigma vartheta vbadness vbox vcenter vdash vdots vec vee %
+//[c]		Vert vert vfil vfill vfilneg vfootnote vfuzz vgl@ vglue voffset %
+//[c]		voidb@x vphantom vrule vsize vskip vsplit vss vtop %
+//[c]		wd wedge widehat widetilde widowpenalty wlog wp wr write %
+//[c]		xdef xi Xi xleaders xspaceskip %
+//[c]		year %
+//[c]		z@ z@skip zeta
+
+	// LaTeX
+	words-1	= %
+		addcontentsline %
+		addtocontents %
+		addtocounter %
+		address %
+		addtolength %
+		addvspace %
+		alph %
+		appendix %
+		arabic %
+		author %
+		backslash %
+		baselineskip %
+		baselinestretch %
+		begin %
+		bf %
+		bibitem %
+		bigskipamount %
+		bigskip %
+		boldmath %
+		cal %
+		caption %
+		cdots %
+		centering %
+		chapter %
+		circle %
+		cite %
+		cleardoublepage %
+		clearpage %
+		cline %
+		closing %
+		copyright %
+		dashbox %
+		date %
+		ddots %
+		documentclass %
+		documentstyle %
+		dotfill %
+		em %
+		end %
+		euro %
+		fbox %
+		flushbottom %
+		fnsymbol %
+		footnote %
+		footnotemark %
+		footnotesize %
+		footnotetext %
+		frac %
+		frame %
+		framebox %
+		frenchspacing %
+		hfill %
+		hline %
+		hrulefill %
+		hspace %
+		huge %
+		Huge %
+		hyphenation %
+		include %
+		includegraphics %
+		includeonly %
+		indent %
+		input %
+		it %
+		item %
+		kill %
+		label %
+		large %
+		Large %
+		LARGE %
+		LaTeX %
+		LaTeXe %
+		ldots %
+		left %
+		leftmargin %
+		lefteqn %
+		line %
+		linebreak %
+		linethickness %
+		linewidth %
+		listoffigures %
+		listoftables %
+		location %
+		makebox %
+		maketitle %
+		markboth %
+		markright %
+		mathcal %
+		mathop %
+		mbox %
+		medskip %
+		multicolumn %
+		multiput %
+		newcommand %
+		newcounter %
+		newenvironment %
+		newfont %
+		newlength %
+		newline %
+		newpage %
+		newsavebox %
+		newtheorem %
+		nobreak %
+		nocite %
+		noindent %
+		nolinebreak %
+		normalsize %
+		nopagebreak %
+		not %
+		onecolumn %
+		opening %
+		oval %
+		overbrace %
+		overline %
+		pagebreak %
+		pagenumbering %
+		pageref %
+		pagestyle %
+		par %
+		paragraph %
+		part %
+		parbox %
+		parindent %
+		parskip %
+		protect %
+		put %
+		raggedbottom %
+		raggedleft %
+		raggedright %
+		raisebox %
+		ref %
+		renewcommand %
+		right %
+		rightmargin %
+		rm %
+		roman %
+		rule %
+		savebox %
+		sbox %
+		sc %
+		scriptsize %
+		section %
+		setcounter %
+		setlength %
+		settowidth %
+		sf %
+		shortstack %
+		signature %
+		sl %
+		small %
+		smallskip %
+		sout %
+		space %
+		sqrt %
+		stackrel %
+		subparagraph %
+		subsection %
+		subsubsection %
+		tableofcontents %
+		telephone %
+		TeX %
+		textbf %
+		textit %
+		textmd %
+		textnormal %
+		textrm %
+		textsc %
+		textsf %
+		textsl %
+		texttt %
+		textup %
+		textwidth %
+		textheight %
+		thanks %
+		thispagestyle %
+		tiny %
+		title %
+		today %
+		tt %
+		twocolumn %
+		typeout %
+		typein %
+		uline %
+		underbrace %
+		underline %
+		unitlength %
+		usebox %
+		usecounter %
+		uwave %
+		value %
+		vbox %
+		vdots %
+		vector %
+		verb %
+		vfill %
+		vline %
+		vphantom %
+		vspace %
+		ensuremath %
+		providecommand
+end
+//[cf]
+//[of]:	Visual Basic
+def VB
+	prototype	= languages.Default
+	patterns	= *.vb;*.bas
+	fixed	= false
+		
+	stylizer	= generic
+	line-comment	= '
+	line-comment-2	= REM%_
+	hexa-prefix	= &H
+	string-delimiter	= "
+	escape-char	= _
+	preprocessor	= #
+	ignore-case	= true
+	
+	words-1	= %
+		AddHandler AddressOf Alias And AndAlso Ansi As Assembly %
+		Auto Boolean ByRef Byte ByVal Call Case Catch %
+		CBool CByte CChar CDate CDec CDbl Char CInt %
+		Class CLng CObj Const CShort CSng CStr CType %
+		Date Decimal Declare Default Delegate Dim DirectCast Do %
+		Double Each Else ElseIf End Enum Erase Error %
+		Event Exit False Finally For Friend Function Get %
+		GetType GoSub GoTo Handles If Implements Imports In %
+		Inherits Integer Interface Is Let Lib Like Long %
+		Loop Me Mod Module MustInherit MustOverride MyBase MyClass %
+		Namespace New Next Not Nothing NotInheritable NotOverridable Object %
+		On Option Optional Or OrElse Overloads Overridable Overrides %
+		ParamArray Preserve Private Property Protected Public  RaiseEvent ReadOnly %
+		ReDim RemoveHandler Resume Return Select Set Shadows %
+		Shared Short Single Static Step Stop String Structure %
+		Sub SyncLock Then Throw To True Try TypeOf %
+		Unicode Until Variant When While With WithEvents WriteOnly %
+		Xor
+end
+//[cf]
+//[of]:	Zinc
+def Zinc
+	prototype	= languages.Default
+	patterns	= *.zc
+	fixed	= false
+	tabulation-size	= 4
+	elastic-tabstops	= true
+	layout	= list
+	show-line-type	= false
+		
+	stylizer	= zinc
+	line-comment	= //
+	open-comment	= /*
+	close-comment	= */
+	hexa-prefix	= 0x
+	string-delimiter	= "
+	string-escape-char	= \
+	char-prefix	= $
+	escape-char	= \
+	words-1	= %
+		break case const continue def else elsif enum equ end false func %
+		if import public private repeat return sizeof struct switch typedef %
+		true union while 
+		
+	chars-1	= (){}[]<>=|+-*~!&$%%^
+end
+//[cf]
+
+//[of]:	ASP
+def ASP
+	prototype	= languages.HTML
+	patterns	= *.asp;*.aspx
+	sublanguage	= VB
+
+	// These comments are used for folding only, they are not used
+	// by the html highlighter.
+	//
+	// You can choose either html or vb comments, by default 
+	// these comments are not configured because you must 
+	// know exactly what you do:
+	// - If you choose html, you must only fold html blocks
+	// - If you choose java, you must only fold vb blocks
+	// Otherwise the editor will insert fold markers with wrong
+	// comment directives, resulting a broken source file.
+
+	// Uncomment this if you want to fold at html level 
+	//open-comment	= <!--
+	//close-comment	= -->
+
+	// Uncomment this if you want to fold at java level 
+	//line-comment	= '
+	//sublanguage-in-subsections	= true
+end
+//[cf]
+//[of]:	JSP
+def JSP
+	prototype	= languages.HTML
+	patterns	= *.jsp
+	sublanguage	= Java
+
+	// These comments are used for folding only, they are not used
+	// by the html highlighter.
+	//
+	// You can choose either html or java comments, by default 
+	// these comments are not configured because you must 
+	// know exactly what you do:
+	// - If you choose html, you must only fold html blocks
+	// - If you choose java, you must only fold java blocks
+	// Otherwise the editor will insert fold markers with wrong
+	// comment directives, resulting a broken source file.
+
+	// Uncomment this if you want to fold at html level 
+	//open-comment	= <!--
+	//close-comment	= -->
+
+	// Uncomment this if you want to fold at java level 
+	//line-comment	= //
+	//sublanguage-in-subsections	= true
+end
+//[cf]
+//[of]:	PHP
+def PHP
+	prototype	= languages.HTML
+	patterns	= *.php
+	tabulation-size	= 4
+	sublanguage	= phpcode
+
+	// These comments are used for folding only, they are not used
+	// by the html highlighter.
+	//
+	// You can choose either html or php comments, by default 
+	// these comments are not configured because you must 
+	// know exactly what you do:
+	// - If you choose html, you must only fold html blocks
+	// - If you choose php, you must only fold php blocks
+	// Otherwise the editor will insert fold markers with wrong
+	// comment directives, resulting a broken source file.
+	
+	// Uncomment this if you want to fold at html level 
+	//open-comment	= <!--
+	//close-comment	= -->
+	
+	// Uncomment this if you want to fold at php level 
+	//line-comment	= #
+	//sublanguage-in-subsections	= true
+end
+
+def phpcode
+	prototype	= languages.Default
+	patterns	= *.phpcode
+		
+	stylizer	= generic
+	line-comment	= //
+	line-comment-2	= #
+	open-comment	= /*
+	close-comment	= */
+	hexa-prefix	= 0x
+	string-delimiter	= "
+	string-escape-char	= \
+	char-delimiter	= '
+	char-escape-char	= \
+	variable-prefix	= $
+	escape-char	= \
+	ignore-case	= true
+
+	words-1	= %
+		__FILE__ __LINE__ __FUNCTION__ __CLASS__ __METHOD__ %
+		and array as break case cfunction class const continue declare default %
+		die do echo else elseif empty enddeclare endfor endforeach %
+		endif endswitch endwhile eval exception exit extends for foreach %
+		function global if include include_once isset list new old_function %
+		or php_user_filter print require require_once return static switch %
+		unset use var while xor %
+		final interface implements extends public private %
+		protected abstract clone try catch %
+		throw old_function this %
+		FALSE TRUE NULL %
+		PHP_SELF argv argc %
+		GATEWAY_INTERFACE SERVER_NAME SERVER_SOFTWARE SERVER_PROTOCOL %
+		REQUEST_METHOD QUERY_STRING DOCUMENT_ROOT HTTP_ACCEPT %
+		HTTP_ACCEPT_CHARSET HTTP_ACCEPT_ENCODING HTTP_ACCEPT_LANGUAGE %
+		HTTP_CONNECTION HTTP_HOST HTTP_REFERER HTTP_USER_AGENT %
+		REMOTE_ADDR REMOTE_HOST REMOTE_PORT SCRIPT_FILENAME SERVER_ADMIN %
+		SERVER_PORT SERVER_SIGNATURE PATH_TRANSLATED SCRIPT_NAME %
+		REQUEST_URI PHP_AUTH_USER PHP_AUTH_PW AUTH_TYPE
+end
+//[cf]
+
+end
+//[cf]
+//[of]:Key Mapping
+//[c]Key Mappings
+//[c]
+def key-mappings
+//[of]:windows-style
+def windows-style
+//[of]:	File
+file-new	= CTRL+N
+file-open-new	= CTRL+SHIFT+N
+file-open	= CTRL+O
+file-save	= CTRL+S
+file-save-as	=
+file-save-all	= CTRL+SHIFT+S
+file-files	= 
+exit	= CTRL+Q
+//[cf]
+//[of]:	Edit
+edit-undo	= CTRL+Z
+edit-redo	= CTRL+Y
+edit-cut	= CTRL+X
+edit-copy	= CTRL+C
+edit-paste	= CTRL+V
+edit-delete	= 
+edit-select-all	= CTRL+A
+edit-copy-reference	= 
+edit-paste-raw-text	=
+toggle-bookmark	= CTRL+F2
+edit-upper	= CTRL+SHIFT+U
+edit-lower	= CTRL+U
+edit-unfold	= CTRL+B
+edit-properties	= ALT+RETURN
+//[cf]
+//[of]:	Search
+find	= CTRL+F
+find-all	= CTRL+H
+find-next	= F3
+find-previous	= SHIFT+F3
+find-replace	= CTRL+R
+find-replace-all	= CTRL+SHIFT+R
+find-in-files	= 
+find-replace-in-files	= 
+incremental-search	= CTRL+I
+mark-all	= CTRL+M
+unmark-all	= CTRL+SHIFT+M
+//[cf]
+//[of]:	View
+word-wrap	= CTRL+W
+elastic-tabstops	= CTRL+L
+show-tabs	= CTRL+F10
+show-line-type	= CTRL+F11
+switch-zoom	= ALT+END
+view-one-pane	= ALT+1
+view-browser	= ALT+2
+view-tree	= ALT+3
+page-view	= ALT+4
+show-output	= ALT+X
+show-search-results	= ALT+Z
+move-up	= ALT+PAGE UP
+move-down	= ALT+PAGE DOWN
+//[cf]
+//[of]:	Go
+go-back	= ALT+LEFT
+go-enter	= ALT+RIGHT
+go-open-in-new-tab	= CTRL+J
+go-open-target-in-new-tab	= CTRL+T
+go-next	= 
+go-previous	= 
+go-next-error	= F4
+go-previous-error	= SHIFT+F4
+go-page-1	= CTRL+NUMPAD 1
+go-page-2	= CTRL+NUMPAD 2
+go-page-3	= CTRL+NUMPAD 3
+go-page-4	= CTRL+NUMPAD 4
+go-page-5	= CTRL+NUMPAD 5
+go-page-6	= CTRL+NUMPAD 6
+go-page-7	= CTRL+NUMPAD 7
+go-page-8	= CTRL+NUMPAD 8
+go-page-9	= CTRL+NUMPAD 9
+goto-line	= CTRL+G
+goto-matching-bracket	= 
+select-matching-bracket	= 
+goto-next-bookmark	= F2
+goto-previous-bookmark	= SHIFT+F2
+activate-tree-window	= CTRL+ALT+L
+activate-text-window	= 
+//[cf]
+//[of]:	Insert
+insert-text	= CTRL+SHIFT+T
+insert-comment	= CTRL+SHIFT+C
+insert-section	= CTRL+SHIFT+F
+insert-link	= CTRL+SHIFT+L
+//[cf]
+//[of]:	Tools
+tools-options	= 
+tools-break	= CTRL+BREAK
+open-global-preferences	= 
+open-user-preferences	= 
+open-cmdline-preferences	= 
+open-global-languages	= 
+open-user-languages	= 
+//[cf]
+//[of]:	Window
+window-close	= 
+window-clone	= CTRL+K
+window-close-dialog	= 
+window-close-dialog-or-window	= ESCAPE
+window-next	=
+window-previous	= CTRL+SHIFT+TAB
+window-windows	=
+//[cf]
+end
+//[cf]
+//[of]:gtk-style
+def gtk-style
+	prototype	= key-mappings.windows-style
+	
+	edit-redo	= CTRL+SHIFT+Z
+			
+	find-next	= CTRL+G
+	find-previous	= CTRL+SHIFT+G
+		
+	goto-line	= CTRL+L
+	elastic-tabstops	= CTRL+SHIFT+B
+		
+	word-wrap	= CTRL+SHIFT+W
+	window-close	= CTRL+W
+end
+//[cf]
+end
+//[cf]
+//[of]:User Tools
+def tools
+
+	def build
+		caption	= Build
+		command	= make
+		arguments	= 
+		directory	= $(WorkDir)
+		save-all	= true
+		hot-key	= F7
+		auto-close	= true
+	end
+
+	def run
+		caption	= Run
+		command	= <enter command here>
+		arguments	= 
+		directory	= $(WorkDir)
+		hot-key	= F5
+		auto-close	= true
+	end
+
+end
+//[cf]
