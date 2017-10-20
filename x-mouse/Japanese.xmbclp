@@ -20,7 +20,7 @@ Author=prairial
 "Default" => "デフォルト"
 "A&dd" => "追加"
 "Edi&t" => "編集"
-"C&opy" => "コピー"
+"Cop&y" => "コピー"
 "Remo&ve" => "削除"
 "&Settings" => "設定"
 "Abo&ut" => "このソフトについて"
@@ -81,7 +81,7 @@ Author=prairial
 "&Ignore numlock state for Simulated Keystrokes" => "シミュレート・キーストロークの場合NumLockを無視する"
 "&Fixup (de-bounce) tilt wheel auto-repeat" => "チルトホイールの自動リピート速度を変更する"
 "&Initial repeat rate" => "초기 반복 속도(&I)"
-"Initial re&peat rate" => "初期リピート速度"							# -- Changed in 2.8 Beta 1 --
+"Initial repeat r&ate" => "初期リピート速度"							# -- Changed in 2.8 Beta 1 --
 "&Repeat tilt rate" => "チルトリピート速度"
 "(ms)" => "(ms)"
 "Dela&y between simulated keystrokes" => "キーストローク間のディレイ"
@@ -198,7 +198,7 @@ Author=prairial
 "Mouse Button &4" => "進むボタン"
 "Mouse Button &5" => "戻るボタン"
 "W&heel Up" => "ホイール上回転"
-"Wh&eel Down" => "ホイール下回転"
+"Wheel &Down" => "ホイール下回転"
 "Tilt Wheel Le&ft" => "左チルト"
 "Tilt Wheel Ri&ght" => "右チルト"
 "Reset Layer" => "レイヤーの初期化"
@@ -243,17 +243,17 @@ Author=prairial
 "0 = Windows default repeat delay && speed." => "0 = Windowsのデフォルトのリピートのディレイとスピード"
 "Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "上のボックスにキーの組み合わせを入力して下さい。\r\n以下のタグを使って修飾キー・拡張キーをシミュレートすることが出来ます。"
 "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "修飾キータグ:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  注意:\n修飾キータグは{CTRL}{ALT}のように組み合わせることができますが、「次の」キーのみに適用されます。\r\n  例えば、CTRL+a+CTRL+sを送信するには'{CTRL}A{CTRL}S'と入力する必要があります。"
-"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "拡張キータグ:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "拡張キータグ:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "方向キータグ:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nファンクションキータグ:\t{F1, F2, F3 ... F24}\r\n音量キータグ:\t\t{VOL+}, {VOL-}, {MUTE}\r\nマウスボタンタグ:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nマウスホイールタグ:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nテンキータグ:\t\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWebブラウザキー:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nトグルキー:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例:\r\n  ウィンドウを閉じる: {ALT}{F4}\r\n  全ての項目を選択する: {CTRL}A\r\n  Microsoft Wordで太字で'my text'と入力する: {CTRL}bmy text{CTRL}b\r\n  'r'キーを50msのディレイで送信する: {HOLDMS50}r\r\n  NumLockをオフにする, {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例:\r\n  ウィンドウを閉じる: {ALT}{F4}\r\n  全ての項目を選択する: {CTRL}A\r\n  Microsoft Wordで太字で'my text'と入力する: {CTRL}bmy text{CTRL}b\r\n  'r'キーを50msのディレイで送信する: {HOLDMS:50}r\r\n  NumLockをオフにする, {NUMLOCKOFF}"
 # -- Updated in 2.9 beta 6 --
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例:\r\n  ウィンドウを閉じる: {ALT}{F4}\r\n  全ての項目を選択する: {CTRL}A\r\n  Microsoft Wordで太字で'my text'と入力する: {CTRL}bmy text{CTRL}b\r\n  'r'キーを50msのディレイで送信する: {HOLDMS50}r\r\n  NumLockをオフにする, {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例:\r\n  ウィンドウを閉じる: {ALT}{F4}\r\n  全ての項目を選択する: {CTRL}A\r\n  Microsoft Wordで太字で'my text'と入力する: {CTRL}bmy text{CTRL}b\r\n  'r'キーを50msのディレイで送信する: {HOLDMS:50}r\r\n  NumLockをオフにする, {NUMLOCKOFF}"
 
 # -- Updated in 2.4 Beta 10 --
 "NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "ヒント:{WAIT}、{WAITMS}、{HOLD}や{HOLDMS}タグのラグを回避する場合、上のドロップダウンから別スレッドのスレッド送信方法を試してください"
 
 # -- Updated in 2.4 Beta 15 --
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "特別機能タグ:\t\t{WAIT<n>} <n>秒のディレイを挿入する\r\n\t\t\t{WAITMS<n>} <n>ミリ秒のディレイを挿入する\r\n\t\t\t{HOLD<n>} 次のキーを<n>秒間押し込み固定する。\r\n\t\t\t{HOLDMS<n>} 次のキーを<n>ミリ秒間押し込み固定する。\r\n\t\t\t{VKC:<n>} 特定の仮想キーコードを送信する\r\n\t\t\t{EXT:<n>} 特定の拡張仮想キーコードを送信する\r\n\t\t\t{CLEAR} 修飾タグ {CTRL},{ALT} などをクリアする"
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "特別機能タグ:\t\t{WAIT:n} <n>秒のディレイを挿入する\r\n\t\t\t{WAITMS:n} <n>ミリ秒のディレイを挿入する\r\n\t\t\t{HOLD:n} 次のキーを<n>秒間押し込み固定する。\r\n\t\t\t{HOLDMS:n} 次のキーを<n>ミリ秒間押し込み固定する。\r\n\t\t\t{VKC:n} 特定の仮想キーコードを送信する\r\n\t\t\t{EXT:n} 特定の拡張仮想キーコードを送信する\r\n\t\t\t{CLEAR} 修飾タグ {CTRL},{ALT} などをクリアする"
 
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "方向キータグ:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nファンクションキータグ:\t{F1, F2, F3 ... F24}\r\n音量キータグ:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nマウスボタンタグ:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nマウスホイールタグ:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nテンキータグ:\t\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWebブラウザキー:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nトグルキー:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
@@ -285,9 +285,9 @@ Author=prairial
 "XML support provided by XML++ from Michael at turboirc.com" => "XMLサポートの提供:XML++(turboirc.com Michael)"
 "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBCはフリーソフトです。動作保証は致しません。もしXMBCを気に入り、評価したいという方が居ましたら下のPayPalボタンを押して寄付をお願いします。"
 "More information can be found on my download page or user forums." => "詳細についてはホームページまたはユーザーフォーラムを参照下さい。"
-"Homepage" => "ホームページ"
-"Donate" => "寄付する"
-"Forums" => "フォーラム"
+"&Homepage" => "ホームページ"
+"&Donate" => "寄付する"
+"&Forums" => "フォーラム"
 
 # -- Added in 2.4 Beta 15 --
 "About" => "このソフトについて"

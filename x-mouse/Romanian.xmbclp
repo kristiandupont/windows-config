@@ -37,7 +37,7 @@ Author=FileCroco Team (http://www.filecroco.com)
 "Default" => "Standard"
 "A&dd" => "A&dăugare"
 "Edi&t" => "&Modificare"
-"C&opy" => "&Copiere"
+"Cop&y" => "&Copiere"
 "Remo&ve" => "&Eliminare"
 "&Settings" => "&Setări"
 "Abo&ut" => "&Despre"
@@ -119,9 +119,9 @@ Author=FileCroco Team (http://www.filecroco.com)
 "R&eset sticky buttons when any other key is pressed" => "Resetare butoane pe&rmanente la apăsarea altei taste"
 "Show &tray icon by default" => "Arată pictograma &din bară în mod implicit"
 "&Ignore numlock state for Simulated Keystrokes" => "Ignoră starea NUM LOCK pentru simulare acţiuni taste"
-"Cycle l&ayers by left clicking tray icon" => "Schimbare s&traturi prin clic stânga pe pictogramă din bară"					# -- Updated in 2.5 beta 4 --
+"Cycle layers &by left clicking tray icon" => "Schimbare s&traturi prin clic stânga pe pictogramă din bară"					# -- Updated in 2.5 beta 4 --
 "&Fixup (de-bounce) tilt wheel auto-repeat" => "&Corectare repatarea automată la inclinarea rotiţei mausului"
-"Initial re&peat rate" => "Rata de re&petare iniţială"
+"Initial repeat r&ate" => "Rata de re&petare iniţială"
 "&Repeat tilt rate" => "&Rata de repetare înclinare"
 "(ms)" => "(ms)"
 "Dela&y between simulated keystrokes" => "Pau&ză între simulări apăsare taste"
@@ -237,7 +237,7 @@ Author=FileCroco Team (http://www.filecroco.com)
 "Mouse Button &4" => "Buton 4"
 "Mouse Button &5" => "Buton 5"
 "W&heel Up" => "Rotire în &sus"
-"Wh&eel Down" => "Rotire în &jos"
+"Wheel &Down" => "Rotire în &jos"
 "Tilt Wheel Le&ft" => "Înclinare rotiță la stânga"
 "Tilt Wheel Ri&ght" => "Înclinare rotiță la dreapta"
 "Reset Layer" => "&Reiniţializare"
@@ -290,15 +290,15 @@ Author=FileCroco Team (http://www.filecroco.com)
 "0 = Windows default repeat delay && speed." => "0. Întârziere şi viteză standard Windows."
 "Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Tastați secvența de taste în caseta de mai sus.\r\nSe pot simula următoarele taste speciale folosind etichetele specificate..."
 "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Taste de modificare: \r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE :\ttastele de modificare pot fi combinate ca {CTRL}{ALT} dar se aplică DOAR LA URMĂTOAREA TASTĂ.\r\n\tDe exemplu, pentru a trimite CTRL+a+CTRL+s trebuie să tastaţi '{CTRL}A{CTRL}S'."
-"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Etichete taste extinse: \r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Etichete taste extinse: \r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Taste pentru direcţie: \t{UP} {DOWN} {LEFT} {RIGHT}\r\nTaste pentru funcţii:\t{F1, F2, F3 ... F24}\r\nTaste pentru volum:\t{VOL+}, {VOL-}, {MUTE}\r\nButoane maus :\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nRotiţă:\t\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nTaste numerice:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nTaste de navigare:\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nTaste comutare:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "De exemplu:\r\n  Pentru a închide o fereastră: {ALT}{F4}\r\n  Pentru a selecta toate elementele: {CTRL}A\r\n  Pentru a tasta refiefat 'textul meu' îns Microsoft Word : {CTRL}bmon texte{CTRL}b\r\n  Pentru a trimite litera 'r' cu o întârziere de 50ms între sus şi jos: {WAITMS50}r\r\n  Pentru a dezactiva NUM LOCK: {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "De exemplu:\r\n  Pentru a închide o fereastră: {ALT}{F4}\r\n  Pentru a selecta toate elementele: {CTRL}A\r\n  Pentru a tasta refiefat 'textul meu' îns Microsoft Word : {CTRL}bmon texte{CTRL}b\r\n  Pentru a trimite litera 'r' cu o întârziere de 50ms între sus şi jos: {WAITMS:50}r\r\n  Pentru a dezactiva NUM LOCK: {NUMLOCKOFF}"
 
 # -- Updated in 2.4 Beta 10 --
 "NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "NOTĂ: Pentru a evita întîrzierile atunci când se utilizează etichetele {WAIT}, {WAITMS}, {HOLD} ou {HOLDMS},\r\n\t încercați să utilizați metodele\r\n din lista de mai sus."
 
 # -- Updated in 2.4 Beta 15 --
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Funcţii speciale:\t{WAIT<n>} inserează o întârziere de <n> secunde.\r\n\t\t\t{WAITMS<n>} inserează o întârziere de <n> milisecunde.\r\n\t\t\t{HOLD<n>} ține următoarea tastă jos pentru <n> secunde.\r\n\t\t\t{HOLDMS<n>} ține următoarea tastă jos pentru <n> milisecunde.\r\n\t\t\t{VKC:<n>} Trimite codul virtual specificat.\r\n\t\t\t{EXT:<n>} Trimite codul virtual extins specificat.\r\n\t\t\t{CLEAR} Șterge funcţiile modificate {CTRL},{ALT} etc."
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Funcţii speciale:\t{WAIT:n} inserează o întârziere de <n> secunde.\r\n\t\t\t{WAITMS:n} inserează o întârziere de <n> milisecunde.\r\n\t\t\t{HOLD:n} ține următoarea tastă jos pentru <n> secunde.\r\n\t\t\t{HOLDMS:n} ține următoarea tastă jos pentru <n> milisecunde.\r\n\t\t\t{VKC:n} Trimite codul virtual specificat.\r\n\t\t\t{EXT:n} Trimite codul virtual extins specificat.\r\n\t\t\t{CLEAR} Șterge funcţiile modificate {CTRL},{ALT} etc."
 
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Taste pentru direcţie: \t{UP} {DOWN} {LEFT} {RIGHT}\r\nTaste pentru funcţii:\t{F1, F2, F3 ... F24}\r\nTaste pentru volum:\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nButoane maus :\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nRotiţă:\t\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nTaste numerice:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nTaste de navigare:\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nTaste comutare:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
@@ -345,9 +345,9 @@ Author=FileCroco Team (http://www.filecroco.com)
 "XML support provided by XML++ from Michael at turboirc.com" => "Suport XML oferit de către Michael de la turboirc.com"
 "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC este distribuit gratuit (cu nici o garanție) pentru utilizarea de către oricine, oriunde . Daca vă place XMBC și doriți vă arătaţi aprecierea, vă rugăm să nu ezitați să faceţi o donație făcând clic pe butonul PayPal de mai jos."
 "More information can be found on my download page or user forums." => "Mai multe informații pot fi găsite pe pagina de descărcare sau pe forum."
-"Homepage" => "Adresă web"
-"Donate" => "Donaţie"
-"Forums" => "Forum"
+"&Homepage" => "Adresă web"
+"&Donate" => "Donaţie"
+"&Forums" => "Forum"
 
 # -- Added in 2.4 Beta 15 --
 "About" => "Despre"
@@ -539,10 +539,10 @@ Author=FileCroco Team (http://www.filecroco.com)
 "** Same As Layer 1 (current profile) **" => "** La fel ca stratul 1 (profilul curent) **"  	# -- Added in 2.4 Beta 12 --
 
 # -- Updated in 2.9 beta 6 --
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "De exemplu:\r\n  Pentru a inchide fereastra: {ALT}{F4}\r\n  Pentru a selecta toate elementele: {CTRL}A\r\n  Pentru test ingrosat 'textul meu' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  Pentru a trimite tasta 'r' cu o intirziere de 50ms intre jos si sus, {HOLDMS50}r\r\n  Pentru a dezactiva numlock, {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "De exemplu:\r\n  Pentru a inchide fereastra: {ALT}{F4}\r\n  Pentru a selecta toate elementele: {CTRL}A\r\n  Pentru test ingrosat 'textul meu' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  Pentru a trimite tasta 'r' cu o intirziere de 50ms intre jos si sus, {HOLDMS:50}r\r\n  Pentru a dezactiva numlock, {NUMLOCKOFF}"
 
 # -- Added in 2.9 beta 6 --
-"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following keys\r\n\t\t\t{RELEASE} Release (let go of) the following keys\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Etichete speciale pentru metode de trimitere 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Apasati urmatoarele taste\r\n\t\t\t{RELEASE} Eliberati urmatoarele taste\r\n\t\t\tNOTE: Trebuie {SA ELIBERATI} orice tasta {APASATA} simultan!"
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Etichete speciale pentru metode de trimitere 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Apasati urmatoarele taste\r\n\t\t\t{RELEASE} Eliberati urmatoarele taste\r\n\t\t\tNOTE: Trebuie {SA ELIBERATI} orice tasta {APASATA} simultan!"
 "To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => "  Pentru a apasa a b si c, asteptati 100ms si le eliberati: {PRESS}abc{WAITMS100}{RELEASE}cba"
 # -- 
 

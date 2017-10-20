@@ -19,7 +19,7 @@ Author=Kamil Pábl
 "Default" => "Přednastaveno"
 "A&dd" => "Další"
 "Edi&t" => "Upravit"
-"C&opy" => "Kopírovat"
+"Cop&y" => "Kopírovat"
 "Remo&ve" => "Smazat"
 "&Settings" => "Nastavení"
 "Abo&ut" => "O program&u"
@@ -80,7 +80,7 @@ Author=Kamil Pábl
 "&Ignore numlock state for Simulated Keystrokes" => "Ignorovat stav NumLock na simulované klávesové zkratky"
 "&Fixup (de-bounce) tilt wheel auto-repeat" => "Frekvence naklápění skrol.kolečka automaticky opakovat"
 "&Initial repeat rate" => "Počáteční rychlost opakování"
-"Initial re&peat rate" => "Počáteční rychlost opakování"	# -- Changed in 2.8 Beta 1 --
+"Initial repeat r&ate" => "Počáteční rychlost opakování"	# -- Changed in 2.8 Beta 1 --
 "&Repeat tilt rate" => "Opakovat rychlost naklápění"
 "(ms)" => ""
 "Dela&y between simulated keystrokes" => "Prodleva mezi simulovanými stisky kláves"
@@ -200,7 +200,7 @@ Author=Kamil Pábl
 "Mouse Button &4" => "Tlačítko myši 4"
 "Mouse Button &5" => "Tlačítko myši 5"
 "W&heel Up" => "Skrolovat nahoru"
-"Wh&eel Down" => "Skrolovat dolů"
+"Wheel &Down" => "Skrolovat dolů"
 "Tilt Wheel Le&ft" => "Naklonit vlevo"
 "Tilt Wheel Ri&ght" => "Naklonit vpravo"
 "Reset Layer" => "Smazat hladiny"
@@ -247,16 +247,16 @@ Author=Kamil Pábl
 "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Modifikační značky:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  Poznámka:\tmodifikační tagy lze kombinovat např. {} {CTRL ALT}, ale vztahuje pouze další klíč. \r\n\tnapříklad poslat CTRL+a+CTRL+s, měli byste napsat {CTRL}A{CTRL}S"
 "Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Rozšířené klíčové značky:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Kurzorová tlačítka:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunkční tlačítka:\t\t{F1, F2, F3 ... F24}\r\nOvládání zvuku:\t\t{VOL+} {VOL-} {MUTE}\r\nTlačítka myši:\t\t{LMB} {RMB} {MMB} {MB4/XMB1} {MB5/XMB2}\r\nKolečko myši:\t\t{MWUP} {MWDN} {TILTL} {TILTR}\r\nNumerická klávesnice:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWebový prohlížeč klávesy:\t{BACK} {FORWARD} {STOP} {REFRESH} {WEBHOME}\r\n\t\t\t{SEARCH} {FAVORITES}\r\nPřepínače:\t\t{NUMLOCKON} {NUMLOCKOFF} {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF} {SCROLLLOCKON} {SCROLLLOCKOFF}"
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code\r\n\t\t\t{CLEAR} Clears any modifier tags (CTRL},{ALT} etc." => "Speciální funkce:\t{WAIT<n>} vloží zpoždění <n> sekund.\r\n\t\t\t{WAITMS<n>} vloží zpoždění <n> milisekund\r\n\t\t\t{VKC:<n>} Odešle určený virtuální kód klávesy\r\n\t\t\t{EXT:<n>} Odešle zadaný rozšířený virtuální kód klávesy\r\n\t\t\t{CLEAR} Vymaže všechny modifikační značky (CTRL},{ALT} ad."
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Například:\r\n  Chcete-li zavřít okno: {ALT}{F4}\r\n  Chcete-li vybrat všechny položky: {CTRL}A\r\n  Chcete-li psát tučně 'můj text' v aplikaci Microsoft Word: {CTRL}bmůj text{CTRL}b\r\n  Chcete-li odeslat 'r' klíč s 50ms prodlevou mezi dolů a nahoru, {HOLDMS50}r\r\n  Chcete-li vypnout NumLock, {NUMLOCKOFF}"
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds\r\n\t\t\t{VKC:n} Sends the specified virtual key code\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code\r\n\t\t\t{CLEAR} Clears any modifier tags (CTRL},{ALT} etc." => "Speciální funkce:\t{WAIT:n} vloží zpoždění <n> sekund.\r\n\t\t\t{WAITMS:n} vloží zpoždění <n> milisekund\r\n\t\t\t{VKC:n} Odešle určený virtuální kód klávesy\r\n\t\t\t{EXT:n} Odešle zadaný rozšířený virtuální kód klávesy\r\n\t\t\t{CLEAR} Vymaže všechny modifikační značky (CTRL},{ALT} ad."
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Například:\r\n  Chcete-li zavřít okno: {ALT}{F4}\r\n  Chcete-li vybrat všechny položky: {CTRL}A\r\n  Chcete-li psát tučně 'můj text' v aplikaci Microsoft Word: {CTRL}bmůj text{CTRL}b\r\n  Chcete-li odeslat 'r' klíč s 50ms prodlevou mezi dolů a nahoru, {HOLDMS:50}r\r\n  Chcete-li vypnout NumLock, {NUMLOCKOFF}"
 # -- Updated in 2.9 beta 6 --
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Například:\r\n  Chcete-li zavřít okno: {ALT}{F4}\r\n  Chcete-li vybrat všechny položky: {CTRL}A\r\n  Chcete-li psát tučně 'můj text' v aplikaci Microsoft Word: {CTRL}bmůj text{CTRL}b\r\n  Chcete-li odeslat 'r' klíč s 50ms prodlevou mezi dolů a nahoru, {HOLDMS50}r\r\n  Chcete-li vypnout NumLock, {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Například:\r\n  Chcete-li zavřít okno: {ALT}{F4}\r\n  Chcete-li vybrat všechny položky: {CTRL}A\r\n  Chcete-li psát tučně 'můj text' v aplikaci Microsoft Word: {CTRL}bmůj text{CTRL}b\r\n  Chcete-li odeslat 'r' klíč s 50ms prodlevou mezi dolů a nahoru, {HOLDMS:50}r\r\n  Chcete-li vypnout NumLock, {NUMLOCKOFF}"
 
 # -- Updated in 2.4 Beta 10 --
 "NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "Poznámka: Aby se zabránilo zpoždění při použití {WAIT}, {WAITMS}, {HOLD} nebo {HOLDMS} tagy, \r\nzkuste použít metody v rozbalovací nabídce výše."
 
 # -- Updated in 2.4 Beta 15 --
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Speciální funkce tagy:\t{WAIT<n>} vloží zpoždění za <n> sekund.\r\n\t\t\t{WAITMS<n>} vloží zpoždění za <n> milisekund.\r\n\t\t\t{HOLD<n>} má další klíč za <n> sekund.\r\n\t\t\t{HOLDMS<n>} má další klíč za <n> milisekund.\r\n\t\t\t{VKC:<n>} Odešle určený virtuální kód klávesy.\r\n\t\t\t{EXT:<n>} Odešle zadaný rozšířený virtuální kód klávesy.\r\n\t\t\t{CLEAR} Vymaže všechny modifikační značky {CTRL},{ALT} etc."
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Speciální funkce tagy:\t{WAIT:n} vloží zpoždění za <n> sekund.\r\n\t\t\t{WAITMS:n} vloží zpoždění za <n> milisekund.\r\n\t\t\t{HOLD:n} má další klíč za <n> sekund.\r\n\t\t\t{HOLDMS:n} má další klíč za <n> milisekund.\r\n\t\t\t{VKC:n} Odešle určený virtuální kód klávesy.\r\n\t\t\t{EXT:n} Odešle zadaný rozšířený virtuální kód klávesy.\r\n\t\t\t{CLEAR} Vymaže všechny modifikační značky {CTRL},{ALT} etc."
 
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Kurzorová tlačítka:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunkční tlačítka:\t\t{F1, F2, F3 ... F24}\r\nOvládání zvuku:\t\t{VOL+} {VOL-} {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nTlačítka myši:\t\t{LMB} {RMB} {MMB} {MB4/XMB1} {MB5/XMB2}\r\nKolečko myši:\t\t{MWUP} {MWDN} {TILTL} {TILTR}\r\nNumerická klávesnice:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWebový prohlížeč klávesy:\t{BACK} {FORWARD} {STOP} {REFRESH} {WEBHOME}\r\n\t\t\t{SEARCH} {FAVORITES}\r\nPřepínače:\t\t{NUMLOCKON} {NUMLOCKOFF} {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF} {SCROLLLOCKON} {SCROLLLOCKOFF}"
@@ -289,9 +289,9 @@ Author=Kamil Pábl
 "XML support provided by XML++ from Michael at turboirc.com" => "XML-podpora poskytovaná v XML + + od Michaela na turboirc.com"
 "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC je distribuován volně (bez záruky nebo garanci) pro použití kýmkoliv a kdekoliv. Pokud máte rádi XMBC a chtějí ukázat vaše ocenění, neváhejte a poskytnout dar kliknutím na tlačítko PayPal níže."
 "More information can be found on my download page or user forums." => "Více informací lze najít na mých stránkách ke stažení nebo uživatelská fóra."
-"Homepage" => "Domácí stránka"
-"Donate" => "Přispějte"
-"Forums" => "Fórum"
+"&Homepage" => "Domácí stránka"
+"&Donate" => "Přispějte"
+"&Forums" => "Fórum"
 
 # -- Added in 2.4 Beta 15 --
 "About" => "O programu"

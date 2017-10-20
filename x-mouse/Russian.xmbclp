@@ -37,7 +37,7 @@ Author=clubfan
 "Default" => "по умолчанию"
 "A&dd" => "&Добавить"
 "Edi&t" => "&Правка"
-"C&opy" => "&Копировать"
+"Cop&y" => "&Копировать"
 "Remo&ve" => "&Удалить"
 "&Settings" => "Наст&ройки"
 "Abo&ut" => "&О программе"
@@ -127,10 +127,10 @@ Author=clubfan
 "R&eset sticky buttons when any other key is pressed" => "Сброс залипшей кнопки при нажатии на любую клавишу"
 "Show &tray icon by default" => "&Показывать иконку в трее"
 "&Ignore numlock state for Simulated Keystrokes" => "&Игнорировать сост. NUMLOCK при имитации нажатий на клавиши"
-"Cycle l&ayers by left clicking tray icon" => "Циклически переключать слои по нажатию левой кнопки на иконке в трее" #-- Updated in 2.5 beta 4 --
+"Cycle layers &by left clicking tray icon" => "Циклически переключать слои по нажатию левой кнопки на иконке в трее" #-- Updated in 2.5 beta 4 --
 
 "&Fixup (de-bounce) tilt wheel auto-repeat" => "&Переназначить параметры авто-повтора наклона колеса"
-"Initial re&peat rate" => "Н&ач. частота повт." #-- Changed in 2.8 Beta 1 --
+"Initial repeat r&ate" => "Н&ач. частота повт." #-- Changed in 2.8 Beta 1 --
 
 "&Repeat tilt rate" => "&Частота повт. наклона"
 "(ms)" => "(мс)"
@@ -284,7 +284,7 @@ Author=clubfan
 "Mouse Button &4" => "Боковая кнопка &4"
 "Mouse Button &5" => "Боковая кнопка &5"
 "W&heel Up" => "Колесо вве&рх"
-"Wh&eel Down" => "Колесо в&низ"
+"Wheel &Down" => "Колесо в&низ"
 "Tilt Wheel Le&ft" => "Наклон в&лево колеса"
 "Tilt Wheel Ri&ght" => "Наклон в&право колеса"
 "Reset Layer" => "Сбросить слой"
@@ -351,13 +351,13 @@ Author=clubfan
 # dialog when making translations to ensure your text is visible and fits nicely.
 "Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Введите последовательность клавиш в поле выше.\r\nМожно имитировать следующие расширенные ключи, используя теги..."
 "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Теги модификации:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  ВНИМАНИЕ:\tТеги модификации могут быть скомбинированы как {CTRL}{ALT},но они будут\r\n\t\tработать ТОЛЬКО со следующим ключем.\r\nНапример: чтобы послать комбинацию CTRL+a+CTRL+s, надо ввести '{CTRL}A{CTRL}S'."
-"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Расширенные теги клавиш:\r\n {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Расширенные теги клавиш:\r\n {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
 
 # -- Updated in 2.9 beta 6 --
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Например:\r\n  Чтобы закрыть окно: {ALT}{F4}\r\n  Чтобы выделить все элементы: {CTRL}A\r\n  Чтобы набрать 'Мой текст' жирным шрифтом в MS Word: {CTRL}bМой текст{CTRL}b\r\n  Чтобы послать клавишу <r> с 50ms задержкой между нажатием и отпусканием , {HOLDMS50}r\r\n  Чтобы выключить NUMLOCK, {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Например:\r\n  Чтобы закрыть окно: {ALT}{F4}\r\n  Чтобы выделить все элементы: {CTRL}A\r\n  Чтобы набрать 'Мой текст' жирным шрифтом в MS Word: {CTRL}bМой текст{CTRL}b\r\n  Чтобы послать клавишу <r> с 50ms задержкой между нажатием и отпусканием , {HOLDMS:50}r\r\n  Чтобы выключить NUMLOCK, {NUMLOCKOFF}"
 
 # -- Added in 2.9 beta 6 --
-"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following keys\r\n\t\t\t{RELEASE} Release (let go of) the following keys\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Специальные теги Отправки нажатий 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Нажать следующие клавиши\r\n\t\t\t{RELEASE} Отпустить следующие клавиши\r\n\t\t\t* Вы должны {RELEASE} те же клавиши и {PRESS} в той же последовательности!"
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Специальные теги Отправки нажатий 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Нажать следующие клавиши\r\n\t\t\t{RELEASE} Отпустить следующие клавиши\r\n\t\t\t* Вы должны {RELEASE} те же клавиши и {PRESS} в той же последовательности!"
 "To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => "Чтобв нажать  A,В и С, с задержкой 100 мс, и отпустить их: {PRESS}abc{WAITMS100}{RELEASE}cba"
 # --
 
@@ -365,7 +365,7 @@ Author=clubfan
 "NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "Примечание: Чтобы избежать задержек, при использовани {WAIT}, {WAITMS}, {HOLD} или\r\n{HOLDMS}, попробуйте поточные методы посылки из списка выше."
 
 # -- Updated in 2.4 Beta 15 --
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Спец. теги функций:\t{WAIT<n>} добавляют задержку в <n> секунд.\r\n\t\t\t{WAITMS<n>} добавляют задержку в <n> милисекунд.\r\n\t\t\t{HOLD<n>} удерживает следующую клавишу в течение <n> секунд.\r\n\t\t\t{HOLDMS<n>} удерживает следующую клавишу в течение <n> мсек.\r\n\t\t\t{VKC:<n>} Посылает выбранный виртуальный код клавиши.\r\n\t\t\t{EXT:<n>} Посылает выбранный расширенный вирт. код клавиши.\r\n\t\t\t{CLEAR} Очищает любые теги модификации {CTRL},{ALT} и тд."
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Спец. теги функций:\t{WAIT:n} добавляют задержку в <n> секунд.\r\n\t\t\t{WAITMS:n} добавляют задержку в <n> милисекунд.\r\n\t\t\t{HOLD:n} удерживает следующую клавишу в течение <n> секунд.\r\n\t\t\t{HOLDMS:n} удерживает следующую клавишу в течение <n> мсек.\r\n\t\t\t{VKC:n} Посылает выбранный виртуальный код клавиши.\r\n\t\t\t{EXT:n} Посылает выбранный расширенный вирт. код клавиши.\r\n\t\t\t{CLEAR} Очищает любые теги модификации {CTRL},{ALT} и тд."
 
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Кнопки направления-ТЕГИ:\t{UP} {DOWN} {LEFT} {RIGHT}\r\nФункциональные клавиши-ТЕГИ:\t{F1, F2, F3 … F24}\r\nРегулировка громкости-ТЕГИ:\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nКнопки мыши-ТЕГИ:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nКолёсик мыши-ТЕГИ:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nЦифровая клавиатура-ТЕГИ:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nКлавиши браузера:\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nКлавиши-переключатели:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
@@ -417,9 +417,9 @@ Author=clubfan
 "XML support provided by XML++ from Michael at turboirc.com" => "Поддержка XML с XML ++, предоставляет Michael веб-сайт: turboirc.com"
 "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC распространяется свободно (БЕЗ ГАРАНТИЙ) для использования кем угодно и где угодно. Если вам нравится XMBC и вы хотите, оказать признательность, пожалуйста, не стесняйтесь, сделайте пожертвование, нажав на кнопку PayPal ниже."
 "More information can be found on my download page or user forums." => "Более подробную информацию можно найти на моей странице или на форуме."
-"Homepage" => "Web-сайт"
-"Donate" => "PayPal"
-"Forums" => "Форум"
+"&Homepage" => "Web-сайт"
+"&Donate" => "PayPal"
+"&Forums" => "Форум"
 
 # -- Added in 2.4 Beta 15 --
 "About" => "О программе"
@@ -694,8 +694,8 @@ Author=clubfan
 #Items no longer in the template
 
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Теги клавиш направления:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nТеги функциональных клавиш:\t{F1, F2, F3 ... F24}\r\nТеги клавиш громкости:\t\t{VOL+}, {VOL-}, {MUTE}\r\nТеги кнопок мыши:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nТеги колеса мыши:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nТеги цифр. клавиатуры:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nКнопки браузера:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nКлавиши-переключатели:\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON},\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Например:\r\n  Чтобы закрыть окно: {ALT}{F4}\r\n  Чтобы выделить все элементы: {CTRL}A\r\n  Чтобы набрать 'Мой текст' жирным шрифтом в MS Word: {CTRL}bМой текст{CTRL}b\r\n  Чтобы послать клавишу <r> с 50ms задержкой между нажатием и отпусканием , {HOLDMS50}r\r\n  Чтобы выключить NUMLOCK, {NUMLOCKOFF}"
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code\r\n\t\t\t{CLEAR} Clears any modifier tags (CTRL},{ALT} etc." => "Спец. теги функций:\t{WAIT<n>} добавляют задержку в <n> секунд\r\n\t\t\t{WAITMS<n>} добавляют задержку в <n> мсек\r\n\t\t\t{VKC:<n>} Посылает выбранный виртуальный код клавиши\r\n\t\t\t{EXT:<n>} Посылает выбранный расширенный вирт. код клавиши\r\n\t\t\t{CLEAR} Очищает любые теги модификации {CTRL},{ALT} и тд."
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Например:\r\n  Чтобы закрыть окно: {ALT}{F4}\r\n  Чтобы выделить все элементы: {CTRL}A\r\n  Чтобы набрать 'Мой текст' жирным шрифтом в MS Word: {CTRL}bМой текст{CTRL}b\r\n  Чтобы послать клавишу <r> с 50ms задержкой между нажатием и отпусканием , {HOLDMS:50}r\r\n  Чтобы выключить NUMLOCK, {NUMLOCKOFF}"
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds\r\n\t\t\t{VKC:n} Sends the specified virtual key code\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code\r\n\t\t\t{CLEAR} Clears any modifier tags (CTRL},{ALT} etc." => "Спец. теги функций:\t{WAIT:n} добавляют задержку в <n> секунд\r\n\t\t\t{WAITMS:n} добавляют задержку в <n> мсек\r\n\t\t\t{VKC:n} Посылает выбранный виртуальный код клавиши\r\n\t\t\t{EXT:n} Посылает выбранный расширенный вирт. код клавиши\r\n\t\t\t{CLEAR} Очищает любые теги модификации {CTRL},{ALT} и тд."
 "Desktop Switcher" => "Переключатель раб. столов"
 "Please visit the website to download the latest version or try again." => "Пожалуйста, посетите веб-сайт, чтобы скачать последнюю версию XMBC или попробуйте еще раз."
 

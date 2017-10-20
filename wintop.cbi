@@ -4,7 +4,6 @@
 #[l]:mac-to-windows-sharemouse.ahk:mac-to-windows-sharemouse.ahk
 
 
-
 #[c]Pull object-store
 
 git subtree pull --prefix=src/wrappers/object-store git@github.com:realm/realm-object-store.git master --squash
@@ -34,6 +33,50 @@ Marius' slides om authentication/permissions:
 https://drive.google.com/file/d/0B5mOBDNhbu6xVV9DeHhuVzZYVFk/view
 
 
+
+#[of]:JS
+#[c]JS
+
+
+## RealmJS -- runs tests in jscore, without any React Native dependencies
+
+scripts/test.sh realmjs
+
+
+## RealmReact -- ??
+
+
+
+## ReactTests -- Runs tests in a react native context on iOS
+
+scripts/test.sh react-tests
+
+
+
+## ReactTestsAndroid -- Runs tests in a react native context on Android
+
+scripts/test.sh react-tests-android
+
+
+
+## RealmNode -- Runs tests in a node context
+
+scripts/test.sh node (or node-nosync)
+
+
+
+## TestRunners -- ??
+
+scripts/test.sh test-runners
+
+
+
+## React example -- The example app
+
+scripts/test.sh react-example
+
+
+#[cf]
 
 
 

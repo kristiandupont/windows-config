@@ -4298,3 +4298,2171 @@ ating with the first instance of X-Mouse Button Control.
 14-11-2016 10:38:13.0140> KeySwitchTimerProc: Unable to stop timer id 0x00006E7D (ptrID: 0x00000000). (1400): Invalid window handle. 
 14-11-2016 10:38:13.0187> KeySwitchTimerProc: Unexpected timer ID 0x00006E7C (0x00000000)
 14-11-2016 10:38:13.0187> KeySwitchTimerProc: Unable to stop timer id 0x00006E7C (ptrID: 0x00000000). (1400): Invalid window handle. 
+14-11-2016 17:07:40.0515> KeySwitchTimerProc: Unexpected timer ID 0x00002340 (0x0000233F)
+14-11-2016 17:42:05.0500> Power State: System is suspending operation.
+14-11-2016 17:42:05.0500> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+14-11-2016 17:42:05.0500> Removing and active XMBCHook Timers...
+14-11-2016 17:42:05.0515> Hook thread exited with error code 0.
+14-11-2016 17:42:05.0515> Timer thread exited with error code 0.
+15-11-2016 09:41:05.0156> Power State: Operation resuming automatically after event.
+15-11-2016 09:41:05.0156> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+15-11-2016 09:41:05.0234> Loaded 0 application specific profiles (0 normal and 0 custom window).
+15-11-2016 09:41:05.0250> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+15-11-2016 16:06:54.0828> X-Mouse Button Control v2.13.1 (x64) Startup. Commandline ''
+15-11-2016 16:06:54.0843> Loaded 0 application specific profiles (0 normal and 0 custom window).
+15-11-2016 16:06:54.0843> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+15-11-2016 16:06:54.0843> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+15-11-2016 16:06:54.0843> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+15-11-2016 16:06:54.0843> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+15-11-2016 16:06:54.0843> Using keyboard language 0x04060409
+15-11-2016 17:17:16.0171> KeySwitchTimerProc: Unexpected timer ID 0x00005AB2 (0x00000000)
+15-11-2016 17:17:16.0171> KeySwitchTimerProc: Unable to stop timer id 0x00005AB2 (ptrID: 0x00000000). (1400): Invalid window handle. 
+15-11-2016 17:17:19.0593> Power State: System is suspending operation.
+15-11-2016 17:17:19.0593> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+15-11-2016 17:17:19.0593> Removing and active XMBCHook Timers...
+15-11-2016 17:17:19.0609> Hook thread exited with error code 0.
+15-11-2016 17:17:19.0609> Timer thread exited with error code 0.
+16-11-2016 12:27:26.0640> Power State: Operation resuming automatically after event.
+16-11-2016 12:27:26.0640> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+16-11-2016 12:27:27.0812> Loaded 0 application specific profiles (0 normal and 0 custom window).
+16-11-2016 12:27:27.0812> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+17-11-2016 11:36:40.0343> X-Mouse Button Control v2.13.1 (x64) Startup. Commandline ''
+17-11-2016 11:36:40.0375> Loaded 0 application specific profiles (0 normal and 0 custom window).
+17-11-2016 11:36:40.0375> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+17-11-2016 11:36:40.0375> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+17-11-2016 11:36:40.0375> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+17-11-2016 11:36:40.0375> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+17-11-2016 11:36:40.0375> Using keyboard language 0x04060409
+17-11-2016 13:11:03.0125> KeySwitchTimerProc: Unexpected timer ID 0x00007118 (0x00007117)
+17-11-2016 15:55:34.0500> KeySwitchTimerProc: Unexpected timer ID 0x000047B1 (0x000047AD)
+17-11-2016 15:55:34.0562> KeySwitchTimerProc: Unexpected timer ID 0x000047AE (0x00000000)
+17-11-2016 15:55:34.0562> KeySwitchTimerProc: Unable to stop timer id 0x000047AE (ptrID: 0x00000000). (1400): Invalid window handle. 
+17-11-2016 15:55:40.0875> KeySwitchTimerProc: Unexpected timer ID 0x00004784 (0x00004780)
+17-11-2016 15:55:40.0937> KeySwitchTimerProc: Unexpected timer ID 0x00004781 (0x00000000)
+17-11-2016 15:55:40.0937> KeySwitchTimerProc: Unable to stop timer id 0x00004781 (ptrID: 0x00000000). (1400): Invalid window handle. 
+17-11-2016 17:19:59.0906> Power State: System is suspending operation.
+17-11-2016 17:19:59.0906> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+17-11-2016 17:19:59.0906> Removing and active XMBCHook Timers...
+17-11-2016 17:19:59.0937> Hook thread exited with error code 0.
+17-11-2016 17:19:59.0937> Timer thread exited with error code 0.
+17-11-2016 17:19:59.0937> RemoveMouseHook took 31ms
+17-11-2016 18:02:29.0843> Power State: Operation resuming automatically after event.
+17-11-2016 18:02:29.0843> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+17-11-2016 18:02:29.0859> Loaded 0 application specific profiles (0 normal and 0 custom window).
+17-11-2016 18:02:29.0875> Using keyboard language 0x04060409
+18-11-2016 12:03:35.0265> Power State: System is suspending operation.
+18-11-2016 12:03:35.0281> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+18-11-2016 12:03:35.0281> Removing and active XMBCHook Timers...
+18-11-2016 12:03:35.0281> Hook thread exited with error code 0.
+18-11-2016 12:03:35.0281> Timer thread exited with error code 0.
+18-11-2016 17:19:57.0843> Power State: Operation resuming automatically after event.
+18-11-2016 17:19:57.0843> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+18-11-2016 17:19:57.0875> Loaded 0 application specific profiles (0 normal and 0 custom window).
+18-11-2016 17:19:57.0890> Using keyboard language 0x04060409
+19-11-2016 05:21:57.0859> There is a new version available! (2140000)
+
+*******************************************************************************************************************************************
+22-11-2016 10:37:25.0484> X-Mouse Button Control v2.13.1 (x64) Startup. Commandline ''
+22-11-2016 10:37:25.0500> Loaded 0 application specific profiles (0 normal and 0 custom window).
+22-11-2016 10:37:25.0500> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+22-11-2016 10:37:25.0500> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+22-11-2016 10:37:25.0500> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+22-11-2016 10:37:25.0500> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+22-11-2016 10:37:25.0500> Using keyboard language 0x04060409
+22-11-2016 15:56:31.0921> KeySwitchTimerProc: Unexpected timer ID 0x0000490B (0x00004909)
+22-11-2016 15:56:31.0984> KeySwitchTimerProc: Unexpected timer ID 0x0000490A (0x00000000)
+22-11-2016 15:56:31.0984> KeySwitchTimerProc: Unable to stop timer id 0x0000490A (ptrID: 0x00000000). (1400): Invalid window handle. 
+22-11-2016 16:04:22.0468> KeySwitchTimerProc: Unexpected timer ID 0x00004805 (0x00000000)
+22-11-2016 16:04:22.0468> KeySwitchTimerProc: Unable to stop timer id 0x00004805 (ptrID: 0x00000000). (1400): Invalid window handle. 
+22-11-2016 16:04:22.0468> KeySwitchTimerProc: Unexpected timer ID 0x00004806 (0x00000000)
+22-11-2016 16:04:22.0468> KeySwitchTimerProc: Unable to stop timer id 0x00004806 (ptrID: 0x00000000). (1400): Invalid window handle. 
+22-11-2016 18:23:38.0859> KeySwitchTimerProc: Unexpected timer ID 0x00004002 (0x00000000)
+22-11-2016 18:23:38.0859> KeySwitchTimerProc: Unable to stop timer id 0x00004002 (ptrID: 0x00000000). (1400): Invalid window handle. 
+22-11-2016 18:24:23.0312> Power State: System is suspending operation.
+22-11-2016 18:24:23.0312> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+22-11-2016 18:24:23.0312> Removing and active XMBCHook Timers...
+22-11-2016 18:24:23.0328> Hook thread exited with error code 0.
+22-11-2016 18:24:23.0328> Timer thread exited with error code 0.
+23-11-2016 10:30:10.0687> Power State: Operation resuming automatically after event.
+23-11-2016 10:30:10.0687> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+23-11-2016 10:30:10.0703> Loaded 0 application specific profiles (0 normal and 0 custom window).
+23-11-2016 10:30:10.0703> Using keyboard language 0x04060409
+23-11-2016 13:11:11.0718> KeySwitchTimerProc: Unexpected timer ID 0x00001D97 (0x00001D93)
+23-11-2016 13:11:11.0812> KeySwitchTimerProc: Unexpected timer ID 0x00001D94 (0x00000000)
+23-11-2016 13:11:11.0812> KeySwitchTimerProc: Unable to stop timer id 0x00001D94 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:11:14.0656> KeySwitchTimerProc: Unexpected timer ID 0x00001D7C (0x00001D78)
+23-11-2016 13:11:14.0703> KeySwitchTimerProc: Unexpected timer ID 0x00001D79 (0x00000000)
+23-11-2016 13:11:14.0703> KeySwitchTimerProc: Unable to stop timer id 0x00001D79 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:29:50.0468> KeySwitchTimerProc: Unexpected timer ID 0x000013AB (0x000013A7)
+23-11-2016 13:29:50.0578> KeySwitchTimerProc: Unexpected timer ID 0x000013A8 (0x00000000)
+23-11-2016 13:29:50.0578> KeySwitchTimerProc: Unable to stop timer id 0x000013A8 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:34:57.0484> KeySwitchTimerProc: Unexpected timer ID 0x00000E3D (0x00000E38)
+23-11-2016 13:34:57.0500> KeySwitchTimerProc: Unexpected timer ID 0x00000E3A (0x00000000)
+23-11-2016 13:34:57.0500> KeySwitchTimerProc: Unable to stop timer id 0x00000E3A (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:34:57.0546> KeySwitchTimerProc: Unexpected timer ID 0x00000E39 (0x00000000)
+23-11-2016 13:34:57.0546> KeySwitchTimerProc: Unable to stop timer id 0x00000E39 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:34:58.0031> KeySwitchTimerProc: Unexpected timer ID 0x00000E35 (0x00000E30)
+23-11-2016 13:34:58.0062> KeySwitchTimerProc: Unexpected timer ID 0x00000E32 (0x00000000)
+23-11-2016 13:34:58.0062> KeySwitchTimerProc: Unable to stop timer id 0x00000E32 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:34:58.0093> KeySwitchTimerProc: Unexpected timer ID 0x00000E31 (0x00000000)
+23-11-2016 13:34:58.0093> KeySwitchTimerProc: Unable to stop timer id 0x00000E31 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:34:59.0359> KeySwitchTimerProc: Unexpected timer ID 0x00000E20 (0x00000E1E)
+23-11-2016 13:34:59.0359> KeySwitchTimerProc: Unexpected timer ID 0x00000E23 (0x00000000)
+23-11-2016 13:34:59.0359> KeySwitchTimerProc: Unable to stop timer id 0x00000E23 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:34:59.0406> KeySwitchTimerProc: Unexpected timer ID 0x00000E1F (0x00000000)
+23-11-2016 13:34:59.0406> KeySwitchTimerProc: Unable to stop timer id 0x00000E1F (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:35:00.0890> KeySwitchTimerProc: Unexpected timer ID 0x00000E1B (0x00000E16)
+23-11-2016 13:35:00.0906> KeySwitchTimerProc: Unexpected timer ID 0x00000E18 (0x00000000)
+23-11-2016 13:35:00.0906> KeySwitchTimerProc: Unable to stop timer id 0x00000E18 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:35:00.0968> KeySwitchTimerProc: Unexpected timer ID 0x00000E17 (0x00000000)
+23-11-2016 13:35:00.0968> KeySwitchTimerProc: Unable to stop timer id 0x00000E17 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:35:37.0406> KeySwitchTimerProc: Unexpected timer ID 0x00000CFD (0x00000CF8)
+23-11-2016 13:35:37.0437> KeySwitchTimerProc: Unexpected timer ID 0x00000CFA (0x00000000)
+23-11-2016 13:35:37.0437> KeySwitchTimerProc: Unable to stop timer id 0x00000CFA (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:35:37.0515> KeySwitchTimerProc: Unexpected timer ID 0x00000CF9 (0x00000000)
+23-11-2016 13:35:37.0515> KeySwitchTimerProc: Unable to stop timer id 0x00000CF9 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:35:38.0000> KeySwitchTimerProc: Unexpected timer ID 0x00000CF5 (0x00000CF0)
+23-11-2016 13:35:38.0015> KeySwitchTimerProc: Unexpected timer ID 0x00000CF2 (0x00000000)
+23-11-2016 13:35:38.0015> KeySwitchTimerProc: Unable to stop timer id 0x00000CF2 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 13:35:38.0046> KeySwitchTimerProc: Unexpected timer ID 0x00000CF1 (0x00000000)
+23-11-2016 13:35:38.0046> KeySwitchTimerProc: Unable to stop timer id 0x00000CF1 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 14:02:42.0234> KeySwitchTimerProc: Unexpected timer ID 0x00007632 (0x00007630)
+23-11-2016 14:02:42.0234> KeySwitchTimerProc: Unexpected timer ID 0x00007635 (0x00000000)
+23-11-2016 14:02:42.0234> KeySwitchTimerProc: Unable to stop timer id 0x00007635 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 14:02:42.0250> KeySwitchTimerProc: Unexpected timer ID 0x00007631 (0x00000000)
+23-11-2016 14:02:42.0250> KeySwitchTimerProc: Unable to stop timer id 0x00007631 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 14:02:44.0062> KeySwitchTimerProc: Unexpected timer ID 0x00007625 (0x00007623)
+23-11-2016 14:02:44.0062> KeySwitchTimerProc: Unexpected timer ID 0x00007628 (0x00000000)
+23-11-2016 14:02:44.0062> KeySwitchTimerProc: Unable to stop timer id 0x00007628 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 14:02:44.0093> KeySwitchTimerProc: Unexpected timer ID 0x00007624 (0x00000000)
+23-11-2016 14:02:44.0093> KeySwitchTimerProc: Unable to stop timer id 0x00007624 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 14:02:49.0406> KeySwitchTimerProc: Unexpected timer ID 0x00007604 (0x000075FF)
+23-11-2016 14:02:49.0421> KeySwitchTimerProc: Unexpected timer ID 0x00007601 (0x00000000)
+23-11-2016 14:02:49.0421> KeySwitchTimerProc: Unable to stop timer id 0x00007601 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 14:02:49.0468> KeySwitchTimerProc: Unexpected timer ID 0x00007600 (0x00000000)
+23-11-2016 14:02:49.0468> KeySwitchTimerProc: Unable to stop timer id 0x00007600 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 14:02:50.0968> KeySwitchTimerProc: Unexpected timer ID 0x000075FC (0x000075F7)
+23-11-2016 14:02:50.0984> KeySwitchTimerProc: Unexpected timer ID 0x000075F9 (0x00000000)
+23-11-2016 14:02:50.0984> KeySwitchTimerProc: Unable to stop timer id 0x000075F9 (ptrID: 0x00000000). (1400): Invalid window handle. 
+23-11-2016 14:02:50.0031> KeySwitchTimerProc: Unexpected timer ID 0x000075F8 (0x00000000)
+23-11-2016 14:02:50.0031> KeySwitchTimerProc: Unable to stop timer id 0x000075F8 (ptrID: 0x00000000). (1400): Invalid window handle. 
+
+*******************************************************************************************************************************************
+24-11-2016 10:11:58.0484> X-Mouse Button Control v2.13.1 (x64) Startup. Commandline ''
+24-11-2016 10:11:58.0500> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-11-2016 10:11:58.0500> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+24-11-2016 10:11:58.0500> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+24-11-2016 10:11:58.0500> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+24-11-2016 10:11:58.0500> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+24-11-2016 10:11:58.0500> Using keyboard language 0x04060409
+24-11-2016 10:13:58.0515> There is a new version available! (2140000)
+24-11-2016 10:14:03.0812> Downloading X-Mouse Button Control v2.14...
+24-11-2016 10:14:03.0937> Unable to delete IE cache entry for 'http://vps2.highrez.co.uk/downloads/XMBCUpdateX64.2.14.exe' (32): The process cannot access the file because it is being used by another process. 
+24-11-2016 10:14:03.0125> Unable to download the update package. Please visit the website or try again later. (-2146697208): The download of the specified resource has failed. 
+24-11-2016 10:14:09.0062> Downloaded update file to 'C:\Users\kristian\AppData\Local\Temp\\XMBCUpdate.exe' (963288 bytes)
+24-11-2016 10:14:10.0312> Successfully launched the update executable 'C:\Users\kristian\AppData\Local\Temp\\XMBCUpdate.exe'.
+24-11-2016 10:14:10.0468> MultInstance: Sending commandline to an existing instance of X-Mouse Button Control
+24-11-2016 10:14:10.0468> Received 2048 bytes on the IPC named pipe.
+24-11-2016 10:14:10.0468> MultInstance: Successfully finished communicating with the first instance of X-Mouse Button Control.
+24-11-2016 10:14:10.0468> Received message with data 0x80000021 from another instance of X-Mouse Button Control.
+24-11-2016 10:14:10.0468> Exit requested from the commandline.
+24-11-2016 10:14:10.0468> Removing and active XMBCHook Timers...
+24-11-2016 10:14:10.0484> Hook thread exited with error code 0.
+24-11-2016 10:14:10.0484> Timer thread exited with error code 0.
+24-11-2016 10:14:10.0484> X-Mouse Button Control Shutdown.
+
+
+
+*******************************************************************************************************************************************
+24-11-2016 10:14:11.0578> X-Mouse Button Control v2.13.1 (x64) Startup. Commandline '/installed /notportable'
+24-11-2016 10:14:11.0578> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-11-2016 10:14:11.0578> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+24-11-2016 10:14:11.0578> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+24-11-2016 10:14:11.0578> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+24-11-2016 10:14:11.0578> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+24-11-2016 10:14:11.0578> Using keyboard language 0x04060409
+24-11-2016 15:53:25.0656> KeySwitchTimerProc: Unexpected timer ID 0x00004687 (0x00004686)
+24-11-2016 15:56:29.0687> KeySwitchTimerProc: Unexpected timer ID 0x0000450C (0x00000000)
+24-11-2016 15:56:29.0687> KeySwitchTimerProc: Unable to stop timer id 0x0000450C (ptrID: 0x00000000). (1400): Invalid window handle. 
+24-11-2016 15:56:33.0312> Power State: System is suspending operation.
+24-11-2016 15:56:33.0312> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+24-11-2016 15:56:33.0312> Removing and active XMBCHook Timers...
+24-11-2016 15:56:33.0312> Hook thread exited with error code 0.
+24-11-2016 15:56:33.0312> Timer thread exited with error code 0.
+25-11-2016 09:42:30.0718> Power State: Operation resuming automatically after event.
+25-11-2016 09:42:30.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+25-11-2016 09:42:30.0734> Loaded 0 application specific profiles (0 normal and 0 custom window).
+25-11-2016 09:42:30.0750> Using keyboard language 0x04060409
+25-11-2016 10:53:41.0921> KeySwitchTimerProc: Unexpected timer ID 0x0000327D (0x0000327C)
+25-11-2016 14:58:10.0078> ProcessMouseOverTimerProc: Unexpected timer ID 0x00007894 (0x00007893)
+25-11-2016 15:12:36.0171> KeySwitchTimerProc: Unexpected timer ID 0x000073FF (0x000073FE)
+25-11-2016 15:57:12.0531> KeySwitchTimerProc: Unexpected timer ID 0x00006A5D (0x00006A5B)
+25-11-2016 15:57:12.0625> KeySwitchTimerProc: Unexpected timer ID 0x00006A5C (0x00000000)
+25-11-2016 15:57:12.0625> KeySwitchTimerProc: Unable to stop timer id 0x00006A5C (ptrID: 0x00000000). (1400): Invalid window handle. 
+25-11-2016 15:57:13.0843> KeySwitchTimerProc: Unexpected timer ID 0x00006A5A (0x00006A59)
+25-11-2016 15:57:15.0781> KeySwitchTimerProc: Unexpected timer ID 0x00006A58 (0x00006A54)
+25-11-2016 15:57:15.0843> KeySwitchTimerProc: Unexpected timer ID 0x00006A57 (0x00000000)
+25-11-2016 15:57:15.0843> KeySwitchTimerProc: Unable to stop timer id 0x00006A57 (ptrID: 0x00000000). (1400): Invalid window handle. 
+25-11-2016 15:57:15.0921> KeySwitchTimerProc: Unexpected timer ID 0x00006A56 (0x00000000)
+25-11-2016 15:57:15.0921> KeySwitchTimerProc: Unable to stop timer id 0x00006A56 (ptrID: 0x00000000). (1400): Invalid window handle. 
+25-11-2016 15:57:15.0953> KeySwitchTimerProc: Unexpected timer ID 0x00006A55 (0x00000000)
+25-11-2016 15:57:15.0953> KeySwitchTimerProc: Unable to stop timer id 0x00006A55 (ptrID: 0x00000000). (1400): Invalid window handle. 
+25-11-2016 17:05:22.0656> Power State: System is suspending operation.
+25-11-2016 17:05:22.0656> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+25-11-2016 17:05:22.0656> Removing and active XMBCHook Timers...
+25-11-2016 17:05:22.0656> Hook thread exited with error code 0.
+25-11-2016 17:05:22.0656> Timer thread exited with error code 0.
+28-11-2016 10:21:02.0734> Power State: Operation resuming automatically after event.
+28-11-2016 10:21:02.0734> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+28-11-2016 10:21:02.0781> Loaded 0 application specific profiles (0 normal and 0 custom window).
+28-11-2016 10:21:02.0796> Using keyboard language 0x04060409
+28-11-2016 11:06:20.0281> KeySwitchTimerProc: Unexpected timer ID 0x00005540 (0x0000553F)
+28-11-2016 12:54:48.0406> KeySwitchTimerProc: Unexpected timer ID 0x00004A34 (0x00000000)
+28-11-2016 12:54:48.0406> KeySwitchTimerProc: Unable to stop timer id 0x00004A34 (ptrID: 0x00000000). (1400): Invalid window handle. 
+28-11-2016 13:00:24.0921> KeySwitchTimerProc: Unexpected timer ID 0x000047F3 (0x00000000)
+28-11-2016 13:00:24.0921> KeySwitchTimerProc: Unable to stop timer id 0x000047F3 (ptrID: 0x00000000). (1400): Invalid window handle. 
+28-11-2016 14:40:45.0375> KeySwitchTimerProc: Unexpected timer ID 0x00003957 (0x00003955)
+28-11-2016 14:40:45.0421> KeySwitchTimerProc: Unexpected timer ID 0x00003956 (0x00000000)
+28-11-2016 14:40:45.0421> KeySwitchTimerProc: Unable to stop timer id 0x00003956 (ptrID: 0x00000000). (1400): Invalid window handle. 
+28-11-2016 14:40:53.0828> KeySwitchTimerProc: Unexpected timer ID 0x00003954 (0x00003952)
+28-11-2016 14:40:53.0937> KeySwitchTimerProc: Unexpected timer ID 0x00003953 (0x00000000)
+28-11-2016 14:40:53.0937> KeySwitchTimerProc: Unable to stop timer id 0x00003953 (ptrID: 0x00000000). (1400): Invalid window handle. 
+28-11-2016 15:34:16.0968> KeySwitchTimerProc: Unexpected timer ID 0x0000318F (0x0000318D)
+28-11-2016 15:34:16.0046> KeySwitchTimerProc: Unexpected timer ID 0x0000318E (0x00000000)
+28-11-2016 15:34:16.0046> KeySwitchTimerProc: Unable to stop timer id 0x0000318E (ptrID: 0x00000000). (1400): Invalid window handle. 
+28-11-2016 15:38:19.0656> KeySwitchTimerProc: Unexpected timer ID 0x0000309B (0x00003099)
+28-11-2016 15:38:19.0734> KeySwitchTimerProc: Unexpected timer ID 0x0000309A (0x00000000)
+28-11-2016 15:38:19.0734> KeySwitchTimerProc: Unable to stop timer id 0x0000309A (ptrID: 0x00000000). (1400): Invalid window handle. 
+28-11-2016 16:31:39.0562> KeySwitchTimerProc: Unexpected timer ID 0x00002D33 (0x00002D31)
+28-11-2016 16:31:39.0578> KeySwitchTimerProc: Unexpected timer ID 0x00002D32 (0x00000000)
+28-11-2016 16:31:39.0578> KeySwitchTimerProc: Unable to stop timer id 0x00002D32 (ptrID: 0x00000000). (1400): Invalid window handle. 
+28-11-2016 16:34:38.0812> KeySwitchTimerProc: Unexpected timer ID 0x00002D01 (0x00000000)
+28-11-2016 16:34:38.0812> KeySwitchTimerProc: Unable to stop timer id 0x00002D01 (ptrID: 0x00000000). (1400): Invalid window handle. 
+28-11-2016 16:34:38.0812> KeySwitchTimerProc: Unexpected timer ID 0x00002D02 (0x00000000)
+28-11-2016 16:34:38.0812> KeySwitchTimerProc: Unable to stop timer id 0x00002D02 (ptrID: 0x00000000). (1400): Invalid window handle. 
+28-11-2016 17:26:46.0984> Power State: System is suspending operation.
+28-11-2016 17:26:46.0984> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+28-11-2016 17:26:46.0984> Removing and active XMBCHook Timers...
+28-11-2016 17:26:46.0984> Hook thread exited with error code 0.
+28-11-2016 17:26:46.0984> Timer thread exited with error code 0.
+29-11-2016 18:20:35.0703> Power State: Operation resuming automatically after event.
+29-11-2016 18:20:35.0703> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+29-11-2016 18:20:35.0734> Loaded 0 application specific profiles (0 normal and 0 custom window).
+29-11-2016 18:20:35.0734> Using keyboard language 0x04060409
+29-11-2016 18:22:35.0734> There is a new version available! (2140000)
+30-11-2016 10:51:06.0015> KeySwitchTimerProc: Unexpected timer ID 0x000005CE (0x000005C9)
+30-11-2016 10:51:06.0062> KeySwitchTimerProc: Unexpected timer ID 0x000005CB (0x00000000)
+30-11-2016 10:51:06.0062> KeySwitchTimerProc: Unable to stop timer id 0x000005CB (ptrID: 0x00000000). (1400): Invalid window handle. 
+30-11-2016 10:51:06.0078> KeySwitchTimerProc: Unexpected timer ID 0x000005CA (0x00000000)
+30-11-2016 10:51:06.0078> KeySwitchTimerProc: Unable to stop timer id 0x000005CA (ptrID: 0x00000000). (1400): Invalid window handle. 
+30-11-2016 10:51:16.0296> KeySwitchTimerProc: Unexpected timer ID 0x00000581 (0x0000057C)
+30-11-2016 10:51:16.0312> KeySwitchTimerProc: Unexpected timer ID 0x00000580 (0x00000000)
+30-11-2016 10:51:16.0312> KeySwitchTimerProc: Unable to stop timer id 0x00000580 (ptrID: 0x00000000). (1400): Invalid window handle. 
+30-11-2016 10:51:16.0343> KeySwitchTimerProc: Unexpected timer ID 0x0000057D (0x00000000)
+30-11-2016 10:51:16.0343> KeySwitchTimerProc: Unable to stop timer id 0x0000057D (ptrID: 0x00000000). (1400): Invalid window handle. 
+30-11-2016 15:11:09.0015> KeySwitchTimerProc: Unexpected timer ID 0x0000707C (0x00000000)
+30-11-2016 15:11:09.0015> KeySwitchTimerProc: Unable to stop timer id 0x0000707C (ptrID: 0x00000000). (1400): Invalid window handle. 
+30-11-2016 15:11:12.0375> Power State: System is suspending operation.
+30-11-2016 15:11:12.0375> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+30-11-2016 15:11:12.0375> Removing and active XMBCHook Timers...
+30-11-2016 15:11:12.0375> Hook thread exited with error code 0.
+30-11-2016 15:11:12.0375> Timer thread exited with error code 0.
+01-12-2016 10:11:59.0703> Power State: Operation resuming automatically after event.
+01-12-2016 10:11:59.0703> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+01-12-2016 10:11:59.0750> Loaded 0 application specific profiles (0 normal and 0 custom window).
+01-12-2016 10:11:59.0750> Using keyboard language 0x04060409
+01-12-2016 11:54:37.0703> KeySwitchTimerProc: Unexpected timer ID 0x000060FB (0x000060FA)
+01-12-2016 12:34:41.0031> KeySwitchTimerProc: Unexpected timer ID 0x00005EA9 (0x00005EA7)
+01-12-2016 12:34:41.0109> KeySwitchTimerProc: Unexpected timer ID 0x00005EA8 (0x00000000)
+01-12-2016 12:34:41.0109> KeySwitchTimerProc: Unable to stop timer id 0x00005EA8 (ptrID: 0x00000000). (1400): Invalid window handle. 
+01-12-2016 13:08:04.0656> KeySwitchTimerProc: Unexpected timer ID 0x000058B2 (0x000058B1)
+01-12-2016 16:48:12.0609> Power State: System is suspending operation.
+01-12-2016 16:48:12.0609> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+01-12-2016 16:48:12.0609> Removing and active XMBCHook Timers...
+01-12-2016 16:48:12.0609> Hook thread exited with error code 0.
+01-12-2016 16:48:12.0609> Timer thread exited with error code 0.
+01-12-2016 18:10:09.0703> Power State: Operation resuming automatically after event.
+01-12-2016 18:10:09.0703> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+01-12-2016 18:10:09.0750> Loaded 0 application specific profiles (0 normal and 0 custom window).
+01-12-2016 18:10:09.0750> Using keyboard language 0x04060409
+02-12-2016 12:18:41.0312> KeySwitchTimerProc: Unexpected timer ID 0x00003434 (0x00000000)
+02-12-2016 12:18:41.0312> KeySwitchTimerProc: Unable to stop timer id 0x00003434 (ptrID: 0x00000000). (1400): Invalid window handle. 
+02-12-2016 12:18:41.0312> KeySwitchTimerProc: Unexpected timer ID 0x00003435 (0x00000000)
+02-12-2016 12:18:41.0312> KeySwitchTimerProc: Unable to stop timer id 0x00003435 (ptrID: 0x00000000). (1400): Invalid window handle. 
+02-12-2016 12:19:20.0109> KeySwitchTimerProc: Unexpected timer ID 0x000033EC (0x00000000)
+02-12-2016 12:19:20.0109> KeySwitchTimerProc: Unable to stop timer id 0x000033EC (ptrID: 0x00000000). (1400): Invalid window handle. 
+02-12-2016 12:19:20.0109> KeySwitchTimerProc: Unexpected timer ID 0x000033ED (0x00000000)
+02-12-2016 12:19:20.0109> KeySwitchTimerProc: Unable to stop timer id 0x000033ED (ptrID: 0x00000000). (1400): Invalid window handle. 
+02-12-2016 17:53:46.0109> KeySwitchTimerProc: Unexpected timer ID 0x00001F47 (0x00001F45)
+02-12-2016 17:53:46.0171> KeySwitchTimerProc: Unexpected timer ID 0x00001F46 (0x00000000)
+02-12-2016 17:53:46.0171> KeySwitchTimerProc: Unable to stop timer id 0x00001F46 (ptrID: 0x00000000). (1400): Invalid window handle. 
+02-12-2016 17:56:42.0156> KeySwitchTimerProc: Unexpected timer ID 0x00001F0F (0x00001F0D)
+02-12-2016 17:56:42.0234> KeySwitchTimerProc: Unexpected timer ID 0x00001F0E (0x00000000)
+02-12-2016 17:56:42.0234> KeySwitchTimerProc: Unable to stop timer id 0x00001F0E (ptrID: 0x00000000). (1400): Invalid window handle. 
+02-12-2016 18:34:07.0671> KeySwitchTimerProc: Unexpected timer ID 0x00001DEA (0x00000000)
+02-12-2016 18:34:07.0671> KeySwitchTimerProc: Unable to stop timer id 0x00001DEA (ptrID: 0x00000000). (1400): Invalid window handle. 
+02-12-2016 18:34:10.0156> Power State: System is suspending operation.
+02-12-2016 18:34:10.0156> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+02-12-2016 18:34:10.0156> Removing and active XMBCHook Timers...
+02-12-2016 18:34:10.0156> Hook thread exited with error code 0.
+02-12-2016 18:34:10.0156> Timer thread exited with error code 0.
+02-12-2016 23:00:31.0296> Power State: Operation resuming automatically after event.
+02-12-2016 23:00:31.0296> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+02-12-2016 23:00:31.0359> Loaded 0 application specific profiles (0 normal and 0 custom window).
+02-12-2016 23:00:31.0375> Using keyboard language 0x04060409
+02-12-2016 23:37:00.0593> Power State: System is suspending operation.
+02-12-2016 23:37:00.0593> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+02-12-2016 23:37:00.0593> Removing and active XMBCHook Timers...
+02-12-2016 23:37:00.0593> Hook thread exited with error code 0.
+02-12-2016 23:37:00.0593> Timer thread exited with error code 0.
+05-12-2016 11:35:30.0343> Power State: Operation resuming automatically after event.
+05-12-2016 11:35:30.0343> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+05-12-2016 11:35:30.0343> Loaded 0 application specific profiles (0 normal and 0 custom window).
+05-12-2016 11:35:30.0359> Using keyboard language 0x04060409
+05-12-2016 11:37:30.0406> There is a new version available! (2140000)
+05-12-2016 12:51:26.0796> KeySwitchTimerProc: Unexpected timer ID 0x00001427 (0x00001426)
+05-12-2016 14:14:02.0421> KeySwitchTimerProc: Unexpected timer ID 0x00000A7B (0x00000A7A)
+05-12-2016 17:04:19.0734> Power State: System is suspending operation.
+05-12-2016 17:04:19.0734> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+05-12-2016 17:04:19.0734> Removing and active XMBCHook Timers...
+05-12-2016 17:04:19.0734> Hook thread exited with error code 0.
+05-12-2016 17:04:19.0734> Timer thread exited with error code 0.
+06-12-2016 18:22:42.0359> Power State: Operation resuming automatically after event.
+06-12-2016 18:22:42.0359> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+06-12-2016 18:22:42.0453> Loaded 0 application specific profiles (0 normal and 0 custom window).
+06-12-2016 18:22:42.0546> Using keyboard language 0x04060409
+07-12-2016 16:54:25.0437> Power State: System is suspending operation.
+07-12-2016 16:54:25.0437> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+07-12-2016 16:54:25.0437> Removing and active XMBCHook Timers...
+07-12-2016 16:54:25.0437> Hook thread exited with error code 0.
+07-12-2016 16:54:25.0437> Timer thread exited with error code 0.
+07-12-2016 16:55:56.0406> Power State: Operation resuming automatically after event.
+07-12-2016 16:55:56.0406> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+07-12-2016 16:55:56.0437> Loaded 0 application specific profiles (0 normal and 0 custom window).
+07-12-2016 16:55:56.0437> Using keyboard language 0x04060409
+07-12-2016 16:56:15.0484> Power State: System is suspending operation.
+07-12-2016 16:56:15.0484> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+07-12-2016 16:56:15.0484> Removing and active XMBCHook Timers...
+07-12-2016 16:56:15.0484> Hook thread exited with error code 0.
+07-12-2016 16:56:15.0484> Timer thread exited with error code 0.
+08-12-2016 09:52:20.0390> Power State: Operation resuming automatically after event.
+08-12-2016 09:52:20.0390> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+08-12-2016 09:52:20.0421> Loaded 0 application specific profiles (0 normal and 0 custom window).
+08-12-2016 09:52:20.0421> Using keyboard language 0x04060409
+08-12-2016 16:57:00.0515> Power State: System is suspending operation.
+08-12-2016 16:57:00.0515> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+08-12-2016 16:57:00.0515> Removing and active XMBCHook Timers...
+08-12-2016 16:57:00.0531> Hook thread exited with error code 0.
+08-12-2016 16:57:00.0531> Timer thread exited with error code 0.
+09-12-2016 09:01:53.0343> Power State: Operation resuming automatically after event.
+09-12-2016 09:01:53.0343> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+09-12-2016 09:01:53.0421> Loaded 0 application specific profiles (0 normal and 0 custom window).
+09-12-2016 09:01:53.0421> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+12-12-2016 12:12:00.0703> X-Mouse Button Control v2.13.1 (x64) Startup. Commandline ''
+12-12-2016 12:12:00.0718> Loaded 0 application specific profiles (0 normal and 0 custom window).
+12-12-2016 12:12:00.0718> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+12-12-2016 12:12:00.0718> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+12-12-2016 12:12:00.0718> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+12-12-2016 12:12:00.0718> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+12-12-2016 12:12:00.0718> Using keyboard language 0x04060409
+12-12-2016 12:14:00.0750> There is a new version available! (2140000)
+12-12-2016 14:40:55.0281> KeySwitchTimerProc: Unexpected timer ID 0x00006452 (0x00006450)
+12-12-2016 14:40:56.0390> KeySwitchTimerProc: Unexpected timer ID 0x00006451 (0x00000000)
+12-12-2016 14:40:56.0390> KeySwitchTimerProc: Unable to stop timer id 0x00006451 (ptrID: 0x00000000). (1400): Invalid window handle. 
+12-12-2016 14:40:57.0593> KeySwitchTimerProc: Unexpected timer ID 0x0000644F (0x0000644D)
+12-12-2016 14:40:57.0656> KeySwitchTimerProc: Unexpected timer ID 0x0000644E (0x00000000)
+12-12-2016 14:40:57.0656> KeySwitchTimerProc: Unable to stop timer id 0x0000644E (ptrID: 0x00000000). (1400): Invalid window handle. 
+
+*******************************************************************************************************************************************
+13-12-2016 10:06:21.0562> X-Mouse Button Control v2.13.1 (x64) Startup. Commandline ''
+13-12-2016 10:06:21.0578> Loaded 0 application specific profiles (0 normal and 0 custom window).
+13-12-2016 10:06:21.0578> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+13-12-2016 10:06:21.0578> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+13-12-2016 10:06:21.0578> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+13-12-2016 10:06:21.0578> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+13-12-2016 10:06:21.0593> Using keyboard language 0x04060409
+13-12-2016 13:36:18.0593> KeySwitchTimerProc: Unexpected timer ID 0x00006238 (0x00006237)
+13-12-2016 15:47:06.0468> KeySwitchTimerProc: Unexpected timer ID 0x00005439 (0x00005437)
+13-12-2016 15:47:06.0546> KeySwitchTimerProc: Unexpected timer ID 0x00005438 (0x00000000)
+13-12-2016 15:47:06.0546> KeySwitchTimerProc: Unable to stop timer id 0x00005438 (ptrID: 0x00000000). (1400): Invalid window handle. 
+13-12-2016 17:08:55.0328> Power State: System is suspending operation.
+13-12-2016 17:08:55.0328> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+13-12-2016 17:08:55.0328> Removing and active XMBCHook Timers...
+13-12-2016 17:08:55.0328> Hook thread exited with error code 0.
+13-12-2016 17:08:55.0328> Timer thread exited with error code 0.
+14-12-2016 00:23:17.0671> Power State: Operation resuming automatically after event.
+14-12-2016 00:23:17.0671> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+14-12-2016 00:23:17.0703> Loaded 0 application specific profiles (0 normal and 0 custom window).
+14-12-2016 00:23:17.0703> Using keyboard language 0x04060409
+14-12-2016 15:48:34.0937> KeySwitchTimerProc: Unexpected timer ID 0x00007CE3 (0x00007CE2)
+
+*******************************************************************************************************************************************
+16-12-2016 08:50:29.0828> X-Mouse Button Control v2.13.1 (x64) Startup. Commandline ''
+16-12-2016 08:50:29.0843> Loaded 0 application specific profiles (0 normal and 0 custom window).
+16-12-2016 08:50:29.0843> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+16-12-2016 08:50:29.0843> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+16-12-2016 08:50:29.0843> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+16-12-2016 08:50:29.0843> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+16-12-2016 08:50:29.0843> Using keyboard language 0x04060409
+16-12-2016 11:45:42.0046> KeySwitchTimerProc: Unexpected timer ID 0x00006FA4 (0x00000000)
+16-12-2016 11:45:42.0046> KeySwitchTimerProc: Unable to stop timer id 0x00006FA4 (ptrID: 0x00000000). (1400): Invalid window handle. 
+16-12-2016 11:45:42.0046> KeySwitchTimerProc: Unexpected timer ID 0x00006FA5 (0x00000000)
+16-12-2016 11:45:42.0046> KeySwitchTimerProc: Unable to stop timer id 0x00006FA5 (ptrID: 0x00000000). (1400): Invalid window handle. 
+
+*******************************************************************************************************************************************
+19-12-2016 10:38:47.0234> X-Mouse Button Control v2.13.1 (x64) Startup. Commandline ''
+19-12-2016 10:38:47.0265> Loaded 0 application specific profiles (0 normal and 0 custom window).
+19-12-2016 10:38:47.0265> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+19-12-2016 10:38:47.0265> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+19-12-2016 10:38:47.0265> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+19-12-2016 10:38:47.0265> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+19-12-2016 10:38:47.0265> Using keyboard language 0x04060409
+19-12-2016 10:40:47.0281> Failed to query the version DNS record. Status=1460
+19-12-2016 10:40:47.0281> You are using the latest available version of X-Mouse Button Control.
+19-12-2016 14:12:54.0218> KeySwitchTimerProc: Unexpected timer ID 0x00005BC3 (0x00000000)
+19-12-2016 14:12:54.0218> KeySwitchTimerProc: Unable to stop timer id 0x00005BC3 (ptrID: 0x00000000). (1400): Invalid window handle. 
+19-12-2016 14:12:54.0218> KeySwitchTimerProc: Unexpected timer ID 0x00005BC4 (0x00000000)
+19-12-2016 14:12:54.0218> KeySwitchTimerProc: Unable to stop timer id 0x00005BC4 (ptrID: 0x00000000). (1400): Invalid window handle. 
+19-12-2016 16:00:49.0750> Power State: System is suspending operation.
+19-12-2016 16:00:49.0750> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+19-12-2016 16:00:49.0750> Removing and active XMBCHook Timers...
+19-12-2016 16:00:49.0765> Hook thread exited with error code 0.
+19-12-2016 16:00:49.0765> Timer thread exited with error code 0.
+20-12-2016 09:41:58.0828> Power State: Operation resuming automatically after event.
+20-12-2016 09:41:58.0828> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+20-12-2016 09:41:58.0875> Loaded 0 application specific profiles (0 normal and 0 custom window).
+20-12-2016 09:41:58.0875> Using keyboard language 0x04060409
+20-12-2016 09:43:58.0875> There is a new version available! (2140000)
+20-12-2016 11:32:12.0359> KeySwitchTimerProc: Unexpected timer ID 0x00003DCD (0x00000000)
+20-12-2016 11:32:12.0359> KeySwitchTimerProc: Unable to stop timer id 0x00003DCD (ptrID: 0x00000000). (1400): Invalid window handle. 
+20-12-2016 11:32:12.0359> KeySwitchTimerProc: Unexpected timer ID 0x00003DCE (0x00000000)
+20-12-2016 11:32:12.0359> KeySwitchTimerProc: Unable to stop timer id 0x00003DCE (ptrID: 0x00000000). (1400): Invalid window handle. 
+20-12-2016 17:23:53.0937> Power State: System is suspending operation.
+20-12-2016 17:23:53.0937> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+20-12-2016 17:23:53.0937> Removing and active XMBCHook Timers...
+20-12-2016 17:23:53.0953> Hook thread exited with error code 0.
+20-12-2016 17:23:53.0953> Timer thread exited with error code 0.
+21-12-2016 01:07:42.0734> Power State: Operation resuming automatically after event.
+21-12-2016 01:07:42.0734> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+21-12-2016 01:07:42.0765> Loaded 0 application specific profiles (0 normal and 0 custom window).
+21-12-2016 01:07:42.0781> Using keyboard language 0x04060409
+21-12-2016 10:38:13.0156> KeySwitchTimerProc: Unexpected timer ID 0x000010AD (0x000010AB)
+21-12-2016 10:38:13.0187> KeySwitchTimerProc: Unexpected timer ID 0x000010AC (0x00000000)
+21-12-2016 10:38:13.0187> KeySwitchTimerProc: Unable to stop timer id 0x000010AC (ptrID: 0x00000000). (1400): Invalid window handle. 
+21-12-2016 10:38:16.0703> KeySwitchTimerProc: Unexpected timer ID 0x000010AA (0x000010A8)
+21-12-2016 10:38:16.0781> KeySwitchTimerProc: Unexpected timer ID 0x000010A9 (0x00000000)
+21-12-2016 10:38:16.0781> KeySwitchTimerProc: Unable to stop timer id 0x000010A9 (ptrID: 0x00000000). (1400): Invalid window handle. 
+21-12-2016 10:47:55.0734> KeySwitchTimerProc: Unexpected timer ID 0x00000DE8 (0x00000DE6)
+21-12-2016 10:47:55.0828> KeySwitchTimerProc: Unexpected timer ID 0x00000DE7 (0x00000000)
+21-12-2016 10:47:55.0828> KeySwitchTimerProc: Unable to stop timer id 0x00000DE7 (ptrID: 0x00000000). (1400): Invalid window handle. 
+21-12-2016 10:47:57.0953> KeySwitchTimerProc: Unexpected timer ID 0x00000DE5 (0x00000DE3)
+21-12-2016 10:47:57.0015> KeySwitchTimerProc: Unexpected timer ID 0x00000DE4 (0x00000000)
+21-12-2016 10:47:57.0015> KeySwitchTimerProc: Unable to stop timer id 0x00000DE4 (ptrID: 0x00000000). (1400): Invalid window handle. 
+21-12-2016 14:42:52.0218> KeySwitchTimerProc: Unexpected timer ID 0x0000770E (0x00000000)
+21-12-2016 14:42:52.0218> KeySwitchTimerProc: Unable to stop timer id 0x0000770E (ptrID: 0x00000000). (1400): Invalid window handle. 
+21-12-2016 14:42:52.0218> KeySwitchTimerProc: Unexpected timer ID 0x0000770F (0x00000000)
+21-12-2016 14:42:52.0218> KeySwitchTimerProc: Unable to stop timer id 0x0000770F (ptrID: 0x00000000). (1400): Invalid window handle. 
+21-12-2016 15:05:31.0140> KeySwitchTimerProc: Unexpected timer ID 0x0000739F (0x00000000)
+21-12-2016 15:05:31.0140> KeySwitchTimerProc: Unable to stop timer id 0x0000739F (ptrID: 0x00000000). (1400): Invalid window handle. 
+21-12-2016 15:05:31.0140> KeySwitchTimerProc: Unexpected timer ID 0x000073A0 (0x00000000)
+21-12-2016 15:05:31.0140> KeySwitchTimerProc: Unable to stop timer id 0x000073A0 (ptrID: 0x00000000). (1400): Invalid window handle. 
+21-12-2016 16:50:15.0390> KeySwitchTimerProc: Unexpected timer ID 0x00005EC7 (0x00005EC5)
+21-12-2016 16:50:15.0468> KeySwitchTimerProc: Unexpected timer ID 0x00005EC6 (0x00000000)
+21-12-2016 16:50:15.0468> KeySwitchTimerProc: Unable to stop timer id 0x00005EC6 (ptrID: 0x00000000). (1400): Invalid window handle. 
+21-12-2016 16:50:17.0296> KeySwitchTimerProc: Unexpected timer ID 0x00005EC4 (0x00005EC2)
+21-12-2016 16:50:17.0406> KeySwitchTimerProc: Unexpected timer ID 0x00005EC3 (0x00000000)
+21-12-2016 16:50:17.0406> KeySwitchTimerProc: Unable to stop timer id 0x00005EC3 (ptrID: 0x00000000). (1400): Invalid window handle. 
+
+*******************************************************************************************************************************************
+29-12-2016 09:45:09.0609> X-Mouse Button Control v2.13.1 (x64) Startup. Commandline ''
+29-12-2016 09:45:09.0609> Loaded 0 application specific profiles (0 normal and 0 custom window).
+29-12-2016 09:45:09.0609> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+29-12-2016 09:45:09.0609> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+29-12-2016 09:45:09.0609> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+29-12-2016 09:45:09.0609> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+29-12-2016 09:45:09.0625> Using keyboard language 0x04060409
+29-12-2016 09:47:10.0640> There is a new version available! (2140000)
+29-12-2016 09:47:14.0015> Downloading X-Mouse Button Control v2.14...
+29-12-2016 09:47:14.0125> Unable to delete IE cache entry for 'http://vps2.highrez.co.uk/downloads/XMBCUpdateX64.2.14.exe' (32): The process cannot access the file because it is being used by another process. 
+29-12-2016 09:47:15.0859> Downloaded update file to 'C:\Users\kristian\AppData\Local\Temp\\XMBCUpdate.exe' (0 bytes)
+29-12-2016 09:47:16.0296> Successfully launched the update executable 'C:\Users\kristian\AppData\Local\Temp\\XMBCUpdate.exe'.
+29-12-2016 09:47:16.0500> MultInstance: Sending commandline to an existing instance of X-Mouse Button Control
+29-12-2016 09:47:16.0500> Received 2048 bytes on the IPC named pipe.
+29-12-2016 09:47:16.0500> MultInstance: Successfully finished communicating with the first instance of X-Mouse Button Control.
+29-12-2016 09:47:16.0500> Received message with data 0x80000021 from another instance of X-Mouse Button Control.
+29-12-2016 09:47:16.0500> Exit requested from the commandline.
+29-12-2016 09:47:16.0500> Removing and active XMBCHook Timers...
+29-12-2016 09:47:16.0531> Hook thread exited with error code 0.
+29-12-2016 09:47:16.0531> Timer thread exited with error code 0.
+29-12-2016 09:47:16.0531> RemoveMouseHook took 31ms
+29-12-2016 09:47:16.0531> X-Mouse Button Control Shutdown.
+
+
+
+*******************************************************************************************************************************************
+29-12-2016 09:47:21.0671> X-Mouse Button Control v2.14 (x64) Startup. Commandline '/installed /notportable'
+29-12-2016 09:47:21.0671> Running in high integrity mode (0x00003000)
+29-12-2016 09:47:21.0687> Loaded 0 application specific profiles (0 normal and 0 custom window).
+29-12-2016 09:47:21.0687> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+29-12-2016 09:47:21.0703> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+29-12-2016 09:47:21.0703> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+29-12-2016 09:47:21.0703> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+29-12-2016 09:47:21.0703> Using keyboard language 0x04060409
+29-12-2016 09:54:05.0046> KeySwitchTimerProc: Unexpected timer ID 0x00007C6B (0x00000000)
+29-12-2016 15:22:42.0187> KeySwitchTimerProc: Unexpected timer ID 0x00004BDB (0x00004BD9)
+29-12-2016 15:22:42.0265> KeySwitchTimerProc: Unexpected timer ID 0x00004BDA (0x00000000)
+29-12-2016 15:22:43.0296> KeySwitchTimerProc: Unexpected timer ID 0x00004BD8 (0x00004BD6)
+29-12-2016 15:22:43.0390> KeySwitchTimerProc: Unexpected timer ID 0x00004BD7 (0x00000000)
+29-12-2016 16:04:47.0453> Power State: System is suspending operation.
+29-12-2016 16:04:47.0453> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+29-12-2016 16:04:47.0453> Removing and active XMBCHook Timers...
+29-12-2016 16:04:47.0468> Hook thread exited with error code 0.
+29-12-2016 16:04:47.0468> Timer thread exited with error code 0.
+29-12-2016 23:08:42.0718> Power State: Operation resuming automatically after event.
+29-12-2016 23:08:42.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+29-12-2016 23:08:42.0750> Loaded 0 application specific profiles (0 normal and 0 custom window).
+29-12-2016 23:08:42.0750> Using keyboard language 0x04060409
+02-01-2017 10:38:57.0875> KeySwitchTimerProc: Unexpected timer ID 0x0000155C (0x00001559)
+02-01-2017 10:38:57.0890> KeySwitchTimerProc: Unexpected timer ID 0x0000155B (0x00000000)
+02-01-2017 10:38:57.0968> KeySwitchTimerProc: Unexpected timer ID 0x0000155A (0x00000000)
+02-01-2017 10:39:02.0296> KeySwitchTimerProc: Unexpected timer ID 0x00001556 (0x00001554)
+02-01-2017 10:39:02.0312> KeySwitchTimerProc: Unexpected timer ID 0x00001555 (0x00000000)
+02-01-2017 10:39:03.0593> KeySwitchTimerProc: Unexpected timer ID 0x00001552 (0x0000154F)
+02-01-2017 10:39:03.0625> KeySwitchTimerProc: Unexpected timer ID 0x00001551 (0x00000000)
+02-01-2017 10:39:04.0687> KeySwitchTimerProc: Unexpected timer ID 0x00001550 (0x00000000)
+02-01-2017 14:44:03.0578> KeySwitchTimerProc: Unexpected timer ID 0x000004BD (0x000004BB)
+02-01-2017 14:44:03.0593> KeySwitchTimerProc: Unexpected timer ID 0x000004BC (0x00000000)
+02-01-2017 14:44:12.0390> KeySwitchTimerProc: Unexpected timer ID 0x000004B7 (0x000004B5)
+02-01-2017 14:44:12.0421> KeySwitchTimerProc: Unexpected timer ID 0x000004B6 (0x00000000)
+02-01-2017 15:43:21.0187> Power State: System is suspending operation.
+02-01-2017 15:43:21.0187> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+02-01-2017 15:43:21.0187> Removing and active XMBCHook Timers...
+02-01-2017 15:43:21.0203> Hook thread exited with error code 0.
+02-01-2017 15:43:21.0203> Timer thread exited with error code 0.
+03-01-2017 09:36:51.0765> Power State: Operation resuming automatically after event.
+03-01-2017 09:36:51.0765> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+03-01-2017 09:36:51.0796> Loaded 0 application specific profiles (0 normal and 0 custom window).
+03-01-2017 09:36:51.0796> Using keyboard language 0x04060409
+03-01-2017 13:40:10.0203> KeySwitchTimerProc: Unexpected timer ID 0x000054A4 (0x0000549F)
+03-01-2017 13:40:10.0218> KeySwitchTimerProc: Unexpected timer ID 0x000054A3 (0x00000000)
+03-01-2017 13:40:10.0265> KeySwitchTimerProc: Unexpected timer ID 0x000054A2 (0x00000000)
+03-01-2017 13:40:10.0281> KeySwitchTimerProc: Unexpected timer ID 0x000054A1 (0x00000000)
+03-01-2017 13:40:10.0312> KeySwitchTimerProc: Unexpected timer ID 0x000054A0 (0x0000549E)
+04-01-2017 03:38:51.0781> You are using the latest available version of X-Mouse Button Control.
+04-01-2017 09:14:17.0937> KeySwitchTimerProc: Unexpected timer ID 0x00002604 (0x00002603)
+04-01-2017 09:38:51.0781> You are using the latest available version of X-Mouse Button Control.
+04-01-2017 12:06:27.0046> Power State: System is suspending operation.
+04-01-2017 12:06:27.0046> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+04-01-2017 12:06:27.0046> Removing and active XMBCHook Timers...
+04-01-2017 12:06:27.0046> Hook thread exited with error code 0.
+04-01-2017 12:06:27.0046> Timer thread exited with error code 0.
+05-01-2017 10:26:00.0734> Power State: Operation resuming automatically after event.
+05-01-2017 10:26:00.0734> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+05-01-2017 10:26:00.0859> Loaded 0 application specific profiles (0 normal and 0 custom window).
+05-01-2017 10:26:00.0890> Using keyboard language 0x04060409
+05-01-2017 10:28:00.0750> You are using the latest available version of X-Mouse Button Control.
+05-01-2017 13:07:42.0218> KeySwitchTimerProc: Unexpected timer ID 0x0000031C (0x00000000)
+05-01-2017 13:07:42.0218> KeySwitchTimerProc: Unexpected timer ID 0x0000031D (0x00000000)
+05-01-2017 13:27:05.0281> KeySwitchTimerProc: Unexpected timer ID 0x00007F78 (0x00000000)
+05-01-2017 13:27:05.0281> KeySwitchTimerProc: Unexpected timer ID 0x00007F79 (0x00000000)
+05-01-2017 13:27:32.0437> KeySwitchTimerProc: Unexpected timer ID 0x00007F39 (0x00000000)
+05-01-2017 13:27:32.0437> KeySwitchTimerProc: Unexpected timer ID 0x00007F3A (0x00000000)
+05-01-2017 15:42:31.0984> KeySwitchTimerProc: Unexpected timer ID 0x00006E7B (0x00000000)
+05-01-2017 15:42:31.0984> KeySwitchTimerProc: Unexpected timer ID 0x00006E7C (0x00000000)
+05-01-2017 16:24:34.0562> Power State: System is suspending operation.
+05-01-2017 16:24:34.0562> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+05-01-2017 16:24:34.0562> Removing and active XMBCHook Timers...
+05-01-2017 16:24:34.0578> Hook thread exited with error code 0.
+05-01-2017 16:24:34.0578> Timer thread exited with error code 0.
+06-01-2017 09:47:45.0734> Power State: Operation resuming automatically after event.
+06-01-2017 09:47:45.0734> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+06-01-2017 09:47:45.0812> Loaded 0 application specific profiles (0 normal and 0 custom window).
+06-01-2017 09:47:45.0812> Using keyboard language 0x04060409
+06-01-2017 09:49:34.0750> You are using the latest available version of X-Mouse Button Control.
+06-01-2017 10:37:00.0531> KeySwitchTimerProc: Unexpected timer ID 0x00005EC4 (0x00005EC2)
+06-01-2017 10:37:00.0593> KeySwitchTimerProc: Unexpected timer ID 0x00005EC3 (0x00000000)
+06-01-2017 10:37:01.0453> KeySwitchTimerProc: Unexpected timer ID 0x00005EC0 (0x00005EBE)
+06-01-2017 10:37:01.0515> KeySwitchTimerProc: Unexpected timer ID 0x00005EBF (0x00000000)
+06-01-2017 11:54:25.0781> KeySwitchTimerProc: Unexpected timer ID 0x00005624 (0x00000000)
+06-01-2017 15:49:34.0750> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+08-01-2017 12:03:57.0546> X-Mouse Button Control v2.14 (x64) Startup. Commandline ''
+08-01-2017 12:03:57.0546> Running in high integrity mode (0x00003000)
+08-01-2017 12:03:57.0546> Loaded 0 application specific profiles (0 normal and 0 custom window).
+08-01-2017 12:03:57.0546> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+08-01-2017 12:03:57.0546> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+08-01-2017 12:03:57.0546> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+08-01-2017 12:03:57.0546> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+08-01-2017 12:03:57.0562> Using keyboard language 0x04060409
+08-01-2017 12:05:57.0593> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+09-01-2017 10:06:53.0609> X-Mouse Button Control v2.14 (x64) Startup. Commandline ''
+09-01-2017 10:06:53.0656> Running in high integrity mode (0x00003000)
+09-01-2017 10:06:53.0656> Loaded 0 application specific profiles (0 normal and 0 custom window).
+09-01-2017 10:06:53.0656> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+09-01-2017 10:06:53.0656> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+09-01-2017 10:06:53.0656> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+09-01-2017 10:06:53.0656> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+09-01-2017 10:06:53.0656> Using keyboard language 0x04060409
+09-01-2017 10:08:53.0687> You are using the latest available version of X-Mouse Button Control.
+09-01-2017 16:08:53.0765> You are using the latest available version of X-Mouse Button Control.
+09-01-2017 22:08:53.0703> You are using the latest available version of X-Mouse Button Control.
+10-01-2017 04:08:53.0703> You are using the latest available version of X-Mouse Button Control.
+10-01-2017 10:08:53.0703> You are using the latest available version of X-Mouse Button Control.
+10-01-2017 11:18:07.0687> KeySwitchTimerProc: Unexpected timer ID 0x000059EB (0x000059EA)
+10-01-2017 12:40:09.0125> KeySwitchTimerProc: Unexpected timer ID 0x00004D36 (0x00004D35)
+10-01-2017 12:40:09.0125> KeySwitchTimerProc: Unexpected timer ID 0x00004D37 (0x00000000)
+10-01-2017 12:50:32.0328> KeySwitchTimerProc: Unexpected timer ID 0x00004A4C (0x00004A4A)
+10-01-2017 12:50:32.0343> KeySwitchTimerProc: Unexpected timer ID 0x00004A4B (0x00000000)
+10-01-2017 13:06:54.0187> KeySwitchTimerProc: Unexpected timer ID 0x00004674 (0x00000000)
+10-01-2017 13:06:54.0187> KeySwitchTimerProc: Unexpected timer ID 0x00004675 (0x00000000)
+10-01-2017 13:11:21.0156> KeySwitchTimerProc: Unexpected timer ID 0x0000452F (0x00000000)
+10-01-2017 13:11:21.0156> KeySwitchTimerProc: Unexpected timer ID 0x00004530 (0x00000000)
+10-01-2017 16:08:53.0703> You are using the latest available version of X-Mouse Button Control.
+10-01-2017 22:08:53.0687> You are using the latest available version of X-Mouse Button Control.
+11-01-2017 04:08:53.0718> You are using the latest available version of X-Mouse Button Control.
+11-01-2017 10:08:53.0734> You are using the latest available version of X-Mouse Button Control.
+11-01-2017 11:21:13.0484> KeySwitchTimerProc: Unexpected timer ID 0x0000034F (0x0000034D)
+11-01-2017 11:21:13.0578> KeySwitchTimerProc: Unexpected timer ID 0x0000034E (0x00000000)
+11-01-2017 15:51:17.0421> Power State: System is suspending operation.
+11-01-2017 15:51:17.0421> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+11-01-2017 15:51:17.0421> Removing and active XMBCHook Timers...
+11-01-2017 15:51:17.0421> Hook thread exited with error code 0.
+11-01-2017 15:51:17.0421> Timer thread exited with error code 0.
+12-01-2017 10:00:54.0671> Power State: Operation resuming automatically after event.
+12-01-2017 10:00:54.0671> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+12-01-2017 10:00:54.0734> Loaded 0 application specific profiles (0 normal and 0 custom window).
+12-01-2017 10:00:54.0734> Using keyboard language 0x04060409
+12-01-2017 10:02:54.0687> You are using the latest available version of X-Mouse Button Control.
+12-01-2017 16:02:54.0671> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+13-01-2017 09:05:14.0109> X-Mouse Button Control v2.14 (x64) Startup. Commandline ''
+13-01-2017 09:05:14.0125> Running in high integrity mode (0x00003000)
+13-01-2017 09:05:14.0125> Loaded 0 application specific profiles (0 normal and 0 custom window).
+13-01-2017 09:05:14.0125> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+13-01-2017 09:05:14.0125> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+13-01-2017 09:05:14.0125> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+13-01-2017 09:05:14.0125> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+13-01-2017 09:05:14.0125> Using keyboard language 0x04060409
+13-01-2017 09:07:14.0140> You are using the latest available version of X-Mouse Button Control.
+13-01-2017 10:16:27.0890> KeySwitchTimerProc: Unexpected timer ID 0x00007CAB (0x00007CAA)
+13-01-2017 10:16:27.0890> KeySwitchTimerProc: Unexpected timer ID 0x00007CAC (0x00000000)
+13-01-2017 10:24:24.0953> KeySwitchTimerProc: Unexpected timer ID 0x00007B58 (0x00007B56)
+13-01-2017 10:24:24.0031> KeySwitchTimerProc: Unexpected timer ID 0x00007B57 (0x00000000)
+
+*******************************************************************************************************************************************
+16-01-2017 11:41:44.0484> X-Mouse Button Control v2.14 (x64) Startup. Commandline ''
+16-01-2017 11:41:44.0484> Running in high integrity mode (0x00003000)
+16-01-2017 11:41:44.0484> Loaded 0 application specific profiles (0 normal and 0 custom window).
+16-01-2017 11:41:44.0500> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+16-01-2017 11:41:44.0500> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+16-01-2017 11:41:44.0500> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+16-01-2017 11:41:44.0500> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+16-01-2017 11:41:44.0500> Using keyboard language 0x04060409
+16-01-2017 11:43:44.0562> You are using the latest available version of X-Mouse Button Control.
+16-01-2017 14:11:13.0578> KeySwitchTimerProc: Unexpected timer ID 0x00007146 (0x00007143)
+16-01-2017 14:11:13.0593> KeySwitchTimerProc: Unexpected timer ID 0x00007145 (0x00000000)
+16-01-2017 14:11:14.0656> KeySwitchTimerProc: Unexpected timer ID 0x00007144 (0x00000000)
+16-01-2017 14:11:16.0843> KeySwitchTimerProc: Unexpected timer ID 0x00007142 (0x0000713F)
+16-01-2017 14:11:16.0859> KeySwitchTimerProc: Unexpected timer ID 0x00007141 (0x00000000)
+16-01-2017 14:11:16.0921> KeySwitchTimerProc: Unexpected timer ID 0x00007140 (0x00000000)
+16-01-2017 14:11:38.0890> KeySwitchTimerProc: Unexpected timer ID 0x0000713E (0x0000713B)
+16-01-2017 14:11:38.0921> KeySwitchTimerProc: Unexpected timer ID 0x0000713D (0x00000000)
+16-01-2017 14:11:38.0968> KeySwitchTimerProc: Unexpected timer ID 0x0000713C (0x00000000)
+16-01-2017 14:13:19.0593> KeySwitchTimerProc: Unexpected timer ID 0x00007043 (0x00007040)
+16-01-2017 14:13:19.0609> KeySwitchTimerProc: Unexpected timer ID 0x00007042 (0x00000000)
+16-01-2017 14:13:20.0656> KeySwitchTimerProc: Unexpected timer ID 0x00007041 (0x00000000)
+16-01-2017 14:13:37.0859> KeySwitchTimerProc: Unexpected timer ID 0x0000703D (0x0000703A)
+16-01-2017 14:13:37.0890> KeySwitchTimerProc: Unexpected timer ID 0x0000703C (0x00000000)
+16-01-2017 14:13:37.0953> KeySwitchTimerProc: Unexpected timer ID 0x0000703B (0x00000000)
+16-01-2017 14:13:45.0062> KeySwitchTimerProc: Unexpected timer ID 0x00007039 (0x00007036)
+16-01-2017 14:13:45.0078> KeySwitchTimerProc: Unexpected timer ID 0x00007038 (0x00000000)
+16-01-2017 14:13:45.0156> KeySwitchTimerProc: Unexpected timer ID 0x00007037 (0x00000000)
+16-01-2017 14:13:46.0609> KeySwitchTimerProc: Unexpected timer ID 0x00007035 (0x00007032)
+16-01-2017 14:13:46.0640> KeySwitchTimerProc: Unexpected timer ID 0x00007034 (0x00000000)
+16-01-2017 14:13:47.0703> KeySwitchTimerProc: Unexpected timer ID 0x00007033 (0x00000000)
+16-01-2017 14:15:26.0734> KeySwitchTimerProc: Unexpected timer ID 0x00006FF5 (0x00006FF2)
+16-01-2017 14:15:26.0750> KeySwitchTimerProc: Unexpected timer ID 0x00006FF4 (0x00000000)
+16-01-2017 14:15:26.0796> KeySwitchTimerProc: Unexpected timer ID 0x00006FF3 (0x00000000)
+16-01-2017 14:15:26.0609> KeySwitchTimerProc: Unexpected timer ID 0x00006FF1 (0x00006FEE)
+16-01-2017 14:15:26.0625> KeySwitchTimerProc: Unexpected timer ID 0x00006FF0 (0x00000000)
+16-01-2017 14:15:27.0703> KeySwitchTimerProc: Unexpected timer ID 0x00006FEF (0x00000000)
+16-01-2017 16:43:16.0390> Power State: System is suspending operation.
+16-01-2017 16:43:16.0390> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+16-01-2017 16:43:16.0390> Removing and active XMBCHook Timers...
+16-01-2017 16:43:16.0406> Hook thread exited with error code 0.
+16-01-2017 16:43:16.0406> Timer thread exited with error code 0.
+17-01-2017 09:22:00.0687> Power State: Operation resuming automatically after event.
+17-01-2017 09:22:00.0687> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+17-01-2017 09:22:00.0703> Loaded 0 application specific profiles (0 normal and 0 custom window).
+17-01-2017 09:22:00.0703> Using keyboard language 0x04060409
+17-01-2017 09:24:00.0703> You are using the latest available version of X-Mouse Button Control.
+17-01-2017 11:25:37.0937> KeySwitchTimerProc: Unexpected timer ID 0x000065B2 (0x000065B1)
+17-01-2017 11:57:12.0015> KeySwitchTimerProc: Unexpected timer ID 0x00006193 (0x00006190)
+17-01-2017 11:57:12.0031> KeySwitchTimerProc: Unexpected timer ID 0x00006192 (0x00000000)
+17-01-2017 11:57:12.0093> KeySwitchTimerProc: Unexpected timer ID 0x00006191 (0x00000000)
+17-01-2017 11:57:16.0734> KeySwitchTimerProc: Unexpected timer ID 0x0000618F (0x0000618C)
+17-01-2017 11:57:16.0765> KeySwitchTimerProc: Unexpected timer ID 0x0000618E (0x00000000)
+17-01-2017 11:57:16.0812> KeySwitchTimerProc: Unexpected timer ID 0x0000618D (0x00000000)
+17-01-2017 12:50:06.0000> KeySwitchTimerProc: Unexpected timer ID 0x00005D97 (0x00000000)
+17-01-2017 15:03:38.0093> KeySwitchTimerProc: Unexpected timer ID 0x000054D4 (0x00000000)
+17-01-2017 15:03:38.0093> KeySwitchTimerProc: Unexpected timer ID 0x000054D5 (0x00000000)
+17-01-2017 15:24:00.0718> You are using the latest available version of X-Mouse Button Control.
+17-01-2017 15:30:46.0484> KeySwitchTimerProc: Unexpected timer ID 0x00004F3D (0x00004F3A)
+17-01-2017 15:30:46.0500> KeySwitchTimerProc: Unexpected timer ID 0x00004F3C (0x00000000)
+17-01-2017 15:30:46.0562> KeySwitchTimerProc: Unexpected timer ID 0x00004F3B (0x00000000)
+17-01-2017 15:30:59.0968> KeySwitchTimerProc: Unexpected timer ID 0x00004F39 (0x00004F36)
+17-01-2017 15:30:59.0984> KeySwitchTimerProc: Unexpected timer ID 0x00004F38 (0x00000000)
+17-01-2017 15:30:59.0062> KeySwitchTimerProc: Unexpected timer ID 0x00004F37 (0x00000000)
+17-01-2017 15:31:03.0156> KeySwitchTimerProc: Unexpected timer ID 0x00004F33 (0x00004F30)
+17-01-2017 15:31:03.0171> KeySwitchTimerProc: Unexpected timer ID 0x00004F32 (0x00000000)
+17-01-2017 15:31:03.0250> KeySwitchTimerProc: Unexpected timer ID 0x00004F31 (0x00000000)
+17-01-2017 15:31:11.0625> KeySwitchTimerProc: Unexpected timer ID 0x00004F2F (0x00004F2C)
+17-01-2017 15:31:12.0656> KeySwitchTimerProc: Unexpected timer ID 0x00004F2E (0x00000000)
+17-01-2017 15:31:12.0718> KeySwitchTimerProc: Unexpected timer ID 0x00004F2D (0x00000000)
+17-01-2017 15:31:12.0187> KeySwitchTimerProc: Unexpected timer ID 0x00004F2B (0x00004F28)
+17-01-2017 15:31:12.0218> KeySwitchTimerProc: Unexpected timer ID 0x00004F2A (0x00000000)
+17-01-2017 15:31:12.0281> KeySwitchTimerProc: Unexpected timer ID 0x00004F29 (0x00000000)
+17-01-2017 15:31:21.0781> KeySwitchTimerProc: Unexpected timer ID 0x00004F27 (0x00004F24)
+17-01-2017 15:31:21.0796> KeySwitchTimerProc: Unexpected timer ID 0x00004F26 (0x00000000)
+17-01-2017 15:31:21.0875> KeySwitchTimerProc: Unexpected timer ID 0x00004F25 (0x00000000)
+17-01-2017 15:32:49.0875> KeySwitchTimerProc: Unexpected timer ID 0x00004ECD (0x00004ECA)
+17-01-2017 15:32:49.0890> KeySwitchTimerProc: Unexpected timer ID 0x00004ECC (0x00000000)
+17-01-2017 15:32:49.0968> KeySwitchTimerProc: Unexpected timer ID 0x00004ECB (0x00000000)
+17-01-2017 15:32:49.0484> KeySwitchTimerProc: Unexpected timer ID 0x00004EC9 (0x00004EC6)
+17-01-2017 15:32:49.0500> KeySwitchTimerProc: Unexpected timer ID 0x00004EC8 (0x00000000)
+17-01-2017 15:32:49.0562> KeySwitchTimerProc: Unexpected timer ID 0x00004EC7 (0x00000000)
+17-01-2017 16:50:01.0875> Power State: System is suspending operation.
+17-01-2017 16:50:01.0875> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+17-01-2017 16:50:01.0875> Removing and active XMBCHook Timers...
+17-01-2017 16:50:01.0890> Hook thread exited with error code 0.
+17-01-2017 16:50:01.0890> Timer thread exited with error code 0.
+18-01-2017 10:56:03.0703> Power State: Operation resuming automatically after event.
+18-01-2017 10:56:03.0703> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+18-01-2017 10:56:03.0750> Loaded 0 application specific profiles (0 normal and 0 custom window).
+18-01-2017 10:56:03.0750> Using keyboard language 0x04060409
+18-01-2017 10:58:03.0734> You are using the latest available version of X-Mouse Button Control.
+18-01-2017 15:13:02.0046> KeySwitchTimerProc: Unexpected timer ID 0x000031B4 (0x00000000)
+18-01-2017 15:13:02.0046> KeySwitchTimerProc: Unexpected timer ID 0x000031B5 (0x00000000)
+18-01-2017 15:13:23.0593> KeySwitchTimerProc: Unexpected timer ID 0x000031A0 (0x00000000)
+18-01-2017 15:13:23.0593> KeySwitchTimerProc: Unexpected timer ID 0x000031A1 (0x00000000)
+18-01-2017 15:13:32.0781> KeySwitchTimerProc: Unexpected timer ID 0x0000318D (0x00000000)
+18-01-2017 15:13:32.0781> KeySwitchTimerProc: Unexpected timer ID 0x0000318E (0x00000000)
+18-01-2017 16:58:03.0734> You are using the latest available version of X-Mouse Button Control.
+18-01-2017 22:58:03.0734> You are using the latest available version of X-Mouse Button Control.
+19-01-2017 04:58:03.0750> You are using the latest available version of X-Mouse Button Control.
+19-01-2017 10:58:03.0734> You are using the latest available version of X-Mouse Button Control.
+19-01-2017 16:58:03.0734> You are using the latest available version of X-Mouse Button Control.
+19-01-2017 18:29:22.0000> Power State: System is suspending operation.
+19-01-2017 18:29:22.0000> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+19-01-2017 18:29:22.0000> Removing and active XMBCHook Timers...
+19-01-2017 18:29:22.0015> Hook thread exited with error code 0.
+19-01-2017 18:29:22.0015> Timer thread exited with error code 0.
+20-01-2017 00:51:20.0687> Power State: Operation resuming automatically after event.
+20-01-2017 00:51:20.0687> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+20-01-2017 00:51:20.0718> Loaded 0 application specific profiles (0 normal and 0 custom window).
+20-01-2017 00:51:20.0734> Using keyboard language 0x04060409
+20-01-2017 00:53:20.0734> You are using the latest available version of X-Mouse Button Control.
+20-01-2017 06:53:20.0703> You are using the latest available version of X-Mouse Button Control.
+20-01-2017 10:51:17.0546> KeySwitchTimerProc: Unexpected timer ID 0x0000516C (0x0000516A)
+20-01-2017 10:51:17.0593> KeySwitchTimerProc: Unexpected timer ID 0x0000516B (0x00000000)
+20-01-2017 10:51:19.0281> KeySwitchTimerProc: Unexpected timer ID 0x00005169 (0x00005168)
+20-01-2017 12:53:20.0718> You are using the latest available version of X-Mouse Button Control.
+20-01-2017 15:17:37.0453> KeySwitchTimerProc: Unexpected timer ID 0x000038BD (0x000038BC)
+20-01-2017 16:25:04.0625> KeySwitchTimerProc: Unexpected timer ID 0x00002DC9 (0x00002DC7)
+20-01-2017 16:25:05.0687> KeySwitchTimerProc: Unexpected timer ID 0x00002DC8 (0x00000000)
+20-01-2017 16:25:09.0031> KeySwitchTimerProc: Unexpected timer ID 0x00002DC6 (0x00002DC4)
+20-01-2017 16:25:09.0109> KeySwitchTimerProc: Unexpected timer ID 0x00002DC5 (0x00000000)
+
+*******************************************************************************************************************************************
+23-01-2017 10:52:10.0953> X-Mouse Button Control v2.14 (x64) Startup. Commandline ''
+23-01-2017 10:52:10.0968> Running in high integrity mode (0x00003000)
+23-01-2017 10:52:10.0968> Loaded 0 application specific profiles (0 normal and 0 custom window).
+23-01-2017 10:52:10.0968> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+23-01-2017 10:52:10.0968> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+23-01-2017 10:52:10.0968> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+23-01-2017 10:52:10.0968> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+23-01-2017 10:52:10.0968> Using keyboard language 0x04060409
+23-01-2017 10:54:10.0000> You are using the latest available version of X-Mouse Button Control.
+23-01-2017 16:44:57.0296> Power State: System is suspending operation.
+23-01-2017 16:44:57.0296> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+23-01-2017 16:44:57.0296> Removing and active XMBCHook Timers...
+23-01-2017 16:44:57.0312> Hook thread exited with error code 0.
+23-01-2017 16:44:57.0312> Timer thread exited with error code 0.
+24-01-2017 10:12:47.0703> Power State: Operation resuming automatically after event.
+24-01-2017 10:12:47.0703> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+24-01-2017 10:12:47.0750> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-01-2017 10:12:47.0750> Using keyboard language 0x04060409
+24-01-2017 10:14:47.0718> You are using the latest available version of X-Mouse Button Control.
+24-01-2017 16:14:47.0734> You are using the latest available version of X-Mouse Button Control.
+24-01-2017 17:27:34.0187> KeySwitchTimerProc: Unexpected timer ID 0x00004A8B (0x00004A8A)
+24-01-2017 17:27:35.0890> KeySwitchTimerProc: Unexpected timer ID 0x00004A88 (0x00004A86)
+24-01-2017 17:27:35.0968> KeySwitchTimerProc: Unexpected timer ID 0x00004A87 (0x00000000)
+24-01-2017 17:27:47.0843> KeySwitchTimerProc: Unexpected timer ID 0x00004A85 (0x00004A83)
+24-01-2017 17:27:47.0937> KeySwitchTimerProc: Unexpected timer ID 0x00004A84 (0x00000000)
+24-01-2017 17:27:47.0593> KeySwitchTimerProc: Unexpected timer ID 0x00004A82 (0x00004A80)
+24-01-2017 17:27:48.0656> KeySwitchTimerProc: Unexpected timer ID 0x00004A81 (0x00000000)
+24-01-2017 17:27:58.0515> KeySwitchTimerProc: Unexpected timer ID 0x00004A7F (0x00004A7D)
+24-01-2017 17:27:58.0578> KeySwitchTimerProc: Unexpected timer ID 0x00004A7E (0x00000000)
+24-01-2017 17:27:59.0265> KeySwitchTimerProc: Unexpected timer ID 0x00004A7C (0x00004A7A)
+24-01-2017 17:27:59.0343> KeySwitchTimerProc: Unexpected timer ID 0x00004A7B (0x00000000)
+24-01-2017 17:28:25.0171> KeySwitchTimerProc: Unexpected timer ID 0x00004A78 (0x00004A76)
+24-01-2017 17:28:25.0234> KeySwitchTimerProc: Unexpected timer ID 0x00004A77 (0x00000000)
+24-01-2017 17:28:25.0609> KeySwitchTimerProc: Unexpected timer ID 0x00004A75 (0x00004A73)
+24-01-2017 17:28:26.0718> KeySwitchTimerProc: Unexpected timer ID 0x00004A74 (0x00000000)
+24-01-2017 17:29:34.0593> KeySwitchTimerProc: Unexpected timer ID 0x00004A71 (0x00004A6F)
+24-01-2017 17:29:35.0656> KeySwitchTimerProc: Unexpected timer ID 0x00004A70 (0x00000000)
+24-01-2017 17:29:35.0390> KeySwitchTimerProc: Unexpected timer ID 0x00004A6E (0x00004A6C)
+24-01-2017 17:29:35.0453> KeySwitchTimerProc: Unexpected timer ID 0x00004A6D (0x00000000)
+24-01-2017 17:29:48.0515> KeySwitchTimerProc: Unexpected timer ID 0x00004A6B (0x00004A69)
+24-01-2017 17:29:48.0578> KeySwitchTimerProc: Unexpected timer ID 0x00004A6A (0x00000000)
+24-01-2017 17:29:49.0937> KeySwitchTimerProc: Unexpected timer ID 0x00004A68 (0x00004A66)
+24-01-2017 17:29:49.0015> KeySwitchTimerProc: Unexpected timer ID 0x00004A67 (0x00000000)
+24-01-2017 17:30:07.0531> KeySwitchTimerProc: Unexpected timer ID 0x00004A49 (0x00004A47)
+24-01-2017 17:30:07.0593> KeySwitchTimerProc: Unexpected timer ID 0x00004A48 (0x00000000)
+24-01-2017 17:30:08.0296> KeySwitchTimerProc: Unexpected timer ID 0x00004A46 (0x00004A44)
+24-01-2017 17:30:08.0375> KeySwitchTimerProc: Unexpected timer ID 0x00004A45 (0x00000000)
+
+*******************************************************************************************************************************************
+25-01-2017 10:52:25.0500> X-Mouse Button Control v2.14 (x64) Startup. Commandline ''
+25-01-2017 10:52:25.0500> Running in high integrity mode (0x00003000)
+25-01-2017 10:52:25.0515> Loaded 0 application specific profiles (0 normal and 0 custom window).
+25-01-2017 10:52:25.0515> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+25-01-2017 10:52:25.0515> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+25-01-2017 10:52:25.0515> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+25-01-2017 10:52:25.0515> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+25-01-2017 10:52:25.0515> Using keyboard language 0x04060409
+25-01-2017 10:54:25.0531> You are using the latest available version of X-Mouse Button Control.
+25-01-2017 11:08:21.0578> KeySwitchTimerProc: Unexpected timer ID 0x00007C6F (0x00007C6C)
+25-01-2017 11:08:21.0640> KeySwitchTimerProc: Unexpected timer ID 0x00007C6E (0x00000000)
+25-01-2017 11:08:22.0703> KeySwitchTimerProc: Unexpected timer ID 0x00007C6D (0x00007C6B)
+25-01-2017 11:46:06.0625> KeySwitchTimerProc: Unexpected timer ID 0x0000782C (0x0000782B)
+25-01-2017 15:44:04.0578> KeySwitchTimerProc: Unexpected timer ID 0x0000703B (0x0000703A)
+25-01-2017 15:44:04.0578> KeySwitchTimerProc: Unexpected timer ID 0x0000703C (0x00000000)
+25-01-2017 15:47:59.0500> Power State: System is suspending operation.
+25-01-2017 15:47:59.0500> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+25-01-2017 15:47:59.0500> Removing and active XMBCHook Timers...
+25-01-2017 15:47:59.0515> Hook thread exited with error code 0.
+25-01-2017 15:47:59.0515> Timer thread exited with error code 0.
+26-01-2017 11:45:34.0718> Power State: Operation resuming automatically after event.
+26-01-2017 11:45:34.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+26-01-2017 11:45:34.0812> Loaded 0 application specific profiles (0 normal and 0 custom window).
+26-01-2017 11:45:34.0812> Using keyboard language 0x04060409
+26-01-2017 11:47:34.0765> You are using the latest available version of X-Mouse Button Control.
+26-01-2017 12:32:29.0078> KeySwitchTimerProc: Unexpected timer ID 0x00006AAC (0x00006AAB)
+26-01-2017 14:45:56.0218> Power State: System is suspending operation.
+26-01-2017 14:45:56.0218> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+26-01-2017 14:45:56.0218> Removing and active XMBCHook Timers...
+26-01-2017 14:45:56.0234> Hook thread exited with error code 0.
+26-01-2017 14:45:56.0234> Timer thread exited with error code 0.
+30-01-2017 11:16:47.0671> Power State: Operation resuming automatically after event.
+30-01-2017 11:16:47.0671> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+30-01-2017 11:16:47.0718> Loaded 0 application specific profiles (0 normal and 0 custom window).
+30-01-2017 11:16:47.0718> Using keyboard language 0x04060409
+30-01-2017 11:18:47.0687> You are using the latest available version of X-Mouse Button Control.
+30-01-2017 14:35:03.0593> Power State: System is suspending operation.
+30-01-2017 14:35:03.0593> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+30-01-2017 14:35:03.0593> Removing and active XMBCHook Timers...
+30-01-2017 14:35:03.0609> Hook thread exited with error code 0.
+30-01-2017 14:35:03.0609> Timer thread exited with error code 0.
+31-01-2017 11:26:44.0671> Power State: Operation resuming automatically after event.
+31-01-2017 11:26:44.0671> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+31-01-2017 11:26:44.0734> Loaded 0 application specific profiles (0 normal and 0 custom window).
+31-01-2017 11:26:44.0734> Using keyboard language 0x04060409
+31-01-2017 11:28:44.0703> You are using the latest available version of X-Mouse Button Control.
+31-01-2017 16:56:56.0500> Power State: System is suspending operation.
+31-01-2017 16:56:56.0500> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+31-01-2017 16:56:56.0500> Removing and active XMBCHook Timers...
+31-01-2017 16:56:56.0500> Hook thread exited with error code 0.
+31-01-2017 16:56:56.0500> Timer thread exited with error code 0.
+03-02-2017 10:41:10.0671> Power State: Operation resuming automatically after event.
+03-02-2017 10:41:10.0671> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+03-02-2017 10:41:10.0687> Loaded 0 application specific profiles (0 normal and 0 custom window).
+03-02-2017 10:41:10.0687> Using keyboard language 0x04060409
+03-02-2017 10:43:10.0687> You are using the latest available version of X-Mouse Button Control.
+03-02-2017 11:25:18.0328> KeySwitchTimerProc: Unexpected timer ID 0x00002034 (0x00002032)
+03-02-2017 11:25:18.0390> KeySwitchTimerProc: Unexpected timer ID 0x00002033 (0x00000000)
+03-02-2017 11:25:19.0562> KeySwitchTimerProc: Unexpected timer ID 0x00002031 (0x00002030)
+03-02-2017 11:25:26.0593> KeySwitchTimerProc: Unexpected timer ID 0x0000201A (0x00002018)
+03-02-2017 11:25:27.0656> KeySwitchTimerProc: Unexpected timer ID 0x00002019 (0x00000000)
+03-02-2017 11:25:28.0718> KeySwitchTimerProc: Unexpected timer ID 0x00002017 (0x00002015)
+03-02-2017 11:25:28.0796> KeySwitchTimerProc: Unexpected timer ID 0x00002016 (0x00000000)
+03-02-2017 11:31:04.0750> KeySwitchTimerProc: Unexpected timer ID 0x00001CD5 (0x00001CD3)
+03-02-2017 11:31:04.0828> KeySwitchTimerProc: Unexpected timer ID 0x00001CD4 (0x00000000)
+03-02-2017 11:31:05.0734> KeySwitchTimerProc: Unexpected timer ID 0x00001CD2 (0x00001CD0)
+03-02-2017 11:31:05.0812> KeySwitchTimerProc: Unexpected timer ID 0x00001CD1 (0x00000000)
+03-02-2017 11:34:14.0875> KeySwitchTimerProc: Unexpected timer ID 0x00001B55 (0x00001B53)
+03-02-2017 11:34:14.0968> KeySwitchTimerProc: Unexpected timer ID 0x00001B54 (0x00000000)
+03-02-2017 11:34:20.0750> KeySwitchTimerProc: Unexpected timer ID 0x00001B52 (0x00001B50)
+03-02-2017 11:34:20.0828> KeySwitchTimerProc: Unexpected timer ID 0x00001B51 (0x00000000)
+03-02-2017 11:34:21.0578> KeySwitchTimerProc: Unexpected timer ID 0x00001B4F (0x00001B4D)
+03-02-2017 11:34:22.0671> KeySwitchTimerProc: Unexpected timer ID 0x00001B4E (0x00000000)
+03-02-2017 11:51:49.0687> KeySwitchTimerProc: Unexpected timer ID 0x000014C6 (0x000014C4)
+03-02-2017 11:51:49.0750> KeySwitchTimerProc: Unexpected timer ID 0x000014C5 (0x00000000)
+03-02-2017 11:51:50.0515> KeySwitchTimerProc: Unexpected timer ID 0x000014C3 (0x000014C1)
+03-02-2017 11:51:50.0609> KeySwitchTimerProc: Unexpected timer ID 0x000014C2 (0x00000000)
+
+*******************************************************************************************************************************************
+17-02-2017 10:36:48.0421> X-Mouse Button Control v2.14 (x64) Startup. Commandline ''
+17-02-2017 10:36:48.0421> Running in high integrity mode (0x00003000)
+17-02-2017 10:36:48.0421> Loaded 0 application specific profiles (0 normal and 0 custom window).
+17-02-2017 10:36:48.0421> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+17-02-2017 10:36:48.0421> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+17-02-2017 10:36:48.0437> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+17-02-2017 10:36:48.0437> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+17-02-2017 10:36:48.0437> Using keyboard language 0x04060409
+17-02-2017 10:38:48.0453> There is a new version available! (2150000)
+17-02-2017 10:38:54.0406> Downloading X-Mouse Button Control v2.15...
+17-02-2017 10:38:56.0796> Downloaded update file to 'C:\Users\kristian\AppData\Local\Temp\\XMBCUpdate.exe' (995072 bytes)
+17-02-2017 10:38:58.0015> Successfully launched the update executable 'C:\Users\kristian\AppData\Local\Temp\\XMBCUpdate.exe'.
+17-02-2017 10:38:58.0187> MultInstance: Sending commandline to an existing instance of X-Mouse Button Control
+17-02-2017 10:38:58.0187> MultInstance: Successfully finished communicating with the first instance of X-Mouse Button Control.
+17-02-2017 10:38:58.0203> Received message with data 0x80000021 from another instance of X-Mouse Button Control.
+17-02-2017 10:38:58.0203> Exit requested from the commandline.
+17-02-2017 10:38:58.0203> Removing and active XMBCHook Timers...
+17-02-2017 10:38:58.0203> Hook thread exited with error code 0.
+17-02-2017 10:38:58.0203> Timer thread exited with error code 0.
+17-02-2017 10:38:58.0203> X-Mouse Button Control Shutdown.
+
+
+
+*******************************************************************************************************************************************
+17-02-2017 10:39:02.0515> X-Mouse Button Control v2.15 (x64) Startup. Commandline '/installed /notportable'
+17-02-2017 10:39:02.0515> Running in high integrity mode (0x00003000)
+17-02-2017 10:39:02.0515> Loaded 0 application specific profiles (0 normal and 0 custom window).
+17-02-2017 10:39:02.0515> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+17-02-2017 10:39:02.0515> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+17-02-2017 10:39:02.0515> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+17-02-2017 10:39:02.0515> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+17-02-2017 10:39:02.0531> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+13-03-2017 09:58:42.0406> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+13-03-2017 09:58:42.0421> Running in high integrity mode (0x00003000)
+13-03-2017 09:58:42.0421> Loaded 0 application specific profiles (0 normal and 0 custom window).
+13-03-2017 09:58:42.0421> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+13-03-2017 09:58:42.0421> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+13-03-2017 09:58:42.0421> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+13-03-2017 09:58:42.0421> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+13-03-2017 09:58:42.0421> Using keyboard language 0x04060409
+13-03-2017 10:00:42.0437> You are using the latest available version of X-Mouse Button Control.
+13-03-2017 15:18:06.0046> Power State: System is suspending operation.
+13-03-2017 15:18:06.0046> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+13-03-2017 15:18:06.0046> Removing any active XMBCHook Timers...
+13-03-2017 15:18:06.0062> Hook thread exited with error code 0.
+13-03-2017 15:18:06.0062> Timer thread exited with error code 0.
+14-03-2017 09:27:41.0687> Power State: Operation resuming automatically after event.
+14-03-2017 09:27:41.0687> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+14-03-2017 09:27:41.0718> Loaded 0 application specific profiles (0 normal and 0 custom window).
+14-03-2017 09:27:41.0718> Using keyboard language 0x04060409
+14-03-2017 09:29:41.0703> You are using the latest available version of X-Mouse Button Control.
+14-03-2017 15:29:41.0703> You are using the latest available version of X-Mouse Button Control.
+14-03-2017 17:03:49.0859> Power State: System is suspending operation.
+14-03-2017 17:03:49.0859> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+14-03-2017 17:03:49.0859> Removing any active XMBCHook Timers...
+14-03-2017 17:03:49.0859> Hook thread exited with error code 0.
+14-03-2017 17:03:49.0859> Timer thread exited with error code 0.
+15-03-2017 03:29:54.0734> Power State: Operation resuming automatically after event.
+15-03-2017 03:29:54.0734> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+15-03-2017 03:29:54.0750> Loaded 0 application specific profiles (0 normal and 0 custom window).
+15-03-2017 03:29:54.0750> Using keyboard language 0x04060409
+15-03-2017 03:32:06.0765> Failed to query the version DNS record. Status=1460
+15-03-2017 03:32:06.0765> You are using the latest available version of X-Mouse Button Control.
+15-03-2017 09:31:54.0734> Failed to query the version DNS record. Status=1460
+15-03-2017 09:31:54.0734> You are using the latest available version of X-Mouse Button Control.
+15-03-2017 15:31:54.0765> You are using the latest available version of X-Mouse Button Control.
+15-03-2017 17:22:50.0671> Power State: System is suspending operation.
+15-03-2017 17:22:50.0671> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+15-03-2017 17:22:50.0671> Removing any active XMBCHook Timers...
+15-03-2017 17:22:50.0687> Hook thread exited with error code 0.
+15-03-2017 17:22:50.0687> Timer thread exited with error code 0.
+16-03-2017 08:29:26.0671> Power State: Operation resuming automatically after event.
+16-03-2017 08:29:26.0671> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+16-03-2017 08:29:26.0734> Loaded 0 application specific profiles (0 normal and 0 custom window).
+16-03-2017 08:29:26.0734> Using keyboard language 0x04060409
+16-03-2017 08:31:26.0687> You are using the latest available version of X-Mouse Button Control.
+16-03-2017 14:31:26.0687> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+17-03-2017 09:40:49.0578> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+17-03-2017 09:40:49.0578> Running in high integrity mode (0x00003000)
+17-03-2017 09:40:49.0593> Loaded 0 application specific profiles (0 normal and 0 custom window).
+17-03-2017 09:40:49.0593> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+17-03-2017 09:40:49.0593> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+17-03-2017 09:40:49.0593> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+17-03-2017 09:40:49.0593> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+17-03-2017 09:40:49.0593> Using keyboard language 0x04060409
+17-03-2017 09:42:50.0656> You are using the latest available version of X-Mouse Button Control.
+17-03-2017 15:42:50.0656> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+20-03-2017 09:52:33.0375> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+20-03-2017 09:52:33.0390> Running in high integrity mode (0x00003000)
+20-03-2017 09:52:33.0390> Loaded 0 application specific profiles (0 normal and 0 custom window).
+20-03-2017 09:52:33.0390> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+20-03-2017 09:52:33.0390> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+20-03-2017 09:52:33.0390> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+20-03-2017 09:52:33.0390> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+20-03-2017 09:52:33.0390> Using keyboard language 0x04060409
+20-03-2017 09:54:33.0421> You are using the latest available version of X-Mouse Button Control.
+20-03-2017 15:29:27.0781> Power State: System is suspending operation.
+20-03-2017 15:29:27.0781> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+20-03-2017 15:29:27.0781> Removing any active XMBCHook Timers...
+20-03-2017 15:29:27.0781> Hook thread exited with error code 0.
+20-03-2017 15:29:27.0781> Timer thread exited with error code 0.
+21-03-2017 11:01:21.0593> Power State: Operation resuming automatically after event.
+21-03-2017 11:01:21.0593> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+21-03-2017 11:01:21.0640> Loaded 0 application specific profiles (0 normal and 0 custom window).
+21-03-2017 11:01:21.0640> Using keyboard language 0x04060409
+21-03-2017 11:03:21.0609> You are using the latest available version of X-Mouse Button Control.
+21-03-2017 17:03:21.0625> You are using the latest available version of X-Mouse Button Control.
+21-03-2017 18:07:22.0406> Power State: System is suspending operation.
+21-03-2017 18:07:22.0406> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+21-03-2017 18:07:22.0406> Removing any active XMBCHook Timers...
+21-03-2017 18:07:22.0421> Hook thread exited with error code 0.
+21-03-2017 18:07:22.0421> Timer thread exited with error code 0.
+22-03-2017 10:08:47.0609> Power State: Operation resuming automatically after event.
+22-03-2017 10:08:47.0609> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+22-03-2017 10:08:47.0625> Loaded 0 application specific profiles (0 normal and 0 custom window).
+22-03-2017 10:08:47.0656> Using keyboard language 0x04060409
+22-03-2017 10:10:47.0625> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+22-03-2017 11:11:55.0875> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+22-03-2017 11:11:55.0875> Running in high integrity mode (0x00003000)
+22-03-2017 11:11:55.0890> Loaded 0 application specific profiles (0 normal and 0 custom window).
+22-03-2017 11:11:55.0890> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+22-03-2017 11:11:55.0890> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+22-03-2017 11:11:55.0890> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+22-03-2017 11:11:55.0890> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+22-03-2017 11:11:55.0890> Using keyboard language 0x04060409
+22-03-2017 11:13:55.0906> You are using the latest available version of X-Mouse Button Control.
+22-03-2017 16:16:23.0312> Power State: System is suspending operation.
+22-03-2017 16:16:23.0312> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+22-03-2017 16:16:23.0312> Removing any active XMBCHook Timers...
+22-03-2017 16:16:23.0312> Hook thread exited with error code 0.
+22-03-2017 16:16:23.0312> Timer thread exited with error code 0.
+23-03-2017 08:43:43.0640> Power State: Operation resuming automatically after event.
+23-03-2017 08:43:43.0640> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+23-03-2017 08:43:43.0671> Loaded 0 application specific profiles (0 normal and 0 custom window).
+23-03-2017 08:43:43.0671> Using keyboard language 0x04060409
+23-03-2017 08:45:43.0656> You are using the latest available version of X-Mouse Button Control.
+23-03-2017 14:45:43.0656> You are using the latest available version of X-Mouse Button Control.
+23-03-2017 16:17:23.0109> Power State: System is suspending operation.
+23-03-2017 16:17:23.0109> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+23-03-2017 16:17:23.0109> Removing any active XMBCHook Timers...
+23-03-2017 16:17:23.0125> Hook thread exited with error code 0.
+23-03-2017 16:17:23.0125> Timer thread exited with error code 0.
+24-03-2017 01:42:15.0718> Power State: Operation resuming automatically after event.
+24-03-2017 01:42:15.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+24-03-2017 01:42:15.0750> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-03-2017 01:42:15.0750> Using keyboard language 0x04060409
+24-03-2017 01:44:15.0734> You are using the latest available version of X-Mouse Button Control.
+24-03-2017 07:44:15.0734> You are using the latest available version of X-Mouse Button Control.
+24-03-2017 13:44:15.0734> You are using the latest available version of X-Mouse Button Control.
+24-03-2017 19:44:15.0734> You are using the latest available version of X-Mouse Button Control.
+25-03-2017 01:44:15.0718> You are using the latest available version of X-Mouse Button Control.
+25-03-2017 07:44:15.0859> You are using the latest available version of X-Mouse Button Control.
+25-03-2017 13:44:15.0734> You are using the latest available version of X-Mouse Button Control.
+25-03-2017 19:44:15.0750> You are using the latest available version of X-Mouse Button Control.
+26-03-2017 01:44:15.0781> You are using the latest available version of X-Mouse Button Control.
+26-03-2017 08:44:15.0765> You are using the latest available version of X-Mouse Button Control.
+26-03-2017 14:44:15.0781> You are using the latest available version of X-Mouse Button Control.
+26-03-2017 20:44:15.0796> You are using the latest available version of X-Mouse Button Control.
+27-03-2017 02:44:15.0812> You are using the latest available version of X-Mouse Button Control.
+27-03-2017 08:44:15.0828> You are using the latest available version of X-Mouse Button Control.
+27-03-2017 14:44:15.0828> You are using the latest available version of X-Mouse Button Control.
+27-03-2017 16:50:43.0718> Power State: System is suspending operation.
+27-03-2017 16:50:43.0718> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+27-03-2017 16:50:43.0718> Removing any active XMBCHook Timers...
+27-03-2017 16:50:43.0718> Hook thread exited with error code 0.
+27-03-2017 16:50:43.0718> Timer thread exited with error code 0.
+28-03-2017 11:01:30.0718> Power State: Operation resuming automatically after event.
+28-03-2017 11:01:30.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+28-03-2017 11:01:30.0796> Loaded 0 application specific profiles (0 normal and 0 custom window).
+28-03-2017 11:01:30.0812> Using keyboard language 0x04060409
+28-03-2017 11:03:30.0750> You are using the latest available version of X-Mouse Button Control.
+28-03-2017 17:03:30.0781> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+29-03-2017 09:04:31.0546> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+29-03-2017 09:04:31.0562> Running in high integrity mode (0x00003000)
+29-03-2017 09:04:31.0562> Loaded 0 application specific profiles (0 normal and 0 custom window).
+29-03-2017 09:04:31.0562> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+29-03-2017 09:04:31.0562> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+29-03-2017 09:04:31.0562> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+29-03-2017 09:04:31.0562> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+29-03-2017 09:04:31.0562> Using keyboard language 0x04060409
+29-03-2017 09:06:31.0593> You are using the latest available version of X-Mouse Button Control.
+29-03-2017 15:06:24.0609> You are using the latest available version of X-Mouse Button Control.
+29-03-2017 18:02:44.0390> Power State: System is suspending operation.
+29-03-2017 18:02:44.0390> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+29-03-2017 18:02:44.0390> Removing any active XMBCHook Timers...
+29-03-2017 18:02:44.0406> Hook thread exited with error code 0.
+29-03-2017 18:02:44.0406> Timer thread exited with error code 0.
+30-03-2017 10:17:12.0906> Power State: Operation resuming automatically after event.
+30-03-2017 10:17:12.0906> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+30-03-2017 10:17:12.0953> Loaded 0 application specific profiles (0 normal and 0 custom window).
+30-03-2017 10:17:12.0953> Using keyboard language 0x04060409
+30-03-2017 10:19:12.0937> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+31-03-2017 09:36:46.0156> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+31-03-2017 09:36:46.0156> Running in high integrity mode (0x00003000)
+31-03-2017 09:36:46.0156> Loaded 0 application specific profiles (0 normal and 0 custom window).
+31-03-2017 09:36:46.0156> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+31-03-2017 09:36:46.0156> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+31-03-2017 09:36:46.0156> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+31-03-2017 09:36:46.0156> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+31-03-2017 09:36:46.0156> Using keyboard language 0x04060409
+31-03-2017 09:38:46.0187> You are using the latest available version of X-Mouse Button Control.
+31-03-2017 15:38:46.0203> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+03-04-2017 10:51:36.0812> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+03-04-2017 10:51:36.0812> Running in high integrity mode (0x00003000)
+03-04-2017 10:51:36.0812> Loaded 0 application specific profiles (0 normal and 0 custom window).
+03-04-2017 10:51:36.0812> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+03-04-2017 10:51:36.0812> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+03-04-2017 10:51:36.0812> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+03-04-2017 10:51:36.0812> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+03-04-2017 10:51:36.0828> Using keyboard language 0x04060409
+03-04-2017 10:53:36.0875> You are using the latest available version of X-Mouse Button Control.
+03-04-2017 15:20:58.0343> Power State: System is suspending operation.
+03-04-2017 15:20:58.0343> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+03-04-2017 15:20:58.0343> Removing any active XMBCHook Timers...
+03-04-2017 15:20:58.0359> Hook thread exited with error code 0.
+03-04-2017 15:20:58.0359> Timer thread exited with error code 0.
+04-04-2017 09:19:45.0687> Power State: Operation resuming automatically after event.
+04-04-2017 09:19:45.0687> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+04-04-2017 09:19:45.0765> Loaded 0 application specific profiles (0 normal and 0 custom window).
+04-04-2017 09:19:45.0765> Using keyboard language 0x04060409
+04-04-2017 09:21:45.0703> You are using the latest available version of X-Mouse Button Control.
+04-04-2017 15:21:45.0703> You are using the latest available version of X-Mouse Button Control.
+04-04-2017 17:37:06.0062> Power State: System is suspending operation.
+04-04-2017 17:37:06.0062> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+04-04-2017 17:37:06.0062> Removing any active XMBCHook Timers...
+04-04-2017 17:37:06.0078> Hook thread exited with error code 0.
+04-04-2017 17:37:06.0078> Timer thread exited with error code 0.
+05-04-2017 02:13:26.0718> Power State: Operation resuming automatically after event.
+05-04-2017 02:13:26.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+05-04-2017 02:13:26.0937> Loaded 0 application specific profiles (0 normal and 0 custom window).
+05-04-2017 02:13:26.0984> Using keyboard language 0x04060409
+05-04-2017 02:15:26.0750> You are using the latest available version of X-Mouse Button Control.
+05-04-2017 08:15:26.0750> You are using the latest available version of X-Mouse Button Control.
+05-04-2017 14:15:26.0765> You are using the latest available version of X-Mouse Button Control.
+05-04-2017 20:15:26.0781> You are using the latest available version of X-Mouse Button Control.
+06-04-2017 02:15:26.0781> You are using the latest available version of X-Mouse Button Control.
+06-04-2017 08:15:26.0781> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+06-04-2017 13:12:58.0484> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+06-04-2017 13:12:58.0500> Running in high integrity mode (0x00003000)
+06-04-2017 13:12:58.0500> Loaded 0 application specific profiles (0 normal and 0 custom window).
+06-04-2017 13:12:58.0500> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+06-04-2017 13:12:58.0500> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+06-04-2017 13:12:58.0500> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+06-04-2017 13:12:58.0500> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+06-04-2017 13:12:58.0500> Using keyboard language 0x04060409
+06-04-2017 13:14:58.0531> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+06-04-2017 13:23:41.0593> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+06-04-2017 13:23:41.0593> Running in high integrity mode (0x00003000)
+06-04-2017 13:23:41.0593> Loaded 0 application specific profiles (0 normal and 0 custom window).
+06-04-2017 13:23:41.0593> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+06-04-2017 13:23:41.0593> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+06-04-2017 13:23:41.0593> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+06-04-2017 13:23:41.0593> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+06-04-2017 13:23:41.0593> Using keyboard language 0x04060409
+06-04-2017 13:25:42.0640> You are using the latest available version of X-Mouse Button Control.
+06-04-2017 15:48:59.0828> Power State: System is suspending operation.
+06-04-2017 15:48:59.0828> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+06-04-2017 15:48:59.0828> Removing any active XMBCHook Timers...
+06-04-2017 15:48:59.0843> Hook thread exited with error code 0.
+06-04-2017 15:48:59.0843> Timer thread exited with error code 0.
+06-04-2017 17:21:59.0656> Power State: Operation resuming automatically after event.
+06-04-2017 17:21:59.0656> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+06-04-2017 17:21:59.0671> Loaded 0 application specific profiles (0 normal and 0 custom window).
+06-04-2017 17:21:59.0687> Using keyboard language 0x04060409
+06-04-2017 17:23:59.0687> You are using the latest available version of X-Mouse Button Control.
+06-04-2017 17:24:07.0109> Power State: System is suspending operation.
+06-04-2017 17:24:07.0109> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+06-04-2017 17:24:07.0109> Removing any active XMBCHook Timers...
+06-04-2017 17:24:07.0125> Hook thread exited with error code 0.
+06-04-2017 17:24:07.0125> Timer thread exited with error code 0.
+07-04-2017 09:21:36.0656> Power State: Operation resuming automatically after event.
+07-04-2017 09:21:36.0656> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+07-04-2017 09:21:36.0656> Loaded 0 application specific profiles (0 normal and 0 custom window).
+07-04-2017 09:21:36.0656> Using keyboard language 0x04060409
+07-04-2017 09:23:36.0671> You are using the latest available version of X-Mouse Button Control.
+07-04-2017 15:23:36.0687> You are using the latest available version of X-Mouse Button Control.
+07-04-2017 15:27:04.0531> Power State: System is suspending operation.
+07-04-2017 15:27:04.0531> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+07-04-2017 15:27:04.0531> Removing any active XMBCHook Timers...
+07-04-2017 15:27:04.0531> Hook thread exited with error code 0.
+07-04-2017 15:27:04.0531> Timer thread exited with error code 0.
+10-04-2017 11:20:57.0671> Power State: Operation resuming automatically after event.
+10-04-2017 11:20:57.0671> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+10-04-2017 11:20:57.0718> Loaded 0 application specific profiles (0 normal and 0 custom window).
+10-04-2017 11:20:57.0718> Using keyboard language 0x04060409
+10-04-2017 11:22:57.0687> You are using the latest available version of X-Mouse Button Control.
+10-04-2017 17:22:57.0687> You are using the latest available version of X-Mouse Button Control.
+10-04-2017 23:22:57.0703> You are using the latest available version of X-Mouse Button Control.
+11-04-2017 05:22:57.0687> You are using the latest available version of X-Mouse Button Control.
+11-04-2017 11:22:57.0703> You are using the latest available version of X-Mouse Button Control.
+11-04-2017 17:22:57.0734> You are using the latest available version of X-Mouse Button Control.
+11-04-2017 17:36:57.0171> Power State: System is suspending operation.
+11-04-2017 17:36:57.0171> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+11-04-2017 17:36:57.0171> Removing any active XMBCHook Timers...
+11-04-2017 17:36:57.0187> Hook thread exited with error code 0.
+11-04-2017 17:36:57.0187> Timer thread exited with error code 0.
+12-04-2017 08:47:32.0671> Power State: Operation resuming automatically after event.
+12-04-2017 08:47:32.0671> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+12-04-2017 08:47:32.0718> Loaded 0 application specific profiles (0 normal and 0 custom window).
+12-04-2017 08:47:32.0718> Using keyboard language 0x04060409
+12-04-2017 08:49:32.0687> You are using the latest available version of X-Mouse Button Control.
+12-04-2017 14:49:32.0687> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+18-04-2017 10:34:32.0796> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+18-04-2017 10:34:32.0796> Running in high integrity mode (0x00003000)
+18-04-2017 10:34:32.0796> Loaded 0 application specific profiles (0 normal and 0 custom window).
+18-04-2017 10:34:32.0796> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+18-04-2017 10:34:32.0796> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+18-04-2017 10:34:32.0796> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+18-04-2017 10:34:32.0796> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+18-04-2017 10:34:32.0796> Using keyboard language 0x04060409
+18-04-2017 10:36:32.0828> You are using the latest available version of X-Mouse Button Control.
+18-04-2017 16:36:32.0828> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+19-04-2017 12:35:39.0828> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+19-04-2017 12:35:39.0843> Running in high integrity mode (0x00003000)
+19-04-2017 12:35:39.0843> Loaded 0 application specific profiles (0 normal and 0 custom window).
+19-04-2017 12:35:39.0843> Running on Microsoft Windows 10 Professional Edition (build 14393), 64-bit, Hook Timeout: 0 ms
+19-04-2017 12:35:39.0843> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+19-04-2017 12:35:39.0843> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+19-04-2017 12:35:39.0843> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+19-04-2017 12:35:39.0859> Using keyboard language 0x04060409
+19-04-2017 12:37:39.0875> You are using the latest available version of X-Mouse Button Control.
+19-04-2017 18:37:39.0875> You are using the latest available version of X-Mouse Button Control.
+19-04-2017 21:41:17.0984> Power State: System is suspending operation.
+19-04-2017 21:41:17.0984> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+19-04-2017 21:41:17.0984> Removing any active XMBCHook Timers...
+19-04-2017 21:41:17.0015> Hook thread exited with error code 0.
+19-04-2017 21:41:17.0015> Timer thread exited with error code 0.
+19-04-2017 21:41:17.0015> RemoveMouseHook took 31ms
+20-04-2017 09:03:57.0734> Power State: Operation resuming automatically after event.
+20-04-2017 09:03:57.0734> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+20-04-2017 09:03:57.0734> Loaded 0 application specific profiles (0 normal and 0 custom window).
+20-04-2017 09:03:57.0750> Using keyboard language 0x04060409
+20-04-2017 09:05:57.0765> You are using the latest available version of X-Mouse Button Control.
+20-04-2017 15:05:57.0750> You are using the latest available version of X-Mouse Button Control.
+20-04-2017 18:07:16.0031> Power State: System is suspending operation.
+20-04-2017 18:07:16.0031> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+20-04-2017 18:07:16.0031> Removing any active XMBCHook Timers...
+20-04-2017 18:07:16.0046> Hook thread exited with error code 0.
+20-04-2017 18:07:16.0046> Timer thread exited with error code 0.
+21-04-2017 02:16:26.0703> Power State: Operation resuming automatically after event.
+21-04-2017 02:16:26.0703> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+21-04-2017 02:16:26.0765> Loaded 0 application specific profiles (0 normal and 0 custom window).
+21-04-2017 02:16:26.0765> Using keyboard language 0x04060409
+21-04-2017 02:18:26.0718> You are using the latest available version of X-Mouse Button Control.
+21-04-2017 08:18:26.0718> You are using the latest available version of X-Mouse Button Control.
+21-04-2017 14:18:26.0718> You are using the latest available version of X-Mouse Button Control.
+21-04-2017 18:44:48.0328> Power State: System is suspending operation.
+21-04-2017 18:44:48.0328> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+21-04-2017 18:44:48.0328> Removing any active XMBCHook Timers...
+21-04-2017 18:44:48.0343> Hook thread exited with error code 0.
+21-04-2017 18:44:48.0343> Timer thread exited with error code 0.
+24-04-2017 10:56:57.0718> Power State: Operation resuming automatically after event.
+24-04-2017 10:56:57.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+24-04-2017 10:56:57.0765> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-04-2017 10:56:57.0765> Using keyboard language 0x04060409
+24-04-2017 10:58:57.0734> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+24-04-2017 12:30:35.0375> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+24-04-2017 12:30:35.0375> Running in high integrity mode (0x00003000)
+24-04-2017 12:30:35.0375> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-04-2017 12:30:35.0390> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+24-04-2017 12:30:35.0390> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+24-04-2017 12:30:35.0390> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+24-04-2017 12:30:35.0390> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+24-04-2017 12:30:35.0390> Using keyboard language 0x04060409
+24-04-2017 12:32:35.0406> You are using the latest available version of X-Mouse Button Control.
+24-04-2017 14:48:11.0531> Power State: System is suspending operation.
+24-04-2017 14:48:11.0531> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+24-04-2017 14:48:11.0531> Removing any active XMBCHook Timers...
+24-04-2017 14:48:12.0671> Hook thread exited with error code 0.
+24-04-2017 14:48:12.0671> Timer thread exited with error code 0.
+24-04-2017 14:48:12.0671> RemoveMouseHook took 140ms
+25-04-2017 10:14:05.0656> Power State: Operation resuming automatically after event.
+25-04-2017 10:14:05.0656> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+25-04-2017 10:14:05.0671> Loaded 0 application specific profiles (0 normal and 0 custom window).
+25-04-2017 10:14:05.0687> Using keyboard language 0x04060409
+25-04-2017 10:16:05.0671> You are using the latest available version of X-Mouse Button Control.
+25-04-2017 16:16:05.0671> You are using the latest available version of X-Mouse Button Control.
+25-04-2017 20:56:57.0656> Power State: System is suspending operation.
+25-04-2017 20:56:57.0656> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+25-04-2017 20:56:57.0656> Removing any active XMBCHook Timers...
+25-04-2017 20:56:57.0656> Hook thread exited with error code 0.
+25-04-2017 20:56:57.0656> Timer thread exited with error code 0.
+26-04-2017 02:11:44.0718> Power State: Operation resuming automatically after event.
+26-04-2017 02:11:44.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+26-04-2017 02:11:44.0750> Loaded 0 application specific profiles (0 normal and 0 custom window).
+26-04-2017 02:11:44.0750> Using keyboard language 0x04060409
+26-04-2017 02:13:41.0750> You are using the latest available version of X-Mouse Button Control.
+26-04-2017 08:13:41.0750> You are using the latest available version of X-Mouse Button Control.
+26-04-2017 14:13:41.0750> You are using the latest available version of X-Mouse Button Control.
+26-04-2017 20:13:41.0781> You are using the latest available version of X-Mouse Button Control.
+27-04-2017 02:13:41.0750> You are using the latest available version of X-Mouse Button Control.
+27-04-2017 08:13:41.0750> You are using the latest available version of X-Mouse Button Control.
+27-04-2017 14:13:37.0750> You are using the latest available version of X-Mouse Button Control.
+27-04-2017 16:29:57.0875> Power State: System is suspending operation.
+27-04-2017 16:29:57.0875> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+27-04-2017 16:29:57.0875> Removing any active XMBCHook Timers...
+27-04-2017 16:29:57.0890> Hook thread exited with error code 0.
+27-04-2017 16:29:57.0890> Timer thread exited with error code 0.
+28-04-2017 08:55:50.0812> Power State: Operation resuming automatically after event.
+28-04-2017 08:55:50.0812> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+28-04-2017 08:55:50.0859> Loaded 0 application specific profiles (0 normal and 0 custom window).
+28-04-2017 08:55:50.0859> Using keyboard language 0x04060409
+28-04-2017 08:57:50.0828> You are using the latest available version of X-Mouse Button Control.
+28-04-2017 14:57:50.0843> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+02-05-2017 09:59:16.0046> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+02-05-2017 09:59:16.0062> Running in high integrity mode (0x00003000)
+02-05-2017 09:59:16.0062> Loaded 0 application specific profiles (0 normal and 0 custom window).
+02-05-2017 09:59:16.0062> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+02-05-2017 09:59:16.0062> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+02-05-2017 09:59:16.0062> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+02-05-2017 09:59:16.0062> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+02-05-2017 09:59:16.0062> Using keyboard language 0x04060409
+02-05-2017 10:01:16.0109> You are using the latest available version of X-Mouse Button Control.
+02-05-2017 16:01:16.0093> You are using the latest available version of X-Mouse Button Control.
+02-05-2017 22:01:16.0093> You are using the latest available version of X-Mouse Button Control.
+03-05-2017 04:01:16.0093> You are using the latest available version of X-Mouse Button Control.
+03-05-2017 10:01:16.0093> You are using the latest available version of X-Mouse Button Control.
+03-05-2017 16:01:16.0109> You are using the latest available version of X-Mouse Button Control.
+03-05-2017 17:05:00.0843> Power State: System is suspending operation.
+03-05-2017 17:05:00.0843> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+03-05-2017 17:05:00.0843> Removing any active XMBCHook Timers...
+03-05-2017 17:05:00.0859> Hook thread exited with error code 0.
+03-05-2017 17:05:00.0859> Timer thread exited with error code 0.
+03-05-2017 17:09:57.0812> Power State: Operation resuming automatically after event.
+03-05-2017 17:09:57.0812> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+03-05-2017 17:09:57.0843> Loaded 0 application specific profiles (0 normal and 0 custom window).
+03-05-2017 17:09:57.0859> Using keyboard language 0x04060409
+03-05-2017 17:11:57.0828> You are using the latest available version of X-Mouse Button Control.
+03-05-2017 23:11:57.0828> You are using the latest available version of X-Mouse Button Control.
+04-05-2017 05:11:54.0843> You are using the latest available version of X-Mouse Button Control.
+04-05-2017 11:11:54.0828> You are using the latest available version of X-Mouse Button Control.
+04-05-2017 17:12:05.0875> Failed to query the version DNS record. Status=1460
+04-05-2017 17:12:05.0875> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+05-05-2017 11:26:15.0703> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+05-05-2017 11:26:15.0703> Running in high integrity mode (0x00003000)
+05-05-2017 11:26:15.0703> Loaded 0 application specific profiles (0 normal and 0 custom window).
+05-05-2017 11:26:15.0703> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+05-05-2017 11:26:15.0703> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+05-05-2017 11:26:15.0703> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+05-05-2017 11:26:15.0703> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+05-05-2017 11:26:15.0718> Using keyboard language 0x04060409
+05-05-2017 11:28:16.0750> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+05-05-2017 11:52:51.0187> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+05-05-2017 11:52:51.0187> Running in high integrity mode (0x00003000)
+05-05-2017 11:52:51.0187> Loaded 0 application specific profiles (0 normal and 0 custom window).
+05-05-2017 11:52:51.0187> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+05-05-2017 11:52:51.0187> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+05-05-2017 11:52:51.0187> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+05-05-2017 11:52:51.0187> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+05-05-2017 11:52:51.0187> Using keyboard language 0x04060409
+05-05-2017 11:54:51.0250> You are using the latest available version of X-Mouse Button Control.
+05-05-2017 15:01:23.0421> Power State: System is suspending operation.
+05-05-2017 15:01:23.0421> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+05-05-2017 15:01:23.0421> Removing any active XMBCHook Timers...
+05-05-2017 15:01:23.0437> Hook thread exited with error code 0.
+05-05-2017 15:01:23.0437> Timer thread exited with error code 0.
+09-05-2017 11:28:49.0703> Power State: Operation resuming automatically after event.
+09-05-2017 11:28:49.0703> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+09-05-2017 11:28:49.0734> Loaded 0 application specific profiles (0 normal and 0 custom window).
+09-05-2017 11:28:49.0734> Using keyboard language 0x04060409
+09-05-2017 11:30:49.0734> You are using the latest available version of X-Mouse Button Control.
+09-05-2017 17:06:37.0718> Power State: System is suspending operation.
+09-05-2017 17:06:37.0718> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+09-05-2017 17:06:37.0718> Removing any active XMBCHook Timers...
+09-05-2017 17:06:37.0734> Hook thread exited with error code 0.
+09-05-2017 17:06:37.0734> Timer thread exited with error code 0.
+10-05-2017 11:02:15.0734> Power State: Operation resuming automatically after event.
+10-05-2017 11:02:15.0734> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+10-05-2017 11:02:15.0796> Loaded 0 application specific profiles (0 normal and 0 custom window).
+10-05-2017 11:02:15.0812> Using keyboard language 0x04060409
+10-05-2017 11:04:15.0750> You are using the latest available version of X-Mouse Button Control.
+10-05-2017 17:04:15.0750> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+11-05-2017 08:22:22.0421> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+11-05-2017 08:22:22.0421> Running in high integrity mode (0x00003000)
+11-05-2017 08:22:22.0421> Loaded 0 application specific profiles (0 normal and 0 custom window).
+11-05-2017 08:22:22.0421> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+11-05-2017 08:22:22.0421> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+11-05-2017 08:22:22.0421> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+11-05-2017 08:22:22.0421> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+11-05-2017 08:22:22.0421> Using keyboard language 0x04060409
+11-05-2017 08:24:22.0453> You are using the latest available version of X-Mouse Button Control.
+11-05-2017 14:24:20.0484> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+15-05-2017 10:42:00.0328> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+15-05-2017 10:42:00.0328> Running in high integrity mode (0x00003000)
+15-05-2017 10:42:00.0328> Loaded 0 application specific profiles (0 normal and 0 custom window).
+15-05-2017 10:42:00.0328> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+15-05-2017 10:42:00.0328> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+15-05-2017 10:42:00.0328> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+15-05-2017 10:42:00.0328> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+15-05-2017 10:42:00.0328> Using keyboard language 0x04060409
+15-05-2017 10:44:00.0359> You are using the latest available version of X-Mouse Button Control.
+15-05-2017 16:44:00.0359> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+16-05-2017 09:18:00.0484> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+16-05-2017 09:18:00.0484> Running in high integrity mode (0x00003000)
+16-05-2017 09:18:00.0484> Loaded 0 application specific profiles (0 normal and 0 custom window).
+16-05-2017 09:18:00.0500> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+16-05-2017 09:18:00.0500> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+16-05-2017 09:18:00.0500> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+16-05-2017 09:18:00.0500> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+16-05-2017 09:18:00.0500> Using keyboard language 0x04060409
+16-05-2017 09:20:00.0500> You are using the latest available version of X-Mouse Button Control.
+16-05-2017 15:20:00.0515> You are using the latest available version of X-Mouse Button Control.
+16-05-2017 17:07:14.0140> Power State: System is suspending operation.
+16-05-2017 17:07:14.0140> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+16-05-2017 17:07:14.0140> Removing any active XMBCHook Timers...
+16-05-2017 17:07:14.0140> Hook thread exited with error code 0.
+16-05-2017 17:07:14.0140> Timer thread exited with error code 0.
+17-05-2017 00:59:25.0671> Power State: Operation resuming automatically after event.
+17-05-2017 00:59:25.0671> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+17-05-2017 00:59:25.0734> Loaded 0 application specific profiles (0 normal and 0 custom window).
+17-05-2017 00:59:25.0750> Using keyboard language 0x04060409
+17-05-2017 01:01:25.0687> You are using the latest available version of X-Mouse Button Control.
+17-05-2017 07:01:25.0687> You are using the latest available version of X-Mouse Button Control.
+17-05-2017 13:01:22.0687> You are using the latest available version of X-Mouse Button Control.
+17-05-2017 14:36:32.0968> Power State: System is suspending operation.
+17-05-2017 14:36:32.0968> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+17-05-2017 14:36:32.0968> Removing any active XMBCHook Timers...
+17-05-2017 14:36:32.0968> Hook thread exited with error code 0.
+17-05-2017 14:36:32.0968> Timer thread exited with error code 0.
+18-05-2017 10:57:21.0796> Power State: Operation resuming automatically after event.
+18-05-2017 10:57:21.0796> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+18-05-2017 10:57:21.0843> Loaded 0 application specific profiles (0 normal and 0 custom window).
+18-05-2017 10:57:21.0843> Using keyboard language 0x04060409
+18-05-2017 10:59:21.0812> There is a new version available! (2160000)
+18-05-2017 16:24:07.0796> Power State: System is suspending operation.
+18-05-2017 16:24:07.0796> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+18-05-2017 16:24:07.0796> Removing any active XMBCHook Timers...
+18-05-2017 16:24:07.0812> Hook thread exited with error code 0.
+18-05-2017 16:24:07.0812> Timer thread exited with error code 0.
+19-05-2017 09:53:34.0812> Power State: Operation resuming automatically after event.
+19-05-2017 09:53:34.0812> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+19-05-2017 09:53:34.0859> Loaded 0 application specific profiles (0 normal and 0 custom window).
+19-05-2017 09:53:34.0875> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+22-05-2017 11:24:17.0968> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+22-05-2017 11:24:17.0968> Running in high integrity mode (0x00003000)
+22-05-2017 11:24:17.0984> Loaded 0 application specific profiles (0 normal and 0 custom window).
+22-05-2017 11:24:17.0984> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+22-05-2017 11:24:17.0984> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+22-05-2017 11:24:17.0984> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+22-05-2017 11:24:17.0984> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+22-05-2017 11:24:17.0984> Using keyboard language 0x04060409
+22-05-2017 17:02:49.0546> Power State: System is suspending operation.
+22-05-2017 17:02:49.0546> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+22-05-2017 17:02:49.0546> Removing any active XMBCHook Timers...
+22-05-2017 17:02:49.0562> Hook thread exited with error code 0.
+22-05-2017 17:02:49.0562> Timer thread exited with error code 0.
+23-05-2017 09:45:38.0687> Power State: Operation resuming automatically after event.
+23-05-2017 09:45:38.0687> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+23-05-2017 09:45:38.0718> Loaded 0 application specific profiles (0 normal and 0 custom window).
+23-05-2017 09:45:38.0734> Using keyboard language 0x04060409
+23-05-2017 09:47:38.0703> There is a new version available! (2160000)
+23-05-2017 17:21:35.0828> Power State: System is suspending operation.
+23-05-2017 17:21:35.0828> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+23-05-2017 17:21:35.0828> Removing any active XMBCHook Timers...
+23-05-2017 17:21:35.0843> Hook thread exited with error code 0.
+23-05-2017 17:21:35.0843> Timer thread exited with error code 0.
+29-05-2017 09:13:47.0718> Power State: Operation resuming automatically after event.
+29-05-2017 09:13:47.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+29-05-2017 09:13:47.0781> Loaded 0 application specific profiles (0 normal and 0 custom window).
+29-05-2017 09:13:47.0781> Using keyboard language 0x04060409
+29-05-2017 09:15:47.0734> There is a new version available! (2160000)
+29-05-2017 14:57:39.0781> Power State: System is suspending operation.
+29-05-2017 14:57:39.0781> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+29-05-2017 14:57:39.0781> Removing any active XMBCHook Timers...
+29-05-2017 14:57:39.0796> Hook thread exited with error code 0.
+29-05-2017 14:57:39.0796> Timer thread exited with error code 0.
+31-05-2017 09:17:51.0968> Power State: Operation resuming automatically after event.
+31-05-2017 09:17:51.0968> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+31-05-2017 09:17:51.0015> Loaded 0 application specific profiles (0 normal and 0 custom window).
+31-05-2017 09:17:51.0015> Using keyboard language 0x04060409
+31-05-2017 16:46:04.0203> Power State: System is suspending operation.
+31-05-2017 16:46:04.0203> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+31-05-2017 16:46:04.0203> Removing any active XMBCHook Timers...
+31-05-2017 16:46:04.0218> Hook thread exited with error code 0.
+31-05-2017 16:46:04.0218> Timer thread exited with error code 0.
+01-06-2017 11:06:29.0031> Power State: Operation resuming automatically after event.
+01-06-2017 11:06:29.0031> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+01-06-2017 11:06:29.0125> Loaded 0 application specific profiles (0 normal and 0 custom window).
+01-06-2017 11:06:29.0125> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+02-06-2017 10:20:39.0765> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+02-06-2017 10:20:39.0765> Running in high integrity mode (0x00003000)
+02-06-2017 10:20:39.0765> Loaded 0 application specific profiles (0 normal and 0 custom window).
+02-06-2017 10:20:39.0765> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+02-06-2017 10:20:39.0765> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+02-06-2017 10:20:39.0765> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+02-06-2017 10:20:39.0765> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+02-06-2017 10:20:39.0765> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+06-06-2017 10:41:00.0406> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+06-06-2017 10:41:00.0406> Running in high integrity mode (0x00003000)
+06-06-2017 10:41:00.0406> Loaded 0 application specific profiles (0 normal and 0 custom window).
+06-06-2017 10:41:00.0406> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+06-06-2017 10:41:00.0406> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+06-06-2017 10:41:00.0406> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+06-06-2017 10:41:00.0406> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+06-06-2017 10:41:00.0421> Using keyboard language 0x04060409
+06-06-2017 10:43:00.0453> There is a new version available! (2160000)
+06-06-2017 16:09:39.0375> Power State: System is suspending operation.
+06-06-2017 16:09:39.0375> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+06-06-2017 16:09:39.0375> Removing any active XMBCHook Timers...
+06-06-2017 16:09:39.0375> Hook thread exited with error code 0.
+06-06-2017 16:09:39.0375> Timer thread exited with error code 0.
+07-06-2017 09:27:51.0812> Power State: Operation resuming automatically after event.
+07-06-2017 09:27:51.0812> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+07-06-2017 09:27:51.0828> Loaded 0 application specific profiles (0 normal and 0 custom window).
+07-06-2017 09:27:51.0828> Using keyboard language 0x04060409
+07-06-2017 17:17:39.0828> Power State: System is suspending operation.
+07-06-2017 17:17:39.0828> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+07-06-2017 17:17:39.0828> Removing any active XMBCHook Timers...
+07-06-2017 17:17:39.0859> Hook thread exited with error code 0.
+07-06-2017 17:17:39.0859> Timer thread exited with error code 0.
+07-06-2017 17:17:39.0859> RemoveMouseHook took 31ms
+08-06-2017 09:54:45.0765> Power State: Operation resuming automatically after event.
+08-06-2017 09:54:45.0765> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+08-06-2017 09:54:45.0781> Loaded 0 application specific profiles (0 normal and 0 custom window).
+08-06-2017 09:54:45.0781> Using keyboard language 0x04060409
+08-06-2017 18:05:43.0515> Power State: System is suspending operation.
+08-06-2017 18:05:43.0515> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+08-06-2017 18:05:43.0515> Removing any active XMBCHook Timers...
+08-06-2017 18:05:43.0515> Hook thread exited with error code 0.
+08-06-2017 18:05:43.0515> Timer thread exited with error code 0.
+09-06-2017 09:38:44.0750> Power State: Operation resuming automatically after event.
+09-06-2017 09:38:44.0750> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+09-06-2017 09:38:44.0796> Loaded 0 application specific profiles (0 normal and 0 custom window).
+09-06-2017 09:38:44.0796> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+12-06-2017 11:08:14.0156> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+12-06-2017 11:08:14.0171> Running in high integrity mode (0x00003000)
+12-06-2017 11:08:14.0171> Loaded 0 application specific profiles (0 normal and 0 custom window).
+12-06-2017 11:08:14.0171> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+12-06-2017 11:08:14.0171> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+12-06-2017 11:08:14.0171> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+12-06-2017 11:08:14.0171> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+12-06-2017 11:08:14.0171> Using keyboard language 0x04060409
+12-06-2017 11:10:14.0218> There is a new version available! (2160000)
+12-06-2017 17:59:44.0125> Power State: System is suspending operation.
+12-06-2017 17:59:44.0125> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+12-06-2017 17:59:44.0125> Removing any active XMBCHook Timers...
+12-06-2017 17:59:44.0125> Hook thread exited with error code 0.
+12-06-2017 17:59:44.0125> Timer thread exited with error code 0.
+13-06-2017 09:21:57.0703> Power State: Operation resuming automatically after event.
+13-06-2017 09:21:57.0703> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+13-06-2017 09:21:57.0750> Loaded 0 application specific profiles (0 normal and 0 custom window).
+13-06-2017 09:21:57.0750> Using keyboard language 0x04060409
+13-06-2017 16:08:01.0000> Power State: System is suspending operation.
+13-06-2017 16:08:01.0000> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+13-06-2017 16:08:01.0000> Removing any active XMBCHook Timers...
+13-06-2017 16:08:01.0031> Hook thread exited with error code 0.
+13-06-2017 16:08:01.0031> Timer thread exited with error code 0.
+13-06-2017 16:08:01.0031> RemoveMouseHook took 31ms
+14-06-2017 10:23:34.0812> Power State: Operation resuming automatically after event.
+14-06-2017 10:23:34.0812> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+14-06-2017 10:23:34.0906> Loaded 0 application specific profiles (0 normal and 0 custom window).
+14-06-2017 10:23:34.0921> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+15-06-2017 10:18:24.0875> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+15-06-2017 10:18:24.0875> Running in high integrity mode (0x00003000)
+15-06-2017 10:18:24.0875> Loaded 0 application specific profiles (0 normal and 0 custom window).
+15-06-2017 10:18:24.0875> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+15-06-2017 10:18:24.0875> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+15-06-2017 10:18:24.0875> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+15-06-2017 10:18:24.0875> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+15-06-2017 10:18:24.0875> Using keyboard language 0x04060409
+15-06-2017 18:03:57.0375> Power State: System is suspending operation.
+15-06-2017 18:03:57.0375> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+15-06-2017 18:03:57.0375> Removing any active XMBCHook Timers...
+15-06-2017 18:03:57.0390> Hook thread exited with error code 0.
+15-06-2017 18:03:57.0390> Timer thread exited with error code 0.
+16-06-2017 10:51:36.0828> Power State: Operation resuming automatically after event.
+16-06-2017 10:51:36.0828> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+16-06-2017 10:51:36.0843> Loaded 0 application specific profiles (0 normal and 0 custom window).
+16-06-2017 10:51:36.0843> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+19-06-2017 11:03:30.0250> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+19-06-2017 11:03:30.0250> Running in high integrity mode (0x00003000)
+19-06-2017 11:03:30.0265> Loaded 0 application specific profiles (0 normal and 0 custom window).
+19-06-2017 11:03:30.0265> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+19-06-2017 11:03:30.0265> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+19-06-2017 11:03:30.0265> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+19-06-2017 11:03:30.0265> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+19-06-2017 11:03:30.0265> Using keyboard language 0x04060409
+19-06-2017 11:05:30.0296> There is a new version available! (2160000)
+19-06-2017 17:10:36.0718> Power State: System is suspending operation.
+19-06-2017 17:10:36.0718> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+19-06-2017 17:10:36.0718> Removing any active XMBCHook Timers...
+19-06-2017 17:10:36.0734> Hook thread exited with error code 0.
+19-06-2017 17:10:36.0734> Timer thread exited with error code 0.
+20-06-2017 11:05:24.0937> Power State: Operation resuming automatically after event.
+20-06-2017 11:05:24.0937> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+20-06-2017 11:05:24.0000> Loaded 0 application specific profiles (0 normal and 0 custom window).
+20-06-2017 11:05:24.0000> Using keyboard language 0x04060409
+20-06-2017 16:35:36.0593> Power State: System is suspending operation.
+20-06-2017 16:35:36.0593> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+20-06-2017 16:35:36.0593> Removing any active XMBCHook Timers...
+20-06-2017 16:35:36.0609> Hook thread exited with error code 0.
+20-06-2017 16:35:36.0609> Timer thread exited with error code 0.
+21-06-2017 02:02:05.0984> Power State: Operation resuming automatically after event.
+21-06-2017 02:02:05.0984> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+21-06-2017 02:02:05.0015> Loaded 0 application specific profiles (0 normal and 0 custom window).
+21-06-2017 02:02:05.0015> Using keyboard language 0x04060409
+22-06-2017 17:09:17.0984> Power State: System is suspending operation.
+22-06-2017 17:09:17.0984> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+22-06-2017 17:09:17.0984> Removing any active XMBCHook Timers...
+22-06-2017 17:09:17.0015> Hook thread exited with error code 0.
+22-06-2017 17:09:17.0015> Timer thread exited with error code 0.
+22-06-2017 17:09:17.0015> RemoveMouseHook took 31ms
+23-06-2017 01:19:25.0984> Power State: Operation resuming automatically after event.
+23-06-2017 01:19:25.0984> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+23-06-2017 01:19:25.0281> Loaded 0 application specific profiles (0 normal and 0 custom window).
+23-06-2017 01:19:25.0453> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+26-06-2017 10:56:06.0546> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+26-06-2017 10:56:06.0546> Running in high integrity mode (0x00003000)
+26-06-2017 10:56:06.0562> Loaded 0 application specific profiles (0 normal and 0 custom window).
+26-06-2017 10:56:06.0562> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+26-06-2017 10:56:06.0562> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+26-06-2017 10:56:06.0562> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+26-06-2017 10:56:06.0562> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+26-06-2017 10:56:06.0562> Using keyboard language 0x04060409
+26-06-2017 10:58:06.0593> There is a new version available! (2160100)
+26-06-2017 17:03:48.0546> Power State: System is suspending operation.
+26-06-2017 17:03:48.0546> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+26-06-2017 17:03:48.0546> Removing any active XMBCHook Timers...
+26-06-2017 17:03:48.0578> Hook thread exited with error code 0.
+26-06-2017 17:03:48.0578> Timer thread exited with error code 0.
+26-06-2017 17:03:48.0578> RemoveMouseHook took 32ms
+27-06-2017 10:11:56.0718> Power State: Operation resuming automatically after event.
+27-06-2017 10:11:56.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+27-06-2017 10:11:56.0718> Loaded 0 application specific profiles (0 normal and 0 custom window).
+27-06-2017 10:11:56.0734> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+28-06-2017 10:12:07.0062> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+28-06-2017 10:12:07.0062> Running in high integrity mode (0x00003000)
+28-06-2017 10:12:07.0078> Loaded 0 application specific profiles (0 normal and 0 custom window).
+28-06-2017 10:12:07.0078> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+28-06-2017 10:12:07.0078> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+28-06-2017 10:12:07.0078> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+28-06-2017 10:12:07.0078> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+28-06-2017 10:12:07.0078> Using keyboard language 0x04060409
+28-06-2017 17:08:46.0078> Power State: System is suspending operation.
+28-06-2017 17:08:46.0078> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+28-06-2017 17:08:46.0078> Removing any active XMBCHook Timers...
+28-06-2017 17:08:46.0093> Hook thread exited with error code 0.
+28-06-2017 17:08:46.0093> Timer thread exited with error code 0.
+29-06-2017 09:23:53.0656> Power State: Operation resuming automatically after event.
+29-06-2017 09:23:53.0656> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+29-06-2017 09:23:53.0687> Loaded 0 application specific profiles (0 normal and 0 custom window).
+29-06-2017 09:23:53.0687> Using keyboard language 0x04060409
+
+*******************************************************************************************************************************************
+30-06-2017 09:51:28.0625> X-Mouse Button Control v2.15 (x64) Startup. Commandline ''
+30-06-2017 09:51:28.0625> Running in high integrity mode (0x00003000)
+30-06-2017 09:51:28.0640> Loaded 0 application specific profiles (0 normal and 0 custom window).
+30-06-2017 09:51:28.0640> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+30-06-2017 09:51:28.0640> Warning: Low Level Hook Timeout is low. If you have problems try increaing this value.
+30-06-2017 09:51:28.0640> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+30-06-2017 09:51:28.0640> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+30-06-2017 09:51:28.0640> Using keyboard language 0x04060409
+30-06-2017 16:25:28.0937> Power State: System is suspending operation.
+30-06-2017 16:25:28.0937> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+30-06-2017 16:25:28.0937> Removing any active XMBCHook Timers...
+30-06-2017 16:25:28.0953> Hook thread exited with error code 0.
+30-06-2017 16:25:28.0953> Timer thread exited with error code 0.
+03-07-2017 10:05:53.0765> Power State: Operation resuming automatically after event.
+03-07-2017 10:05:53.0765> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+03-07-2017 10:05:53.0828> Loaded 0 application specific profiles (0 normal and 0 custom window).
+03-07-2017 10:05:53.0828> Using keyboard language 0x04060409
+03-07-2017 10:07:53.0812> There is a new version available! (2160100)
+03-07-2017 10:07:58.0281> Downloading X-Mouse Button Control v2.16.1...
+03-07-2017 10:07:59.0546> Downloaded update file to 'C:\Users\kristian\AppData\Local\Temp\\XMBCUpdate.exe' (1025152 bytes)
+03-07-2017 10:08:01.0546> Successfully launched the update executable 'C:\Users\kristian\AppData\Local\Temp\\XMBCUpdate.exe'.
+03-07-2017 10:08:02.0765> MultInstance: Sending commandline to an existing instance of X-Mouse Button Control
+03-07-2017 10:08:02.0765> Received 2048 bytes on the IPC named pipe.
+03-07-2017 10:08:02.0765> MultInstance: Successfully finished communicating with the first instance of X-Mouse Button Control.
+03-07-2017 10:08:02.0765> Received message with data 0x80000021 from another instance of X-Mouse Button Control.
+03-07-2017 10:08:02.0765> Exit requested from the commandline.
+03-07-2017 10:08:02.0765> Removing any active XMBCHook Timers...
+03-07-2017 10:08:02.0765> Hook thread exited with error code 0.
+03-07-2017 10:08:02.0765> Timer thread exited with error code 0.
+03-07-2017 10:08:02.0765> X-Mouse Button Control Shutdown.
+
+
+
+*******************************************************************************************************************************************
+03-07-2017 10:08:03.0406> X-Mouse Button Control v2.16.1 (x64) Startup. Commandline '/installed /notportable'
+03-07-2017 10:08:03.0406> Running in high integrity mode (0x00003000)
+03-07-2017 10:08:03.0406> Loaded 0 application specific profiles (0 normal and 0 custom window).
+03-07-2017 10:08:03.0406> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+03-07-2017 10:08:03.0406> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+03-07-2017 10:08:03.0406> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+03-07-2017 10:08:03.0406> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+03-07-2017 10:08:03.0406> Using keyboard language 0x04060409
+03-07-2017 15:13:49.0656> Power State: System is suspending operation.
+03-07-2017 15:13:49.0656> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+03-07-2017 15:13:49.0656> Removing any active XMBCHook Timers...
+03-07-2017 15:13:49.0671> CSendInput: Exiting SendInput thread.
+03-07-2017 15:13:49.0671> Hook thread exited with error code 0.
+03-07-2017 15:13:49.0671> Timer thread exited with error code 0.
+04-07-2017 10:07:18.0750> Power State: Operation resuming automatically after event.
+04-07-2017 10:07:18.0750> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+04-07-2017 10:07:18.0796> Loaded 0 application specific profiles (0 normal and 0 custom window).
+04-07-2017 10:07:18.0796> Using keyboard language 0x04060409
+04-07-2017 16:33:47.0484> Power State: System is suspending operation.
+04-07-2017 16:33:47.0484> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+04-07-2017 16:33:47.0484> Removing any active XMBCHook Timers...
+04-07-2017 16:33:47.0500> CSendInput: Exiting SendInput thread.
+04-07-2017 16:33:47.0500> Hook thread exited with error code 0.
+04-07-2017 16:33:47.0500> Timer thread exited with error code 0.
+05-07-2017 10:56:48.0781> Power State: Operation resuming automatically after event.
+05-07-2017 10:56:48.0781> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+05-07-2017 10:56:48.0812> Loaded 0 application specific profiles (0 normal and 0 custom window).
+05-07-2017 10:56:48.0812> Using keyboard language 0x04060409
+05-07-2017 17:23:26.0500> Power State: System is suspending operation.
+05-07-2017 17:23:26.0515> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+05-07-2017 17:23:26.0515> Removing any active XMBCHook Timers...
+05-07-2017 17:23:26.0515> CSendInput: Exiting SendInput thread.
+05-07-2017 17:23:26.0515> Hook thread exited with error code 0.
+05-07-2017 17:23:26.0515> Timer thread exited with error code 0.
+06-07-2017 09:11:18.0750> Power State: Operation resuming automatically after event.
+06-07-2017 09:11:18.0750> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+06-07-2017 09:11:18.0781> Loaded 0 application specific profiles (0 normal and 0 custom window).
+06-07-2017 09:11:18.0781> Using keyboard language 0x04060409
+06-07-2017 13:27:56.0421> Power State: System is suspending operation.
+06-07-2017 13:27:56.0421> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+06-07-2017 13:27:56.0421> Removing any active XMBCHook Timers...
+06-07-2017 13:27:56.0421> CSendInput: Exiting SendInput thread.
+06-07-2017 13:27:56.0421> Hook thread exited with error code 0.
+06-07-2017 13:27:56.0421> Timer thread exited with error code 0.
+07-07-2017 01:16:24.0750> Power State: Operation resuming automatically after event.
+07-07-2017 01:16:24.0750> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+07-07-2017 01:16:24.0765> Loaded 0 application specific profiles (0 normal and 0 custom window).
+07-07-2017 01:16:24.0765> Using keyboard language 0x04060409
+07-07-2017 19:08:06.0578> Power State: System is suspending operation.
+07-07-2017 19:08:06.0578> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+07-07-2017 19:08:06.0578> Removing any active XMBCHook Timers...
+07-07-2017 19:08:06.0593> CSendInput: Exiting SendInput thread.
+07-07-2017 19:08:06.0593> Hook thread exited with error code 0.
+07-07-2017 19:08:06.0593> Timer thread exited with error code 0.
+12-07-2017 00:54:56.0125> Power State: Operation resuming automatically after event.
+12-07-2017 00:54:56.0125> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+12-07-2017 00:54:56.0156> Loaded 0 application specific profiles (0 normal and 0 custom window).
+12-07-2017 00:54:56.0187> Using keyboard language 0x04060409
+12-07-2017 00:56:56.0140> You are using the latest available version of X-Mouse Button Control.
+12-07-2017 06:56:56.0140> You are using the latest available version of X-Mouse Button Control.
+12-07-2017 12:56:56.0140> You are using the latest available version of X-Mouse Button Control.
+12-07-2017 18:56:56.0140> You are using the latest available version of X-Mouse Button Control.
+13-07-2017 00:56:56.0140> You are using the latest available version of X-Mouse Button Control.
+13-07-2017 06:56:56.0140> You are using the latest available version of X-Mouse Button Control.
+13-07-2017 12:56:56.0140> You are using the latest available version of X-Mouse Button Control.
+13-07-2017 18:56:56.0140> You are using the latest available version of X-Mouse Button Control.
+14-07-2017 00:56:56.0140> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+18-07-2017 11:10:49.0656> X-Mouse Button Control v2.16.1 (x64) Startup. Commandline ''
+18-07-2017 11:10:49.0671> Running in high integrity mode (0x00003000)
+18-07-2017 11:10:49.0671> Loaded 0 application specific profiles (0 normal and 0 custom window).
+18-07-2017 11:10:49.0671> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+18-07-2017 11:10:49.0671> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+18-07-2017 11:10:49.0671> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+18-07-2017 11:10:49.0671> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+18-07-2017 11:10:49.0671> Using keyboard language 0x04060409
+18-07-2017 11:12:49.0687> You are using the latest available version of X-Mouse Button Control.
+18-07-2017 15:56:20.0171> Power State: System is suspending operation.
+18-07-2017 15:56:20.0171> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+18-07-2017 15:56:20.0171> Removing any active XMBCHook Timers...
+18-07-2017 15:56:20.0171> CSendInput: Exiting SendInput thread.
+18-07-2017 15:56:20.0187> Hook thread exited with error code 0.
+18-07-2017 15:56:20.0187> Timer thread exited with error code 0.
+19-07-2017 11:07:51.0812> Power State: Operation resuming automatically after event.
+19-07-2017 11:07:51.0812> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+19-07-2017 11:07:51.0843> Loaded 0 application specific profiles (0 normal and 0 custom window).
+19-07-2017 11:07:51.0843> Using keyboard language 0x04060409
+19-07-2017 11:09:51.0843> You are using the latest available version of X-Mouse Button Control.
+19-07-2017 17:09:51.0968> You are using the latest available version of X-Mouse Button Control.
+19-07-2017 19:05:32.0203> Power State: System is suspending operation.
+19-07-2017 19:05:32.0203> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+19-07-2017 19:05:32.0203> Removing any active XMBCHook Timers...
+19-07-2017 19:05:32.0218> CSendInput: Exiting SendInput thread.
+19-07-2017 19:05:32.0218> Hook thread exited with error code 0.
+19-07-2017 19:05:32.0218> Timer thread exited with error code 0.
+20-07-2017 11:31:29.0796> Power State: Operation resuming automatically after event.
+20-07-2017 11:31:29.0796> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+20-07-2017 11:31:29.0859> Loaded 0 application specific profiles (0 normal and 0 custom window).
+20-07-2017 11:31:29.0875> Using keyboard language 0x04060409
+20-07-2017 11:33:29.0828> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+21-07-2017 09:52:18.0390> X-Mouse Button Control v2.16.1 (x64) Startup. Commandline ''
+21-07-2017 09:52:18.0390> Running in high integrity mode (0x00003000)
+21-07-2017 09:52:18.0406> Loaded 0 application specific profiles (0 normal and 0 custom window).
+21-07-2017 09:52:18.0406> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+21-07-2017 09:52:18.0406> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+21-07-2017 09:52:18.0406> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+21-07-2017 09:52:18.0406> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+21-07-2017 09:52:18.0406> Using keyboard language 0x04060409
+21-07-2017 09:54:18.0421> You are using the latest available version of X-Mouse Button Control.
+21-07-2017 15:54:18.0468> You are using the latest available version of X-Mouse Button Control.
+21-07-2017 16:38:26.0875> Power State: System is suspending operation.
+21-07-2017 16:38:26.0875> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+21-07-2017 16:38:26.0875> Removing any active XMBCHook Timers...
+21-07-2017 16:38:26.0890> CSendInput: Exiting SendInput thread.
+21-07-2017 16:38:26.0890> Hook thread exited with error code 0.
+21-07-2017 16:38:26.0890> Timer thread exited with error code 0.
+24-07-2017 10:12:19.0781> Power State: Operation resuming automatically after event.
+24-07-2017 10:12:19.0781> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+24-07-2017 10:12:19.0859> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-07-2017 10:12:19.0859> Using keyboard language 0x04060409
+24-07-2017 10:14:19.0796> You are using the latest available version of X-Mouse Button Control.
+24-07-2017 16:14:17.0812> You are using the latest available version of X-Mouse Button Control.
+24-07-2017 18:08:45.0156> Power State: System is suspending operation.
+24-07-2017 18:08:45.0156> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+24-07-2017 18:08:45.0156> Removing any active XMBCHook Timers...
+24-07-2017 18:08:45.0171> CSendInput: Exiting SendInput thread.
+24-07-2017 18:08:45.0171> Hook thread exited with error code 0.
+24-07-2017 18:08:45.0171> Timer thread exited with error code 0.
+25-07-2017 10:59:00.0875> Power State: Operation resuming automatically after event.
+25-07-2017 10:59:00.0875> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+25-07-2017 10:59:00.0937> Loaded 0 application specific profiles (0 normal and 0 custom window).
+25-07-2017 10:59:00.0937> Using keyboard language 0x04060409
+25-07-2017 11:01:00.0890> You are using the latest available version of X-Mouse Button Control.
+25-07-2017 17:01:00.0890> You are using the latest available version of X-Mouse Button Control.
+25-07-2017 17:20:24.0875> Power State: System is suspending operation.
+25-07-2017 17:20:24.0875> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+25-07-2017 17:20:24.0875> Removing any active XMBCHook Timers...
+25-07-2017 17:20:24.0890> CSendInput: Exiting SendInput thread.
+25-07-2017 17:20:24.0890> Hook thread exited with error code 0.
+25-07-2017 17:20:24.0890> Timer thread exited with error code 0.
+26-07-2017 10:08:37.0859> Power State: Operation resuming automatically after event.
+26-07-2017 10:08:37.0859> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+26-07-2017 10:08:37.0906> Loaded 0 application specific profiles (0 normal and 0 custom window).
+26-07-2017 10:08:37.0937> Using keyboard language 0x04060409
+26-07-2017 10:10:37.0875> You are using the latest available version of X-Mouse Button Control.
+26-07-2017 16:10:48.0921> Failed to query the version DNS record. Status=1460
+26-07-2017 16:10:48.0921> You are using the latest available version of X-Mouse Button Control.
+26-07-2017 22:10:48.0921> Failed to query the version DNS record. Status=1460
+26-07-2017 22:10:48.0921> You are using the latest available version of X-Mouse Button Control.
+27-07-2017 04:10:48.0937> Failed to query the version DNS record. Status=1460
+27-07-2017 04:10:48.0937> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+27-07-2017 10:04:06.0671> X-Mouse Button Control v2.16.1 (x64) Startup. Commandline ''
+27-07-2017 10:04:06.0671> Running in high integrity mode (0x00003000)
+27-07-2017 10:04:06.0687> Loaded 0 application specific profiles (0 normal and 0 custom window).
+27-07-2017 10:04:06.0687> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+27-07-2017 10:04:06.0687> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+27-07-2017 10:04:06.0687> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+27-07-2017 10:04:06.0687> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+27-07-2017 10:04:06.0687> Using keyboard language 0x04060409
+27-07-2017 10:06:06.0703> You are using the latest available version of X-Mouse Button Control.
+27-07-2017 16:06:06.0703> You are using the latest available version of X-Mouse Button Control.
+27-07-2017 17:49:42.0625> Power State: System is suspending operation.
+27-07-2017 17:49:42.0625> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+27-07-2017 17:49:42.0625> Removing any active XMBCHook Timers...
+27-07-2017 17:49:42.0656> CSendInput: Exiting SendInput thread.
+27-07-2017 17:49:42.0656> Hook thread exited with error code 0.
+27-07-2017 17:49:42.0656> Timer thread exited with error code 0.
+27-07-2017 17:49:42.0656> RemoveMouseHook took 31ms
+28-07-2017 09:02:58.0765> Power State: Operation resuming automatically after event.
+28-07-2017 09:02:58.0765> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+28-07-2017 09:02:58.0796> Loaded 0 application specific profiles (0 normal and 0 custom window).
+28-07-2017 09:02:58.0796> Using keyboard language 0x04060409
+28-07-2017 09:04:58.0781> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+31-07-2017 10:23:00.0796> X-Mouse Button Control v2.16.1 (x64) Startup. Commandline ''
+31-07-2017 10:23:00.0812> Running in high integrity mode (0x00003000)
+31-07-2017 10:23:00.0828> Loaded 0 application specific profiles (0 normal and 0 custom window).
+31-07-2017 10:23:00.0828> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+31-07-2017 10:23:00.0828> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+31-07-2017 10:23:00.0828> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+31-07-2017 10:23:00.0828> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+31-07-2017 10:23:00.0828> Using keyboard language 0x04060409
+31-07-2017 10:25:00.0843> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+31-07-2017 13:20:51.0078> X-Mouse Button Control v2.16.1 (x64) Startup. Commandline ''
+31-07-2017 13:20:51.0078> Running in high integrity mode (0x00003000)
+31-07-2017 13:20:51.0093> Loaded 0 application specific profiles (0 normal and 0 custom window).
+31-07-2017 13:20:51.0093> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+31-07-2017 13:20:51.0093> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+31-07-2017 13:20:51.0093> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+31-07-2017 13:20:51.0093> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+31-07-2017 13:20:51.0093> Using keyboard language 0x04060409
+31-07-2017 13:22:51.0140> You are using the latest available version of X-Mouse Button Control.
+31-07-2017 16:49:09.0968> Power State: System is suspending operation.
+31-07-2017 16:49:09.0968> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+31-07-2017 16:49:09.0968> Removing any active XMBCHook Timers...
+31-07-2017 16:49:09.0984> CSendInput: Exiting SendInput thread.
+31-07-2017 16:49:09.0984> Hook thread exited with error code 0.
+31-07-2017 16:49:09.0984> Timer thread exited with error code 0.
+01-08-2017 10:01:22.0703> Power State: Operation resuming automatically after event.
+01-08-2017 10:01:22.0703> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+01-08-2017 10:01:22.0718> Loaded 0 application specific profiles (0 normal and 0 custom window).
+01-08-2017 10:01:22.0734> Using keyboard language 0x04060409
+01-08-2017 10:03:22.0718> You are using the latest available version of X-Mouse Button Control.
+01-08-2017 16:03:22.0718> You are using the latest available version of X-Mouse Button Control.
+01-08-2017 16:56:30.0609> Power State: System is suspending operation.
+01-08-2017 16:56:30.0609> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+01-08-2017 16:56:30.0609> Removing any active XMBCHook Timers...
+01-08-2017 16:56:30.0609> CSendInput: Exiting SendInput thread.
+01-08-2017 16:56:30.0609> Hook thread exited with error code 0.
+01-08-2017 16:56:30.0609> Timer thread exited with error code 0.
+04-08-2017 08:52:53.0828> Power State: Operation resuming automatically after event.
+04-08-2017 08:52:53.0828> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+04-08-2017 08:52:53.0906> Loaded 0 application specific profiles (0 normal and 0 custom window).
+04-08-2017 08:52:53.0906> Using keyboard language 0x04060409
+04-08-2017 08:54:53.0843> You are using the latest available version of X-Mouse Button Control.
+04-08-2017 14:54:53.0843> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+07-08-2017 09:46:34.0625> X-Mouse Button Control v2.16.1 (x64) Startup. Commandline ''
+07-08-2017 09:46:34.0625> Running in high integrity mode (0x00003000)
+07-08-2017 09:46:34.0625> Loaded 0 application specific profiles (0 normal and 0 custom window).
+07-08-2017 09:46:34.0640> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+07-08-2017 09:46:34.0640> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+07-08-2017 09:46:34.0640> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+07-08-2017 09:46:34.0640> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+07-08-2017 09:46:34.0640> Using keyboard language 0x04060409
+07-08-2017 09:48:34.0687> You are using the latest available version of X-Mouse Button Control.
+07-08-2017 15:48:34.0671> You are using the latest available version of X-Mouse Button Control.
+07-08-2017 16:31:37.0296> Power State: System is suspending operation.
+07-08-2017 16:31:37.0296> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+07-08-2017 16:31:37.0296> Removing any active XMBCHook Timers...
+07-08-2017 16:31:37.0312> CSendInput: Exiting SendInput thread.
+07-08-2017 16:31:37.0312> Hook thread exited with error code 0.
+07-08-2017 16:31:37.0312> Timer thread exited with error code 0.
+08-08-2017 10:49:33.0718> Power State: Operation resuming automatically after event.
+08-08-2017 10:49:33.0718> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+08-08-2017 10:49:33.0796> Loaded 0 application specific profiles (0 normal and 0 custom window).
+08-08-2017 10:49:33.0796> Using keyboard language 0x04060409
+08-08-2017 10:51:33.0750> You are using the latest available version of X-Mouse Button Control.
+08-08-2017 16:01:56.0531> Power State: System is suspending operation.
+08-08-2017 16:01:56.0531> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+08-08-2017 16:01:56.0531> Removing any active XMBCHook Timers...
+08-08-2017 16:01:56.0546> CSendInput: Exiting SendInput thread.
+08-08-2017 16:01:56.0546> Hook thread exited with error code 0.
+08-08-2017 16:01:56.0546> Timer thread exited with error code 0.
+09-08-2017 09:43:41.0796> Power State: Operation resuming automatically after event.
+09-08-2017 09:43:41.0796> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+09-08-2017 09:43:41.0906> Loaded 0 application specific profiles (0 normal and 0 custom window).
+09-08-2017 09:43:41.0921> Using keyboard language 0x04060409
+09-08-2017 09:45:41.0812> You are using the latest available version of X-Mouse Button Control.
+09-08-2017 15:45:41.0828> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+10-08-2017 10:08:48.0765> X-Mouse Button Control v2.16.1 (x64) Startup. Commandline ''
+10-08-2017 10:08:48.0765> Running in high integrity mode (0x00003000)
+10-08-2017 10:08:48.0765> Loaded 0 application specific profiles (0 normal and 0 custom window).
+10-08-2017 10:08:48.0765> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+10-08-2017 10:08:48.0765> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+10-08-2017 10:08:48.0765> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+10-08-2017 10:08:48.0765> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+10-08-2017 10:08:48.0781> Using keyboard language 0x04060409
+10-08-2017 10:10:48.0812> You are using the latest available version of X-Mouse Button Control.
+10-08-2017 16:10:44.0812> You are using the latest available version of X-Mouse Button Control.
+10-08-2017 16:59:06.0562> Power State: System is suspending operation.
+10-08-2017 16:59:06.0562> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+10-08-2017 16:59:06.0562> Removing any active XMBCHook Timers...
+10-08-2017 16:59:06.0562> CSendInput: Exiting SendInput thread.
+10-08-2017 16:59:06.0562> Hook thread exited with error code 0.
+10-08-2017 16:59:06.0562> Timer thread exited with error code 0.
+11-08-2017 09:48:23.0000> Power State: Operation resuming automatically after event.
+11-08-2017 09:48:23.0000> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+11-08-2017 09:48:23.0015> Loaded 0 application specific profiles (0 normal and 0 custom window).
+11-08-2017 09:48:23.0015> Using keyboard language 0x04060409
+11-08-2017 09:50:23.0015> You are using the latest available version of X-Mouse Button Control.
+11-08-2017 15:50:23.0015> You are using the latest available version of X-Mouse Button Control.
+11-08-2017 17:23:55.0078> Power State: System is suspending operation.
+11-08-2017 17:23:55.0078> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+11-08-2017 17:23:55.0078> Removing any active XMBCHook Timers...
+11-08-2017 17:23:55.0093> CSendInput: Exiting SendInput thread.
+11-08-2017 17:23:55.0093> Hook thread exited with error code 0.
+11-08-2017 17:23:55.0093> Timer thread exited with error code 0.
+14-08-2017 10:20:56.0125> Power State: Operation resuming automatically after event.
+14-08-2017 10:20:56.0125> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+14-08-2017 10:20:56.0171> Loaded 0 application specific profiles (0 normal and 0 custom window).
+14-08-2017 10:20:56.0171> Using keyboard language 0x04060409
+14-08-2017 10:22:56.0140> You are using the latest available version of X-Mouse Button Control.
+14-08-2017 16:22:56.0140> You are using the latest available version of X-Mouse Button Control.
+14-08-2017 22:22:56.0140> You are using the latest available version of X-Mouse Button Control.
+15-08-2017 04:22:56.0140> You are using the latest available version of X-Mouse Button Control.
+15-08-2017 10:22:56.0140> You are using the latest available version of X-Mouse Button Control.
+15-08-2017 16:22:51.0140> You are using the latest available version of X-Mouse Button Control.
+15-08-2017 16:57:23.0578> Power State: System is suspending operation.
+15-08-2017 16:57:23.0578> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+15-08-2017 16:57:23.0578> Removing any active XMBCHook Timers...
+15-08-2017 16:57:23.0593> CSendInput: Exiting SendInput thread.
+15-08-2017 16:57:23.0593> Hook thread exited with error code 0.
+15-08-2017 16:57:23.0593> Timer thread exited with error code 0.
+16-08-2017 02:00:48.0593> Power State: Operation resuming automatically after event.
+16-08-2017 02:00:48.0593> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+16-08-2017 02:00:48.0625> Loaded 0 application specific profiles (0 normal and 0 custom window).
+16-08-2017 02:00:48.0625> Using keyboard language 0x04060409
+16-08-2017 02:02:48.0609> You are using the latest available version of X-Mouse Button Control.
+16-08-2017 08:02:48.0593> You are using the latest available version of X-Mouse Button Control.
+16-08-2017 14:02:48.0625> You are using the latest available version of X-Mouse Button Control.
+16-08-2017 20:02:48.0609> You are using the latest available version of X-Mouse Button Control.
+17-08-2017 02:02:48.0609> You are using the latest available version of X-Mouse Button Control.
+17-08-2017 08:02:48.0609> You are using the latest available version of X-Mouse Button Control.
+17-08-2017 14:02:44.0593> You are using the latest available version of X-Mouse Button Control.
+17-08-2017 16:40:10.0640> Power State: System is suspending operation.
+17-08-2017 16:40:10.0640> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+17-08-2017 16:40:10.0640> Removing any active XMBCHook Timers...
+17-08-2017 16:40:10.0656> CSendInput: Exiting SendInput thread.
+17-08-2017 16:40:10.0656> Hook thread exited with error code 0.
+17-08-2017 16:40:10.0656> Timer thread exited with error code 0.
+21-08-2017 00:17:09.0750> Power State: Operation resuming automatically after event.
+21-08-2017 00:17:09.0750> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+21-08-2017 00:17:09.0828> Loaded 0 application specific profiles (0 normal and 0 custom window).
+21-08-2017 00:17:09.0828> Using keyboard language 0x04060409
+21-08-2017 00:19:09.0765> You are using the latest available version of X-Mouse Button Control.
+21-08-2017 06:19:09.0765> You are using the latest available version of X-Mouse Button Control.
+21-08-2017 12:19:09.0765> You are using the latest available version of X-Mouse Button Control.
+21-08-2017 18:19:09.0765> You are using the latest available version of X-Mouse Button Control.
+22-08-2017 00:19:09.0765> You are using the latest available version of X-Mouse Button Control.
+22-08-2017 06:19:09.0765> You are using the latest available version of X-Mouse Button Control.
+22-08-2017 12:19:04.0765> You are using the latest available version of X-Mouse Button Control.
+22-08-2017 18:19:04.0781> You are using the latest available version of X-Mouse Button Control.
+23-08-2017 00:19:04.0765> You are using the latest available version of X-Mouse Button Control.
+23-08-2017 06:19:04.0765> You are using the latest available version of X-Mouse Button Control.
+23-08-2017 12:19:04.0765> You are using the latest available version of X-Mouse Button Control.
+23-08-2017 18:19:04.0765> You are using the latest available version of X-Mouse Button Control.
+24-08-2017 00:19:05.0906> You are using the latest available version of X-Mouse Button Control.
+24-08-2017 06:19:04.0765> You are using the latest available version of X-Mouse Button Control.
+24-08-2017 12:18:58.0765> You are using the latest available version of X-Mouse Button Control.
+24-08-2017 16:46:43.0281> Power State: System is suspending operation.
+24-08-2017 16:46:43.0281> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+24-08-2017 16:46:43.0281> Removing any active XMBCHook Timers...
+24-08-2017 16:46:43.0296> CSendInput: Exiting SendInput thread.
+24-08-2017 16:46:43.0296> Hook thread exited with error code 0.
+24-08-2017 16:46:43.0296> Timer thread exited with error code 0.
+25-08-2017 10:10:30.0343> Power State: Operation resuming automatically after event.
+25-08-2017 10:10:30.0343> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+25-08-2017 10:10:30.0484> Loaded 0 application specific profiles (0 normal and 0 custom window).
+25-08-2017 10:10:30.0484> Using keyboard language 0x04060409
+25-08-2017 10:12:30.0375> You are using the latest available version of X-Mouse Button Control.
+25-08-2017 16:12:30.0359> You are using the latest available version of X-Mouse Button Control.
+25-08-2017 17:45:34.0250> Power State: System is suspending operation.
+25-08-2017 17:45:34.0250> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+25-08-2017 17:45:34.0250> Removing any active XMBCHook Timers...
+25-08-2017 17:45:34.0265> CSendInput: Exiting SendInput thread.
+25-08-2017 17:45:34.0265> Hook thread exited with error code 0.
+25-08-2017 17:45:34.0265> Timer thread exited with error code 0.
+28-08-2017 10:02:17.0328> Power State: Operation resuming automatically after event.
+28-08-2017 10:02:17.0328> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+28-08-2017 10:02:17.0468> Loaded 0 application specific profiles (0 normal and 0 custom window).
+28-08-2017 10:02:17.0500> Using keyboard language 0x04060409
+28-08-2017 10:04:17.0343> You are using the latest available version of X-Mouse Button Control.
+28-08-2017 16:04:17.0359> You are using the latest available version of X-Mouse Button Control.
+28-08-2017 17:07:01.0515> Power State: System is suspending operation.
+28-08-2017 17:07:01.0515> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+28-08-2017 17:07:01.0515> Removing any active XMBCHook Timers...
+28-08-2017 17:07:01.0531> CSendInput: Exiting SendInput thread.
+28-08-2017 17:07:01.0531> Hook thread exited with error code 0.
+28-08-2017 17:07:01.0531> Timer thread exited with error code 0.
+29-08-2017 10:31:08.0375> Power State: Operation resuming automatically after event.
+29-08-2017 10:31:08.0375> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+29-08-2017 10:31:08.0468> Loaded 0 application specific profiles (0 normal and 0 custom window).
+29-08-2017 10:31:08.0468> Using keyboard language 0x04060409
+29-08-2017 10:33:08.0390> You are using the latest available version of X-Mouse Button Control.
+29-08-2017 16:33:08.0390> You are using the latest available version of X-Mouse Button Control.
+29-08-2017 17:14:20.0453> Power State: System is suspending operation.
+29-08-2017 17:14:20.0453> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+29-08-2017 17:14:20.0453> Removing any active XMBCHook Timers...
+29-08-2017 17:14:20.0453> CSendInput: Exiting SendInput thread.
+29-08-2017 17:14:20.0453> Hook thread exited with error code 0.
+29-08-2017 17:14:20.0453> Timer thread exited with error code 0.
+30-08-2017 02:08:36.0375> Power State: Operation resuming automatically after event.
+30-08-2017 02:08:36.0375> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+30-08-2017 02:08:36.0468> Loaded 0 application specific profiles (0 normal and 0 custom window).
+30-08-2017 02:08:36.0468> Using keyboard language 0x04060409
+30-08-2017 02:10:36.0390> You are using the latest available version of X-Mouse Button Control.
+30-08-2017 08:10:36.0390> You are using the latest available version of X-Mouse Button Control.
+30-08-2017 14:10:36.0390> You are using the latest available version of X-Mouse Button Control.
+30-08-2017 15:32:12.0609> Power State: System is suspending operation.
+30-08-2017 15:32:12.0609> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+30-08-2017 15:32:12.0609> Removing any active XMBCHook Timers...
+30-08-2017 15:32:12.0625> CSendInput: Exiting SendInput thread.
+30-08-2017 15:32:12.0625> Hook thread exited with error code 0.
+30-08-2017 15:32:12.0625> Timer thread exited with error code 0.
+31-08-2017 09:59:34.0328> Power State: Operation resuming automatically after event.
+31-08-2017 09:59:34.0328> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+31-08-2017 09:59:34.0375> Loaded 0 application specific profiles (0 normal and 0 custom window).
+31-08-2017 09:59:34.0390> Using keyboard language 0x04060409
+31-08-2017 10:01:34.0359> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+19-10-2017 14:07:19.0468> X-Mouse Button Control v2.16.1 (x64) Startup. Commandline ''
+19-10-2017 14:07:19.0468> Running in high integrity mode (0x00003000)
+19-10-2017 14:07:19.0468> Loaded 0 application specific profiles (0 normal and 0 custom window).
+19-10-2017 14:07:19.0468> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+19-10-2017 14:07:19.0468> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+19-10-2017 14:07:19.0468> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+19-10-2017 14:07:19.0468> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+19-10-2017 14:07:19.0484> Using keyboard language 0x04060409
+19-10-2017 14:09:19.0515> Failed to query the version DNS record. Status=1460
+19-10-2017 14:09:19.0515> You are using the latest available version of X-Mouse Button Control.
+19-10-2017 16:57:05.0500> Power State: System is suspending operation.
+19-10-2017 16:57:05.0500> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+19-10-2017 16:57:05.0500> Removing any active XMBCHook Timers...
+19-10-2017 16:57:05.0515> CSendInput: Exiting SendInput thread.
+19-10-2017 16:57:05.0515> Hook thread exited with error code 0.
+19-10-2017 16:57:05.0515> Timer thread exited with error code 0.
+20-10-2017 08:22:43.0156> Power State: Operation resuming automatically after event.
+20-10-2017 08:22:43.0156> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+20-10-2017 08:22:43.0156> Loaded 0 application specific profiles (0 normal and 0 custom window).
+20-10-2017 08:22:43.0203> Using keyboard language 0x04060409
+20-10-2017 08:24:43.0171> You are using the latest available version of X-Mouse Button Control.

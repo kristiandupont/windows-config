@@ -35,7 +35,19 @@ Send, {LWin down}
 Send, {LWin up}
 return
 
+; mintty copy/paste with win+c and win+v
 #IfWinActive, ahk_class mintty
 #c::Send ^{Insert}
 #v::Send +{Insert}
 #IfWinActive
+
+#IfWinActive, ahk_exe code.exe
+#+e::Send ^+e
+#+u::Send ^+u
+#j::Send ^j
+#æ::Send ^æ
+#b::Send ^b
+#IfWinActive
+
+; Caps lock-> ESC
+Capslock::Esc

@@ -37,7 +37,7 @@ Author=Teijo
 "Default" => "Oletus"
 "A&dd" => "&Lisää"
 "Edi&t" => "M&uokkaa"
-"C&opy" => "K&opioi"
+"Cop&y" => "K&opioi"
 "Remo&ve" => "&Poista"
 "&Settings" => "&Asetukset"
 "Abo&ut" => "&Tietoja"
@@ -119,9 +119,9 @@ Author=Teijo
 "R&eset sticky buttons when any other key is pressed" => "Palauta alas&jäävät painikkeet painittaessa muuta näppäintä"
 "Show &tray icon by default" => "Näytä kuvakkeena &ilmoitusalueella"
 "&Ignore numlock state for Simulated Keystrokes" => "&Älä huomioi NUM LOCK:n tilaa (simuloidut näppäinpainallukset)"
-"Cycle l&ayers by left clicking tray icon" => "&Kierrätä tasoja ilmoitusalueen kuvaketta napsautettaessa"					# -- Updated in 2.5 beta 4 --
+"Cycle layers &by left clicking tray icon" => "&Kierrätä tasoja ilmoitusalueen kuvaketta napsautettaessa"					# -- Updated in 2.5 beta 4 --
 "&Fixup (de-bounce) tilt wheel auto-repeat" => "K&eskipainikkeen palautus toistettaessa"
-"Initial re&peat rate" => "&Alkuviive "										# -- Changed in 2.8 Beta 1 --
+"Initial repeat r&ate" => "&Alkuviive "										# -- Changed in 2.8 Beta 1 --
 "&Repeat tilt rate" => "&Toistoviive "
 "(ms)" => ""
 "Dela&y between simulated keystrokes" => "&Simuloitujen näppäinpainallusten välinen viive"
@@ -239,7 +239,7 @@ Author=Teijo
 "Mouse Button &4" => "Painike &4"
 "Mouse Button &5" => "Painike &5"
 "W&heel Up" => "Vieritys &ylös"
-"Wh&eel Down" => "Vieritys &alas"
+"Wheel &Down" => "Vieritys &alas"
 "Tilt Wheel Le&ft" => "Kallistus vase&mmalle"
 "Tilt Wheel Ri&ght" => "Kallistus oik&ealle"
 "Reset Layer" => "Arvojen nollaus"
@@ -291,15 +291,15 @@ Author=Teijo
 "0 = Windows default repeat delay && speed." => "0 = Käyttöjärjestelmän oletusviive."
 "Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Syötä näppäinjärjestys ylläolevaan kenttään.\r\nOsa näppäimistä voidaan simuloida käyttäen erityisiä tunnisteita:"
 "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Tunnisteet:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  HUOM!:\tTunnisteita voidaan yhdistellä, kuten {CTRL}{ALT} mutta VAIN SEURAAVAAN NÄPPÄIMEEN.\r\n\tFEsimerkiksi jos halutaan simuloida CTRL+a+CTRL+s, kirjoitetaan määrityskenttään '{CTRL}A{CTRL}S'."
-"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Erityisnäppäimet:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Erityisnäppäimet:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Suuntanäppäimet:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunktionäppäimet:\t\t{F1, F2, F3 ... F24}\r\nÄänenvoimakkuus:\t\t{VOL+}, {VOL-}, {MUTE}\r\nHiiripainikkeet:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nHiirirulla:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeronäppäimet:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nSelainnäppäimet:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nPäälle/pois-näppäimet:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Esimerkkejä:\r\n  Ikkunan sulkeminen: {ALT}{F4}\r\n  Kaikkien valitseminen: {CTRL}A\r\n  Lihavoidun tekstin 'oma teksti' kirjoittaminen Microsoft Word:issa: {CTRL}oma teksti{CTRL}b\r\n  Näppäimen 'r' painallus, joka kestää 50ms : {HOLDMS50}r\r\n  NUM LOCK:in poistaminen käytöstä: {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Esimerkkejä:\r\n  Ikkunan sulkeminen: {ALT}{F4}\r\n  Kaikkien valitseminen: {CTRL}A\r\n  Lihavoidun tekstin 'oma teksti' kirjoittaminen Microsoft Word:issa: {CTRL}oma teksti{CTRL}b\r\n  Näppäimen 'r' painallus, joka kestää 50ms : {HOLDMS:50}r\r\n  NUM LOCK:in poistaminen käytöstä: {NUMLOCKOFF}"
 
 # -- Updated in 2.9 beta 6 --
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Esimerkkejä:\r\n  Ikkunan sulkeminen: {ALT}{F4}\r\n  Kaikkien valitseminen: {CTRL}A\r\n  Lihavoidun tekstin 'oma teksti' kirjoittaminen Microsoft Word:issa: {CTRL}oma teksti{CTRL}b\r\n  Näppäimen 'r' painallus, joka kestää 50ms : {HOLDMS50}r\r\n  NUM LOCK:in poistaminen käytöstä: {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Esimerkkejä:\r\n  Ikkunan sulkeminen: {ALT}{F4}\r\n  Kaikkien valitseminen: {CTRL}A\r\n  Lihavoidun tekstin 'oma teksti' kirjoittaminen Microsoft Word:issa: {CTRL}oma teksti{CTRL}b\r\n  Näppäimen 'r' painallus, joka kestää 50ms : {HOLDMS:50}r\r\n  NUM LOCK:in poistaminen käytöstä: {NUMLOCKOFF}"
 
 # -- Added in 2.9 beta 6 --
-"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following keys\r\n\t\t\t{RELEASE} Release (let go of) the following keys\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Erityistunnisteet koskien tapoja 1, 2, 4-7 ja 9:\r\n\t\t\t{PRESS} Paina seuraavat näppäimet\r\n\t\t\t{RELEASE} Vapauta seuraavat näppäimet\r\n\t\t\tHUOM! Käytettäessä tunnistetta {PRESS} pitää samassa lausekkeessa olla samalle merkille myös {RELEASE}!"
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Erityistunnisteet koskien tapoja 1, 2, 4-7 ja 9:\r\n\t\t\t{PRESS} Paina seuraavat näppäimet\r\n\t\t\t{RELEASE} Vapauta seuraavat näppäimet\r\n\t\t\tHUOM! Käytettäessä tunnistetta {PRESS} pitää samassa lausekkeessa olla samalle merkille myös {RELEASE}!"
 "To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => "Näppäinten 'a', 'b' ja 'c' painaminen 100ms ajan ja vapauttaminen: {PRESS}abc{WAITMS100}{RELEASE}cba"
 # -- 
 
@@ -309,7 +309,7 @@ Author=Teijo
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Suuntanäppäimet:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunktionäppäimet:\t\t{F1, F2, F3 ... F24}\r\nÄänenvoimakkuus:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nHiiripainikkeet:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nHiirirulla:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeronäppäimet:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nSelainnäppäimet:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nPäälle/pois-näppäimet:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
 
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Erityistoiminnot:\t{WAIT<n>} lisää <n> sekunnin viiveen.\r\n\t\t\t{WAITMS<n>} lisää <n> millisekunnin viiveen.\r\n\t\t\t{HOLD<n>} pitää seuraavaa painiketta painettuna <n> sekunnin ajan.\r\n\t\t\t{HOLDMS<n>} pitää seuraavaa painiketta painettuna <n> millisekunnin ajan.\r\n\t\t\t{VKC:<n>} Lähettää määritellyn virtuaalisen näppäinkoodin.\r\n\t\t\t{EXT:<n>} Lähettää määritellyn virtuaalisen laajennetun näppäinkoodin.\r\n\t\t\t{CLEAR} Poistaa kaikki määritysnäppäimet kuten esimerkiksi {CTRL},{ALT} jne."
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Erityistoiminnot:\t{WAIT:n} lisää <n> sekunnin viiveen.\r\n\t\t\t{WAITMS:n} lisää <n> millisekunnin viiveen.\r\n\t\t\t{HOLD:n} pitää seuraavaa painiketta painettuna <n> sekunnin ajan.\r\n\t\t\t{HOLDMS:n} pitää seuraavaa painiketta painettuna <n> millisekunnin ajan.\r\n\t\t\t{VKC:n} Lähettää määritellyn virtuaalisen näppäinkoodin.\r\n\t\t\t{EXT:n} Lähettää määritellyn virtuaalisen laajennetun näppäinkoodin.\r\n\t\t\t{CLEAR} Poistaa kaikki määritysnäppäimet kuten esimerkiksi {CTRL},{ALT} jne."
 
 
 #Run Application dialog
@@ -354,9 +354,9 @@ Author=Teijo
 "XML support provided by XML++ from Michael at turboirc.com" => "XML-tuen toteutti XML++:llä Michael @ turboirc.com"
 "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "Tämä ohjelma on ilmaisohjelma (ilman minkäänlaisia takuita) ja tarkoittu jokaisen käytettäväksi missä tahansa. Mikäli pidät ohjelmasta ja haluat osoittaa kiitollisuutesi, voit tehdä lahjoituksen napsauttamalla allaolevaa PayPal-painiketta."
 "More information can be found on my download page or user forums." => "Lisätietoa ohjelmasta on saatavilla englanniksi kotisivustolta ja keskustelusivulta."
-"Homepage" => "Kotisivu"
-"Donate" => "Lahjoitus"
-"Forums" => "Keskustelusivu"
+"&Homepage" => "Kotisivu"
+"&Donate" => "Lahjoitus"
+"&Forums" => "Keskustelusivu"
 
 
 "About" => "Tietoja ohjelmasta"

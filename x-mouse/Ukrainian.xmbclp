@@ -18,7 +18,7 @@ Author=netavek
 "Default" => "По замовчуванню"
 "A&dd" => "Додати"
 "Edi&t" => "Редагувати"
-"C&opy" => "Копіювати"
+"Cop&y" => "Копіювати"
 "Remo&ve" => "Видалити"
 "&Settings" => "Налаштування"
 "Abo&ut" => "Про програму"
@@ -78,10 +78,10 @@ Author=netavek
 "R&eset sticky buttons when any other key is pressed" => "Скинути залиплу кнопку, коли натиснено будь-яку клавішу"
 "Show &tray icon by default" => "Показувати значок на панелі завдань"
 "&Ignore numlock state for Simulated Keystrokes" => "Не зважати на стан NUMLOCK при симуляції натискань клавіш"
-"Cycle l&ayers by left clicking tray icon" => "Колообіг шарів при клацанні по значку на панелі завдань"					# -- Updated in 2.5 beta 4 --
+"Cycle layers &by left clicking tray icon" => "Колообіг шарів при клацанні по значку на панелі завдань"					# -- Updated in 2.5 beta 4 --
 "&Fixup (de-bounce) tilt wheel auto-repeat" => "Перепризначити параметри автоповтору нахилу коліщатка"
 "&Initial repeat rate" => "Початкова частота повтору"
-"Initial re&peat rate" => "Початкова частота повтору"							# -- Changed in 2.8 Beta 1 --
+"Initial repeat r&ate" => "Початкова частота повтору"							# -- Changed in 2.8 Beta 1 --
 "&Repeat tilt rate" => "Частота повтору нахилу"
 "(ms)" => "мс"
 "Dela&y between simulated keystrokes" => "Затримка між симульованими натисканнями клавіш"
@@ -199,7 +199,7 @@ Author=netavek
 "Mouse Button &4" => "Кнопка миші 4"
 "Mouse Button &5" => "Кнопка миші 5"
 "W&heel Up" => "Крутити вгору"
-"Wh&eel Down" => "Крутити вниз"
+"Wheel &Down" => "Крутити вниз"
 "Tilt Wheel Le&ft" => "Нахил ліворуч"
 "Tilt Wheel Ri&ght" => "Нахил праворуч"
 "Reset Layer" => "Скинути шар"
@@ -248,14 +248,14 @@ Author=netavek
 
 "Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Введіть послідовність клавіш у полі вище.\r\nВи можете симулювати натиснення клавіш використовуючи наступні теґи:"
 "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Теґи модифікації:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n\r\n  УВАГА: теґи модифікації можна сполучати як {CTRL}{ALT}, але вони будуть працювати\r\n  ЛИШЕ З ТАКИМ КЛЮЧЕМ. Наприклад, для надсилання «CTRL+a+CTRL+s», потрібно ввести\r\n  «{CTRL}A{CTRL}S»."
-"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Розширені теґи клавіш:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Розширені теґи клавіш:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Теґи клавіш напрямку:\r\n  {UP} {DOWN} {LEFT} {RIGHT}\r\n\r\nТеґи функціональних клавіш:\r\n  {F1, F2, F3 ... F24}\r\n\r\nТеґи клавіш гучності:\r\n  {VOL+}, {VOL-}, {MUTE}\r\n\r\nТеґи кнопок миші:\r\n  {LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\n\r\nТеґи коліщатка миші:\r\n  {MWUP}, {MWDN}, {TILTL}, {TILTR}\r\n\r\nТеґи цифрової клавіатури:\r\n  {NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\n\r\nКнопки оглядача інтернету:\r\n  {BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME}, {SEARCH}, {FAVORITES}\r\n\r\nКлавіші перемикачі:\r\n  {NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}, {CAPSLOCKOFF}, {SCROLLLOCKON},\r\n  {SCROLLLOCKOFF}"
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "\r\nНаприклад:\r\n  Для закривання вікна {ALT}{F4}\r\n  Для обирання всіх елементів {CTRL}A\r\n  Для написання «Мій текст» жирним шрифтом у MS Word: {CTRL}bМій текст{CTRL}b\r\n  Для надсилання клавіші «r» із затримкою 50мс між натисканням та відпусканням: {HOLDMS50}r\r\n  Для вимкнення NUMLOCK: {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "\r\nНаприклад:\r\n  Для закривання вікна {ALT}{F4}\r\n  Для обирання всіх елементів {CTRL}A\r\n  Для написання «Мій текст» жирним шрифтом у MS Word: {CTRL}bМій текст{CTRL}b\r\n  Для надсилання клавіші «r» із затримкою 50мс між натисканням та відпусканням: {HOLDMS:50}r\r\n  Для вимкнення NUMLOCK: {NUMLOCKOFF}"
 # -- Updated in 2.9 beta 6 --
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "\r\nНаприклад:\r\n  Для закривання вікна {ALT}{F4}\r\n  Для обирання всіх елементів {CTRL}A\r\n  Для написання «Мій текст» жирним шрифтом у MS Word: {CTRL}bМій текст{CTRL}b\r\n  Для надсилання клавіші «r» із затримкою 50мс між натисканням та відпусканням: {HOLDMS50}r\r\n  Для вимкнення NUMLOCK: {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "\r\nНаприклад:\r\n  Для закривання вікна {ALT}{F4}\r\n  Для обирання всіх елементів {CTRL}A\r\n  Для написання «Мій текст» жирним шрифтом у MS Word: {CTRL}bМій текст{CTRL}b\r\n  Для надсилання клавіші «r» із затримкою 50мс між натисканням та відпусканням: {HOLDMS:50}r\r\n  Для вимкнення NUMLOCK: {NUMLOCKOFF}"
 
 # -- Added in 2.9 beta 6 --
-"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following keys\r\n\t\t\t{RELEASE} Release (let go of) the following keys\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => ""
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => ""
 "To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => ""
 # -- 
 
@@ -263,7 +263,7 @@ Author=netavek
 "NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "УВАГА: щоб уникнути затримок при використанні теґів {WAIT}, {WAITMS}, {HOLD} або {HOLDMS},\r\nспробуйте поточні методи відсилання з переліку вище."
 
 # -- Updated in 2.4 Beta 15 --
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "\r\nСпеціальні функціональні теґи:\r\n  {WAIT<n>}\tдодає затримку в <n> секунд.\r\n  {WAITMS<n>}\tдодає затримку в <n> мілісекунд.\r\n  {HOLD<n>}\tутримує клавішу натисненою протягом <n> секунд.\r\n  {HOLDMS<n>}\tутримує клавішу натисненою протягом <n> мілісекунд.\r\n  {VKC:<n>}\tвідсилає обраний віртуальний код клавіші.\r\n  {EXT:<n>}\tвідсилає обраний розширений віртуальний код клавіші.\r\n  {CLEAR}\tочищає будь-які теґи модифікації {CTRL},{ALT} тощо."
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "\r\nСпеціальні функціональні теґи:\r\n  {WAIT:n}\tдодає затримку в <n> секунд.\r\n  {WAITMS:n}\tдодає затримку в <n> мілісекунд.\r\n  {HOLD:n}\tутримує клавішу натисненою протягом <n> секунд.\r\n  {HOLDMS:n}\tутримує клавішу натисненою протягом <n> мілісекунд.\r\n  {VKC:n}\tвідсилає обраний віртуальний код клавіші.\r\n  {EXT:n}\tвідсилає обраний розширений віртуальний код клавіші.\r\n  {CLEAR}\tочищає будь-які теґи модифікації {CTRL},{ALT} тощо."
 
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Теґи клавіш напрямку:\r\n  {UP} {DOWN} {LEFT} {RIGHT}\r\n\r\nТеґи функціональних клавіш:\r\n  {F1, F2, F3 ... F24}\r\n\r\nТеґи клавіш гучності:\r\n  {VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\n\r\nТеґи кнопок миші:\r\n  {LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\n\r\nТеґи коліщатка миші:\r\n  {MWUP}, {MWDN}, {TILTL}, {TILTR}\r\n\r\nТеґи цифрової клавіатури:\r\n  {NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\n\r\nКнопки оглядача інтернету:\r\n  {BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME}, {SEARCH}, {FAVORITES}\r\n\r\nКлавіші перемикачі:\r\n  {NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}, {CAPSLOCKOFF}, {SCROLLLOCKON},\r\n  {SCROLLLOCKOFF}"
@@ -294,9 +294,9 @@ Author=netavek
 "XML support provided by XML++ from Michael at turboirc.com" => "Підтримку XML розроблено за допомогою XML++ Michael’ем з turboirc.com"
 "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC поширюється вільно (без гарантій) для використання будь-ким та будь-де. Якщо вам подобається XMBC, і ви хотіли б показати вашу вдячність, зробіть пожертву, натиснувши на кнопку PayPal нижче."
 "More information can be found on my download page or user forums." => "Більше інформації можна отримати на сторінці завантаження або форумі користувачів."
-"Homepage" => "Домашня сторінка"
-"Donate" => "Пожертва"
-"Forums" => "Форум"
+"&Homepage" => "Домашня сторінка"
+"&Donate" => "Пожертва"
+"&Forums" => "Форум"
 
 # -- Added in 2.4 Beta 15 --
 "About" => "Про"

@@ -22,7 +22,7 @@
     "Default" => "預設"
     "A&dd" => "增加"
     "Edi&t" => "編輯"
-    "C&opy" => "複製"
+    "Cop&y" => "複製"
     "Remo&ve" => "移除"
     "&Settings" => "設置"
     "Abo&ut" => "關於"
@@ -86,10 +86,10 @@
     "R&eset sticky buttons when any other key is pressed" => "當按下其他按鍵時重置相黏鍵"
     "Show &tray icon by default" => "預設顯示通知區域圖示"
     "&Ignore numlock state for Simulated Keystrokes" => "在模擬按鍵時忽略數字鍵盤狀態"
-    "Cycle l&ayers by left clicking tray icon" => "左擊通知區域圖示以循環切換層"               # -- Updated in 2.5 beta 4 --
+    "Cycle layers &by left clicking tray icon" => "左擊通知區域圖示以循環切換層"               # -- Updated in 2.5 beta 4 --
     "&Fixup (de-bounce) tilt wheel auto-repeat" => "修正傾斜滾輪自動重複速率"
     "&Initial repeat rate" => "初始重複速率"
-    "Initial re&peat rate" => "初始重複速率"							# -- Changed in 2.8 Beta 1 --
+    "Initial repeat r&ate" => "初始重複速率"							# -- Changed in 2.8 Beta 1 --
     "&Repeat tilt rate" => "重複傾斜速率"
     "(ms)" => ""
     "Dela&y between simulated keystrokes" => "模擬按鍵延遲"
@@ -204,7 +204,7 @@
     "Mouse Button &4" => "滑鼠功能鍵4"
     "Mouse Button &5" => "滑鼠功能鍵5"
     "W&heel Up" => "滾輪上滾"
-    "Wh&eel Down" => "滾輪下滾"
+    "Wheel &Down" => "滾輪下滾"
     "Tilt Wheel Le&ft" => "滾輪左傾"
     "Tilt Wheel Ri&ght" => "滾輪右傾"
     "Reset Layer" => "重置層"
@@ -249,18 +249,18 @@
     "0 = Windows default repeat delay && speed." => "0= 系統默認重複延遲和速度"
     "Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "輸入按鍵序列。 \r\n你可以使用以下指定標籤模擬延伸按鍵"
     "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "組合標籤:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  提示:\t組合標籤可以如 {CTRL}{ALT} 但僅對下一次按鍵有效。\r\n\t例如送出 CTRL+a+CTRL+s 訊號你必須輸入 '{CTRL}A{CTRL}S'"
-    "Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "延伸標籤:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+    "Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "延伸標籤:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
     "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "方向鍵標籤:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\n功能鍵標籤:\t\t{F1, F2, F3 ... F24}\r\n音量鍵標籤:\t\t{VOL+}, {VOL-}, {MUTE}\r\n滑鼠按鍵標籤:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\n滑鼠滾輪標籤:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\n數字鍵盤標籤:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\n瀏覽器標籤:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\n切換鍵標籤:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
-    "For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例如:\r\n  關閉視窗: {ALT}{F4}\r\n  全選物件: {CTRL}A\r\n  在Microsoft Word 輸入粗體 'my text': {CTRL}bmy text{CTRL}b\r\n  送出一個延遲50毫秒的'r'鍵， {HOLDMS50}r\r\n  關閉數字鍵盤， {NUMLOCKOFF}"
+    "For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例如:\r\n  關閉視窗: {ALT}{F4}\r\n  全選物件: {CTRL}A\r\n  在Microsoft Word 輸入粗體 'my text': {CTRL}bmy text{CTRL}b\r\n  送出一個延遲50毫秒的'r'鍵， {HOLDMS:50}r\r\n  關閉數字鍵盤， {NUMLOCKOFF}"
     # -- Updated in 2.9 beta 6 --
-    "For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例如:\r\n  關閉視窗: {ALT}{F4}\r\n  全選物件: {CTRL}A\r\n  在Microsoft Word 輸入粗體 'my text': {CTRL}bmy text{CTRL}b\r\n  送出一個延遲50毫秒的'r'鍵， {HOLDMS50}r\r\n  關閉數字鍵盤， {NUMLOCKOFF}"
+    "For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "例如:\r\n  關閉視窗: {ALT}{F4}\r\n  全選物件: {CTRL}A\r\n  在Microsoft Word 輸入粗體 'my text': {CTRL}bmy text{CTRL}b\r\n  送出一個延遲50毫秒的'r'鍵， {HOLDMS:50}r\r\n  關閉數字鍵盤， {NUMLOCKOFF}"
 
 
     # -- Updated in 2.4 Beta 10 --
     "NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "提示: 為避免使用 {WAIT}, {WAITMS}, {HOLD} 或 {HOLDMS} 造成的延遲現象，請使用上述方法。"
 
     # -- Updated in 2.4 Beta 15 --
-    "Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "特殊功能標籤:\t{WAIT<n>} 輸入一個 <n> 秒延遲。\r\n\t\t\t{WAITMS<n>} 輸入一個 <n> 毫秒延遲。\r\n\t\t\t{HOLD<n>} 按住下一個按下的按鍵 <n> 秒。\r\n\t\t\t{HOLDMS<n>} 按住下一個按下的按鍵 <n> 毫秒。\r\n\t\t\t{VKC:<n>} 送出一個指定的虛擬鍵碼。\r\n\t\t\t{EXT:<n>} 送出一個指定的延伸虛擬鍵碼。\r\n\t\t\t{CLEAR} 清除任何組合標籤如 {CTRL},{ALT}等等。"
+    "Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "特殊功能標籤:\t{WAIT:n} 輸入一個 <n> 秒延遲。\r\n\t\t\t{WAITMS:n} 輸入一個 <n> 毫秒延遲。\r\n\t\t\t{HOLD:n} 按住下一個按下的按鍵 <n> 秒。\r\n\t\t\t{HOLDMS:n} 按住下一個按下的按鍵 <n> 毫秒。\r\n\t\t\t{VKC:n} 送出一個指定的虛擬鍵碼。\r\n\t\t\t{EXT:n} 送出一個指定的延伸虛擬鍵碼。\r\n\t\t\t{CLEAR} 清除任何組合標籤如 {CTRL},{ALT}等等。"
 
 	# -- Updated in 2.14 Beta 2 --
     "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "方向鍵標籤:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\n功能鍵標籤:\t\t{F1, F2, F3 ... F24}\r\n音量鍵標籤:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\n滑鼠按鍵標籤:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\n滑鼠滾輪標籤:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\n數字鍵盤標籤:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\n瀏覽器標籤:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\n切換鍵標籤:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
@@ -291,9 +291,9 @@
     "XML support provided by XML++ from Michael at turboirc.com" => "XML 支持由 XML++ 提供，來自 turboirc.com 的 Michael"
     "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC 可以被自由分發，如果你喜歡 XMBC 可以隨意透過以下 paypal 按鈕捐贈。"
     "More information can be found on my download page or user forums." => "更多訊息可以參訪我的下載頁面和論壇。"
-    "Homepage" => "首頁"
-    "Donate" => "捐贈"
-    "Forums" => "論壇"
+    "&Homepage" => "首頁"
+    "&Donate" => "捐贈"
+    "&Forums" => "論壇"
 
     # -- Added in 2.4 Beta 15 --
     "About" => "關於"

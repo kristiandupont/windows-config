@@ -37,7 +37,7 @@ Author=YFdyh000
 "Default" => "默认"
 "A&dd" => "添加(&D)"
 "Edi&t" => "编辑(&T)"
-"C&opy" => "复制(&O)"
+"Cop&y" => "复制(&O)"
 "Remo&ve" => "移除(&V)"
 "&Settings" => "设置(&S)"
 "Abo&ut" => "关于(&U)"
@@ -122,10 +122,10 @@ Author=YFdyh000
 "R&eset sticky buttons when any other key is pressed" => "按下其他任意按键时重置粘滞键(&E)"
 "Show &tray icon by default" => "默认显示托盘图标(&T)"
 "&Ignore numlock state for Simulated Keystrokes" => "模拟击键时忽略数字锁定键状态(&I)"
-"Cycle l&ayers by left clicking tray icon" => "左键单击托盘图标切换方案(&A)" #-- Updated in 2.5 beta 4 --
+"Cycle layers &by left clicking tray icon" => "左键单击托盘图标切换方案(&A)" #-- Updated in 2.5 beta 4 --
 
 "&Fixup (de-bounce) tilt wheel auto-repeat" => "修正(去抖动)倾斜滚轮的自动重复操作(&F)"
-"Initial re&peat rate" => "初始重复速率(&P)" #-- Changed in 2.8 Beta 1 --
+"Initial repeat r&ate" => "初始重复速率(&P)" #-- Changed in 2.8 Beta 1 --
 
 "&Repeat tilt rate" => "滚轮水平向操作的重复速率(&R)"
 "(ms)" => "(毫秒)"
@@ -292,7 +292,7 @@ Author=YFdyh000
 "Mouse Button &4" => "鼠标第四按钮(&4)"
 "Mouse Button &5" => "鼠标第五按钮(&5)"
 "W&heel Up" => "滚轮上滚(&H)"
-"Wh&eel Down" => "滚轮下滚(&E)"
+"Wheel &Down" => "滚轮下滚(&E)"
 "Tilt Wheel Le&ft" => "倾斜滚轮左滚(&F)"
 "Tilt Wheel Ri&ght" => "倾斜滚轮右滚(&G)"
 "Reset Layer" => "重置该方案"
@@ -387,10 +387,10 @@ Author=YFdyh000
 "Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "扩展键标签：\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
 
 # -- Updated in 2.9 beta 6 --
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "举个例子：\r\n    关闭一个窗口：{ALT}{F4}\r\n    选中所有项目：{CTRL}A\r\n    在Microsoft Word中输入加粗的‘my text’文本：{CTRL}bmy text{CTRL}b\r\n在按钮按下与松开期间以50ms延时反复键入‘r’键：{HOLDMS50}r\r\n关闭数字键锁定：{NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "举个例子：\r\n    关闭一个窗口：{ALT}{F4}\r\n    选中所有项目：{CTRL}A\r\n    在Microsoft Word中输入加粗的‘my text’文本：{CTRL}bmy text{CTRL}b\r\n在按钮按下与松开期间以50ms延时反复键入‘r’键：{HOLDMS:50}r\r\n关闭数字键锁定：{NUMLOCKOFF}"
 
 # -- Added in 2.9 beta 6 --
-"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following keys\r\n\t\t\t{RELEASE} Release (let go of) the following keys\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "发送方法 1,2,4,5,6,7,9 的特殊标签：\r\n\t\t\t{PRESS} 按下下列键：\r\n\t\t\t{RELEASE}松开下列键\r\n\t\t\t注意：您必须在同一序列中松开（{RELEASE}）您按下（{PRESS}）的所有键！"
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "发送方法 1,2,4,5,6,7,9 的特殊标签：\r\n\t\t\t{PRESS} 按下下列键：\r\n\t\t\t{RELEASE}松开下列键\r\n\t\t\t注意：您必须在同一序列中松开（{RELEASE}）您按下（{PRESS}）的所有键！"
 "To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => "要按下 a b c 并在等待100毫秒后松开，只需：{PRESS}abc{WAITMS100}{RELEASE}cba"
 # --
 
@@ -398,7 +398,7 @@ Author=YFdyh000
 "NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "注意：为避免在使用{WAIT}、{WAITMS}、{HOLD}以及{HOLDMS}标签时发生延迟卡顿，请尝试在上方的下拉列表中\r\n选择使用独立线程的发送方式。"
 
 # -- Updated in 2.4 Beta 15 --
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "特殊功能标签：\t{WAIT<n>}  插入一个<n>秒的延迟。\r\n\t\t\t{WAITMS<n>}  插入一个<n> 毫秒的延迟。\r\n\t\t\t{HOLD<n>}  按住下一个按键不放维持<n>秒。\r\n\t\t\t{HOLDMS<n>} 按住下一个按键不放维持<n>毫秒。\r\n\t\t\t{VKC:<n>}  发送指定的虚拟键盘编码。\r\n\t\t\t{EXT:<n>}  发送指定的扩展虚拟键盘编码\r\n\t\t\t{CLEAR}  清除所有修饰键标签包括{CTRL}、{ALT}等。"
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "特殊功能标签：\t{WAIT:n}  插入一个<n>秒的延迟。\r\n\t\t\t{WAITMS:n}  插入一个<n> 毫秒的延迟。\r\n\t\t\t{HOLD:n}  按住下一个按键不放维持<n>秒。\r\n\t\t\t{HOLDMS:n} 按住下一个按键不放维持<n>毫秒。\r\n\t\t\t{VKC:n}  发送指定的虚拟键盘编码。\r\n\t\t\t{EXT:n}  发送指定的扩展虚拟键盘编码\r\n\t\t\t{CLEAR}  清除所有修饰键标签包括{CTRL}、{ALT}等。"
 
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "方向键标签：\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\n功能键标签：\t\t{F1、F2、F3 ... F24}\r\n音量键标签：\t\t{VOL+}、{VOL-}、{MUTE}\r\n\r\n亮度控制标签：\t\t{BRIGHTNESS+}、{BRIGHTNESS-}\r\n鼠标按钮标签：\t\t{LMB}、{RMB}、{MMB}、{MB4/XMB1}、{MB5/XMB2}\r\n鼠标滚轮标签：\t\t{MWUP}、{MWDN}、{TILTL}、{TILTR}\r\n数字小键盘标签：\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\n网页/浏览器按键：\t\t{BACK}、{FORWARD}、{STOP}、{REFRESH}、{WEBHOME}、\r\n\t\t\t{SEARCH}、{FAVORITES}\r\n开关切换按键：\t\t{NUMLOCKON}、{NUMLOCKOFF}、{CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}、{SCROLLLOCKON}、{SCROLLLOCKOFF}"
@@ -457,9 +457,9 @@ Author=YFdyh000
 "XML support provided by XML++ from Michael at turboirc.com" => "XML支持由turboirc.com网站的Michael制作的XML++提供"
 "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC 为免费发布 (不需要授权，亦无担保)，任何人可在任何地点使用。如果您喜欢XMBC并希望表达您的赞赏，您可以点击下方的PayPal按钮进行捐赠。"
 "More information can be found on my download page or user forums." => "获取更多信息可访问我的下载页面和用户论坛。"
-"Homepage" => "官方网站"
-"Donate" => "捐赠"
-"Forums" => "论坛"
+"&Homepage" => "官方网站"
+"&Donate" => "捐赠"
+"&Forums" => "论坛"
 
 # -- Added in 2.4 Beta 15 --
 "About" => "关于"

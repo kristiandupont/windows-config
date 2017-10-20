@@ -19,7 +19,7 @@ Author=sonoro (sonoro.mail@gmail.com)
 "Default" => "Por Defecto"
 "A&dd" => "Agregar"
 "Edi&t" => "Modificar"
-"C&opy" => "Copiar"
+"Cop&y" => "Copiar"
 "Remo&ve" => "Eliminar"
 "&Settings" => "Configuración"
 "Abo&ut" => "Acerca de"
@@ -78,10 +78,10 @@ Author=sonoro (sonoro.mail@gmail.com)
 "R&eset sticky buttons when any other key is pressed" => "Reiniciar botones Sticky cuando se presiona cualquier tecla"
 "Show &tray icon by default" => "Mostrar icono predefinido en la barra de tareas"
 "&Ignore numlock state for Simulated Keystrokes" => "Ignorar estado 'BloqNum' para simular pulsaciones de tecla"
-"Cycle l&ayers by left clicking tray icon" => "Ciclo de capas pulsando el botón izquierdo en el icono"					# -- Updated in 2.5 beta 4 --
+"Cycle layers &by left clicking tray icon" => "Ciclo de capas pulsando el botón izquierdo en el icono"					# -- Updated in 2.5 beta 4 --
 "&Fixup (de-bounce) tilt wheel auto-repeat" => "soluciona efecto rebote en la ruleta con auto-repetición"
 "&Initial repeat rate" => "Tasa Inicial"
-"Initial re&peat rate" => "Tasa Inicial"							# -- Changed in 2.8 Beta 1 --
+"Initial repeat r&ate" => "Tasa Inicial"							# -- Changed in 2.8 Beta 1 --
 "&Repeat tilt rate" => "Tasa Inclinación"
 "(ms)" => "(ms)"
 "Dela&y between simulated keystrokes" => "Retardo de simulación pulsaciones de tecla"
@@ -198,7 +198,7 @@ Author=sonoro (sonoro.mail@gmail.com)
 "Mouse Button &4" => "Botón Ratón &4"
 "Mouse Button &5" => "Botón Ratón &5"
 "W&heel Up" => "Rueda hacia arriba"
-"Wh&eel Down" => "Rueda hacia abajo"
+"Wheel &Down" => "Rueda hacia abajo"
 "Tilt Wheel Le&ft" => "Inclinación Izquierda"
 "Tilt Wheel Ri&ght" => "Inclinación Derecha"
 "Reset Layer" => "Reiniciar Capa"
@@ -243,17 +243,17 @@ Author=sonoro (sonoro.mail@gmail.com)
 "0 = Windows default repeat delay && speed." => "0 = Windows por defecto, repite retardo y velocidad."
 "Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Escriba la secuencia de teclas en el cuadro de arriba.\r\nPuede simular las siguientes teclas extendidas con el TAG especifio..."
 "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "TAGS Modificados:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  AVISO:\tTAGS modificados como {CTRL}{ALT} se pueden combinar.Solo si se aplica en la SIGUIENTE TECLA.\r\n\tPor Ejenplo, para enviar CTRL+a+CTRL+s pulse '{CTRL}A{CTRL}S'." 
-"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "TAGS de teclas extendidas:\r\n {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "TAGS de teclas extendidas:\r\n {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "TAGS de teclas dirección:\t\t{ARRIBA} {ABAJO} {IZQUIERDA} {DERECHA}\r\nTAGS teclas Función:\t\t{F1, F2, F3 ... F24}\r\nTAGS teclas volumen:\t\t{VOL+}, {VOL-}, {MUTE}\r\nTAGS botones Ratón:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nTAGS tecla rueda\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nTAGS teclado numérico:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nteclas Navegado:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nCámbio de tecla:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Por Ejemplo:\r\n  Cerrar una ventana: {ALT}{F4}\r\n  Seleccionar todos los elementos: {CTRL}A\r\n  Teclear 'mi texto' en Microsoft Word:{CTRL}bmi texto{CTRL}b\r\n  Enviar con 'r' y un retardo de 50ms, {HOLDMS50}r\r\n  Desactivar 'BLOQ NUM', {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {WAITMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Por Ejemplo:\r\n  Cerrar una ventana: {ALT}{F4}\r\n  Seleccionar todos los elementos: {CTRL}A\r\n  Teclear 'mi texto' en Microsoft Word:{CTRL}bmi texto{CTRL}b\r\n  Enviar con 'r' y un retardo de 50ms, {HOLDMS:50}r\r\n  Desactivar 'BLOQ NUM', {NUMLOCKOFF}"
 # -- Updated in 2.9 beta 6 --
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Por Ejemplo:\r\n  Cerrar una ventana: {ALT}{F4}\r\n  Seleccionar todos los elementos: {CTRL}A\r\n  Teclear 'mi texto' en Microsoft Word:{CTRL}bmi texto{CTRL}b\r\n  Enviar con 'r' y un retardo de 50ms, {HOLDMS50}r\r\n  Desactivar 'BLOQ NUM', {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Por Ejemplo:\r\n  Cerrar una ventana: {ALT}{F4}\r\n  Seleccionar todos los elementos: {CTRL}A\r\n  Teclear 'mi texto' en Microsoft Word:{CTRL}bmi texto{CTRL}b\r\n  Enviar con 'r' y un retardo de 50ms, {HOLDMS:50}r\r\n  Desactivar 'BLOQ NUM', {NUMLOCKOFF}"
 
 # -- Updated in 2.4 Beta 10 --
 "NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "AVISO: Para enviar el retardo cuando se usa {WAIT}, {WAITMS}, {HOLD} o {HOLDMS} tags, puede usar los métodos\r\de envío en el desplegable de arriba."
 
 # -- Updated in 2.4 Beta 15 --
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "TAGS de función especial:\t{WAIT<n>}  Retardos en <n> segundos.\r\n\t\t\t{WAITMS<n>} Retardos en <n> milisegundos.\r\n\t\t\t{HOLD<n> Mantener la siguiente tecla abajo para <n> segundos.\r\n\t\t\t{HOLDMS<n>} Mantener la siguiente tecla arriba parar <n> millisegundos.\r\n\t\t\t{VKC:<n>} Envía el código especificado con tecla virtual.\r\n\t\t\t{EXT:<n>} Envía el código especificado extendido con tecla virtual\r\n\t\t\t{CLEAR} Cancelar y Modificar TAGS {CTRL},{ALT} etc."
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "TAGS de función especial:\t{WAIT:n}  Retardos en <n> segundos.\r\n\t\t\t{WAITMS:n} Retardos en <n> milisegundos.\r\n\t\t\t{HOLD<n> Mantener la siguiente tecla abajo para <n> segundos.\r\n\t\t\t{HOLDMS:n} Mantener la siguiente tecla arriba parar <n> millisegundos.\r\n\t\t\t{VKC:n} Envía el código especificado con tecla virtual.\r\n\t\t\t{EXT:n} Envía el código especificado extendido con tecla virtual\r\n\t\t\t{CLEAR} Cancelar y Modificar TAGS {CTRL},{ALT} etc."
 
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "TAGS de teclas dirección:\t\t{ARRIBA} {ABAJO} {IZQUIERDA} {DERECHA}\r\nTAGS teclas Función:\t\t{F1, F2, F3 ... F24}\r\nTAGS teclas volumen:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nTAGS botones Ratón:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nTAGS tecla rueda\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nTAGS teclado numérico:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nteclas Navegado:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nCámbio de tecla:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
@@ -283,9 +283,9 @@ Author=sonoro (sonoro.mail@gmail.com)
 "XML support provided by XML++ from Michael at turboirc.com" => "Soporte de XML proporcionado por XML++ de Michael en turboirc.com"
 "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC se distribuye libremente (sin garantía) para el uso de cualquier persona y en cualquier lugar. Si le gusta XMBC y desea mostrar su agradecimiento no dude en hacer una donación haciendo clic en el botón de PayPal de abajo."
 "More information can be found on my download page or user forums." => "Se puede encontrar más información en mi página de descarga o foros de usuarios."
-"Homepage" => "Sitio Web"
-"Donate" => "Donación"
-"Forums" => "Foros"
+"&Homepage" => "Sitio Web"
+"&Donate" => "Donación"
+"&Forums" => "Foros"
 
 # -- Added in 2.4 Beta 15 --
 "About" => "Sobre XMBC"

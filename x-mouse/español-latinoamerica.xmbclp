@@ -36,7 +36,7 @@ Author=Rommel Sánchez Z.
 "Default" => "Predeterminado"
 "A&dd" => "&Añadir"
 "Edi&t" => "&Editar"
-"C&opy" => "&Copiar"
+"Cop&y" => "&Copiar"
 "Remo&ve" => "&Eliminar"
 "&Settings" => "Confi&guración"
 "Abo&ut" => "Acerca &de"
@@ -122,9 +122,9 @@ Author=Rommel Sánchez Z.
 "R&eset sticky buttons when any other key is pressed" => "Restablecer &botones persistentes si se presiona cualquier tecla"
 "Show &tray icon by default" => "&Mostrar ícono de bandeja por defecto"
 "&Ignore numlock state for Simulated Keystrokes" => "Ignorar estado de Numloc&k para simulación de teclas"
-"Cycle l&ayers by left clicking tray icon" => "Alternar capas con clic i&zquierdo en ícono de la bandeja"					# -- Updated in 2.5 beta 4 --
+"Cycle layers &by left clicking tray icon" => "Alternar capas con clic i&zquierdo en ícono de la bandeja"					# -- Updated in 2.5 beta 4 --
 "&Fixup (de-bounce) tilt wheel auto-repeat" => "Corre&gir (de-bounce) auto-repetición de inclinación de la rueda"
-"Initial re&peat rate" => "Ni&vel de repetición inicial"				# -- Changed in 2.8 Beta 1 --
+"Initial repeat r&ate" => "Ni&vel de repetición inicial"				# -- Changed in 2.8 Beta 1 --
 "&Repeat tilt rate" => "Nivel de repe&tición de inclinación"
 "(ms)" => "(ms)"
 "Dela&y between simulated keystrokes" => "Interval&o entre simulación de pulsaciones"
@@ -284,7 +284,7 @@ Author=Rommel Sánchez Z.
 "Mouse Button &4" => "Botón de ratón &4"
 "Mouse Button &5" => "Botón de ratón &5"
 "W&heel Up" => "Desplazar a&rriba"
-"Wh&eel Down" => "Desplazar a&bajo"
+"Wheel &Down" => "Desplazar a&bajo"
 "Tilt Wheel Le&ft" => "Inclinar rueda a la i&zquierda"
 "Tilt Wheel Ri&ght" => "Inclinar rueda a la d&erecha"
 "Reset Layer" => "Restablecer capa"
@@ -346,13 +346,13 @@ Author=Rommel Sánchez Z.
 # dialog when making translations to ensure your text is visible and fits nicely.
 "Type the key sequence into the box above.\r\nYou can simulate the following extended keys using the specified tags..." => "Digite la secuencia en el cuadro superior.\r\nPuede simular las siguientes teclas extendidas usando las etiquetas especificadas..."
 "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "Etiquetas modificadoras:\r\n {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTA:\tLas etiquetas modificadoras pueden combinarse como {CTRL}{ALT} pero aplican SÓLO PARA LA SIGUIENTE TECLA.\r\n\tPor ejemplo, para enviar CTRL+a+CTRL+s se debe escribir '{CTRL}A{CTRL}S'."
-"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Etiquetas de teclas extendidas:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "Etiquetas de teclas extendidas:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}"
 
 # -- Updated in 2.9 beta 6 --
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Por ejemplo:\r\n  Para cerrar una ventana: {ALT}{F4}\r\n  Para selecionar todos los elementos: {CTRL}A\r\n  Para escribir en negritas 'mi texto' en Microsoft Word: {CTRL}bmi texto{CTRL}b\r\n  Para enviar una 'r' con atraso de 50 ms entre pulsación y liberación, {HOLDMS50}r\r\n  Para desactivar Numlock, {NUMLOCKOFF}"
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Por ejemplo:\r\n  Para cerrar una ventana: {ALT}{F4}\r\n  Para selecionar todos los elementos: {CTRL}A\r\n  Para escribir en negritas 'mi texto' en Microsoft Word: {CTRL}bmi texto{CTRL}b\r\n  Para enviar una 'r' con atraso de 50 ms entre pulsación y liberación, {HOLDMS:50}r\r\n  Para desactivar Numlock, {NUMLOCKOFF}"
 
 # -- Added in 2.9 beta 6 --
-"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following keys\r\n\t\t\t{RELEASE} Release (let go of) the following keys\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Etiquetas especiales para enviar métodos 1,2,4,5,6,7 y 9:\r\n\t\t\t{PRESS} Presione las siguientes teclas\r\n\t\t\t{RELEASE} Libere las siguientes teclas\r\n\t\t\tNOTA: Debe liberar {RELEASE} cualquier tecla que presione {PRESS} en la misma secuencia!"
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Etiquetas especiales para enviar métodos 1,2,4,5,6,7 y 9:\r\n\t\t\t{PRESS} Presione las siguientes teclas\r\n\t\t\t{RELEASE} Libere las siguientes teclas\r\n\t\t\tNOTA: Debe liberar {RELEASE} cualquier tecla que presione {PRESS} en la misma secuencia!"
 "To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => "Para presionar a, b y c, esperar 100ms y liberarlas: {PRESS}abc{WAITMS100}{RELEASE}cba"
 # -- 
 
@@ -360,7 +360,7 @@ Author=Rommel Sánchez Z.
 "NOTE: To avoid lag when using the {WAIT}, {WAITMS}, {HOLD} or {HOLDMS} tags, try using the threaded\r\nsend methods in the dropdown above." => "NOTA: Para evitar retrasos al utilizar las etiquetas {WAIT}, {WAITMS}, {HOLD} o {HOLDMS}, use los métodos línea\r\nenviar en la lista superior."
 
 # -- Updated in 2.4 Beta 15 --
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Etiquetas de funciones especiales:\t{WAIT<n>} Inserta un retraso de <n> segundos.\r\n\t\t\t{WAITMS<n>} Inserta un retraso de <n> milisegundos.\r\n\t\t\t{HOLD<n>} Mantiene la próxima tecla presionada por <n> segundos.\r\n\t\t\t{HOLDMS<n>} Mantiene la próxima tecla presionada por <n> milisegundos.\r\n\t\t\t{VKC:<n>} Envia un código de tecla virtual.\r\n\t\t\t{EXT:<n>} Envia un código de tecla virtual extendida.\r\n\t\t\t{CLEAR} Limpia cualquier etiqueta modificadora {CTRL},{ALT} etc."
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "Etiquetas de funciones especiales:\t{WAIT:n} Inserta un retraso de <n> segundos.\r\n\t\t\t{WAITMS:n} Inserta un retraso de <n> milisegundos.\r\n\t\t\t{HOLD:n} Mantiene la próxima tecla presionada por <n> segundos.\r\n\t\t\t{HOLDMS:n} Mantiene la próxima tecla presionada por <n> milisegundos.\r\n\t\t\t{VKC:n} Envia un código de tecla virtual.\r\n\t\t\t{EXT:n} Envia un código de tecla virtual extendida.\r\n\t\t\t{CLEAR} Limpia cualquier etiqueta modificadora {CTRL},{ALT} etc."
 
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Etiquetas de teclas de dirección:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nEtiquetas de teclas de función:\t\t{F1, F2, F3 ... F24}\r\nEtiquetas de teclas de volumen:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nEtiquetas de botón de mouse:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nEtiquetas de desplazamiento de ratón:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nEtiquetas de teclado numérico:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*}\r\nTeclas Web/Navegador:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nTeclas de alternancia:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
@@ -410,9 +410,9 @@ Author=Rommel Sánchez Z.
 "XML support provided by XML++ from Michael at turboirc.com" => "Suporte XML suministrado por XML++ de Michael en turboirc.com"
 "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "XMBC es distribuído gratuitamente (sin ninguna garantía) para el uso de cualquiera, en cualquier lugar. Si le gusta XMBC y desea mostrar su gratitud por favor, haga una donación haciendo clic en el botón PayPal inferior."
 "More information can be found on my download page or user forums." => "Se puede hallar más información en mi página de descargas o los foros de usuarios."
-"Homepage" => "Página principal"
-"Donate" => "Donar"
-"Forums" => "Foros"
+"&Homepage" => "Página principal"
+"&Donate" => "Donar"
+"&Forums" => "Foros"
 
 # -- Added in 2.4 Beta 15 --
 "About" => "Acerca de"
