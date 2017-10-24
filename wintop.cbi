@@ -1,13 +1,7 @@
 #[c]Win top
 
-
 #[l]:mac-to-windows-sharemouse.ahk:mac-to-windows-sharemouse.ahk
 
-
-
-
-
-
-
+Problematisk unit test: beforeEach hook til it('should display activity start time', function () {
 
 

@@ -6466,3 +6466,28 @@ ating with the first instance of X-Mouse Button Control.
 20-10-2017 08:22:43.0156> Loaded 0 application specific profiles (0 normal and 0 custom window).
 20-10-2017 08:22:43.0203> Using keyboard language 0x04060409
 20-10-2017 08:24:43.0171> You are using the latest available version of X-Mouse Button Control.
+20-10-2017 14:24:43.0203> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+23-10-2017 09:09:08.0343> X-Mouse Button Control v2.16.1 (x64) Startup. Commandline ''
+23-10-2017 09:09:08.0343> Running in high integrity mode (0x00003000)
+23-10-2017 09:09:08.0343> Loaded 0 application specific profiles (0 normal and 0 custom window).
+23-10-2017 09:09:08.0343> Running on Microsoft Windows 10 Professional Edition (build 15063), 64-bit, Hook Timeout: 0 ms
+23-10-2017 09:09:08.0343> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+23-10-2017 09:09:08.0343> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+23-10-2017 09:09:08.0343> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+23-10-2017 09:09:08.0359> Using keyboard language 0x04060409
+23-10-2017 09:11:08.0421> You are using the latest available version of X-Mouse Button Control.
+23-10-2017 15:11:08.0375> You are using the latest available version of X-Mouse Button Control.
+23-10-2017 17:14:58.0531> Power State: System is suspending operation.
+23-10-2017 17:14:58.0531> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+23-10-2017 17:14:58.0531> Removing any active XMBCHook Timers...
+23-10-2017 17:14:58.0578> CSendInput: Exiting SendInput thread.
+23-10-2017 17:14:58.0578> Hook thread exited with error code 0.
+23-10-2017 17:14:58.0578> Timer thread exited with error code 0.
+23-10-2017 17:14:58.0578> RemoveMouseHook took 47ms
+24-10-2017 08:52:58.0890> Power State: Operation resuming automatically after event.
+24-10-2017 08:53:00.0015> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+24-10-2017 08:53:00.0046> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-10-2017 08:53:00.0093> Using keyboard language 0x04060409
+24-10-2017 08:55:00.0031> You are using the latest available version of X-Mouse Button Control.
