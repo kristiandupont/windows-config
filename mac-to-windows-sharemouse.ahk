@@ -10,6 +10,7 @@
 #z::Send ^z
 #t::Send ^t
 #+t::Send ^+t
+#f::Send ^f
 
 #1::Send ^1
 #2::Send ^2
@@ -74,6 +75,8 @@ Capslock::Esc
 #+f::Send ^+f
 #+u::Send ^+u
 #+p::Send ^+p
+#+g::Send ^+g
+#+x::Send ^+x
 #æ::Send ^æ
 #j::Send ^j
 #k::Send ^k
