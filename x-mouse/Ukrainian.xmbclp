@@ -54,11 +54,17 @@ Author=netavek
 "Ma&ke scroll wheel scroll window under cursor" => "Прокручування вікна під вказівником миші"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Пропускати ВСІ події коли ввімкнено SCROLL LOCK"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Пропускати «відключені» події, коли ввімкнено SCROLL LOCK"
-"S&wap 4th and 5th buttons" => "Поміняти місцями кнопки 4 та 5"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Поміняти місцями кнопки 4 та 5, коли підключено до Віддаленого робочого столу"
 "&Disable when running under remote desktop (RDP)" => "Вимкнути, коли запущено під Віддаленим робочим столом"
 "Show layer switch &balloon notifications" => "Показати перемикач шару у спливаючому повідомленні"
 "Language" => "Мова"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Поміняти місцями кнопки 4 та 5"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Поміняти місцями кнопки 4 та 5, коли підключено до Віддаленого робочого столу"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Поміняти місцями кнопки 4 та 5"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Поміняти місцями кнопки 4 та 5, коли підключено до Віддаленого робочого столу"
 
 # -- Updated in 2.4 Beta 10 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "Ви маєте натиснути «Гаразд» та застосувати налаштування в головному вікні, перш ніж зміни стануть дійсними. Зміна мови не застосується, доки головне вікно знов не буде відкрите."

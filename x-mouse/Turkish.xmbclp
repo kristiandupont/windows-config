@@ -105,8 +105,6 @@ Author=Fatih Aytepe
 "Ma&ke scroll wheel scroll window under cursor" => "İşaretçinin altındaki pencereyi kaydır"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "SCROLL LOCK açık olduğunda tüm hareketleri yoksay"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "SCROLL LOCK açık olduğunda 'devredışı bırakılan' hareketleri yoksay"
-"S&wap 4th and 5th buttons" => "4. ve 5. tuşları değiştir"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Uzaktan masaüstü bağlantısı kurulduğunda 4. ve 5. tuşları değiştir"
 "&Disable when running under remote desktop (RDP)" => "Uzaktan masaüstü bağlantısında çalışırken devredışı bırak"
 "Show layer switch &balloon notifications" => "Katman geçişi bildirimi balonlarını göster"
 "A&ctivate window when scrolling" => "Kaydırırken pencereyi aktifleştir"
@@ -115,6 +113,14 @@ Author=Fatih Aytepe
 "Change cursor when using &Movement To Scroll" => "Kaydırma hareketini kullanırken imleci değiştir"
 "Enable &notifications" => "Bildirimleri etkinleştir"
 "En&hance pointer precision" => "İşaretçi hassasiyetini artır"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "4. ve 5. tuşları değiştir"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Uzaktan masaüstü bağlantısı kurulduğunda 4. ve 5. tuşları değiştir"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "4. ve 5. tuşları değiştir"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => ""Uzaktan masaüstü bağlantısı kurulduğunda 4. ve 5. tuşları değiştir"
 
 # -- Updated in 2.14 Beta 7 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect." => "Ana ekranda ayarları etkinleştirmeden önce Tamam'a basmalısınız"

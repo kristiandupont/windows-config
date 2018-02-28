@@ -59,11 +59,19 @@ Author=DsCruz
 "Ma&ke scroll wheel scroll window under cursor" => "Fazer rolar a janela sob o cursor"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Ignorar todas as ações Quando SCROLL LOCK está LIGADO"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Ignorar ações 'inválidas' quando o SCROOL LOCK está LIGADO"
-"S&wap 4th and 5th buttons" => "Trocar para 4 e 5 botões"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Trocar para 4 e 5 botões quando conectado em desktop remoto (RDP)"
 "&Disable when running under remote desktop (RDP)" => "&Desabilitar quando estiver rodando em desktop remoto (RDP)"
 "Show layer switch &balloon notifications" => "Mostrar &balão de notificações na camada"
 "Language" => "Linguagem"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Trocar para 4 e 5 botões"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Trocar para 4 e 5 botões quando conectado em desktop remoto (RDP)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Trocar para 4 e 5 botões"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Trocar para 4 e 5 botões quando conectado em desktop remoto (RDP)"
+
+
 
 # -- Updated in 2.4 Beta 10 --
 "NOTA: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "NOTA: Você deve pressionar OK e aplicar as configurações na tela principal para entrar em vigor. Alteração de linguagem não serão aplicadas até que a janela principal seja reaberta."

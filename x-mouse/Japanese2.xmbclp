@@ -1,5 +1,5 @@
 ﻿# Sample XMBC Language template file. 
-# Base version 2.16
+# Base version 2.17
 #
 # Changes to this template are marked
 #   -- Updated in <version> --
@@ -27,13 +27,7 @@
 
 Language=日本語２ (Japanese2)
 
-Description='Japanese 2' conforms to the template file 'language_template.xmbclp_sample / Base version 2.16 Beta 18'.  This is based on prairial's old 'Japanese' translation,  I rewrite terms and verbs to simpler ones and add many new items.  If you find wrong/strange/missing translations,  please report them,  or send NEW language file (Japanese2.xmbclp) to the Forum.  The orders of whole 'Japanese 2' translation file are sorted out so that it matches the GUI of XMBC v2.16 Beta 18 (2017-05-04).  And, in OLDer versions of XMBC,  their GUI windows and dialog panels are small in size,  so some portions of the GUI are not displayed properly by this work.　　この言語ファイル（日本語２）は、翻訳テンプレート・ファイル　language_template.xmbclp_sample / Base version 2.16 Beta 18　に準じています。　　言語ファイル全体の構成は、 sukemaru の環境では 表示されない設定項目もあったので 完全ではありませんが、ＸＭＢＣ v2.16 Beta 18 (2017-05-04)　の ＧＵＩ にマッチするように 並べ替えています。　　また、旧いバージョンの ＸＭＢＣ では ＧＵＩ の ウインドウ や ダイアログ のサイズが小さいため、この言語ファイルで 正常に表示されない部分があります。
-
-#
-# ※ 追記：	日本語２では、ここに記述したバージョンを優先的にサポートしています。
-# 		古いバージョンや古いベータ・バージョンにおいては、
-#		日本語表示がＧＵＩ上で正常におさまりきらない場合があります。
-#
+Description='Japanese 2' conforms to the template file 'language_template.xmbclp_sample / Base version 2.17'.  This is based on prairial's old 'Japanese' translation,  I rewrite terms and expressions to simpler ones,  also add many new items.  If you find wrong/strange/missing translations,  please report them,  or send NEW language file (Japanese2.xmbclp) to the Forum.  The orders of whole 'Japanese 2' translation file are sorted out so that it matches the GUI of XMBC v2.17 Beta 12 (Nov 05, 2017).  And, in OLDer versions of XMBC,  their GUI windows and dialog panels are small in size,  so some portions of the GUI are not displayed properly by this work.　　　この言語ファイル（日本語２）は、翻訳テンプレート・ファイル language_template.xmbclp_sample (Base version 2.17) に準じています。　　言語ファイル全体の構成は、ＸＭＢＣ v2.17 の ＧＵＩ にマッチするように整理し、並べ替えています。　　また、旧いバージョンの ＸＭＢＣ では ＧＵＩ の ウインドウ や ダイアログ のサイズが小さいため、この言語ファイルで 正常に表示されない部分があります。
 
 #
 #Put your name here and you will be credited in the user interface
@@ -42,31 +36,31 @@ Description='Japanese 2' conforms to the template file 'language_template.xmbclp
 Author=sukemaru
 
 #
-
+# ※ 追記：	日本語２では、ここに記述したバージョンを優先的にサポートしています。
+# 		古いバージョンや古いベータ・バージョンにおいては、
+#		日本語表示がＧＵＩ上で正常におさまりきらない場合があります。
+#		（ＧＵＩフォントの収まり／幅は、WindowsXP クラシック・テーマ上の
+#		　MeiryoKe_PGothic体のみで確認しています）
 #
-# ※ XMBCLP言語ファイルの仕様	(UTF-8 テキスト・ファイル)
-# 	#	コメント・アウト （行全体、または行の途中から）
-# 	\t	訳文に タブ・コードを挿入
-# 	\n	訳文に 改行コードを挿入
-# 	&&	訳文に 半角アンパサンド（&）を挿入
-#	&	訳文に アクセス・キー（アクセラレーター／ニーモック）を設定
-# 	"English" => "日本語"	の部分は、一項目を一行で記述し、途中に Enter での改行をいれないこと。
-# 	訳文に 半角のダブル・クォーテーション（"）や ￥記号（\）、ハッシュ記号（#）を使わないこと。
-# 	コメント・アウト部分での ※印 以降の文は、sukemaru による訳注で、原文にない説明を追記しています。
+# ※ XMBCLP言語ファイルの仕様（UTF-8 テキスト・ファイル）
+# 		"English" => "日本語"	の部分は、一項目を一行で記する。
+# 		#	コメント・アウト （行全体、または行の途中から）
+# 		\t	訳文に タブ・コードを挿入
+# 		\n	訳文に 改行コードを挿入
+# 		&&	訳文に 半角アンパサンド（&）を挿入
+#		&	訳文に アクセス・キー（アクセラレーター／ニーモック）を設定
+# 		"日本語" 訳文中に 半角のダブル・クォーテーション（"）や 井桁（#）を使わないこと。
+# 		コメント・アウト部分での ※印 以降の文は訳者註で、原文にない説明を追記しています。
 #
-# ※ 注意：	v2.15までのバージョンで、ショートカットメニュー項目の "Edit" を翻訳しておきかえると、
-# 		notepad.exe の入力画面や、各アプリケーションの「入力フォーム」欄などの 
-# 		ウインドウ・クラス名で広範に使用されている "Edit" に干渉します。
-#		"Edit" 以外でも、このファイル内の英文をＸＭＢＣのテキストボックスに入力した場合も、
-#		設定画面を再描画したさいに "訳文" に書き換えられます。（Bug #477: fixed in v2.16 Beta 10）
-#
-# ※ 追記：	日本語２では、原語でのアクセスキー（ニーモック）が無効になります。
+# 		日本語２では、原語でのアクセラレーター／ニーモックを変更しています。
 # 		各ウインドウ／ダイアログのＧＵＩで任意のアクセスキーを使用したい場合、
 # 		"訳文" の中に半角 アンパサンド＋英数 で " &A" 等を追記します。
-# 		これにより、下線つきの半角文字が追加され、アクセスキー（Altキーと同時押し）を使用できます。
-# 	例）	"追加 &A" "編集 &e" "&1　左クリック" "レイヤー&4" 
+# 		これにより、下線つきの半角文字が追加され、単独キーでのアクセラレーター、
+# 		またはアクセスキー（強制：Altキーと同時押し）を使用できます。
+# 	例）	"追加 (&A)" "編集 &e" "&1　左クリック" "レイヤー &4" 
 #
-
+#
+# メイン・ウインドウの「閉じる」のアクセラレーターを変更 &M → &Z		in v2.17beta11
 
 
 #Section: Global strings (used everywhere)			※共通用語
@@ -74,51 +68,49 @@ Author=sukemaru
 "Layer" => "レイヤー"
 "Portable" => "Portable"
 "All" => "すべて"
-"Not Defined" => "(定義なし)"
+"Not Defined" => "（定義なし）"
 "&OK" => "OK　(&K)"
 "&Cancel" => "キャンセル (&C)"
 "OK" => "OK"
 "Cancel" => "キャンセル"
-# "#Invalid Item" => "　"
 
 
 
 #Section: Setup screen		※メイン・ウインドウ
-"Application / Window Profiles:" => "アプリケーション ／ ウインドウ・クラス のプロファイル (&W) :"	#
+"Application / Window Profiles:" => "アプリケーション ／ ウインドウ・クラス のプロファイル (&W) :"
 "Default" => "デフォルト"
 "A&dd" => " 追 加　(&A)"		# ※Add
 "Edi&t" => " 編 集　(&E)"		# ※Edit
 "C&opy" => "コピー　(&C)"		# ※Copy
-"Cop&y" => "コピー　(&C)"		# ※Copy		# Changed in 2.16 Beta 12
+"Cop&y" => "コピー　(&C)"		# ※Copy	# -- Changed in 2.16 Beta 12 --
 "Remo&ve" => " 削 除　(&R)"		# ※Remove
-"&Import" => "インポート　(&I)"	# ※Import		# -- Added in 2.8 Beta 7 --
-"&Export" => "エクスポｰト (&X)"	# ※eXport		# -- Added in 2.8 Beta 7 --
+"&Import" => "インポート　(&I)"		# ※Import	# -- Added in 2.8 Beta 7 --
+"&Export" => "エクスポｰト (&X)"		# ※eXport	# -- Added in 2.8 Beta 7 --
 "U&p" => "上 へ　(&U)"			# ※Up		# -- Added in 2.8 Beta 7 --
-"Do&wn" => "下 へ　(&D)"		# ※Up		# -- Added in 2.8 Beta 7 --
-"&Settings" => "共通設定 (&G)"	# ※Grobal_settings
+"Do&wn" => "下 へ　(&D)"		# ※Down	# -- Added in 2.8 Beta 7 --
+"&Settings" => "共通設定 (&G)"		# ※Grobal_settings
 "Sa&ve Profile" => "設定の保存 (&S)"	# ※Save	# -- Added in 2.16 Beta 3 --
 "Save &Profile" => "設定の保存 (&S)"	# ※Save	# -- Changed in 2.16 Beta 12
 "&Load Profile" => "設定の読込 (&L)"	# ※Load	# -- Added in 2.16 Beta 3 --
 "L&oad Profile" => "設定の読込 (&L)"	# ※Load	# -- Changed in 2.16 Beta 12
 "Profile:" => "設定ﾌｧｲﾙ："
-# "Abo&ut" => "このソフトについて"
-"Abo&ut" => "ＸＭＢＣの情報 (&J)"
-"&Apply" => " 適 用　(&K)"			# ※oK
-"&Close" => "閉じる (&M)"			# ※Minimize
+"Abo&ut" => "ＸＭＢＣの情報 (&J)"	# "このソフトについて"
+"&Apply" => " 適 用　(&K)"		# ※oK
+"&Close" => "閉じる (&Z)"		# ※minimiZe
 "Profile Information" => "プロファイル情報"
-"Description" => "説明 (&D)"			# Also shared with the language settings tab!	※「言語」設定タブと共通
+"Description" => "説明 (&D)"		# Also shared with the language settings tab!	※「言語」設定タブと共通
 "Default: All windows that do not match any profile." => "デフォルト: 他のすべてのプロファイルと一致しないウインドウ"
 "Window Caption" => "ウインドウ・タイトル"
 "Process" => "プロセス"
 "Class" => "クラス"
 "Window Class" => "ウインドウ・クラス"
 "Parent Class" => "親クラス"
-"Disabled because Scroll Lock is ON!" => "Scroll Lock が オン なので、ＸＭＢＣのすべての機能が無効です"		# -- Added in 2.7 Beta 4 --
-"Disabled under Remote Desktop!" => "リモートデスクトップ環境下なので、ＸＭＢＣのすべての機能が無効です"		# -- Added in 2.7 Beta 4 --
+"Disabled because Scroll Lock is ON!" => "Scroll Lock が オン なので、ＸＭＢＣの機能が無効です"		# -- Added in 2.7 Beta 4 --
+"Disabled under Remote Desktop!" => "リモートデスクトップ 環境下なので、ＸＭＢＣの機能が無効です"	# -- Added in 2.7 Beta 4 --
 
 
 #Section: Context Menus			※メイン・ウインドウ ～ ショートカットメニュー
-"Edit" => "編集"		# ※（v2.15までのバージョンでは）'ウインドウ・クラス'の "Edit"（編集）に影響するので翻訳しないこと！（Bug #477: fixed in 2.16 Beta 10）
+"Edit" => "編集"		# ※（v2.15までのバージョンでは ウインドウ・クラスの "Edit" に影響するので翻訳しないこと！ Bug #477 : fixed in 2.16 Beta 10）
 "Copy" => "コピー"
 "Remove" => "削除"
 "Import" => "インポート"
@@ -127,7 +119,7 @@ Author=sukemaru
 
 
 #Section: Layer tab(s)		※メイン・ウインドウ ～ 「レイヤー」タブ
-"Layer name" => "レイヤー名 (&Y)"		# 
+"Layer name" => "レイヤー名 (&Y)"		# ※laYer
 "Disable in Next/Previous layer commands" => "「次のレイヤー／前のレイヤー」 の切り替えコマンドから除外する　(&T)"		# -- Added in 2.10 Beta 2 --
 "&Left Button" => "&1　左ボタン"
 "&Right Button" => "&2　右ボタン"
@@ -142,13 +134,13 @@ Author=sukemaru
 "Tilt Wheel Ri&ght" => "&7　右チルト"
 "#Invalid Item" => ""
 
-"Switch to" => "レイヤーの 切り替え"		# &Z　		# -- Added in 2.8 Beta 6 --
-"after" => "　"									# -- Added in 2.8 Beta 6 --
-"seconds" => "秒後"								# -- Added in 2.8 Beta 6 --
+"Switch to" => "レイヤーの 切り替え"				# -- Added in 2.8 Beta 6 --
+"after" => "　"							# -- Added in 2.8 Beta 6 --
+"seconds" => "秒後"						# -- Added in 2.8 Beta 6 --
 "Always revert to layer 1" => "つねにレイヤー１に戻す"	#　(&Z)	# -- Added in 2.8 Beta 6 --
 
 #Section: Simulated keystroke methods		※キーストローク・シミュレーション
-"(undefined)" => "(未定義) "
+"(undefined)" => "（未定義） "
 "(pressed)" => "(押す) "
 "(released)" => "(放す) "
 "(during)" => "(間) "
@@ -158,13 +150,14 @@ Author=sukemaru
 "(sticky repeat)" => "(連打固定) "
 "(sticky hold)" => "(固定) "
 "(pressed & released)" => "(押す＆放す) "		# -- Added in 2.4 Beta 12 --
+"(custom)" => "（カスタム） "		# -- Added in 2.17 Beta 9 --
 
 
 #Section: Scrolling & navigation tab (or Scrolling and Options tabs post 2.15 Beta 5)
 
 #Section: Scrolling tab		※メイン・ウインドウ ～ 「スクロール」タブ
 "Scrolling && Navigation" => "スクロール 及び ナビゲーション"		# -- Removed in 2.15 Beta 5
-"Scrolling" => "スクロール"	#  （&H）						# -- Added in 2.15 Beta 5	
+"Scrolling" => "スクロール"	#  （&H）				# -- Added in 2.15 Beta 5	
 "&Invert mouse wheel scrolling" => "&1　ホイールスクロールを 逆転させる"
 "I&nvert mouse horizontal (tilt) scrolling" => "&2　横スクロール（チルト）を 逆転させる"
 "Wheel scrolls i&n pages instead of lines" => "&3　行数 ではなく ページ単位で スクロールさせる"
@@ -185,27 +178,28 @@ Author=sukemaru
 
 #Section: Option tab		※メイン・ウインドウ ～ 「オプション」タブ
 "Options" => "オプション"	# （&O）		# -- Added in 2.15 Beta 5
-"&Disable Scroll Window Under Cursor" => "&1　「カーソル直下のウインドウを スクロールさせる」（*共通設定） を無効にする"			# -- Added in 2.7 Beta 7 --
+"&Disable Scroll Window Under Cursor" => "&1　「カーソル直下のウインドウを スクロールさせる」（*共通設定） を無効にする"		# -- Added in 2.7 Beta 7 --
 "&Override Mouse Speed" => "&2　マウス・ポインタの速度を上書きする　(遅 0 ⇔ 10 速)"		# -- Added in 2.15 Beta 5 --
-"&Clip (lock) mouse cursor to active window" => "&3　マウス・ポインタの移動範囲を アクティブ・ウインドウ内に 制限する"			# -- Added in 2.15 Beta 1 --
-"Ignore &repeated remapped vertical scroll" => "&4　ホイールスクロールの 連続入力を 破棄する"		# -- Added in 2.9 Beta 3 --
-"Ignore repeated remapped hori&zontal scroll" => "&5　チルトスクロールの 連続入力を 破棄する"		# -- Added in 2.9 Beta 3 --
-"for" => "閾値： "					# -- Added in 2.9 Beta 3 --
-"milliseconds" => "ミリ秒毎"				# -- Added in 2.9 Beta 3 --
-"Switch primary and secondary mouse buttons" => "　　 &6　左ボタン と 右ボタン を入れ替える"		# -- Added in 2.8 Beta 6 --
+"Active window on hover" => "&3　マウス・オーバーで ウインドウを アクティブにする"		# -- Added in 2.17 Beta 3 --
+"&Clip (lock) mouse cursor to active window" => "&4　マウス・ポインタの移動範囲を アクティブ・ウインドウ内に 制限する"		# -- Added in 2.15 Beta 1 --
+"Ignore &repeated remapped vertical scroll" => "&5　ホイールスクロールの 連続入力を 破棄する"		# -- Added in 2.9 Beta 3 --
+"Ignore repeated remapped hori&zontal scroll" => "&6　チルトスクロールの 連続入力を 破棄する"		# -- Added in 2.9 Beta 3 --
+"for" => "閾値： "				# -- Added in 2.9 Beta 3 --
+"milliseconds" => "ミリ秒毎"			# -- Added in 2.9 Beta 3 --
+"Switch primary and secondary mouse buttons" => "　　 &7　左ボタン と 右ボタン を入れ替える"		# -- Added in 2.8 Beta 6 --
 "Don't swap buttons" => "入れ替えない"		# -- Added in 2.8 Beta 6 --
 "Swap buttons" => "入れ替える"			# -- Added in 2.8 Beta 6 --
-"Enable a&xis locking modifier keys" => "&7　修飾キーでの軸ロック （*共通設定） を使用する"
-"&Disable profile switching on mouse move for this profile" => "&8　「マウスの移動による プロファイルの切替え」（*共通設定） を無効にする"		# -- Added in 2.16 Beta 2 --
-"Disable &profile switching on mouse move for this profile" => "&8　「マウスの移動による プロファイルの切替え」（*共通設定） を無効にする"		# -- Changed in 2.16 Beta ？ --
+"Enable a&xis locking modifier keys" => "&8　修飾キーでの軸ロック （*共通設定） を使用する"
+"&Disable profile switching on mouse move for this profile" => "&9　「マウスの移動による プロファイルの切替え」（*共通設定） を無効にする"		# -- Added in 2.16 Beta 2 --
+"Disable &profile switching on mouse move for this profile" => "&9　「マウスの移動による プロファイルの切替え」（*共通設定） を無効にする"		# -- Changed in 2.16 Beta ？ --
 
 
 
 #Section: Tooltips 		※メイン・ウインドウ ～ ツールチップ（ヒント）
 "Add/Edit setting for individual layers\nor specific scrolling and navigation behaviour." => "　各レイヤーごとの ボタン機能 の割り当て設定と　\n　ホイール・スクロール などのマウス・ナビゲーションの設定　"		# -- Updated in 2.10 Beta 3 --
-"Copy Layer" => "別プロファイルに レイヤー（ボタン設定）をコピー"		# -- Added in 2.14 Beta 6 --
-"Swap Layer" => "このプロファイルの 別のレイヤーと入れ替え"				# -- Added in 2.14 Beta 6 --
-"Reset Layer" => "レイヤーの初期化"
+"Copy Layer" => "　別プロファイルに レイヤー（ボタン設定）をコピー　"		# -- Added in 2.14 Beta 6 --
+"Swap Layer" => "　このプロファイルの 別のレイヤーと入れ替え　"			# -- Added in 2.14 Beta 6 --
+"Reset Layer" => "　レイヤーの初期化　"
 # -- Added in 2.10 Beta 2 ↓
 "Add a new application or window specific profile." => "　アプリケーションまたはウインドウ／クラスを指定して　\n　新規プロファイルを追加します　"
 "Edit the selected application or window specific profile." => "　アプリケーションまたはウインドウ／クラスなど　\n　選択したプロファイルを編集します　"
@@ -215,8 +209,8 @@ Author=sukemaru
 "Import a saved application or window specific profile." => "　個別プロファイル設定をファイルから読み込みます　\n　注： インポートするプロファイル設定ファイルと同じアプリケーションまたは　\n　　　　ウインドウ／クラスのプロファイル設定があると、そこに上書きします　"
 "Move the selected application or window specific profile up." => "　選択したプロファイルを上に移動します　"
 "Move the selected application or window specific profile down." => "　選択したプロファイルを下に移動します　"
-# --
-"This graphic shows the active window regions that apply to this profile.\nYou can define these regions in the profile editor." => "　プロファイル設定が有効になるウインドウ内の範囲です　\n　（プロファイルの編集で変更できます）"				# -- Updated in 2.10 Beta 3 --
+# -- ↑
+"This graphic shows the active window regions that apply to this profile.\nYou can define these regions in the profile editor." => "　プロファイル設定が有効になるウインドウ内の範囲です　\n　（プロファイルの編集で変更できます）"			# -- Updated in 2.10 Beta 3 --
 
 
 
@@ -233,8 +227,10 @@ Author=sukemaru
 "A&ctivate window when scrolling" => "&3　スクロールさせたウインドウ をアクティブにする"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "&4　Scroll Lock が オンの場合は XMBC のすべての機能 を無効にする"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "&5　Scroll Lock が オンの場合は　「無効」（*ﾚｲﾔｰ/ﾎﾞﾀﾝ設定） にした ボタン機能 を有効化する"
-"S&wap 4th and 5th buttons" => "&6　マウスボタン ４ と ５ を入れ替える"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "&7　リモートデスクトップ (RDP) 環境下では マウスボタン ４ と ５ を入れ替える"
+"S&wap 4th and 5th buttons" => "&6　マウスボタン ４ と ５ を入れ替える"		# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "&6　マウスボタン ４ と ５ の機能を入れ替える"		# -- Added (replaced) in 2.17 Beta 9
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "&7　リモートデスクトップ (RDP) 環境下では マウスボタン ４ と ５ を入れ替える"		# -- Removed in 2.17 Beta 9
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "&7　リモートデスクトップ (RDP) 環境下では マウスボタン ４ と ５ の機能を入れ替える"		# -- Added (replaced) in 2.17 Beta 9
 "&Disable when running under remote desktop (RDP)" => "&8　リモートデスクトップ (RDP) 環境下では XMBC を無効にする"
 "Disable &Inverted Scroll when running under remote desktop (RDP)" => "&9　リモートデスクトップ (RDP) 環境下では 「ホイールスクロールを逆転させる」（*個別設定） を無効にする"		# -- Added in 2.16 Beta 4
 "Enable &notifications" => "&a　通知・警告メッセージ を表示する"
@@ -258,22 +254,23 @@ Author=sukemaru
 "Load &US English keyboard if no equivalent is available" => "&8　判定できないキーコードを US英語キーボードの同等のコード に置きかえる　（？）"
 "Cycle l&ayers by left clicking tray icon" => "&9　タスクトレイ・アイコンの 左クリック で レイヤーを切り替える"		# -- Updated in 2.5 beta 4 --
 "Cycle layers &by left clicking tray icon" => "&9　タスクトレイ・アイコンの 左クリック で レイヤーを切り替える"		# -- Changed in 2.16 Beta 18 --
-"&De-bounce (ignore) rapid mouse button clicks" => "&a　短い間隔での連続クリック／チャタリング* を無視する　（※ ﾁｬﾀﾘﾝｸﾞ = bouncing）"
+"&Remap simulated input from other applications" => "&a　他のアプリ－ションにより シミュレートされた入力を 再マップする"				# -- Added in 2.17 Beta 12
+"&De-bounce (ignore) rapid mouse button clicks" => "&b　短い間隔での連続クリック／チャタリング* を無視する　（※ ﾁｬﾀﾘﾝｸﾞ = bouncing）"
 "(ms)" => "ミリ秒"
-"Start de-bounce timer when button is released" => "&b　ボタンを放した時点から 「チャタリング*」 判定の計測をする"
-"&Fixup (de-bounce) tilt wheel auto-repeat" => "&c　チルトボタンの 自動リピート速度 を変更する"
-"Initial re&peat rate" => "　　初期リピート間隔"		# -- Changed in 2.8 Beta 1 --	※Alt＋* で設定パネルが閉じてしまうBug ＠ 2.16 Beta
-"Initial repeat r&ate" => "&d　初期リピート間隔"		# -- Changed in 2.16 Beta 18 - DON'T USE &P for accelerator --
-"&Repeat tilt rate" => "&e　自動連続リピート間隔"
-"Dela&y between simulated keystrokes" => "　　 &f　キーストローク・シミュレーションでの キーごとの 送信ディレイ間隔"		#　（不可視的に {WAITMS} を追加）
-"Disable inactivity timer while inactive for" =>"&g　PC の 省電力機能 や スクリーン・セーバー の起動を抑止する"
+"Start de-bounce timer when button is released" => "&c　ボタンを放した時点から 「チャタリング*」 判定の計測をする"
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "&d　チルトボタンの 自動リピート速度 を変更する"
+"Initial re&peat rate" => "　　初期リピート間隔"		# -- Changed in 2.8 Beta 1 --
+"Initial repeat r&ate" => "&e　初期リピート間隔"		# -- Changed in 2.16 Beta 18 --
+"&Repeat tilt rate" => "&f　自動連続リピート間隔"
+"Dela&y between simulated keystrokes" => "　　 &g　キーストローク・シミュレーションでの キーごとの 送信ディレイ間隔"		# （不可視的に {WAITMS} を追加）
+"Disable inactivity timer while inactive for" =>"&h　PC の 省電力機能 や スクリーン・セーバー の起動を抑止する"
 "(min)" => "分毎"
-"&Windows Low Level Hook Timeout (Reboot required)" => "　　 &h　Windows の 低レベル・フック のタイムアウト時間 (※Windows設定　要：再起動)"		# ※Windows デフォルト値：5000ms ＠XP SP3
-"&CPU Priority" => "　　 &i　 CPU 優先度"
+"&Windows Low Level Hook Timeout (Reboot required)" => "　　&i　Windows の 低レベル・フック のタイムアウト時間 (※Windows設定　要：再起動)"		# ※Windows デフォルト値：5000ms ＠XP SP3
+"&CPU Priority" => "　　 &j　 CPU 優先度"
 "Realtime" => "１　リアルタイム　 (Realtime)"			# -- Added in 2.4 Beta 15 --
-"High" => "２　高　　　　　　 (High)"						# -- Added in 2.4 Beta 15 --
+"High" => "２　高　　　　　　 (High)"				# -- Added in 2.4 Beta 15 --
 "Above normal" => "３　通常以上　　(Above Normal)"		# -- Added in 2.4 Beta 15 --
-"Normal" => "４　通常　　　　　(Normal)"					# -- Added in 2.4 Beta 15 --
+"Normal" => "４　通常　　　　　(Normal)"			# -- Added in 2.4 Beta 15 --
 "Below normal" => "５　通常以下　　(Below Normal)"		# -- Added in 2.4 Beta 15 --
 
 
@@ -300,6 +297,7 @@ Author=sukemaru
 
 
 #Section: Hotkey settings tab		※共通設定ダイアログ ～「ホットキー」設定タブ
+# ※各入力欄にキーが登録されてしまうので、ホットキータブの項目にはアクセスキーを設定しないこと！
 "Hotkeys" => "ホットキー"
 "Global hotkeys" => "グローバル・ホットキー"
 "Enable &global hotkeys" => "グローバル・ホットキー を有効にする"		# 　(&H)
@@ -327,7 +325,7 @@ Author=sukemaru
 "Toggle &Y Axis Lock" => "Ｙ軸ロックの オン／オフ を切り替える"						# -- Added in 2.10 beta 5 --
 "S&nap cursor to primary monitor" => "マウス・カーソルを プライマリ・モニター に移動する"		# -- Added in 2.15 beta 3 --
 "Snap cursor to &active window" => "マウス・カーソルを アクティブ・ウインドウ に移動する"		# -- Added in 2.15 beta 8 --
-"Snap cursor to &profile window" => "マウス・カーソルを プロファイル・ウインドウ に移動する"	# -- Added in 2.15 beta 8 --
+"Snap cursor to &profile window" => "マウス・カーソルを プロファイル・ウインドウ に移動する"		# -- Added in 2.15 beta 8 --
 "Open Settings Window" => "XMBC 設定ウインドウ を表示する"
 "NOTE: Only valid hotkey combinations will be allowed." => "注： 有効なホットキーの組み合わせのみ 選択可能です。"
 "Global hotkeys are disabled when in the settings dialog. You have to apply and close the settings before they will work." => "注： グローバル・ホットキー設定の変更を有効にするには、\n　　　メイン・ウインドウで「適用」ボタンを押して 変更を確定する必要があります。"		# -- Added in 2.4 Beta 15 --
@@ -345,15 +343,15 @@ Author=sukemaru
 "Activate Layer 3" => "レイヤー &3 に切り替える"
 "Activate Layer 4" => "レイヤー &4 に切り替える"
 "Activate Layer 5" => "レイヤー &5 に切り替える"
-"Activate Layer 6" => "レイヤー &6 に切り替える"			# -- Added in 2.10 Beta 2 --
-"Activate Layer 7" => "レイヤー &7 に切り替える"			# -- Added in 2.10 Beta 2 --
-"Activate Layer 8" => "レイヤー &8 に切り替える"			# -- Added in 2.10 Beta 2 --
-"Activate Layer 9" => "レイヤー &9 に切り替える"			# -- Added in 2.10 Beta 3 --
+"Activate Layer 6" => "レイヤー &6 に切り替える"		# -- Added in 2.10 Beta 2 --
+"Activate Layer 7" => "レイヤー &7 に切り替える"		# -- Added in 2.10 Beta 2 --
+"Activate Layer 8" => "レイヤー &8 に切り替える"		# -- Added in 2.10 Beta 2 --
+"Activate Layer 9" => "レイヤー &9 に切り替える"		# -- Added in 2.10 Beta 3 --
 "Activate Layer 10" => "レイヤー1&0 に切り替える"		# -- Added in 2.10 Beta 3 --
 "Axis Locking" => "軸ロック"
 "Lock X-Axis" => "&X軸ロック *"
 "Lock Y-Axis" => "&Y軸ロック *"
-"Slow down cursor" => "マウス・ポインタの速度を減速する (&S)"		# -- Added in 2.15 Beta 5 --
+"Slow down cursor" => "マウス・ポインタの速度を減速する (&S)"	# -- Added in 2.15 Beta 5 --
 "NOTE: Axis locking requires that you enable axis locking for each application specific profile where you wish to use axis locking. This allows you to lock axis only for a specific application." => "軸ロックを有効にするには、使用するアプリケーションの各プロファイルごとに 設定する必要があります。\nこれにより、特定のアプリケーション上だけで 軸ロックを使用できます。"
 
 "None" => "（なし）"
@@ -372,7 +370,7 @@ Author=sukemaru
 
 #Section: Save/Load Profile dialog		※「設定ファイルを保存／読み込み」ダイアログ		# -- Added in 2.16 Beta 3 --
 "Save %s Profile..." => "%s　名前をつけて設定ファイルを保存"		# -- Added in 2.16 Beta 3 --
-"Load %s Profile..." => "%s　設定ファイルを開く"				# -- Added in 2.16 Beta 3 --
+"Load %s Profile..." => "%s　設定ファイルを開く"			# -- Added in 2.16 Beta 3 --
 
 
 #Section: Copy Layer dialog	-- Added in 2.14 Beta 5		※「レイヤーのコピー」ダイアログ
@@ -390,9 +388,9 @@ Author=sukemaru
 #Section: Choose Application dialog (custom window profile)		※「アプリケーションを選択」ダイアログ
 "Choose Application" => "アプリケーションを選択"
 "Select from the list of running applications:" => "実行中のアプリケーション・リストから選択する"
-"&Refresh" => "更新 (&R)"					# -- Added in 2.4 Beta 15 --
+"&Refresh" => "更新 (&R)"			# -- Added in 2.4 Beta 15 --
 "Process Name" => "プロセス名"			# -- Added in 2.4 Beta 15 --
-"Window Title" => "ウインドウの タイトル"		# -- Added in 2.4 Beta 15 --
+"Window Title" => "ウインドウの タイトル"	# -- Added in 2.4 Beta 15 --
 "Or type in/browse to the application executable (.EXE) file" => "実行ファイル名 (.EXE) を直接入力するか、ファイル参照ボタン　[ ... ]　から選択する"
 "Application" => "アプリケーション (&A)"
 "&Specific Window" => "ウインドウ／クラス (&W)"
@@ -412,12 +410,12 @@ Author=sukemaru
 "C&lass" => "クラス (&S)"
 "Pa&rent Class" => "親クラス (&O)"
 "Match Type" => "マッチ・タイプ (&M)"				# -- Added in 2.16 Beta 2 --
-"Window" => "ウインドウ　(Window)"					# -- Added in 2.16 Beta 2 --
+"Window" => "ウインドウ　(Window)"				# -- Added in 2.16 Beta 2 --
 "Parent Window" => "親ウインドウ　(Parent Window)"		# -- Added in 2.16 Beta 2 --
 "Window and Parent Window" => "ウインドウと 親ウインドウ　(Window and Parent Window)"		# -- Added in 2.16 Beta 2 --
-"Ancestor Window" => "親ウインドウ　(Ancestor Window)"	# -- Added in 2.16 Beta 2 --
+"Ancestor Window" => "親ウインドウ　(Ancestor Window)"		# -- Added in 2.16 Beta 2 --
 "Window and Ancestor Window" => "ウインドウと 親ウインドウ　(Window and Ancestor Window)"		# -- Added in 2.16 Beta 2 --
-"Window Regions" => "ウインドウ範囲"		# -- Added in 2.8 Beta 3 --
+"Window Regions" => "ウインドウ範囲"	# -- Added in 2.8 Beta 3 --
 "Activate the profile only if the cursor is over the selected areas of the window." => "※ 右で選択したウインドウ内の 範囲（区画）に\nマウス・ポインタ があるときだけ このプロファイルが\n有効になるよう設定できます（４分割）。"		# -- Added in 2.8 Beta 3 --
 "&Activate the profile only when the cursor is in the specified area" => "ウインドウとの相対範囲 (&A)\n※ 右で指定した範囲内に\nマウス・ポインタ があるとき\nこのプロファイルが 有効に\nなります（オフセット指定）。"		# -- Added in 2.16 Beta 8
 "Top" => "上 (&U)"		# -- Added in 2.16 Beta 8
@@ -427,21 +425,22 @@ Author=sukemaru
 "Only match if there is no parent class." => "親クラスがない場合のみ マッチさせる (&N)"
 "Enable Regular Expression Matching" => "正規表現に マッチさせる (&E)"
 "NOTE: The fields can be empty which will match ALL (*) windows (unless you tick the checkbox for empty parent class). When set, the text must match that of the window's properties." => "\n入力欄を空にすることで、すべてのプロセス／ウインドウ／クラス に マッチさせることができます。\n入力したテキストは、ウインドウ・プロパティのテキスト に マッチする必要があります。"
+"Non regular expression matches can contain multiple search entries, separated by two pipe characters e.g. 'app1.exe||app2.exe||app3.exe'" => "正規表現マッチ が 無効 の場合でも、半角 || で区切ることで 対象を複数 設定できます。 \n 例：　'app1.exe||app2.exe||app3.exe'"		# -- Added in 2.17 Beta 1
 
 #Section: Tooltips 		※「ウインドウ／クラスを指定」ダイアログ ～ ツールチップ（ヒント）		# -- Added in 2.16 Beta 8
 "Enable caption matching" => "　キャプション（ウインドウのタイトル）　\n　　　　　　にマッチさせます"		# -- Added in 2.16 Beta 8 --
 "Top Left Quadrant" => "　左上　１／４ の範囲　"		# -- Added in 2.16 Beta 8
 "Top Right Quadrant" => "　右上　１／４ の範囲　"		# -- Added in 2.16 Beta 8
 "Bottom Left Quadrant" => "　左下　１／４ の範囲　"		# -- Added in 2.16 Beta 8
-"Bottom Right Quadrant" => "　右下　１／４ の範囲　"	# -- Added in 2.16 Beta 8
+"Bottom Right Quadrant" => "　右下　１／４ の範囲　"		# -- Added in 2.16 Beta 8
 "● Positive = Relative to top of window\n● Negative = Relative to bottom of window" => "　プラス → 上　\n　マイナス → 下　"		# -- Added in 2.16 Beta 8  	# Updated in 2.16 Beta 11
 "● Positive = Relative to left of window\n● Negative = Relative to right of window" => "　プラス → 左　\n　マイナス → 右　"		# -- Added in 2.16 Beta 8 	# Updated in 2.16 Beta 11
 
 
 #Section: Simulated Keystrokes dialog		※「キーストローク・シミュレーション」ダイアログ		# -- Updated in 2.4 Beta 15 --
 "Simulated Keystrokes" => "キーストローク・シミュレーション"
-"Enter the custom key(s)" => "仮想 キーボード・マクロ を設定します。 カスタム・キー を入力してください。"
-"How to send the simulated key strokes:" => "　　キーストロークを 送信する方法"
+"Enter the custom key(s)" => "&1　仮想 キーボード・マクロ を設定します。 カスタム・キー を入力してください。"
+"How to send the simulated key strokes:" => "　　 &2　キーストロークを 送信する方法"
 "1 As mouse button is pressed" => "１　マウスのボタンが 押された時"
 "2 As mouse button is released" => "２　マウスのボタンが 放された時"
 "3 During (press on down, release on up)" => "３　マウスのボタンを 押している間"
@@ -451,11 +450,11 @@ Author=sukemaru
 "7 Sticky (repeatedly until button is pressed again)" => "７　連打 固定　(ボタンが再び押されるまで)"
 "8 Sticky (held down until button is pressed again)" => "８　押し込み 固定　(ボタンが再び押されるまで)"
 "9 As mouse button is pressed & when released" => "９　マウスのボタンが 押された時 と 放された時"		# -- Added in 2.4 Beta 12 --
-"Only send if profile's process is active" => "ﾌﾟﾛﾌｧｲﾙのﾌﾟﾛｾｽが ｱｸﾃｨﾌﾞなときだけ 送信する"
-"Auto repeat delay" => "自動リピートの ディレイ間隔"
+"Only send if profile's process is active" => "&3　ﾌﾟﾛﾌｧｲﾙのﾌﾟﾛｾｽが ｱｸﾃｨﾌﾞなときだけ 送信する"
+"Auto repeat delay" => "&4　自動リピートの ディレイ間隔"
 "(milliseconds)" => "ミリ秒"
-"Block original mouse input" => "元のマウスボタンの機能を ブロックする"				# -- Added in 2.7 Beta 5 --
-"Randomise auto repeat delay by 10%" => "自動リピートの間隔を １０％ランダムにする"		# -- Added in 2.11 Beta 6 --
+"Block original mouse input" => "&5　元のマウスボタンの機能を ブロックする"		# -- Added in 2.7 Beta 5 --
+"Randomise auto repeat delay by 10%" => "&6　自動リピートの間隔を １０％ランダムにする"		# -- Added in 2.11 Beta 6 --
 "0 = Windows default repeat delay && speed." => "0 = Windows のキーボード設定の リピート間隔"
 "Cursor Position: X,Y (AX, AY)" => "カーソル座標:　X,Y　( AX, AY )"		# -- Added in 2.15 Beta 7 --
 
@@ -470,8 +469,8 @@ Author=sukemaru
 # ※修飾キータグ
 "Modifier tags:\r\n  {CTRL} {RCTRL} {ALT} {RALT} {SHIFT} {RSHIFT} {LWIN} {RWIN} {APPS}\r\n  NOTE:\tmodifier tags can be combined like {CTRL}{ALT} but apply to the NEXT KEY ONLY.\r\n\tFor example, to send CTRL+a+CTRL+s you should type '{CTRL}A{CTRL}S'." => "\r\n修飾キータグ* ：\t\t{CTRL}　　{SHIFT}　　{ALT}　　{LWIN}\r\n\t\t\t{RCTRL}　{RSHIFT}　{RALT}　{RWIN}　{APPS}\r\n\r\n\t　※　修飾キータグは {CTRL}{ALT} のように 組み合わせることができますが、「直後のキー」 のみに適用されます。\r\n\t　　　 例えば、「Ctrl＋A」＋「Ctrl＋S」  を送信するには　'{CTRL}A{CTRL}S'　と入力する必要があります。"
 
-# ※拡張キータグ				# -- Updated in 2.14 beta 2 --	※※※翻訳にさいして並び順を変更※※※
-"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "\r\n拡張キータグ：\t\t{ESCAPE}　{TAB}　{INS}　{DEL}\r\n\t\t\t{ENTER}　{RETURN}　{SPACE}　{BACKSPACE}\r\n\t\t\t{PGUP}　{PGDN}　{HOME}　{END}\r\n\t\t\t{PRTSCN}　{PAUSE}　{BREAK}　{CTRLBREAK}"
+# ※拡張キータグ		# -- Updated in 2.14 beta 2 --	※※※翻訳にさいして並び順を変更※※※
+"Extended key tags:\r\n  {DEL} {INS} {PGUP} {PGDN} {HOME} {END} {RETURN} {ESCAPE} {BACKSPACE}\r\n  {TAB} {PRTSCN} {PAUSE} {SPACE} {CAPSLOCK} {NUMLOCK} {SCROLLLOCK} {BREAK} {CTRLBREAK}" => "\r\n拡張キータグ：\t\t{ESCAPE}　{ESC}　{TAB}　{INS}　{DEL}\r\n\t\t\t{ENTER}　{RETURN}　{SPACE}　{BACKSPACE}\r\n\t\t\t{PGUP}　{PGDN}　{HOME}　{END}\r\n\t\t\t{PRTSCN}　{PAUSE}　{BREAK}　{CTRLBREAK}"
 
 # ※ファンクションキー／トグルキー／方向キー／テンキー／マウスボタン／マウスホイール／音量／照度／ブラウザキータグ		# -- Updated in 2.14 Beta 9 --	※※※翻訳にさいして段落の順番を変更※※※
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "ファンクションキータグ：\t{F1}　{F2}　{F3}　...　{F24}\r\n\r\nトグルキータグ：\t\t{CAPSLOCK}　{CAPSLOCKON}　{CAPSLOCKOFF}\r\n\t\t\t{NUMLOCK}　{NUMLOCKON}　{NUMLOCKOFF}\r\n\t\t\t{SCROLLLOCK}　{SCROLLLOCKON}　{SCROLLLOCKOFF}\r\n\r\n方向キータグ：\t\t{UP}　{DOWN}　{LEFT}　{RIGHT}\r\n\r\nテンキータグ：\t\t{NUM0}　{NUM1}　{NUM2}　{NUM3}　...　{NUM9}\r\n\t\t\t{NUM.}　{NUM+}　{NUM-}　{NUM/}　{NUM*}　{NUMENTER}\r\n\r\nマウスボタンタグ：\t\t{LMB}　{RMB}　{MMB}　{MB4}　{XMB1}　{MB5}　{XMB2}\r\n\r\nマウスホイールタグ：\t\t{MWUP}　{MWDN}　{TILTL}　{TILTR}\r\n\r\nマルチメディアキータグ：\r\n　音量キー：\t\t{VOL+}　{VOL-}　{MUTE}\r\n　画面照度キー：\t\t{BRIGHTNESS+}　{BRIGHTNESS-}\r\n　Webブラウザキー：\t\t{BACK}　{FORWARD}　{STOP}　{REFRESH}\r\n\t\t\t{SEARCH}　{WEBHOME}　{FAVORITES}"
@@ -480,20 +479,23 @@ Author=sukemaru
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "ファンクションキータグ：\t{F1}　{F2}　{F3}　...　{F24}\r\n\r\nトグルキータグ：\t\t{CAPSLOCK}　{CAPSLOCKON}　{CAPSLOCKOFF}\r\n\t\t\t{NUMLOCK}　{NUMLOCKON}　{NUMLOCKOFF}\r\n\t\t\t{SCROLLLOCK}　{SCROLLLOCKON}　{SCROLLLOCKOFF}\r\n\r\n方向キータグ：\t\t{UP}　{DOWN}　{LEFT}　{RIGHT}\r\n\r\nテンキータグ：\t\t{NUM0}　{NUM1}　{NUM2}　{NUM3}　...　{NUM9}\r\n\t\t\t{NUM.}　{NUM+}　{NUM-}　{NUM/}　{NUM*}　{NUMENTER}\r\n\r\nマウスボタンタグ：\t\t{LMB}　{RMB}　{MMB}　{MB4/XMB1}　{MB5/XMB2}\r\n\r\nマウスホイールタグ：\t\t{MWUP}　{MWDN}　{TILTL}　{TILTR}\r\n\r\nマルチメディアキータグ：\r\n　音量キー：\t\t{VOL+}　{VOL-}　{MUTE}\r\n　画面照度キー：\t\t{BRIGHTNESS+}　{BRIGHTNESS-}\r\n　Webブラウザキー：\t\t{BACK}　{FORWARD}　{STOP}　{REFRESH}\r\n\t\t\t{SEARCH}　{WEBHOME}　{FAVORITES}"
 # -- ※旧バージョン↑ --
 
-# ※特別機能タグ				# -- Updated in 2.15 Beta 15 --	※※※翻訳にさいして日本語KBD用キーコードを追加※※※
-"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "\r\n\r\n特別機能タグ：\t\t{WAIT:<n>}\t\t<n>秒 のディレイを挿入する\r\n\t\t\t{WAITMS:<n>}\t\t<n>ミリ秒 のディレイを挿入する\r\n\t\t\t{HOLD:<n>}\t\t次のキーを <n>秒間 押し込み固定する\r\n\t\t\t{HOLDMS:<n>}\t\t次のキーを <n>ミリ秒間 押し込み固定する\r\n\t\t\t{VKC:<n>}\t\t特定の 仮想キーコード* を送信する\r\n\t\t\t{EXT:<n>}\t\t特定の 拡張仮想キーコード を送信する\r\n\t\t\t{CLEAR}\t\t\t修飾タグ {CTRL}, {ALT} などをクリアする\r\n\r\n\t　※　日本語キーボードのキーコード：　変換=28　無変換=29　カタカナ/ひらがな=242　全角/半角=244"
+# ※特別機能タグ		# -- Updated in 2.15 Beta 15 --	※※※翻訳にさいして日本語KBD用キーコードを追加		→※2.17 Beta 16での項目追加にともない表示位置を変更※※※
+"Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "\r\n\r\n特別機能タグ：\t\t{WAIT:<n>}\t\t<n>秒 のディレイを挿入する\r\n\t\t\t{WAITMS:<n>}\t\t<n>ミリ秒 のディレイを挿入する\r\n\t\t\t{HOLD:<n>}\t\t次のキーを <n>秒間 押し込み固定する\r\n\t\t\t{HOLDMS:<n>}\t\t次のキーを <n>ミリ秒間 押し込み固定する\r\n\t\t\t{VKC:<n>}\t\t指定した 仮想キーコード* を送信する\r\n\t\t\t{EXT:<n>}\t\t指定した 拡張仮想キーコード を送信する\r\n\t\t\t{CLEAR}\t\t\t修飾タグ {CTRL}, {ALT} などをクリアする"
+"\t\t\t{SC:n} Sends the specified keyboard scan code." => "\r\n\t\t\t{SC:<n>}\t\t指定した スキャンコード* を送信する"		# -- Added in 2.17 Beta 16 --
+"\t\t\t{SCE:n} Sends the specified extended keyboard scan code." => "\t\t\t{SCE:<n>}\t\t指定した 拡張スキャンコード* を送信する"		# -- Added in 2.17 Beta 16 --
+"\t\t\t{CB:<text>} Copies the specified <text> to the clipboard." => "\t\t\t{CB:<text>}\t\t文字列<text> をクリップボードに送る （コピー）\r\n\r\n\t　※　日本語キーボードのキーコード： 全角/半角=243 or 244 ;カタカナ/ひらがな=242 ;英数=240 ;変換=28 ;無変換=29"		# -- Added in 2.17 Beta 16 --
 
 # -- ※旧バージョン↓ --		# -- Updated in 2.4 Beta 15 --	※※※翻訳にさいして日本語KBD用キーコードを追加※※※
-"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "\r\n\r\n特別機能タグ：\t\t{WAIT<n>}\t\t<n>秒 のディレイを挿入する\r\n\t\t\t{WAITMS<n>}\t\t<n>ミリ秒 のディレイを挿入する\r\n\t\t\t{HOLD<n>}\t\t次のキーを <n>秒間 押し込み固定する\r\n\t\t\t{HOLDMS<n>}\t\t次のキーを <n>ミリ秒間 押し込み固定する\r\n\t\t\t{VKC:<n>}\t\t特定の 仮想キーコード* を送信する\r\n\t\t\t{EXT:<n>}\t\t特定の 拡張仮想キーコード を送信する\r\n\t\t\t{CLEAR}\t\t\t修飾タグ {CTRL}, {ALT} などをクリアする\r\n\r\n\t　※　日本語キーボードのキーコード：　変換=28　無変換=29　カタカナ/ひらがな=242　全角/半角=244"
+"Special function tags:\t{WAIT<n>} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS<n>} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD<n>} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS<n>} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:<n>} Sends the specified virtual key code.\r\n\t\t\t{EXT:<n>} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "\r\n\r\n特別機能タグ：\t\t{WAIT<n>}\t\t<n>秒 のディレイを挿入する\r\n\t\t\t{WAITMS<n>}\t\t<n>ミリ秒 のディレイを挿入する\r\n\t\t\t{HOLD<n>}\t\t次のキーを <n>秒間 押し込み固定する\r\n\t\t\t{HOLDMS<n>}\t\t次のキーを <n>ミリ秒間 押し込み固定する\r\n\t\t\t{VKC:<n>}\t\t特定の 仮想キーコード* を送信する\r\n\t\t\t{EXT:<n>}\t\t特定の 拡張仮想キーコード を送信する\r\n\t\t\t{CLEAR}\t\t\t修飾タグ {CTRL}, {ALT} などをクリアする\r\n\r\n\t　※　日本語キーボードの仮想キーコード：　変換=28　無変換=29　カタカナ/ひらがな=242　全角/半角=243／244"
 # -- ※旧バージョン↑ --
 
-# ※カーソル移動タグ			# -- Changed in 2.15 beta 7, 8 & 9 --
-"Movement tags:\t\t{MADD:x,y} Move cursor X & Y position by <x,y> pixels" => "\r\nカーソル移動タグ* ：\t\t{MADD:<x,y>}\t\tマウス・ポインタの座標を　X,Y=<x,y>　ピクセル 移動する"
+# ※カーソル移動タグ		# -- Changed in 2.15 beta 7, 8 & 9 --
+"Movement tags:\t\t{MADD:x,y} Move cursor X & Y position by <x,y> pixels" => "\r\nカーソル移動タグ* ：\t\t{MADD:<x,y>}\t\tマウス・ポインタの座標を　X,Y=<x,y>　ピクセル分 移動する"
 "\t\t\t{MSET:x,y} Set cursor position to <x,y> (relative to primary monitor)" => "\t\t\t{MSET:<x,y>}\t\tマウス・ポインタを　X,Y=<x,y>　の座標* に 移動する"
 "\t\t\t{PSET:x,y} Set cursor position to <x,y> (relative to profile window)" => "\t\t\t{PSET:<x,y>}\t\tマウス・ポインタを　X,Y=<x,y>　の座標* に 移動する"
 "\t\t\t{ASET:x,y} Set cursor position to <x,y> (relative to active window)" => "\t\t\t{ASET:<x,y>}\t\tマウス・ポインタを　X,Y=<x,y>　の座標* に 移動する"
 "\t\t\t{MSAVE:n} Save the current cursor position to memory <n> (1-10)" => "\t\t\t{MSAVE:<n>}\t\tマウス・ポインタの 現在の位置を 記憶する　 ※ <n> は (1-10)"		#Updated in 2.16 Beta 17
-"\t\t\t{MREST:n} Restore the saved cursor position from memory <n> (1-10)" => "\t\t\t{MREST:<n>}\t\tマウス・ポインタを 記憶した位置に 移動する ※ <n> は (1-10)\r\n\r\n\t\t　　　　 ※ 水平方向のみ の移動タグ：\t{MXADD:<x>}　{MXSET:<x>}　{PXSET:<x>}　{AXSET:<x>}\r\n\t\t　　　　 ※ 垂直方向のみ の移動タグ：\t{MYADD:<y>}　{MYSET:<y>}　{PYSET:<y>}　{AYSET:<y>}\r\n\t\t　　　　 ※ MSET 座標の基点 (0,0)：\tプライマリ・モニタ 左上隅\r\n\t\t　　　　 ※ PSET 座標の基点 (0,0)：\tプロファイル・ウインドウ 左上隅\r\n\t\t　　　　 ※ ASET 座標の基点 (0,0)：\tアクティブ・ウインドウ 左上隅"		#Updated in 2.16 Beta 17
+"\t\t\t{MREST:n} Restore the saved cursor position from memory <n> (1-10)" => "\t\t\t{MREST:<n>}\t\tマウス・ポインタを 記憶した位置に 移動する ※ <n> は (1-10)\r\n\r\n\t\t　　　　 ※ 水平方向のみ の移動タグ：\t{MXADD:<x>}　{MXSET:<x>}　{PXSET:<x>}　{AXSET:<x>}\r\n\t\t　　　　 ※ 垂直方向のみ の移動タグ：\t{MYADD:<y>}　{MYSET:<y>}　{PYSET:<y>}　{AYSET:<y>}\r\n\t\t　　　　 ※ MADD 座標の基点 (0,0)：\t現在の カーソルの位置　（x,y は 相対座標）\r\n\t\t　　　　 ※ MSET 座標の基点 (0,0)：\tプライマリ・モニタ 左上隅\r\n\t\t　　　　 ※ PSET 座標の基点 (0,0)：\tプロファイル・ウインドウ 左上隅\r\n\t\t　　　　 ※ ASET 座標の基点 (0,0)：\tアクティブ・ウインドウ 左上隅"		#Updated in 2.16 Beta 17
 
 # -- ※旧バージョン↓ --
 "\t\t\t{MSAVE} Save the current cursor position" => "\t\t\t{MSAVE}\t\t\tマウス・ポインタの 現在の位置を 記憶する"		# -- Changed in 2.15 beta 7, 8 & 9 --
@@ -511,21 +513,41 @@ Author=sukemaru
 "Movement tags\t\t{MXSET:n} {MYSET:n} {MXADD:n} {MYADD:n}\r\n\t\t\tSET sets the mouse cursor's X or Y position to <n>\r\n\t\t\tADD moves the mouse cursor's X or Y position by <n> pixels" => "\r\n\r\nカーソル移動タグ：\t\t{MXSET:<x>}　{MYSET:<y>}\r\n\t\t\t{MXADD:<x>}　{MYADD:<y>}\r\n\t\t\t Mx/ySET :\tマウス・ポインタを　X=<x>　または　Y=<y>　の座標に移動する\r\n\t\t\t Mx/yADD:\tマウス・ポインタを　X=<x>　または　Y=<y>　ピクセル移動する"
 # -- ※旧バージョン↑ --
 
-# ※アプリケーションタグ		# -- Added in 2.15 Beta 2 --
+# ※アプリケーションタグ		# -- Changed in 2.16 ? --
 "Application tags:\t\t{RUN:<application>} {RUN:<full path to exe>}\r\n\t\t\tRun the specified application. If the application is not in the system PATH\r\n\t\t\tplease specify the full path to the executable (including .EXE)" => "\r\nアプリケーションタグ：\t\t{RUN:<application>}\t指定したアプリケーション* を実行する\r\n\t\t\t{RUN:<full path to exe>}\t指定したアプリケーション* を実行する\r\n\r\n\t　※　システムに アプリケーション・パス をとおしていない場合は、実行ファイルの フルパス（ .EXE 拡張子つき）を指定します。"
 
-# ※アクションタグ			# -- Added in 2.16 Beta 17
+# -- ※旧バージョン↓ --		# -- Added in 2.15 Beta 2 --
+"Application tags\t\t{RUN:<application>} {RUN:<full path to exe>}\r\n\t\t\tRun the specified application. If the application is not in the system PATH\r\n\t\t\tplease specify the full path to the executable (including .EXE)" => "アプリケーションタグ：\t\t{RUN:<application>}\t指定したアプリケーション* を実行する\r\n\t\t\t{RUN:<full path to exe>}\t指定したアプリケーション* を実行する\r\n\r\n\t　※　システムにパス （PATH） をとおしていない場合は、実行ファイルのフルパス（ .EXE 拡張子つき）を指定します。"
+# -- ※旧バージョン↑ --
+
+# ※アクションタグ		# -- Added in 2.16 Beta 17
 "Action tags:" => "\r\nアクションタグ ：" 
 "\t\t{ACTIVATE} Activate the window under the cursor." => "\t\t{ACTIVATE}\t\tカーソルの下の ウインドウを アクティブにする"
+# -- Added in 2.17 Beta 1
+"\t\t\t{ACTIVATEPARENT} Activate the parent of the window under the cursor." => "\t\t\t{ACTIVATEPARENT}\tカーソルの下の プロセスの親ウインドウを アクティブにする*"
+"\t\t\t{ACTIVATETOP} Activate the top level (root) owner of the window under the cursor." => "\t\t\t{ACTIVATETOP}\t\tカーソルの下の プロセスのメイン・ウインドウを アクティブにする*\r\n\r\n\t　※　必ずしも 親ウインドウ や メイン・ウインドウ に フォーカスが移動するわけではありません。"
+# --
 
-# ※同時押し特殊タグ			# -- Added in 2.9 beta 6 --		※※※翻訳にさいして隠し機能の「レイヤー変更タグ」を追加した
-"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "\r\n同時押し特殊タグ* ：\t{PRESS}\t\t\t同時押しするキーを 順に追加していく*\r\n(1,2,4,5,6,7,8 & 9)\t\t{RELEASE}\t\t同時押ししたキーを 順に放していく\r\n\r\n\t　※　{PRESS}　で追加したキーすべてを　{RELEASE}　で解放すること！！\r\n\r\n\r\n※レイヤー変更タグ ：\t{LAYER:PREVIOUS}　{LAYER:NEXT}　{LAYER:LAST}　{LAYER:<n>}\r\n\r\n\t　※　<n> は (1-10).　この機能は、User Guide に掲載されていません。"
+# ※ウィンドウ・メッセージタグ		# -- Added in 2.17 beta 9	# -- Updated in 2.17 Beta 10
+# These functions can send any windows messages https://msdn.microsoft.com/en-us/library/windows/desktop/ff381405(v=vs.85).aspx	※https://msdn.microsoft.com/ja-jp/library/windows/desktop/ff381405(v=vs.85).aspx
+"Windows Message tags:" => "\r\nウィンドウ・メッセージタグ ："
+"\t{POSTWM:<M>,<L>,<W>} Post a message to the window under the cursor." => "\t{POSTWM:<M>,<L>,<W>}\tカーソルの下の ウインドウに メッセージ をポストする"
+"\t\t\t{SENDWM:<M>,<L>,<W>} Send a message to the window under the cursor." => "\t\t\t{SENDWM:<M>,<L>,<W>}\tカーソルの下の ウインドウに メッセージ を送信する"
+"\t\t\tWHERE:\t<M> is the message, <L> is the LPARAM value and <W> is the WPARAM value." => "\r\n\t\t　　　　 ※ 引数　<M>：\t\tMessage \r\n\t\t　　　　 ※ 引数　<L>：\t\tLPARAM 値 \r\n\t\t　　　　 ※ 引数　<W>：\t\tWPARAM 値"
+"\t\t\tNOTE:\t<M>, <L> & <W> can be specified in decimal (eg. 16) or hex (eg. 0x10)." => "\r\n\t　※　引数 <M>, <L>, <W> には、１０進数 (e.g. 16) または １６進数 (e.g. 0x10) の値を 指定できます。"
 
-# ※例：					# -- Updated in 2.9 beta 6 --		※※※翻訳にさいして構成・内容を変更※※※		※ 2.15 Beta 15 で若干の変更あり
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "\r\n例：\r\n　ウインドウを閉じる　（Alt＋F4）：\t\t　{ALT}{F4}　\r\n　すべて選択する　 　（Ctrl＋A）：\t\t　{CTRL}A　\r\n　Microsoft Word で太字で 「my text」 と入力する：　{CTRL}Bmy text{CTRL}B　\r\n　Num Lock をオフにする：\t\t\t　{NUMLOCKOFF}　\r\n　50ミリ秒間  「ｒ」 キーを送信する：\t\t　{HOLDMS:50}r　\r\n　全角/半角 を切りかえる：\t\t\t　{VKC:244}　"
+# ※同時押し特殊タグ		# -- Added in 2.9 beta 6 --	※※※翻訳にさいして隠し機能の「レイヤー変更タグ」を追加した
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "\r\n同時押し特殊タグ* ：\t{PRESS}\t\t\t同時押しするキーを 順に追加していく*\r\n(1,2,4,5,6,7,8 & 9)\t\t{RELEASE}\t\t同時押ししたキーを 順に放していく\r\n\r\n\t　※　{PRESS}　で追加したキーすべてを　{RELEASE}　で解放すること！！\r\n\r\n\r\n※レイヤー変更タグ* ：\t{LAYER:PREVIOUS}　{LAYER:NEXT}　{LAYER:LAST}　{LAYER:<n>}\r\n\r\n\t　※　<n> は (1-10).　この機能は、User Guide に掲載されています。"		# -- Updated in 2.16 --
 
-# -- ※旧バージョン↓ --		# -- Updated in 2.9 beta 6 --		※※※翻訳にさいして構成・内容を変更※※※
-"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "\r\n例：\r\n　ウインドウを閉じる　（Alt＋F4）：\t\t　{ALT}{F4}　\r\n　すべて選択する　（Ctrl＋A）：\t\t\t　{CTRL}A　\r\n　Microsoft Word で太字で 「my text」 と入力する：　{CTRL}Bmy text{CTRL}B　\r\n　Num Lock をオフにする：\t\t\t　{NUMLOCKOFF}　\r\n　50ミリ秒間  「ｒ」 キーを送信する：\t\t　{HOLDMS:50}r　\r\n　全角/半角 を切りかえる：\t\t\t　{VKC244}　"
+# -- ※旧バージョン↓ --		# -- Added in 2.9 beta 6 --
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following keys\r\n\t\t\t{RELEASE} Release (let go of) the following keys\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "\r\n同時押し特殊タグ* ：\t{PRESS}\t\t\t同時押しするキーを 順に追加していく*\r\n(1,2,4,5,6,7,8 & 9)\t\t{RELEASE}\t\t同時押ししたキーを 順に放していく\r\n\r\n\t　※　{PRESS}　で追加したキーすべてを　{RELEASE}　で解放すること！！\r\n\r\n\r\n※レイヤー変更タグ ：\t{LAYER:PREVIOUS}　{LAYER:NEXT}　{LAYER:LAST}　{LAYER:<n>}\r\n\r\n\t　※　<n> は (1-10).　この機能は、User Guide v2.16 に掲載されています。"
+# -- ※旧バージョン↑ --
+
+# ※例：		# -- Updated in 2.9 beta 6 --	※※※翻訳にさいして構成・内容を変更※※※	※ 2.15 Beta 15 で若干の変更あり
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "\r\n例：\r\n　ウインドウを閉じる　（Alt＋F4）：\t\t　{ALT}{F4}　\r\n　すべて選択する　 　（Ctrl＋A）：\t\t　{CTRL}A　\r\n　Microsoft Word で太字で 「my text」 と入力する：　{CTRL}Bmy text{CTRL}B　\r\n　Num Lock をオフにする：\t\t\t　{NUMLOCKOFF}　\r\n　50ミリ秒間  「ｒ」 キーを送信する：\t\t　{HOLDMS:50}r　\r\n　全角/半角 を切りかえる （ＩＭＥ）：\t\t　{VKC:243}　または　{VKC:244}"
+
+# -- ※旧バージョン↓ --		# -- Updated in 2.9 beta 6 --	※※※翻訳にさいして構成・内容を変更※※※
+"For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "\r\n例：\r\n　ウインドウを閉じる　（Alt＋F4）：\t\t　{ALT}{F4}　\r\n　すべて選択する　（Ctrl＋A）：\t\t\t　{CTRL}A　\r\n　Microsoft Word で太字で 「my text」 と入力する：　{CTRL}Bmy text{CTRL}B　\r\n　Num Lock をオフにする：\t\t\t　{NUMLOCKOFF}　\r\n　50ミリ秒間  「ｒ」 キーを送信する：\t\t　{HOLDMS:50}r　\r\n　全角/半角 を切りかえる：\t\t\t　{VKC:244}　"
 # -- ※旧バージョン↑ --
 
 "  To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => "100ミリ秒間 「ａ ｂ ｃ」 キーを同時押しする：\t　{PRESS}abc{WAITMS:100}{RELEASE}cba　\r\n　コピーして メモ帳に貼り付ける：\t\t　{CTRL}C{RUN:notepad}{WAIT:2}{CTRL}V　\r\n\r\n※ 翻訳にさいして、本来は記載されていない いくつかの 隠し機能タグ* を追加しています。　（※印で表示 ／ 動作保証 なし）\r\n　　ほかにも　{LMBD}　{LMBU}　{RMBD}　{RMBU}　...　などの試験的な 隠し機能タグ （ChangeLog を参照） があります。"
@@ -533,21 +555,42 @@ Author=sukemaru
 
 
 #Section: Button Chording		※「ボタン・コーディング」ダイアログ		# -- Added in 2.14 Beta 1 --
-"Default (No Chord)" => "デフォルト <同時押し なし>"
+"Default (No Chord)" => "デフォルト < 同時押し なし >"
 "Button chording allows you to make assign chorded actions that apply when one button is pressed, followed by a second button." => "ボタン・コーディング では、マウスボタンの 同時押し の組み合わせと 押した順番 にたいして 機能を割りあてます。\nここで <２番目に押すボタン> ごとに 機能を設定してください。"
 "&Block / Delay original button action until chord is established" => "同時押しかどうか確定するまで 元のボタンの機能をブロックする"		# -- Added in 2.14 Beta 3 --
 "&Unblock after" => "ブロックの 強制解除時間"		# -- Added in 2.15 Beta 11 --
-"Unblock when the mouse moves" => "マウスの移動で 同時押しをキャンセル"		# -- Added in 2.16 Beta 2 --
-# ※「ボタン・コーディング」ダイアログのタイトルは、機能項目（ドロップダウン・リスト）で変更する		※ 翻訳無効？
+"Unblock when the mouse moves" => "マウスの移動（ドラッグ）で 同時押しをキャンセル"		# -- Added in 2.16 Beta 2 --
+# ※「ボタン・コーディング」ダイアログのタイトルは、機能項目（ドロップダウン・リスト）で変更する		※ 翻訳無効？ → # -- Fixed in 2.17 Beta 6 -- 
+
+
+#Section: Button Held Time Dependent Actions		※「ボタン・長押し」ダイアログ		# -- Added in 2.17 Beta 4 and updated in 2.17 beta 5 --
+"Define different actions based on how long you hold the mouse button down for when clicking." => "マウスボタンを押しつづける 時間の長さ ごとに、ことなる機能を割りあてます。"
+"Description (to show in button drop-down)" => "表示テキスト の上書き \n（ドロップダウンリスト上の 表示）"		#Added in 2.17 Beta 7	※「キー・シミュレーション」、「ボタン・コーディング」ダイアログの項目と共通
+"Normal Click" => "　　通常クリック"
+"Held for" => "長押し 時間"
+"NOTE: The actions defined above will not be performed until the button is released (once the hold time has been determined)" => "注： 上でそれぞれ定義したアクションは、ボタンが放されるまで実行されません。\n（長押し時間が 確定されてから 機能を実行します）"
+"NOTE: All but the last enable action above will not be performed until the button is released (once the hold time has been determined). The last action will be started once the minimum time period is reached." => "注： 上でそれぞれ定義したアクションは、ボタンが放されるまで 実行されません。\n　　　（長押し時間が 確定されてから 機能を実行します）\n　　　ただし、有効化した最後のアクションだけは、ボタンが放されていないでも 長押し時間 の到達時点で 発動します。" #Changed in 2.17 Beta 6
+"&Abort and revert to the normal click action when the mouse moves." => "マウスの移動で 長押し機能をキャンセルして 通常クリックにもどす　（ドラッグを 妨げない）"		# -- Added in 2.17 Beta 6 -- 
+"Held for time for action %d must be greater than that for action %d." => "%d行目の値は %d行目の値よりも 大きくする必要があります。"		# NOTE: The %d's are interpreted at runtime. Leave them there		※エラー・メッセージ
+"Enter an integer." => "数値を 入力してください。"		# ※エラー・メッセージ（Windows MFC）		※翻訳無効
+"Enter an integer between 100 and 10000." => "100 から 10000 (ﾐﾘ秒) の範囲で 指定してください。"		# ※エラー・メッセージ（Windows MFC）		※翻訳無効
 
 
 #Section: Change Movement to Scroll Configuration		※「オートスクロール」ダイアログ		# -- Added in 2.15 Beta 1 --
 "Movement to Scroll Configuration" => "オートスクロールの設定"
-"&Sensitivity" => "&1　感度"
-"Invert &Vertical Axis" => "&2　縦のスクロール方向を逆転する"
-"Invert &Horizontal Axis" => "&3　横のスクロール方向を逆転する"
-"&Lock Scroll Axis" => "&4　軸ロック"
-"&Sticky (until next click)" => "&5　押し込み固定　（もういちどボタンを押すまで）"
+"&Sensitivity" => "　　 &0　感度"
+"Invert &Vertical Axis" => "&1　縦のスクロール方向を逆転する"
+"Invert &Horizontal Axis" => "&2　横のスクロール方向を逆転する"
+"&Lock Scroll Axis" => "&3　軸ロック"		# -- Removed in 2.17 Beta 6 -- 
+"&Sticky (until next click)" => "&3　押し込み固定　（もういちどボタンを押すまで）"
+"Block all other buttons when sticky" => "&4　押し込み固定中は ほかのボタンをブロック"		# -- Added in 2.17 Beta 6 -- 
+"&Default Action (no movement)" => "&6　マウスを動かさずに\nボタンを放したときの割りあて"	# -- Added in 2.17 Beta 1 -- 
+"Lock Scroll Axis/Direction" => "スクロールの方向を固定　（軸ロック）"		# -- Added in 2.17 Beta 6 -- 
+"Don't lock (scroll in any direction)" => "軸ロックなし"		# -- Added in 2.17 Beta 6 -- 
+"Lock to axis determined by cursor movement" => "マウスの移動方向に応じた軸ロック"		# -- Added in 2.17 Beta 6 -- 
+"Lock to Y axis (scroll vertically)" => "Ｙ軸ロック　（縦スクロール）"		# -- Added in 2.17 Beta 6 -- 
+"Lock to X axis (scroll horizontally)" => "Ｘ軸ロック　（横スクロール）"		# -- Added in 2.17 Beta 6 -- 
+"Movement To Scroll Default Action" => "オートスクロールの代替機能"		# -- Added in 2.17 Beta 16 -- 
 
 
 #Section: Run Application dialog		※「アプリケーションを実行」ダイアログ
@@ -562,19 +605,19 @@ Author=sukemaru
 
 #Section: About Dialog		※「このソフトについて」ダイアログ
 "About" => "このソフトについて"		# -- Added in 2.4 Beta 15 --
-"Version" => "バージョン"			# -- Added in 2.4 Beta 15 --
+"Version" => "バージョン"		# -- Added in 2.4 Beta 15 --
 "This application is designed and written by %s of %s." => "開発・デザイン:　%s　\n　　　　　　　　　 [ %s ]" 		# NOTE: The %s are replace at runtime		# -- Added in 2.4 Beta 15 --
 "XMBC is distributed freely (with no warranty or guarantee) for the use of anyone, anywhere. If you like XMBC and wish to show your appreciation please feel free to make a donation by clicking the PayPal button below." => "ＸＭＢＣ はフリーソフトです。　動作保証はありません。\n使い方については 『User Guide.PDF』（英文） をお読みください。\n（※不具合報告には、ユーザー・フォーラムで対応しております）\nもし ＸＭＢＣ を気に入り、評価していただける場合は、\n下の 「PayPal」 ボタンより ご寄付をお願いします。"
 "More information can be found on my download page or user forums." => "詳細については、ホームページ または ユーザー・フォーラム をご参照ください。"
 "Open &Userguide" => "説明書 PDF (&G)"		# -- Added in 2.16 Beta 14
 "Open &XMBC Folder" => "XMBC フォルダ (&X)"	# -- Added in 2.16 Beta 14
 "Homepage" => "ホームページ"
-"&Homepage" => "ホームページ (&H)"			# -- Updated in 2.16 Beta 14
-"&Check for Update" => "更新を確認 (&U)"		# -- Added in 2.16 Beta 14
+"&Homepage" => "ホームページ (&H)"		# -- Updated in 2.16 Beta 14
+"&Check for Update" => "更新を確認 (&U)"	# -- Added in 2.16 Beta 14
 "Forums" => "フォーラム"
 "&Forums" => "フォーラム (&F)"			# -- Updated in 2.16 Beta 14
 "Donate" => "寄付する"
-"&Donate" => "寄付する (&D)"				# -- Updated in 2.16 Beta 14
+"&Donate" => "寄付する (&D)"			# -- Updated in 2.16 Beta 14
 
 # -- Added in 2.16 Beta 14
 "XML support provided by XML++ from Michael at turboirc.com" => "XMLサポートの提供：XML++ (turboirc.com Michael)"
@@ -610,9 +653,9 @@ Author=sukemaru
 "Change Log:" => "更新履歴："
 "Unable to locate change log!" => "更新履歴が見つかりません。"
 "Upgrade" => "アップグレード"
-"&Upgrade" => "アップグレード (&U)"			# Fixed in 2.16 Beta 14
+"&Upgrade" => "アップグレード (&U)"		# Fixed in 2.16 Beta 14
 "Skip" => "スキップ"
-"&Skip" => "スキップ (&S)"				# Fixed in 2.16 Beta 14
+"&Skip" => "スキップ (&S)"			# Fixed in 2.16 Beta 14
 # --
 
 
@@ -620,7 +663,6 @@ Author=sukemaru
 #Section: Errors/Message boxes		※エラー・メッセージ／メッセージ・ボックス
 
 # ※メイン・ウインドウのメッセージ・ボックス
-"Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "設定変更した内容を保存しますか？\n\n注： 「いいえ」 を選択すると変更は失われます。"
 "Do you want to save the changes you have made to the configuration?\n\nWarning: If you say 'No', any changes will be lost!" => "設定変更した内容を保存しますか？\n\n注： 「いいえ」 を選択すると変更は失われます。"		# -- Added in 2.16 beta 3
 "Do you want to save the changes you have made to the current profile?" => "設定変更した内容を保存しますか？"		# -- Added in 2.16 beta 3
 "Unable to save the settings file" => "設定ファイルに保存できません。\n"				# -- Added in 2.8 Beta 7 --
@@ -661,19 +703,19 @@ Author=sukemaru
 "The specified application already exists.\nYou can not add two entries for the same application." => "指定されたアプリケーションが 既に存在します。\n同じアプリケーションに ２個のエントリーを作ることはできません。"
 "The specified profile already exists.\nYou can not add two profile entries for the same application/window." => "指定したプロファイルは 既に存在します。\n同じアプリケーション／ウインドウ・クラスに対して ２個のエントリーを作ることはできません。"
 "The specified profile already exists.\nYou can not add two profile entries for the same application/window/region." => "指定したプロファイルは 既に存在します。\n同じアプリケーション／ウインドウ・クラス／範囲に対して ２個のエントリーを作ることはできません。"		# -- Updated / Added in v2.14 Beta 3 --
-"The specified profile already exists.\nYou can not add two profile entries for the same window with overlapping regions." => "指定したプロファイルは 既に存在します。\n同じウインドウ範囲に対して ２個のエントリーを作ることはできません。"						# -- Updated / Added in v2.14 Beta 3 --
+"The specified profile already exists.\nYou can not add two profile entries for the same window with overlapping regions." => "指定したプロファイルは 既に存在します。\n同じウインドウ範囲に対して ２個のエントリーを作ることはできません。"		# -- Updated / Added in v2.14 Beta 3 --
 "The specified profile already exists.\nYou can not add two profile entries for the same application/window/region with overlapping match types." => "指定したプロファイルは 既に存在します。\n同じアプリケーション／ウインドウ・クラス／マッチ・タイプに対して ２個のエントリーを作ることはできません。"		# -- Updated / Added in v2.16 Beta 2 --
 "The specified profile already exists.\nYou can not add two profile entries for the same application/window/region/match type." => "指定したプロファイルは 既に存在します。\n同じアプリケーション／ウインドウ・クラス／マッチ・タイプに対して ２個のエントリーを作ることはできません。"		# -- Updated / Added in v2.16 Beta 2 --
 "The specified profile already exists.\nYou can not add two profile entries for the same application/window/match type with overlapping regions." => "指定したプロファイルは 既に存在します。\n同じアプリケーション／ウインドウ・クラス／マッチ・タイプ／範囲に対して ２個のエントリーを作ることはできません。"		# -- Updated / Added in v2.16 Beta 2 --
 "The specified profile already exists.\nYou can not add two profile entries for the same application/window/match type with overlapping regions and match types." => "指定したプロファイルは 既に存在します。\n同じアプリケーション／ウインドウ・クラス／マッチ・タイプ／範囲に対して ２個のエントリーを作ることはできません。"		# -- Updated / Added in v2.16 Beta 2 --
 "The specified window configuration is invalid!" => "指定したウインドウの設定は無効です。"
-"You have to select or enter a process name, or press cancel." => "アプリケーションを 選択または入力して、指定してください。"								# -- Updated / Added in v2.14 Beta 3 --
+"You have to select or enter a process name, or press cancel." => "アプリケーションを 選択または入力して、指定してください。"		# -- Updated / Added in v2.14 Beta 3 --
 "You must select a profile to remove!" => "削除するプロファイルを 選択して下さい。"
 "You can not edit the default profile!" => "「デフォルト」のプロファイルを 編集することはできません。"
 "You can not remove the default profile!" => "「デフォルト」のプロファイルを 削除することはできません。"
 "You must select a profile to edit." => "編集するプロファイルを 選択して下さい。"
 "You must select an application to copy." => "コピーするアプリケーションを 選択して下さい。"
-"Do you want to overwrite profile" => "プロファイルを上書きしますか？ ⇔"							# -- Updated in 2.7 Beta 5 --
+"Do you want to overwrite profile" => "プロファイルを上書きしますか？ ⇔"		# -- Updated in 2.7 Beta 5 --
 "You must define at least one window region!" => "最低１ヶ所以上のウインドウ範囲を 有効にしてください。"		# -- Added in 2.8 Beta 3 --
 
 # ※「レイヤー」タブのエラー・メッセージ／メッセージ・ボックス
@@ -731,13 +773,15 @@ Author=sukemaru
 
 
 
-#Section: Actions (displayed in the dropdown lists)		※機能項目（ドロップダウン・リスト）
+#Section: Actions (displayed in the dropdown lists)		※機能項目（ドロップダウン・リスト）※日本語訳で使用する場合、カテゴリ表示推奨、
 "** No Change (Don't intercept) **" => "　** 変更しない　（インターセプトしない） **　"
 "** Same As Default Profile **" => "　** デフォルトのプロファイルと同じ **　"
 "** Same As Layer 1 (current profile) **" => "　** レイヤー１ と同じ **　"		# -- Added in 2.4 Beta 12 --
 "Disable" => "　無効"
-"Simulated Keys" => "　キー・シミュレーション　"
-"Button Chording" => "　ボタン・コーディング　"
+"Simulated Keys" => "　キｰ・シミュレｰション　"
+"Button Chording" => "　ボタン・コｰディング　"	
+"Button Held Time Dependent Actions" => "　ボタン・長押し　"	# -- Added in 2.17 Beta 4 -> updated in 2.17 beta 5 -> deleted in 2.17 beta 16--
+"Button Held" => "　ボタン・長押し　"	# -- Added in 2.17 beta 16 --
 "Left Click" => "　左クリック"
 "Right Click" => "　右クリック"
 "Middle Click" => "　中クリック"
@@ -761,17 +805,17 @@ Author=sukemaru
 "Scroll Window Left" => "　左 スクロール"
 "Scroll Window Right" => "　右 スクロール"
 "Change Movement to Scroll" => "　オートスクロール"
-"Change Movement to Scroll (Sticky)" => "　オートスクロール　（固定）"									# -- Removed in 2.15 Beta -- 
-"Change Movement to Scroll (Lock Axis)" => "　オートスクロール　（軸ロック）"								# -- Added in 2.12 Beta 11.	# -- Removed in 2.15 Beta -- 
-"Change Movement to Scroll (Sticky Lock Axis)" => "　オートスクロール　（軸ロック ／ 固定）"					# -- Added in 2.12 Beta 11.	# -- Removed in 2.15 Beta -- 
-"Change Movement to Scroll Inverted" => "　オートスクロール　（逆方向）"									# -- Added in 2.13 Beta 1.	# -- Removed in 2.15 Beta -- 
-"Change Movement to Scroll Inverted (Sticky)" => "　オートスクロール　（逆方向 ／ 固定）"						# -- Added in 2.13 Beta 1.	# -- Removed in 2.15 Beta -- 
-"Change Movement to Scroll Inverted (Lock Axis)" => "　オートスクロール　（逆方向 ／ 軸ロック）"					# -- Added in 2.13 Beta 1.	# -- Removed in 2.15 Beta -- 
+"Change Movement to Scroll (Sticky)" => "　オートスクロール　（固定）"		# -- Removed in 2.15 Beta -- 
+"Change Movement to Scroll (Lock Axis)" => "　オートスクロール　（軸ロック）"		# -- Added in 2.12 Beta 11.	# -- Removed in 2.15 Beta -- 
+"Change Movement to Scroll (Sticky Lock Axis)" => "　オートスクロール　（軸ロック ／ 固定）"		# -- Added in 2.12 Beta 11.	# -- Removed in 2.15 Beta -- 
+"Change Movement to Scroll Inverted" => "　オートスクロール　（逆方向）"		# -- Added in 2.13 Beta 1.	# -- Removed in 2.15 Beta -- 
+"Change Movement to Scroll Inverted (Sticky)" => "　オートスクロール　（逆方向 ／ 固定）"		# -- Added in 2.13 Beta 1.	# -- Removed in 2.15 Beta -- 
+"Change Movement to Scroll Inverted (Lock Axis)" => "　オートスクロール　（逆方向 ／ 軸ロック）"		# -- Added in 2.13 Beta 1.	# -- Removed in 2.15 Beta -- 
 "Change Movement to Scroll Inverted (Sticky Lock Axis)" => "　オートスクロール　（逆方向 ／ 軸ロック ／ 固定）"		# -- Added in 2.13 Beta 1.	# -- Removed in 2.15 Beta -- 
-"Lock Mouse X-Axis (While pressed)" => "　Ｘ軸ロック （ボタン操作で解除）"								# -- Added in 2.14 Beta 10 -- 
-"Lock Mouse X-Axis (Toggle)" => "　Ｘ軸ロック　オン／オフ"											# -- Added in 2.14 Beta 10 -- 
-"Lock Mouse Y-Axis (While pressed)" => "　Ｙ軸ロック （ボタン操作で解除）"								# -- Added in 2.14 Beta 10 -- 
-"Lock Mouse Y-Axis (Toggle)" => "　Ｙ軸ロック　オン／オフ"											# -- Added in 2.14 Beta 10 -- 
+"Lock Mouse X-Axis (While pressed)" => "　Ｘ軸ロック （ボタン操作で解除）"		# -- Added in 2.14 Beta 10 -- 
+"Lock Mouse X-Axis (Toggle)" => "　Ｘ軸ロック　オン／オフ"		# -- Added in 2.14 Beta 10 -- 
+"Lock Mouse Y-Axis (While pressed)" => "　Ｙ軸ロック （ボタン操作で解除）"		# -- Added in 2.14 Beta 10 -- 
+"Lock Mouse Y-Axis (Toggle)" => "　Ｙ軸ロック　オン／オフ"		# -- Added in 2.14 Beta 10 -- 
 "Activate Monitor Power Saving" => "　モニター　-　省電力モードを起動"
 "Activate Screensaver" => "　モニター　-　スクリーンセーバーを起動"
 "Cut (Ctrl+X)" => "　切り取り　(Ctrl＋X)"
@@ -787,7 +831,7 @@ Author=sukemaru
 "Previous Window" => "　前のウインドウ"
 "Show/Hide Desktop" => "　デスクトップの表示　-　オン／オフ"
 "Lock Workstation" => "　ウインドウ・ロック"
-"Magnifier Toggle On/Off" => "　拡大鏡　-　オン／オフ"	# -- Added in 2.7 Beta 7 --
+"Magnifier Toggle On/Off" => "　拡大鏡　-　オン／オフ"		# -- Added in 2.7 Beta 7 --
 "Magnifier Zoom In" => "　拡大鏡　-　ズーム・イン"		# -- Added in 2.11 Beta 15 -- 
 "Magnifier Zoom Out" => "　拡大鏡　-　ズーム・アウト"		# -- Added in 2.11 Beta 15 -- 
 "Brightness Up" => "　モニター　-　照度 大"			# -- Added in 2.8 Beta 1 --
@@ -798,13 +842,13 @@ Author=sukemaru
 "Media - Play/Pause" => "　メディア　-　再生／一時停止"
 "Media - Stop" => "　メディア　-　停止"
 "Media - Next Track" => "　メディア　-　次の曲"
-"Media - Last Track" => "　メディア　-　最後の曲"
+"Media - Last Track" => "　メディア　-　前の曲"
 "Back" => "　戻る"
 "Forward" => "　進む"
 "Browser Stop" => "　ブラウザ　-　読み込みを 中止する"
 "Browser Refresh" => "　ブラウザ　-　更新する"
 "Browser Favourites" => "　ブラウザ　-　ブックマークを開く"
-"Browser Search" => "　ブラウザ　-　検索　(F4)"					# Updated in 2.14 Beta 10 -- 
+"Browser Search" => "　ブラウザ　-　検索　(F4)"				# Updated in 2.14 Beta 10 -- 
 "Search Selected Text" => "　ブラウザ　-　選択した語句で 検索する"	# -- Added in 2.13 Beta 4 -- 
 "Undo (Ctrl+Z)" => "　元に戻す　(Ctrl＋Z)"
 "Redo (Ctrl+Y)" => "　やり直し　 (Ctrl＋Y)"
@@ -823,7 +867,7 @@ Author=sukemaru
 "Open Explorer at My Computer" => "　エクスプローラ　-　マイコンピュータ を開く"
 "Open Explorer at Network Favourites" => "　エクスプローラ　-　マイネットワーク を開く"
 "Open Control Panel" => "　エクスプローラ　-　コントロールパネル を開く"
-"Open RUN Command" => "　[ファイル名を指定して実行...]"
+"Open RUN Command" => "　[ファイル名を指定して実行...] を開く　(Win＋R)"
 "Layer (Next)" => "　次のレイヤー"
 "Layer (Previous)" => "　前のレイヤー"
 "Layer Modifier Revert" => "　レイヤー変更を戻す"		# -- Updated in 2.4 Beta 15 --
@@ -868,5 +912,5 @@ Author=sukemaru
 
 "Task View" => "　タスクビュー"		#Was "Desktop Switcher"		# -- Added in 2.11 Beta 15 -- 
 
-"Cortana Search" => "　Cortana 検索"						# -- Updated in 2.14 Beta 6 (for Windows 10) --
-"System Menu (WIN＋X)" => "　スタートメニュー　(Win＋X)"			# -- Added in 2.14 Beta 6 (missing for some time!) --
+"Cortana Search" => "　Cortana 検索"					# -- Updated in 2.14 Beta 6 (for Windows 10) --
+"System Menu (WIN＋X)" => "　スタートメニュー　(Win＋X)"		# -- Added in 2.14 Beta 6 (missing for some time!) --

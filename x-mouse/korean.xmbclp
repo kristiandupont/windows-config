@@ -94,8 +94,6 @@ Author=IKASAKI(이카사키) (bxxd@paran.com)
 "Ma&ke scroll wheel scroll window under cursor" => "커서 밑에 있는 창이 휠로 스크롤 되게하기(&K) - [HOVER 스크롤 기능]"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Scroll Lock이 켜져 있으면 모든 동작 무시(&Y)"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Scroll Lock이 켜져 있으면 '비활성' 동작 무시(&P)"
-"S&wap 4th and 5th buttons" => "마우스 4번과 5번 버튼 동작 교환(&W)"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "원격 데스크탑(RDP)에 연결되었을 때 마우스 4번과 5번 버튼 교환(&A)"
 "&Disable when running under remote desktop (RDP)" => "원격 데스크탑(RDP)에 연결되었을 때 동작 비활성(&D)"
 "Show layer switch &balloon notifications" => "레이어 전환시 풍선 알림 표시(&B)"
 "A&ctivate window when scrolling" => "스크롤 시 창 활성화(&C)"
@@ -106,6 +104,15 @@ Author=IKASAKI(이카사키) (bxxd@paran.com)
 "Change cursor when using &Movement To Scroll" => "`마우스 동작 변경 [동작을 스크롤로 변경]' 사용시 커서 변경(&M)"
 "Enable &notifications" => "알림 활성(&N)"
 "En&hance pointer precision" => "포인터 정밀도 향상(&H)"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "마우스 4번과 5번 버튼 동작 교환(&W)"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "원격 데스크탑(RDP)에 연결되었을 때 마우스 4번과 5번 버튼 교환(&A)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "마우스 4번과 5번 버튼 동작 교환(&W)"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "원격 데스크탑(RDP)에 연결되었을 때 마우스 4번과 5번 버튼 교환(&A)"
+
 
 # -- Updated in 2.14 Beta 7 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect." => "주의: 이 효과가 적용되려면 '확인'을 누른 후 메인 화면 설정 창을 '적용'해야 합니다."

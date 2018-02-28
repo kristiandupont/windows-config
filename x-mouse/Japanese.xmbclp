@@ -55,11 +55,17 @@ Author=prairial
 "Ma&ke scroll wheel scroll window under cursor" => "カーソル下のウインドウをスクロールさせる"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "スクロールロックが有効な場合動作しない"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "スクロールロックが有効な場合無効設定を無視する"
-"S&wap 4th and 5th buttons" => "マウスボタン4と5の動作を入れ替える"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "リモートデスクトップ環境下にてマウスボタン4と5の動作を入れ替える"
 "&Disable when running under remote desktop (RDP)" => "リモートデスクトップ環境下で動作しない"
 "Show layer switch &balloon notifications" => "レイヤースイッチのバルーンメッセージを表示する"
 "Language" => "言語"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "マウスボタン4と5の動作を入れ替える"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "リモートデスクトップ環境下にてマウスボタン4と5の動作を入れ替える"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "マウスボタン4と5の動作を入れ替える"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "リモートデスクトップ環境下にてマウスボタン4と5の動作を入れ替える"
 
 # -- Updated in 2.4 Beta 10 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "注：設定を有効にするには、メイン画面で「OK」を押して適用する必要があります。メイン・ウインドウが再開されるまで、変更した言語は適用されません。"

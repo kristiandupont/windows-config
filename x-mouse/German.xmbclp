@@ -1,5 +1,5 @@
 ﻿# Sample XMBC Language template file.
-# Base version 2.16
+# Base version 2.17
 #
 # Changes to this template are marked:
 #   -- Updated in <version> --
@@ -23,8 +23,8 @@
 #Ideally (for consistency) put your localised language name, followed by the English language name in brackets
 #EG. Language=Français (French)
 #
-Language=Deutsch (German)
-Description=Deutsche Übersetzung für X-Mouse Button Control (XMBC).
+Language=Deutsch (German) 2.17
+Description=Deutsche Übersetzung für X-Mouse Button Control (XMBC) V 2.17
 
 #
 #Put your name here and you will be credited in the user interface
@@ -61,10 +61,10 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 # --
 
 # -- Added in 2.8 Beta 7 --
-"U&p" => "Nach oben"
-"Do&wn" => "Nach unten"
-"&Export" => "Exportieren"
-"&Import" => "Importieren"
+"U&p" => "Nach &oben"
+"Do&wn" => "Nach &unten"
+"&Export" => "&Exportieren"
+"&Import" => "&Importieren"
 "Unable to save the settings file" => "Speichern der Einstellungsdatei fehlgeschlagen"
 "Please check you installation settings." => "Bitte überprüfen Sie die Einstellungen für die Installation."
 "Contact the developer for support." => "Um Unterstützung zu erhalten kontaktieren Sie den Entwikler"
@@ -105,8 +105,6 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "Ma&ke scroll wheel scroll window under cursor" => "&Bildlauf für Fenster unter dem Mauszeiger aktivieren"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "ALLE Aktionen &umgehen, wenn ROLLEN eingeschaltet ist"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Abgeschaltete Aktionen u&mgehen, wenn ROLLEN eingeschaltet ist"
-"S&wap 4th and 5th buttons" => "4. und 5. Taste &vertauschen"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "4. und 5. Taste bei Verbindung zu &Remotedesktop (RDP) vertauschen"
 "&Disable when running under remote desktop (RDP)" => "&Abschalten bei aktivem Remotedesktop (RDP)"
 "Show layer switch &balloon notifications" => "&Benachrichtigung bei Ebenen-Umschaltung anzeigen"
 "A&ctivate window when scrolling" => "&Fenster beim Bildlauf aktivieren"
@@ -114,7 +112,16 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "&Enable On Screen Display for volume and brightness settings" => "Bildschirmsteuerelement (OSD) für Lautstärke- und Hellikeitsregelung aktivieren" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
 "Change cursor when using &Movement To Scroll" => "Mauszeigen beim verwenden von „&Bewegung zum Bildlauf” ändern"
 "Enable &notifications" => "Benachrichtigungen &aktivieren"
-"En&hance pointer precision" => "Zeigerbeschleunigung verbessern"
+"En&hance pointer precision" => "Zeiger&beschleunigung verbessern"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "4. und 5. Taste &vertauschen"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "4. und 5. Taste bei Verbindung zu &Remotedesktop (RDP) v&ertauschen"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "4. und 5. Tastenaktion &vertauschen (wenn festgelegt)"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "4. und 5. Tasteenaktion bei Verbindung zu &Remotedesktop (RDP) v&ertauschen (wenn festgelegt)"
+
 
 # -- Updated in 2.14 Beta 7 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect." => "Hinweis: Änderungen werden erst nach Klick auf „OK” und „Anwenden” im Hauptfenster wirksam."
@@ -135,7 +142,8 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "Show &tray icon by default" => "&Symbol im Infobereich standardmäßig anzeigen"
 "&Ignore numlock state for Simulated Keystrokes" => "&Numlock-Status für simulierte Tastenanschläge ignorieren"
 "Cycle layers &by left clicking tray icon" => "Ebenen wechseln &durch Linksklick auf das Symbol im Infobereich" #-- Updated in 2.5 beta 4 --
-"&Fixup (de-bounce) tilt wheel auto-repeat" => "&Entprellen der automatischen Wiederholung bei gekipptem Rad"
+"&Remap simulated input from other applications" => "Simulierte Eingaben aus anderen Anwendungen neu berechnen"				# -- Added in 2.17 Beta 12
+"&Fixup (de-bounce) tilt wheel auto-repeat" => "Korrektur (Entprellung) der Kippradneigungs-Autowiederholung"
 "Initial repeat r&ate" => "A&nfängliche Verzögerung" #-- Changed in 2.8 Beta 1 --
 "&Repeat tilt rate" => "&Wiederholrate beim Kippen"
 "(ms)" => "(ms)"
@@ -359,8 +367,9 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "(thread-up)" => "(nach oben drehen)"
 "(repeat)" => "(wiederholen)"
 "(sticky repeat)" => "(dauernd wiederholen)"
-"(sticky hold)" => "(dauernd halten)"
+"(sticky hold)" => "(gedrückt halten)"
 "(pressed & released)" => "(gedrückt & losgelassen)" #-- Added in 2.4 Beta 12 --
+"(custom)" => "(benutzerdefiniert)"												# -- Added in 2.17 Beta 9 --
 
 
 #Section: Simulated Keystrokes dialog
@@ -373,11 +382,11 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "4 In another thread as mouse button is pressed" => "4 • Bei einem anderen Prozess als gedrückte Maustaste"
 "5 In another thread as mouse button is released" => "5 • Bei einem anderen Prozess als losgelassene Maustaste"
 "6 Repeatedly while the button is down" => "6 • Wiederholend während die Taste gedrückt ist"
-"7 Sticky (repeatedly until button is pressed again)" => "7 • Dauerhaft (wiederholend bis Taste erneut gedrückt wird)"
-"8 Sticky (held down until button is pressed again)" => "8 • Dauerhaft (gehalten bis Taste erneut gedrückt wird)"
+"7 Sticky (repeatedly until button is pressed again)" => "7 • Dauernd wiederholen (bis Taste erneut gedrückt wird)"
+"8 Sticky (held down until button is pressed again)" => "8 • Dauernd halten (bis Taste erneut gedrückt wird)"
 "9 As mouse button is pressed & when released" => "9 • Wenn die Maustatste gedrückt wird und beim Loslassen" #-- Added in 2.4 Beta 12 --
 "Only send if profile's process is active" => "Nur senden wenn Prozess des Profils aktiv ist"
-"Block original mouse input" => "Original Mauseingaben blockieren" #-- Added in 2.7 Beta 5 --
+"Block original mouse input" => "Original Mauseingaben sperren" #-- Added in 2.7 Beta 5 --
 "Randomise auto repeat delay by 10%" => "Zufällige automat. Wiederhoungsverzögerung von 10%" #-- Added in 2.11 Beta 6 --
 "Auto repeat delay" => "Automatischen Wiederhoungsverzögerung"
 "(milliseconds)" => "(Millisekunden)"
@@ -407,6 +416,12 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 # -- Updated in 2.4 Beta 15 --
 "Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "\r\nSpezielle Funktionstasten:\t{WAIT:n}\t\t• fügt eine Verzögerung von <n> Sekunden ein\r\n\t\t\t{WAITMS:n}\t• fügt eine Verzögerung von <n> Millisekunden ein.\r\n\t\t\t{HOLD:n}\t\t• nächste Taste für <n> Sekunden gedrückt halten.\r\n\t\t\t{HOLDMS:n}\t• hält die nächste Taste für <n> Millisekunden gedrückt.\r\n\t\t\t{VKC:n}\t\t• sendet den angegebenen virtuellen Tastencodes.\r\n\t\t\t{EXT:n}\t\t• sendet den angegebenen erweiterten virtuellen Tastencodes.\r\n\t\t\t{CLEAR}\t\t• löscht alle Zusatztasten (CTRL},{ALT} usw."
 
+#Added in 2.17 Beta 16
+"\t\t\t{SC:n} Sends the specified keyboard scan code." => "\t\t\t{SC:n}\t\t• sendet den angegebenen Tastatur-Scancode."
+"\t\t\t{SCE:n} Sends the specified extended keyboard scan code." => "\t\t\t{SCE:n}\t\t• sendet den angegebenen erweiterten Tastatur-Scancode."
+"\t\t\t{CB:<text>} Copies the specified <text> to the clipboard." => "\t\t\t{CB:<text>}\t• kopiert den angegebenen <text> in die Zwischenablage."
+#
+
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Richtungstasten:\t\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\n\r\nFunktionstasten:\t\t{F1}, {F2}, {F3} … {F24}\r\n\r\nLautstärketasten:\t\t{VOL+}, {VOL-}, {MUTE}\r\nHelligkeitsregler:\t\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\n\r\nMaustasten:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMausrad-Tasten:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumerische Tasten:\t\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser-Tasten:\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nUmschalttasten:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
 
@@ -422,7 +437,7 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "\t\t\t{PSET:x,y} Set cursor position to <x,y> (relative to profile window)" => "\t\t\t{PSET:x,y}\t• Position des Mauszeigers auf <x,y> festlegen (relativ zum Profilfenster)"
 "\t\t\t{ASET:x,y} Set cursor position to <x,y> (relative to active window)" => "\t\t\t{ASET:x,y}\t• Position des Mauszeigers auf <x,y> festlegen (relativ zum aktiven Fenster)"
 "\t\t\t{MSAVE:n} Save the current cursor position to memory <n> (1-10)" => "\t\t\t{MSAVE:n}\t• Aktuelle Position des Mauszeigers auf Speicherplatz <n> (1-10) ablegen"
-"\t\t\t{MREST:n} Restore the saved cursor position from memory <n> (1-10)" => "\t\t\t{MREST}\t\t• Zuletzt gespeicherte Position des Mauszeigers von Speicherplatz <n> (1-10) wiederherstellen"
+"\t\t\t{MREST:n} Restore the saved cursor position from memory <n> (1-10)" => "\t\t\t{MREST}\t\t• Zuletzt gespeicherte Position des Mauszeigers\r\n\t\t\t\t\t   von Speicherplatz <n> (1-10) wiederherstellen" #Updated in 2.16 Beta 17
 
 # -- Deprecated in 2.15 Beta 9 - they still work but are not displayed
 "Movement tags:\t\t{MXADD:n} Move cursor X position (horizontally) by <n> pixels" => "Bewegungstasten:\t\t{MXADD:n}\tX-Position (horizontal) des Mauszeigers um <n> Pixel bewegen"
@@ -443,8 +458,20 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 
 # -- Added in 2.16 Beta 17 
 "Action tags:" => "Aktionstasten" 
-"\t\t{ACTIVATE} Activate the window under the cursor." => "\t\t{ACTIVATE}\t• holt das Fenster unter dem Mauszeiger in den Vordergrund" 
+"\t\t{ACTIVATE} Activate the window under the cursor." => "\t\t{ACTIVATE}\t\t• Holt das Fenster unter dem Mauszeiger in den Vordergrund"
+
+# -- Added in 2.17 Beta 1
+"\t\t\t{ACTIVATEPARENT} Activate the parent of the window under the cursor." => "\t\t\t{ACTIVATEPARENT}\t• Holt die übergeordnete Ebene des Fensters unter dem Mauszeiger\r\n\t\t\t\t\t\t   in den Vordergrund"
+"\t\t\t{ACTIVATETOP} Activate the top level (root) owner of the window under the cursor." => "\t\t\t{ACTIVATETOP}\t\t• Holt die oberste Ebene des Fensters unter dem Mauszeiger\r\n\t\t\t\t\t\t   in den Vordergrund"
 # -- 
+
+# -- Updated in 2.17 Beta 10
+# These functions can send any windows messages https://msdn.microsoft.com/de-de/de/library/windows/desktop/ff381405(v=vs.85).aspx
+"Windows Message tags:" => "Fenstermeldungen-\r\nTasten"
+"\t{POSTWM:<M>,<L>,<W>} Post a message to the window under the cursor." => "\t\t\t{POSTWM:<M>,<L>,<W>}\t\tNachricht an das Fenster unter dem Cursor senden"
+"\t\t\t{SENDWM:<M>,<L>,<W>} Send a message to the window under the cursor." => "\t\t\t{SENDWM:<M>,<L>,<W>}\t\tNachricht an das Fenster unter dem Cursor senden"
+"\t\t\tWHERE:\t<M> is the message, <L> is the LPARAM value and <W> is the WPARAM value." => "\t\t\tBedeutung:\t<M>\tentspricht der Meldung\r\n\t\t\t\t\t<L>\tentspricht dem LPARAM-Wert\r\n\t\t\t\t\t<W>\tentspricht dem WPARAM-Wert"
+"\t\t\tNOTE:\t<M>, <L> & <W> can be specified in decimal (eg. 16) or hex (eg. 0x10)." => "\t\t\tHinweis:\t\t<M>, <L> & <W> kann dezimal (z.B. 16) oder\r\n\t\t\t\t\thexadezimal (z.B. 0x10) angegeben werden"
 
 #Run Application dialog
 "Type the name of a program, folder, document or internet resource, and XMouse button will open it for you when the button is pressed." => "Geben Sie den Namen eines Programms, Ordners, Dokuments oder einer Internet-Ressource ein und XMouse button wird es öffnen wenn die Taste gedrückt wird."
@@ -453,15 +480,27 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "Please select a folder to open" => "Bitte einen zu öffnenden Ordner wählen"
 
 #Section: Change Movement to Scroll Configuration -- Added in 2.15 Beta 1
-"Movement to Scroll Configuration" => "Konfiguration der Bildlaufbewegung"
+"Movement to Scroll Configuration" => "Bewegung beim Bildlauf ändern • Konfiguration"
 "&Sensitivity" => "Empfindlichkeit"
 "Invert &Vertical Axis" => "&Vertikale Achse umkehren"
 "Invert &Horizontal Axis" => "&Horizontale Achse umkehren"
-"&Lock Scroll Axis" => "Bildlaufachse &sperren"
 "&Sticky (until next click)" => "&Gedrückt halten (bis zum nächsten Klick)"
 
+"&Default Action (no movement)" => "&Standardaktion\n(keine Bewegung)" #-- Added in 2.17 Beta 1
 
-#Section: Scrolling &navigation tab
+#Added in 2.17 Beta 6
+"Block all other buttons when sticky" => "Wenn gedrückt, alle anderen Tasten sperren"
+"Lock Scroll Axis/Direction" => "Bildlaufachse/-richtung &sperren"
+"Don't lock (scroll in any direction)" => "Nicht sperren (Bildlauf in alle Richtungen ermöglichen)"
+"Lock to axis determined by cursor movement" => "Achse sperren (durch Mauszeigerbewegung ermittelt)"
+"Lock to Y axis (scroll vertically)" => "Y-Achse (vertikaler Bildlauf) sperren"
+"Lock to X axis (scroll horizontally)" => "X-Achse (horizontaler Bildlauf) sperren"
+#
+
+#Added in 2.17 Beta  16
+"Movement To Scroll Default Action" => "Bewegung beim Bildlauf ändern • Standardaktion"
+
+#Section: Scrolling & navigation tab (or Scrolling ad Options tabs post 2.15 Beta 5)
 "&Invert mouse wheel scrolling" => "Bildlaufrichtung des Mausrades &umkehren"
 "I&nvert mouse horizontal (tilt) scrolling" => "&Horizontaler Bildlauf beim Kippen des Mausrads umkehren"
 "Wheel scrolls i&n pages instead of lines" => "Bildlauf seiten- statt zeilenweise bei Drehen des Mausrads"
@@ -503,6 +542,9 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 
 # -- Added in 2.15 Beta 5 --
 "&Override Mouse Speed" => "Mausgeschwindigkeit ü&berschreiben"
+
+# -- Added in 2.17 Beta 3 --
+"Active window on hover" => "Fenster beim Draufzeigen in den Vordergrund holen"
 
 "Disable &profile switching on mouse move for this profile" => "&Profilwechsel bei Mausbewegung für dieses Profil deaktivieren"
 
@@ -571,6 +613,10 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "Bottom Left Quadrant" => "Linker unterer Quadrant"
 "Bottom Right Quadrant" => "Rechter unterer Quadrant"
 "Enable caption matching" => "Ermöglichen, den Fenstertitel anzupassen"
+
+# -- Added in 2.17 Beta 1
+"Non regular expression matches can contain multiple search entries, separated by two pipe characters e.g. 'app1.exe||app2.exe||app3.exe'" => "Nicht reguläre Ausdrucksübereinstimmungen können mehrere Sucheinträge enthalten, die durch zwei Pipe-Zeichen, z.B. „App1.exe || app2.exe || app3.exe”"
+
 
 #Section: Choose Application dialog (custom window profile)
 "Choose Application" => "Anwendung auswählen"
@@ -657,17 +703,17 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 # --
 
 #Section: Actions (displayed in the drop-down lists)
-"Left Click" => "Klick der linken Maustaste simulieren"
-"Right Click" => "Klick der rechten Maustaste simulieren"
+"Left Click" => "Linken Maustaste drücken"
+"Right Click" => "Rechten Maustaste drücken"
 "Next Window" => "Nächstes Fenster"
 "Back" => "Zurück"
 "Forward" => "Vorwärts"
-"Middle Click" => "Klick: Mittlere Maustaste simulieren"
+"Middle Click" => "Mittlere Maustaste drücken"
 "Disable" => "Deaktiviert"
 "Close (Alt+F4)" => "Schließen (Alt + F4)"
 "Copy (Ctrl+C)" => "Kopieren (Strg + C)"
 "Cut (Ctrl+X)" => "Ausschneiden (Strg + X)"
-"Double Click" => "Klick: Doppelklick simulieren"
+"Double Click" => "Doppelklick ausführen"
 "Enter" => "Eingabe"
 "Maximize Window" => "Fenster maximieren"
 "Minimize Window" => "Fenster minimieren"
@@ -703,9 +749,9 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "Mouse Wheel Down" => "Mausrad runter"
 "Print Screen" => "Bildschirminhalt in die Zwischenablage kopieren"
 "Print Active Window" => "Aktives Fenster drucken"
-"Sticky Left Button [Click-Drag]" => "Gedrückt bleibende linke Taste [Klick-Ziehen]"
-"Sticky Right Button" => "Gedrückt bleibende rechte Taste"
-"Sticky Middle Button" => "Gedrückt bleibende mittlere Taste"
+"Sticky Left Button [Click-Drag]" => "Linke Maustaste gedrückt halten [Klick-Ziehen]"
+"Sticky Right Button" => "Rechte Maustaste gedrückt halten"
+"Sticky Middle Button" => "Mittlere Maustaste gedrückt halten"
 "Layer (Next)" => "Ebene (nächste)"
 "Layer (Previous)" => "Ebene (vorige)"
 "Layer 1" => "Ebene 1"
@@ -726,7 +772,7 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "Open Explorer at My Computer" => "Explorer-Fenster des „Arbeitsplatz” öffnen"
 "Open Explorer at Network Favourites" => "Explorer-Fenster der „Netzwerkumgebung” öffnen"
 "Open Control Panel" => "Systemsteuerung öffnen"
-"Double Click Drag" => "Klick mit Doppelklick und ziehen"
+"Double Click Drag" => "Doppelklick und ziehen"
 "Mouse Wheel Tilt Left" => "Mausrad-Neigung nach links"
 "Mouse Wheel Tilt Right" => "Mausrad-Neigung nach rechts"
 "Scroll Window Up" => "Fenster nach oben scrollen"
@@ -739,8 +785,8 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "** Same As Default Profile **" => "◀ Identisch zum Standardprofil ▶"
 "Sticky 4th Button" => "4. Taste bleibt gedrückt"
 "Sticky 5th Button" => "5. Taste bleibt gedrückt"
-"Change Movement to Scroll" => "Ändern der Bewegung beim Bildlauf"
-"Change Movement to Scroll (Sticky)" => "Ändern der Bewegung beim Bildlauf (Taste gedrückt halten)"
+"Change Movement to Scroll" => "Bewegung beim Bildlauf ändern"
+"Change Movement to Scroll (Sticky)" => "Bewegung beim Bildlauf ändern (Taste gedrückt halten)"
 "Sticky Left Button [Click-Drag] X-Axis" => "Gedrückt bleibende linke Taste [Klick-Ziehen] X-Achse"
 "Sticky Left Button [Click-Drag] Y-Axis" => "Gedrückt bleibende rechte Taste [Klick-Ziehen] Y-Achse"
 
@@ -792,12 +838,12 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 "Task View" => "Aufgabenansicht"				#Was "Desktop Switcher"
 
 # -- Added in 2.11 Beta 15
-"Magnifier Zoom In" => "Bildschirmlupe vergrößern"
-"Magnifier Zoom Out" => "Bildschirmlupe verkleinern"
+"Magnifier Zoom In" => "Mit Bildschirmlupe vergrößern"
+"Magnifier Zoom Out" => "Mit Bildschirmlupe verkleinern"
 
 # -- Added in 2.12 Beta 1
-"Click Button 4" => "Klick der 4. Maustaste simulieren"
-"Click Button 5" => "Klick der 5. Maustaste simulieren"
+"Click Button 4" => "4. Maustaste drücken"
+"Click Button 5" => "5. Maustaste drücken"
 
 # -- Added in 2.12 Beta 11
 "Change Movement to Scroll (Lock Axis)" => "Ändern der Bewegung beim Bildlauf (Achse sperren)"
@@ -820,9 +866,9 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 
 # -- Added in 2.14 Beta 10
 "Lock Mouse X-Axis (While pressed)" => "X-Achse der Maus sperren (Wenn gedrückt gehalten)"
-"Lock Mouse X-Axis (Toggle)" => "X-Achse der Maus sperren (ein/aus)"
+"Lock Mouse X-Axis (Toggle)" => "X-Achse der Maus sperren (Ein/Aus)"
 "Lock Mouse Y-Axis (While pressed)" => "Y-Achse der Maus sperren (Wenn gedrückt gehalten)"
-"Lock Mouse Y-Axis (Toggle)" => "Y-Achse der Maus sperren (ein/aus)"
+"Lock Mouse Y-Axis (Toggle)" => "Y-Achse der Maus sperren (Ein/Aus)"
 
 
 # -- Added in 2.10 Beta 14 --
@@ -862,9 +908,28 @@ Author=Andy Kleinert • Dr. Michael Diehl • Sven Foerster
 
 # -- Added in 2.15 Beta 11 -- 
 "&Unblock after" => "Entsperren nach" 
+"Unblock when the mouse moves" => "Entsperren bei Mausbewegungen"	# -- Added in 2.16 Beta 2 --
 
 # -- Added in 2.14 Beta 7
 "Change Log:" => "Änderungsliste"
 "Unable to locate change log!" => "Änderungsliste konnte nicht gefunden werden!"
 "&Upgrade" => "&Aktualisieren"
 "&Skip" => "&Überspringen"
+
+# -- Added in 2.17 Beta 4 and updated in 2.17 beta 5 --
+#Section Button Held Time Dependent Actions
+"Button Held Time Dependent Actions" => "Zeitabhängige Aktionen für gehaltene Maustaste"
+"Define different actions based on how long you hold the mouse button down for when clicking." => "Verschiedene Aktionen definieren, je nachdem wie lange Sie die Maustaste gedrückt halten, wenn Sie darauf klicken."
+"Normal Click" => "Normaler Klick"
+"Held for" => "Gedrückt halten für"
+"Held for time for action %d must be greater than that for action %d." => "„Gedrückt halten für”-Zeit für die Aktion „%d” muss größer sein als jene für die Aktion „%d”."# NOTE: The %d's are interpreted at runtime. Leave them there
+
+# Added in 2.17 Beta 6
+"&Abort and revert to the normal click action when the mouse moves." => "Bei Mausbewegung abbrechen und zur normalen Klick-Aktion zurückkehren."
+"NOTE: All but the last enable action above will not be performed until the button is released (once the hold time has been determined). The last action will be started once the minimum time period is reached." => "HINWEIS: Alle bis auf die letzte Aktivierungsaktion wird erst dann durchgeführt, wenn die Taste losgelassen wird (sobald die Haltezeit ermittelt wurde). Die letzte Aktion wird gestartet, sobald die Mindestdauer erreicht ist." #Changed in 2.17 Beta 6
+
+#Added in 2.17 Beta 7
+"Description (to show in button drop-down)" => "Beschreibung\n(wird in der Auswahlliste angezeigt)"
+
+#Added in 2.17 beta 16
+"Button Held" => "Taste gedrückt halten"

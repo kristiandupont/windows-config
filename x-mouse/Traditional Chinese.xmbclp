@@ -58,11 +58,18 @@
     "Ma&ke scroll wheel scroll window under cursor" => "使滾輪可以滾動滑鼠下的視窗"
     "B&ypass ALL actions when SCROLL LOCK is ON" => "開啟捲動鎖定鍵時忽略所有動作"
     "By&pass 'disabled' actions when SCROLL LOCK is ON" => "開啟捲動鎖定鍵時忽略「禁用」的動作"
-    "S&wap 4th and 5th buttons" => "交換第四和第五按鍵"
-    "Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "當連接到遠端桌面(RDP)時交換第四和第五按鍵"
     "&Disable when running under remote desktop (RDP)" => "當連接到遠端桌面(RDP)時禁用"
     "Show layer switch &balloon notifications" => "在通知區域顯示層切換設置"
     "Language" => "語言"
+
+	# -- Removed in 2.17 Beta 9
+    "S&wap 4th and 5th buttons" => "交換第四和第五按鍵"
+    "Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "當連接到遠端桌面(RDP)時交換第四和第五按鍵"
+
+	# -- Added (replaced) in 2.17 Beta 9
+	"S&wap 4th and 5th button actions (when set)" => "交換第四和第五按鍵"
+	"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => ""
+
 
     # -- Updated in 2.6 Beta 1 --
     "A&ctivate window when scrolling" => "滾動時啟動視窗"

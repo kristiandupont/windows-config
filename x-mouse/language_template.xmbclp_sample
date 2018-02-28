@@ -1,5 +1,5 @@
 ﻿# Sample XMBC Language template file. 
-# Base version 2.16.1
+# Base version 2.17 Beta 16
 #
 # Changes to this template are marked:
 #   -- Updated in <version> --
@@ -105,8 +105,6 @@ Author=Phillip Gibbons
 "Ma&ke scroll wheel scroll window under cursor" => ""
 "B&ypass ALL actions when SCROLL LOCK is ON" => ""
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => ""
-"S&wap 4th and 5th buttons" => ""
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => ""
 "&Disable when running under remote desktop (RDP)" => ""
 "Show layer switch &balloon notifications" => ""
 "A&ctivate window when scrolling" => ""
@@ -115,6 +113,15 @@ Author=Phillip Gibbons
 "Change cursor when using &Movement To Scroll" => ""
 "Enable &notifications" => ""
 "En&hance pointer precision" => ""
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => ""
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => ""
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => ""
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => ""
+
 
 # -- Updated in 2.14 Beta 7 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect." => ""
@@ -135,6 +142,7 @@ Author=Phillip Gibbons
 "Show &tray icon by default" => ""
 "&Ignore numlock state for Simulated Keystrokes" => ""
 "Cycle layers &by left clicking tray icon" => ""					# -- Updated in 2.5 beta 4 --
+"&Remap simulated input from other applications" => ""				# -- Added in 2.17 Beta 12
 "&Fixup (de-bounce) tilt wheel auto-repeat" => ""
 "Initial repeat r&ate" => ""										# -- Changed in 2.16 Beta 18 - DON'T USE &P for accelerator -- 
 "&Repeat tilt rate" => ""											# -- Changed in 2.16 Beta 18 - DON'T USE &P for accelerator --
@@ -361,6 +369,7 @@ Author=Phillip Gibbons
 "(sticky repeat)" => ""
 "(sticky hold)" => ""
 "(pressed & released)" => ""									# -- Added in 2.4 Beta 12 --
+"(custom)" => ""												# -- Added in 2.17 Beta 9 --
 
 
 #Section: Simulated Keystrokes dialog
@@ -407,6 +416,12 @@ Author=Phillip Gibbons
 # -- Updated in 2.4 Beta 15 --
 "Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => ""
 
+#Added in 2.17 Beta 16
+"\t\t\t{SC:n} Sends the specified keyboard scan code." => ""
+"\t\t\t{SCE:n} Sends the specified extended keyboard scan code." => ""
+"\t\t\t{CB:<text>} Copies the specified <text> to the clipboard." => ""
+#
+
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => ""
 
@@ -444,7 +459,19 @@ Author=Phillip Gibbons
 # -- Added in 2.16 Beta 17
 "Action tags:" => ""
 "\t\t{ACTIVATE} Activate the window under the cursor." => ""
+
+# -- Added in 2.17 Beta 1
+"\t\t\t{ACTIVATEPARENT} Activate the parent of the window under the cursor." => ""
+"\t\t\t{ACTIVATETOP} Activate the top level (root) owner of the window under the cursor." => ""
 # --
+
+# -- Updated in 2.17 Beta 10
+# These functions can send any Windows Messages https://msdn.microsoft.com/en-us/library/windows/desktop/ff381405(v=vs.85).aspx
+"Windows Message tags:" => ""
+"\t{POSTWM:<M>,<L>,<W>} Post a message to the window under the cursor." => ""
+"\t\t\t{SENDWM:<M>,<L>,<W>} Send a message to the window under the cursor." => ""
+"\t\t\tWHERE:\t<M> is the message, <L> is the LPARAM value and <W> is the WPARAM value." => ""
+"\t\t\tNOTE:\t<M>, <L> & <W> can be specified in decimal (eg. 16) or hex (eg. 0x10)." => ""
 
 #Run Application dialog
 "Type the name of a program, folder, document or internet resource, and XMouse button will open it for you when the button is pressed." => ""
@@ -457,9 +484,21 @@ Author=Phillip Gibbons
 "&Sensitivity" => ""
 "Invert &Vertical Axis" => ""
 "Invert &Horizontal Axis" => ""
-"&Lock Scroll Axis" => ""
 "&Sticky (until next click)" => ""
 
+"&Default Action (no movement)" => ""	# -- Added in 2.17 Beta 1
+
+#Added in 2.17 Beta 6
+"Block all other buttons when sticky" => ""
+"Lock Scroll Axis/Direction" => ""
+"Don't lock (scroll in any direction)" => ""
+"Lock to axis determined by cursor movement" => ""
+"Lock to Y axis (scroll vertically)" => ""
+"Lock to X axis (scroll horizontally)" => ""
+#
+
+#Added in 2.17 Beta  16
+"Movement To Scroll Default Action" => ""
 
 #Section: Scrolling & navigation tab (or Scrolling ad Options tabs post 2.15 Beta 5)
 "&Invert mouse wheel scrolling" => ""
@@ -503,6 +542,9 @@ Author=Phillip Gibbons
 
 # -- Added in 2.15 Beta 5 --
 "&Override Mouse Speed" => ""
+
+# -- Added in 2.17 Beta 3 --
+"Active window on hover" => ""
 
 "Disable &profile switching on mouse move for this profile" => ""
 
@@ -571,6 +613,10 @@ Author=Phillip Gibbons
 "Bottom Left Quadrant" => ""
 "Bottom Right Quadrant" => ""
 "Enable caption matching" => ""
+
+# -- Added in 2.17 Beta 1
+"Non regular expression matches can contain multiple search entries, separated by two pipe characters e.g. 'app1.exe||app2.exe||app3.exe'" => ""
+
 
 #Section: Choose Application dialog (custom window profile)
 "Choose Application" => ""
@@ -862,9 +908,28 @@ Author=Phillip Gibbons
 
 # -- Added in 2.15 Beta 11 --
 "&Unblock after" => ""
+"Unblock when the mouse moves" => ""	# -- Added in 2.16 Beta 2 --
 
 # -- Added in 2.14 Beta 7
 "Change Log:" => ""
 "Unable to locate change log!" => ""
 "&Upgrade" => ""						# Fixed in 2.16 Beta 14
 "&Skip" => ""							# Fixed in 2.16 Beta 14
+
+# -- Added in 2.17 Beta 4 and updated in 2.17 beta 5 --
+#Section Button Held Time Dependent Actions
+"Button Held Time Dependent Actions" => ""
+"Define different actions based on how long you hold the mouse button down for when clicking." => ""
+"Normal Click" => ""
+"Held for" => ""
+"Held for time for action %d must be greater than that for action %d." => ""				# NOTE: The %d's are interpreted at runtime. Leave them there
+
+# Added in 2.17 Beta 6
+"&Abort and revert to the normal click action when the mouse moves." => ""
+"NOTE: All but the last enable action above will not be performed until the button is released (once the hold time has been determined). The last action will be started once the minimum time period is reached." => "" #Changed in 2.17 Beta 6
+
+#Added in 2.17 Beta 7
+"Description (to show in button drop-down)" => ""
+
+#Added in 2.17 beta 16
+"Button Held" => ""

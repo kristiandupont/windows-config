@@ -53,11 +53,19 @@ Author=Kamil Pábl
 "Ma&ke scroll wheel scroll window under cursor" => "Skrolovat okno pod kurzorem"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Obejít všechny akce při zapnutém SCROLL LOCK"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Obejít vypnutí akce při zapnutém SCROLL LOCK"
-"S&wap 4th and 5th buttons" => "Zaměnit 4 té a 5 té tlačítko"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Zaměnit 4 té a 5 té tlačítko připojeno kdy spojení vzdáleným desktopem (RDP)"
 "&Disable when running under remote desktop (RDP)" => "Vypnout při připojeno kdy spojení vzdáleným desktopem (RDP)"
 "Show layer switch &balloon notifications" => "Ukázat tlačítka vrstvy & bublinkové zprávy"
 "Language" => "Jazyk"
+
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Zaměnit 4 té a 5 té tlačítko"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Zaměnit 4 té a 5 té tlačítko připojeno kdy spojení vzdáleným desktopem (RDP)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Zaměnit 4 té a 5 té tlačítko"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Zaměnit 4 té a 5 té tlačítko připojeno kdy spojení vzdáleným desktopem (RDP)"
+
 
 # -- Updated in 2.4 Beta 10 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "UPOZORNĚNÍ: Musíte stlačit OK a použít nastavení na hlavním zobrazení předtím než je mají účinek. Jazykové změny budou aplikovány do hlavního okna až po znovu otevření hlavního okna."

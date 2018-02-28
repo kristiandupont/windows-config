@@ -91,11 +91,18 @@ Author=Teijo
 "Ma&ke scroll wheel scroll window under cursor" => "&Vieritä osoittimen kohdalla olevan ikkunan sisältöä"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Poista kaikki toiminnot käytöstä kun vieritys on estetty"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Poista 'estetyt' toiminnot käytöstä kun vieritys on estetty"
-"S&wap 4th and 5th buttons" => "Vaihda &painikkeet 4 ja 5 keskenään"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Vaihda painikkeet 4 ja 5 keskenään käytettäessä &etätyöpöytää"
 "&Disable when running under remote desktop (RDP)" => "Poista &käytöstä käytettäessä etätyöpöytää"
 "Show layer switch &balloon notifications" => "&Näytä tasonvaihtoon liittyvät ponnahdusilmoitukset"
 "Language" => "Kieli"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons"  => "Vaihda &painikkeet 4 ja 5 keskenään"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Vaihda painikkeet 4 ja 5 keskenään käytettäessä &etätyöpöytää"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Vaihda &painikkeet 4 ja 5 keskenään"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Vaihda painikkeet 4 ja 5 keskenään käytettäessä &etätyöpöytää"
+
 
 # -- Updated in 2.6 Beta 1 --
 "A&ctivate window when scrolling" => "&Aktivoi ikkuna vieritettäessä"

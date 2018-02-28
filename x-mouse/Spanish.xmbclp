@@ -54,11 +54,18 @@ Author=sonoro (sonoro.mail@gmail.com)
 "Ma&ke scroll wheel scroll window under cursor" => "Mover la rueda de desplazamiento bajo el cursor"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Evitar todas las acciones cuando SCROLL BLOQ está activa."
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "'Desactiva' evitar todas las acciones cuando SCROLL BLOQ está activa."
-"S&wap 4th and 5th buttons" => "Intercambiar botones 4 º y 5 º"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Intercambiar botones 4 º y 5 º, cuando conecta el escritorio remoto (RDP)"
 "&Disable when running under remote desktop (RDP)" => "Desabilitar cuando funciona el escritorio remoto (RDP)"
 "Show layer switch &balloon notifications" => "Mostrar notificaciones de conmutación de capa con un globo"
 "Language" => "Idioma"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Intercambiar botones 4 º y 5 º"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Intercambiar botones 4 º y 5 º, cuando conecta el escritorio remoto (RDP)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Intercambiar botones 4 º y 5 º"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Intercambiar botones 4 º y 5 º, cuando conecta el escritorio remoto (RDP)"
+
 
 # -- Updated in 2.4 Beta 10 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "AVISO: Debe pulsar Aceptar y Aplicar en la pantalla principal de configuración para que tenga efecto. Los cámbios de idioma no se aplicarán hasta que la ventana principal se abra de nuevo"

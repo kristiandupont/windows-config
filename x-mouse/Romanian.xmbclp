@@ -91,11 +91,17 @@ Author=FileCroco Team (http://www.filecroco.com)
 "Ma&ke scroll wheel scroll window under cursor" => "De&rulare fereastră de sub cursor"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Evi&tă TOATE acţiunile când SCROLL LOCK este activat"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Evi&tă actiunile 'inactive' când SCROLL LOCK este activat"
-"S&wap 4th and 5th buttons" => "In&versează butoanele 4 şi 5"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "In&versează butoanele 4 şi 5 când se realizează o conexiune la distanţa (RDP)"
 "&Disable when running under remote desktop (RDP)" => "Dezactivează când se realizează o conexiune la distanţa (RDP)"
 "Show layer switch &balloon notifications" => "Notificare prin &bula de notificare când se modifică un strat"
 "Language" => "Limbă"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "In&versează butoanele 4 şi 5"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "In&versează butoanele 4 şi 5 când se realizează o conexiune la distanţa (RDP)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => ""
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => ""
 
 # -- Updated in 2.6 Beta 1 --
 "A&ctivate window when scrolling" => "A&ctivare fereastră la derulare"

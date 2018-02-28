@@ -94,18 +94,22 @@ Author=YFdyh000
 "Ma&ke scroll wheel scroll window under cursor" => "滚轮可以滚动指针下的窗口(即使该窗口未被激活)(&K)"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "“滚动锁定键”开启时跳过所有动作(&Y)"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "“滚动锁定键”开启时跳过‘已禁用’动作(&P)"
-"S&wap 4th and 5th buttons" => "交换鼠标第四与第五按钮(&W)"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "与远程桌面(RDP)连接时交换第四与第五键(&A)"
 "&Disable when running under remote desktop (RDP)" => "在远程桌面(RDP)下运行时禁用(&D)"
 "Show layer switch &balloon notifications" => "切换方案时显示气泡提示(&B)"
 "A&ctivate window when scrolling" => "滚轮滚动时激活窗口(&C)"
 "Always show the volume &On Screen Display" => "始终在屏幕上显示音量(&O)" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
-
 "&Enable On Screen Display for volume and brightness settings" => "启用在屏幕上显示音量和亮度设置(&E)" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
-
 "Change cursor when using &Movement To Scroll" => "使用移动来滚动时更改指针(&M)"
 "Enable &notifications" => "启用通知(&N)"
 "En&hance pointer precision" => "提高指针精确度(&H)"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "交换鼠标第四与第五按钮(&W)"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "与远程桌面(RDP)连接时交换第四与第五键(&A)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "交换鼠标第四与第五按钮(&W)"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "与远程桌面(RDP)连接时交换第四与第五键(&A)"
 
 # -- Updated in 2.14 Beta 7 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect." => "注意：您必须点击确定并在主界面应用这些设置才能使设置生效。"

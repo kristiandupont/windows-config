@@ -54,11 +54,17 @@ Author=Utility Box (http://www.utilitybox.altervista.org)
 "Ma&ke scroll wheel scroll window under cursor" => "Scrollare la rotellina per scrollare la  finestra  sotto il cursore"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Aggira tutte le azioni quando quando SCROLL è attivato."
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Azione Bypass è 'disattivato' quando BLOC SCROLL è attivato"
-"S&wap 4th and 5th buttons" => "Scambia i pulsanti 4 e 5"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Scambia i pulsanti 4 e 5, quando collegati da desktop remoto (RDP)"
 "&Disable when running under remote desktop (RDP)" => "Disabilitare durante l'esecuzione in desktop remoto (RDP)"
 "Show layer switch &balloon notifications" => "Mostra tasto livello tramite fumetto notifiche"
 "Language" => "Lingua"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Scambia i pulsanti 4 e 5"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Scambia i pulsanti 4 e 5, quando collegati da desktop remoto (RDP)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Scambia i pulsanti 4 e 5"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Scambia i pulsanti 4 e 5, quando collegati da desktop remoto (RDP)"
 
 # -- Updated in 2.4 Beta 10 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "AVVISO: È necessario premere OK per applicare le impostazioni sulla schermata principale prima che abbiano effetto. Modifiche alla lingua non verranno applicate fino a quando la finestra principale viene non riaperta. "

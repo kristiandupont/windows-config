@@ -92,11 +92,17 @@ Author=Rommel Sánchez Z.
 "Ma&ke scroll wheel scroll window under cursor" => "Desplaza con la &rueda la ventana debajo del cursor"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Ignora &TODAS las acciones si SCROLL LOCK está encendido"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Ignora acciones 'desactivadas' si &SCROLL LOCK está encendido"
-"S&wap 4th and 5th buttons" => "&Intercambiar botones 4 y 5"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Intercambiar botones 4 y 5 al conectar a &escritorio remoto (RDP)"
 "&Disable when running under remote desktop (RDP)" => "&Desactivar si se ejecuta en escritorio remoto (RDP)"
 "Show layer switch &balloon notifications" => "&Mostrar notificaciones de cambio de capa"
 "Language" => "Idioma"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "&Intercambiar botones 4 y 5"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Intercambiar botones 4 y 5 al conectar a &escritorio remoto (RDP)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "&Intercambiar botones 4 y 5"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Intercambiar botones 4 y 5 al conectar a &escritorio remoto (RDP)"
 
 # -- Updated in 2.6 Beta 1 --
 "A&ctivate window when scrolling" => "A&ctivar la ventana al desplazar"

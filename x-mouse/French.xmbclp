@@ -1,5 +1,5 @@
 ﻿# Sample XMBC Language template file.
-# Base version 2.16.1
+# Base version 2.17
 #
 # Changes to this template are marked:
 #   -- Updated in <version> --
@@ -24,7 +24,7 @@
 #EG. Language=Français (French)
 #
 Language=Français (French)
-Description=Fichier de langue français pour le logiciel XMBC v2.16.1
+Description=Fichier de langue français pour le logiciel XMBC v2.17
 
 #
 #Put your name here and you will be credited in the user interface
@@ -80,14 +80,14 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 # --
 
 # -- Added in 2.16 Beta 3 --
-"Save &Profile" => "Sauvegarder le profil" #Changed in 2.16 Beta 12
+"Save &Profile" => "Enregistrer le profil" #Changed in 2.16 Beta 12
 
 "L&oad Profile" => "Charger le profil" #Changed in 2.16 Beta 12
 
-"Save %s Profile..." => "Sauvegarder le profil %s..."
+"Save %s Profile..." => "Enregistrer le profil %s..."
 "Load %s Profile..." => "Charger le profil %s..."
 "Unable to load the profile '%s'." => "Impossible de charger le profil '%s'."
-"Unable to save the profile as '%s'." => "Impossible de sauvegarder le profil sous '%s'."
+"Unable to save the profile as '%s'." => "Impossible d'enregistrer le profil sous '%s'."
 # --
 
 #Section: Global strings (used everywhere)
@@ -112,8 +112,6 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 "Ma&ke scroll wheel scroll window under cursor" => "Faire défiler la fenêtre sous le pointeur"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Eviter TOUTES les actions quand SCROLL LOCK est activé"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Eviter les actions inactives quand SCROLL LOCK est activé"
-"S&wap 4th and 5th buttons" => "Inverser les boutons 4 et 5"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Inverser les boutons 4 et 5 en cas de connexion via Bureau à distance (RDP)"
 "&Disable when running under remote desktop (RDP)" => "Désactiver en cas de connexion via Bureau à distance (RDP)"
 "Show layer switch &balloon notifications" => "Notifier par bulle de notification en cas de changement de couche"
 "A&ctivate window when scrolling" => "A&ctiver la fenêtre lors du scroll"
@@ -121,9 +119,18 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 
 "&Enable On Screen Display for volume and brightness settings" => "Activer l'affichage à l'écran (OSD) pour les réglages de volume et de luminosité" #This option is only displayed on OS's where it is applicable - ie. Vista, 7, 2008, 2008R2
 
-"Change cursor when using &Movement To Scroll" => "Changer le curseur lors de l'utilisation de mouvement vers défilement"
+"Change cursor when using &Movement To Scroll" => "Changer le curseur lors de l'utilisation de Mouvement en Défilement"
 "Enable &notifications" => "Activer les notifications"
 "En&hance pointer precision" => "Améliorer la précision du pointeur"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Inverser les boutons 4 et 5"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Inverser les boutons 4 et 5 en cas de connexion via Bureau à distance (RDP)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Inverser les actions des boutons 4 et 5 (si définies)"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Inverser les actions des boutons 4 et 5 en cas de connexion en bureau à distance"
+
 
 # -- Updated in 2.14 Beta 7 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect." => "NOTE : Vous devez presser OK et appliquer les paramètres sur l'écran principal pour qu'ils soient pris en compte. Les changements de langue ne seront appliqués qu'après ré-ouverture de la fenêtre principale."
@@ -144,6 +151,8 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 "Show &tray icon by default" => "Montrer l'icone système par défaut"
 "&Ignore numlock state for Simulated Keystrokes" => "Ignorer l'état de NUM LOCK pour la simulation de touches"
 "Cycle layers &by left clicking tray icon" => "Changer de couche lors d'un clic gauche sur l'icone système" #-- Updated in 2.5 beta 4 --
+
+"&Remap simulated input from other applications" => "Réaffecte les entrées simulées des autres applications" #-- Added in 2.17 Beta 12
 
 "&Fixup (de-bounce) tilt wheel auto-repeat" => "Corriger l'auto-répétition (anti-rebond) de l'inclinaison de molette"
 "Initial repeat r&ate" => "Délai de répétition initial" #-- Changed in 2.16 Beta 18 - DON'T USE &P for accelerator --
@@ -382,7 +391,9 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 "(repeat)" => "(répétition)"
 "(sticky repeat)" => "(répétition rémanence)"
 "(sticky hold)" => "(maintien rémanence)"
-"(pressed & released)" => "pressé et relâché" #-- Added in 2.4 Beta 12 --
+"(pressed & released)" => "(pressé et relâché)" #-- Added in 2.4 Beta 12 --
+
+"(custom)" => "(personnalisé)" #-- Added in 2.17 Beta 9 --
 
 
 
@@ -424,7 +435,7 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 "For example:\r\n  To close a window: {ALT}{F4}\r\n  To select all items: {CTRL}A\r\n  To type bold 'my text' in Microsoft Word: {CTRL}bmy text{CTRL}b\r\n  To send an 'r' key with a 50ms delay between the down and up, {HOLDMS:50}r\r\n  To turn OFF numlock, {NUMLOCKOFF}" => "Par exemple :\r\n  Pour fermer une fenêtre : {ALT}{F4}\r\n  Pour sélectionner tous les items : {CTRL}A\r\n  Pour taper 'mon texte' en gras dans Microsoft Word : {CTRL}bmon texte{CTRL}b\r\n  Pour simuler un 'r' avec un délai de 50ms entre l'appui et le relâchement : {HOLDMS:50}r\r\n  Pour désactiver NUM LOCK : {NUMLOCKOFF}"
 
 # -- Added in 2.9 beta 6 --
-"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Étiquettes spéciales pour les méthodes d'envoi 1,2,4,5,6,7 et 9 :\r\n\t{PRESS} Appuyer sur la touche qui suit\r\n\t{RELEASE} Relâcher la touche qui suit\r\n\tNote : vous devez relâcher chaque touche presser dans le même ordre !"
+"Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following key\r\n\t\t\t{RELEASE} Release (let go of) the following key\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => "Étiquettes spéciales pour les méthodes d'envoi 1,2,4,5,6,7 et 9 :\r\n\t{PRESS} Appuyer sur la touche qui suit\r\n\t{RELEASE} Relâcher la touche qui suit\r\n\tNOTE : vous devez relâcher chaque touche pressée dans le même ordre !"
 "To press a b and c, wait 100ms and release them: {PRESS}abc{WAITMS100}{RELEASE}cba" => "Pour presser a b et c, attendre 100ms et les relâcher  : {PRESS}abs{WAITMS100}{RELEASE}cba"
 # --
 
@@ -433,6 +444,12 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 
 # -- Updated in 2.4 Beta 15 --
 "Special function tags:\t{WAIT:n} inserts a delay of <n> seconds.\r\n\t\t\t{WAITMS:n} inserts a delay of <n> milliseconds.\r\n\t\t\t{HOLD:n} holds the next key down for <n> seconds.\r\n\t\t\t{HOLDMS:n} holds the next key down for <n> milliseconds.\r\n\t\t\t{VKC:n} Sends the specified virtual key code.\r\n\t\t\t{EXT:n} Sends the specified extended virtual key code.\r\n\t\t\t{CLEAR} Clears any modifier tags {CTRL},{ALT} etc." => "\r\nEtiquettes de fonctions spéciales :\r\n\t{WAIT:n} Insère un délai de <n> secondes.\r\n\t{WAITMS:n} Insère un délai de <n> millisecondes.\r\n\t{HOLD:n} Presse la touche suivante pendant <n> secondes.\r\n\t{HOLDMS:n} Presse la touche suivante pendant <n> millisecondes.\r\n\t{VKC:n} Envoie le code de touche virtuelle spécifié.\r\n\t{EXT:n} Envoie le code de touche virtuelle étendue spécifié.\r\n\t{CLEAR} Désactive les touches de modifications {CTRL},{ALT} etc."
+
+#Added in 2.17 Beta 16
+"\t\t\t{SC:n} Sends the specified keyboard scan code." => "\t{SC:n} Envoie le code (scan code) clavier spécifié."
+"\t\t\t{SCE:n} Sends the specified extended keyboard scan code." => "\t{SCE:n} Envoie le code (scan code) clavier étendu spécifié."
+"\t\t\t{CB:<text>} Copies the specified <text> to the clipboard." => "\t{CB:<texte>} Envoie le <texte> spécifié dans le presse-papiers."
+#
 
 # -- Updated in 2.14 Beta 2 --
 "Direction key tags:\t\t{UP} {DOWN} {LEFT} {RIGHT}\r\nFunction key tags:\t\t{F1, F2, F3 ... F24}\r\nVolume key tags:\t\t{VOL+}, {VOL-}, {MUTE}\r\nBrightness control tags:\t\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nMouse button tags:\t\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMouse wheel tags:\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nNumeric keypad tags:\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nWeb/Browser keys:\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nToggle keys:\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}" => "Etiquettes de touches de direction : \t{UP} {DOWN} {LEFT} {RIGHT}\r\nEtiquettes de touches de fonction :\t{F1, F2, F3 ... F24}\r\nEtiquettes de contrôle du volume :\t\t\t{VOL+}, {VOL-}, {MUTE}\r\nEtiquettes de contrôle de la luminosité :\t\t{BRIGHTNESS+}, {BRIGHTNESS-}\r\nEtiquettes des boutons de la souris :\t{LMB}, {RMB}, {MMB}, {MB4/XMB1}, {MB5/XMB2}\r\nMolette :\t\t\t{MWUP}, {MWDN}, {TILTL}, {TILTR}\r\nEtiquettes du pavé numérique :\t{NUM0-NUM9} {NUM+} {NUM-} {NUM.} {NUM/} {NUM*} {NUMENTER}\r\nEtiquettes du navigateur :\t\t{BACK}, {FORWARD}, {STOP}, {REFRESH}, {WEBHOME},\r\n\t\t\t{SEARCH}, {FAVORITES}\r\nEtiquettes des touches à bascule :\t\t{NUMLOCKON}, {NUMLOCKOFF}, {CAPSLOCKON}\r\n\t\t\t{CAPSLOCKOFF}, {SCROLLLOCKON}, {SCROLLLOCKOFF}"
@@ -465,15 +482,27 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 # --
 
 # -- Added in 2.15 Beta 2 --
-"Application tags:\t\t{RUN:<application>} {RUN:<full path to exe>}\r\n\t\t\tRun the specified application. If the application is not in the system PATH\r\n\t\t\tplease specify the full path to the executable (including .EXE)" => "Etiquettes d'application :\r\n\t{RUN:<application>} {RUN:<chemin complet vers l'exécutable>}\r\n\tLance l'application spécifiée. Si l'application n'est pas dans le PATH, merci de spécifier son\r\n\tchemin complet (incluant le nom de l'exécutable)"
+"Application tags:\t\t{RUN:<application>} {RUN:<full path to exe>}\r\n\t\t\tRun the specified application. If the application is not in the system PATH\r\n\t\t\tplease specify the full path to the executable (including .EXE)" => "Etiquettes d'application :\r\n\t{RUN:<application>}\r\n\t{RUN:<chemin complet vers l'exécutable>}\r\n\tLance l'application spécifiée. Si l'application n'est pas dans le PATH, merci de spécifier son chemin complet (incluant\r\n\tle nom de l'exécutable)"
 
 # -- Added in 2.15 Beta 7 --
 "Cursor Position: X,Y (AX, AY)" => "Position du pointeur : X,Y (AX, AY)"
 
 # -- Added in 2.16 Beta 17
-"Action tags:" => "Etiquettes d'action :"
-"\t\t{ACTIVATE} Activate the window under the cursor." => "\r\n\t{ACTIVATE} Active la fenêtre sous le pointeur"
+"Action tags:" => "Etiquettes d'action :\r\n"
+"\t\t{ACTIVATE} Activate the window under the cursor." => "\t{ACTIVATE} Active la fenêtre sous le pointeur."
+
+# -- Added in 2.17 Beta 1
+"\t\t\t{ACTIVATEPARENT} Activate the parent of the window under the cursor." => "\t{ACTIVATEPARENT} Active la fenêtre parente de celle sous le pointeur."
+"\t\t\t{ACTIVATETOP} Activate the top level (root) owner of the window under the cursor." => "\t{ACTIVATETOP} Active la fenêtre la plus haute (racine) dans la hiérarchie de celle sous le pointeur."
 # --
+
+# -- Updated in 2.17 Beta 10
+# These functions can send any Windows Messages https://msdn.microsoft.com/en-us/library/windows/desktop/ff381405(v=vs.85).aspx
+"Windows Message tags:" => "Etiquettes de message de fenêtre :\r\n"
+"\t{POSTWM:<M>,<L>,<W>} Post a message to the window under the cursor." => "\t{POSTWM:<M>,<L>,<W>} Poste le message à la fenêtre sous le pointeur."
+"\t\t\t{SENDWM:<M>,<L>,<W>} Send a message to the window under the cursor." => "\t{SENDWM:<M>,<L>,<W>} Envoie le message à la fenêtre sous le pointeur."
+"\t\t\tWHERE:\t<M> is the message, <L> is the LPARAM value and <W> is the WPARAM value." => "\tOÙ : <M> est le message, <L> est la valeur de LPARAM et <W> est la valeur de WPARAM."
+"\t\t\tNOTE:\t<M>, <L> & <W> can be specified in decimal (eg. 16) or hex (eg. 0x10)." => "\tNOTE : <M>, <L> & <W> peuvent être exprimés au format décimal (ex. 16) ou hexadécimal (ex. 0x10)."
 
 #Run Application dialog
 "Type the name of a program, folder, document or internet resource, and XMouse button will open it for you when the button is pressed." => "Taper le nom d'un programme, d'un dossier, d'un document ou une adresse internet, et XMouse Button l'ouvrira pour vous quand le bouton sera pressé."
@@ -482,13 +511,26 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 "Please select a folder to open" => "Sélectionnez un dossier à ouvrir"
 
 #Section: Change Movement to Scroll Configuration -- Added in 2.15 Beta 1
-"Movement to Scroll Configuration" => "Configuration Mouvement vers Déplacement"
+"Movement to Scroll Configuration" => "Configuration Mouvement en Défilement"
 "&Sensitivity" => "Sensibilité"
 "Invert &Vertical Axis" => "Inverser l'axe vertical"
 "Invert &Horizontal Axis" => "Inverser l'axe horizontal"
-"&Lock Scroll Axis" => "Verrouiller l'axe de défilement"
 "&Sticky (until next click)" => "Rémanence (jusqu'au prochain clic)"
 
+"&Default Action (no movement)" => "Action par défaut (pas de déplacement)" #-- Added in 2.17 Beta 1
+
+
+#Added in 2.17 Beta 6
+"Block all other buttons when sticky" => "Bloquer tous les autres boutons si épinglé"
+"Lock Scroll Axis/Direction" => "Verrouiller le défilement axe/direction"
+"Don't lock (scroll in any direction)" => "Ne pas verrouiller (scroller dans toutes les directions)"
+"Lock to axis determined by cursor movement" => "Verrouiller l'axe déterminé par le déplacement du pointeur"
+"Lock to Y axis (scroll vertically)" => "Verrouiller l'axe Y (scroller verticalement)"
+"Lock to X axis (scroll horizontally)" => "Verrouiller l'axe X (scroller horizontalement)"
+#
+
+#Added in 2.17 Beta  16
+"Movement To Scroll Default Action" => "Action par défaut pour Mouvement en Défilement"
 
 #Section: Scrolling & navigation tab (or Scrolling ad Options tabs post 2.15 Beta 5)
 "&Invert mouse wheel scrolling" => "Inverser le défilement de la molette"
@@ -535,6 +577,9 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 
 # -- Added in 2.15 Beta 5 --
 "&Override Mouse Speed" => "Remplacer la vitesse de la souris"
+
+# -- Added in 2.17 Beta 3 --
+"Active window on hover" => "Activer la fenêtre lorsqu'elle est survolée"
 
 "Disable &profile switching on mouse move for this profile" => "Désactiver la permutation de profil au déplacement de la souris pour ce profil"
 
@@ -610,6 +655,10 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 "Bottom Left Quadrant" => "Quadrant inférieur-gauche"
 "Bottom Right Quadrant" => "Quadrant inférieur-droit"
 "Enable caption matching" => "Activer la correspondance de légende"
+
+# -- Added in 2.17 Beta 1
+"Non regular expression matches can contain multiple search entries, separated by two pipe characters e.g. 'app1.exe||app2.exe||app3.exe'" => "Les correspondances d'expressions non régulières peuvent contenir plusieurs entrées de recherche, séparées par deux caractères 'pipe', par ex. 'app1.exe||app2.exe||app3.exe'"
+
 
 #Section: Choose Application dialog (custom window profile)
 "Choose Application" => "Choisissez l'application"
@@ -780,8 +829,8 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 "** Same As Default Profile **" => "** Identique au profil par défaut **"
 "Sticky 4th Button" => "Rémanence bouton 4"
 "Sticky 5th Button" => "Rémanence bouton 5"
-"Change Movement to Scroll" => "Changer mouvement en défilement"
-"Change Movement to Scroll (Sticky)" => "Changer mouvement en défilement (rémanence)"
+"Change Movement to Scroll" => "Changer Mouvement en Défilement"
+"Change Movement to Scroll (Sticky)" => "Changer Mouvement vers Défilement (rémanence)"
 "Sticky Left Button [Click-Drag] X-Axis" => "Rémanence clic-gauche [clic-drag] axe X"
 "Sticky Left Button [Click-Drag] Y-Axis" => "Rémanence clic-gauche [clic-drag] axe Y"
 
@@ -843,14 +892,14 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 "Click Button 5" => "Clic bouton 5"
 
 # -- Added in 2.12 Beta 11
-"Change Movement to Scroll (Lock Axis)" => "Changer mouvement en défilement (verrouillage de l'axe)"
-"Change Movement to Scroll (Sticky Lock Axis)" => "Changer mouvement en défilement (rémanence de verrouillage de l'axe)"
+"Change Movement to Scroll (Lock Axis)" => "Changer Mouvement en Défilement (verrouillage de l'axe)"
+"Change Movement to Scroll (Sticky Lock Axis)" => "Changer Mouvement en Défilement (rémanence de verrouillage de l'axe)"
 
 # -- Added in 2.13 Beta 1
-"Change Movement to Scroll Inverted" => "Changer mouvement en défilement inversé"
-"Change Movement to Scroll Inverted (Sticky)" => "Changer mouvement en défilement inversé (rémanence)"
-"Change Movement to Scroll Inverted (Lock Axis)" => "Changer mouvement en défilement inversé (verrouillage de l'axe)"
-"Change Movement to Scroll Inverted (Sticky Lock Axis)" => "Changer mouvement en défilement inversé (rémanence de verrouillage de l'axe)"
+"Change Movement to Scroll Inverted" => "Changer Mouvement en Défilement inversé"
+"Change Movement to Scroll Inverted (Sticky)" => "Changer Mouvement en Défilement inversé (rémanence)"
+"Change Movement to Scroll Inverted (Lock Axis)" => "Changer Mouvement en Défilement inversé (verrouillage de l'axe)"
+"Change Movement to Scroll Inverted (Sticky Lock Axis)" => "Changer Mouvement en Défilement inversé (rémanence de verrouillage de l'axe)"
 
 # -- Added in 2.13 Beta 4
 "Search Selected Text" => "Chercher le texte sélectionné"
@@ -910,6 +959,8 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 
 # -- Added in 2.15 Beta 11 --
 "&Unblock after" => "Débloquer après"
+"Unblock when the mouse moves" => "Débloquer lorsque la souris est déplacée" #-- Added in 2.16 Beta 2 --
+
 
 # -- Added in 2.14 Beta 7
 "Change Log:" => "Journal des modifications :"
@@ -919,8 +970,32 @@ Author=Damien PONNELLE (http://www.dipisoft.com)
 "&Skip" => "Passer" #Fixed in 2.16 Beta 14
 
 
+# -- Added in 2.17 Beta 4 and updated in 2.17 beta 5 --
+#Section Button Held Time Dependent Actions
+"Button Held Time Dependent Actions" => "Actions dépendantes du temps de maintien du bouton"
+"Define different actions based on how long you hold the mouse button down for when clicking." => "Définissez des actions différentes en fonction de la durée pendant laquelle vous maintenez le bouton de la souris enfoncé pendant le clic."
+"Normal Click" => "Click standard"
+"Held for" => "Maintenu pendant"
+"Held for time for action %d must be greater than that for action %d." => "Le temps de maintien pour l'action %d doit être supérieur à celui de l'action %d." #NOTE: The %d's are interpreted at runtime. Leave them there
+
+
+# Added in 2.17 Beta 6
+"&Abort and revert to the normal click action when the mouse moves." => "Abandonner et revenir à l'action du click standard lorsque la souris est déplacée."
+"NOTE: All but the last enable action above will not be performed until the button is released (once the hold time has been determined). The last action will be started once the minimum time period is reached." => "REMARQUE: Toutes les actions activée ci-dessus, exceptée la dernière, ne seront pas exécutées tant que le bouton ne sera pas relâché (une fois que le temps de maintien a été déterminé). La dernière action commencera une fois la période minimale atteinte." #Changed in 2.17 Beta 6
+
+
+#Added in 2.17 Beta 7
+"Description (to show in button drop-down)" => "Description (à afficher dans le bouton drop-down)"
+
+#Added in 2.17 beta 16
+"Button Held" => "Bouton maintenu"
+
 #Items no longer in the template
 
+"Window Message tags:" => ""
+"\t{POSTWM:<M>,<L>,<W>} Post windows message to the window under the cursor." => ""
+"\t\t\t{SENDWM:<M>,<L>,<W>} Send windows message to the window under the cursor." => ""
+"&Lock Scroll Axis" => ""
 "Special tags for send methods 1,2,4,5,6,7 & 9:\r\n\t\t\t{PRESS} Press down the following keys\r\n\t\t\t{RELEASE} Release (let go of) the following keys\r\n\t\t\tNOTE: You must {RELEASE} any key you {PRESS} in the same sequence!" => ""
 "Cycle l&ayers by left clicking tray icon" => "" #-- Updated in 2.5 beta 4 --
 

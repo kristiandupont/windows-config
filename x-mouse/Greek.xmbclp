@@ -59,11 +59,18 @@ Author=Τζιλίνης Κώστας
 "Ma&ke scroll wheel scroll window under cursor" => "Κάντε τον τροχό κύλισης να κυλά παράθυρο κάτω από το δρομέα"
 "B&ypass ALL actions when SCROLL LOCK is ON" => "Παράκαμψη ΟΛΩΝ των ενεργειών όταν το SCROLL LOCK είναι ενεργοποιημένο"
 "By&pass 'disabled' actions when SCROLL LOCK is ON" => "Παράκαμψη 'απενεργοποίηση' ενεργειών όταν το SCROLL LOCK είναι ενεργοποιημένο"
-"S&wap 4th and 5th buttons" => "Εναλλαγή 4ου και 5ου κουμπιού"
-"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Εναλλαγή 4ου και 5ου κουμπιού όταν είναι συνδεμένος ο απομακρυσμένος έλεγχος (RPD)"
 "&Disable when running under remote desktop (RDP)" => "Απενεργοποίηση όταν τρέχει ο απομακρυσμένος έλεγχος (RPD)"
 "Show layer switch &balloon notifications" => "Εμφάνιση ανακοινώσεων"
 "Language" => "Γλώσσα"
+
+# -- Removed in 2.17 Beta 9
+"S&wap 4th and 5th buttons" => "Εναλλαγή 4ου και 5ου κουμπιού"
+"Sw&ap 4th and 5th buttons when connected by remote desktop (RDP)" => "Εναλλαγή 4ου και 5ου κουμπιού όταν είναι συνδεμένος ο απομακρυσμένος έλεγχος (RPD)"
+
+# -- Added (replaced) in 2.17 Beta 9
+"S&wap 4th and 5th button actions (when set)" => "Εναλλαγή 4ου και 5ου κουμπιού"
+"Sw&ap 4th and 5th button actions when connected by remote desktop (RDP)" => "Εναλλαγή 4ου και 5ου κουμπιού όταν είναι συνδεμένος ο απομακρυσμένος έλεγχος (RPD)"
+
 
 # -- Updated in 2.4 Beta 10 --
 "NOTE: You must press OK and apply the settings on the main screen before they take effect. Language changes will not be applied until the main window is re-opened." => "ΣΗΜΕΙΩΣΗ: Θα πρέπει να πατήσετε ΕΝΤΑΞΕΙ και μετα ΕΦΑΡΜΟΦΗ για να τεθούν σε ισχύ οι ρυθμίσεις. Οι γλωσσικές αλλαγές δεν θα εφαρμοστούν μέχρι το κύριο παράθυρο να ανοίξει εκ νέου"
