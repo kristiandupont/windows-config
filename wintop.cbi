@@ -2,12 +2,15 @@
 
 #[l]:The Grind:../../users/kristian/dropbox/grind.txt
 #[l]:Triggerz:../sync/triggerz.cbi
+#[l]:Submotion:../team/top.cbi
 #[l]:Virtuafile:../virtuafile/top.cbi
 
 #[l]:../dotfiles/mac-to-windows-sharemouse.ahk:../dotfiles/mac-to-windows-sharemouse.ahk
+#[l]:../../program files/postgresql/10/data/pg_hba.conf:../../program files/postgresql/10/data/pg_hba.conf
 
 
-
+Set up a VPN and route postgres through that:
+https://www.wikihow.com/Set-up-a-Vpn-Between-Two-Computers
 
 
 
