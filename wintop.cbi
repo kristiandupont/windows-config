@@ -1,8 +1,8 @@
 #[c]Win top
 
 #[l]:The Grind:../../users/kristian/dropbox/grind.txt
-#[l]:Triggerz:../sync/triggerz.cbi
-#[l]:Submotion:../sync/submotion.cbi
+#[l]:Triggerz:../triggerz/triggerz-sync/triggerz.cbi
+#[l]:Submotion:../submotion/submotion-sync/submotion.cbi
 #[l]:Virtuafile:../virtuafile/top.cbi
 
 #[l]:../dotfiles/mac-to-windows-sharemouse.ahk:../dotfiles/mac-to-windows-sharemouse.ahk

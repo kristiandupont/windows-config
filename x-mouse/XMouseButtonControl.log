@@ -8939,3 +8939,901 @@ ating with the first instance of X-Mouse Button Control.
 17-05-3918 08:47:20.447> Using keyboard language 0x04060409
 17-05-3918 08:49:21.006> You are using the latest available version of X-Mouse Button Control.
 17-05-3918 14:49:20.480> You are using the latest available version of X-Mouse Button Control.
+17-05-3918 17:07:47.849> Power State: System is suspending operation.
+17-05-3918 17:07:47.850> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+17-05-3918 17:07:47.850> Removing any active XMBCHook Timers...
+17-05-3918 17:07:47.851> Timer thread exited with error code 0.
+17-05-3918 17:07:47.861> CSendInput: Exiting SendInput thread.
+17-05-3918 17:07:47.861> HookThread: Finished cleaning up.
+17-05-3918 17:07:47.862> Hook thread exited with error code 0.
+18-05-3918 08:37:07.451> Power State: Operation resuming automatically after event.
+18-05-3918 08:37:07.451> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+18-05-3918 08:37:07.518> Loaded 0 application specific profiles (0 normal and 0 custom window).
+18-05-3918 08:37:07.518> NewApplicationSettings: SPIThread is not initialised.
+18-05-3918 08:37:07.521> Using keyboard language 0x04060409
+18-05-3918 08:39:07.749> You are using the latest available version of X-Mouse Button Control.
+18-05-3918 14:39:07.567> You are using the latest available version of X-Mouse Button Control.
+18-05-3918 17:16:58.219> Power State: System is suspending operation.
+18-05-3918 17:16:58.220> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+18-05-3918 17:16:58.220> Removing any active XMBCHook Timers...
+18-05-3918 17:16:58.221> Timer thread exited with error code 0.
+18-05-3918 17:16:58.229> CSendInput: Exiting SendInput thread.
+18-05-3918 17:16:58.230> HookThread: Finished cleaning up.
+18-05-3918 17:16:58.230> Hook thread exited with error code 0.
+22-05-3918 08:46:00.546> Power State: Operation resuming automatically after event.
+22-05-3918 08:46:00.546> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+22-05-3918 08:46:00.817> Loaded 0 application specific profiles (0 normal and 0 custom window).
+22-05-3918 08:46:00.817> NewApplicationSettings: SPIThread is not initialised.
+22-05-3918 08:46:00.821> Using keyboard language 0x04060409
+22-05-3918 08:48:00.694> You are using the latest available version of X-Mouse Button Control.
+22-05-3918 14:48:00.681> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+22-05-3918 15:25:37.090> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+22-05-3918 15:25:37.096> Running in high integrity mode (0x00003000)
+22-05-3918 15:25:37.101> Loaded 0 application specific profiles (0 normal and 0 custom window).
+22-05-3918 15:25:37.101> NewApplicationSettings: SPIThread is not initialised.
+22-05-3918 15:25:37.101> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+22-05-3918 15:25:37.101> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+22-05-3918 15:25:37.101> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+22-05-3918 15:25:37.101> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+22-05-3918 15:25:37.103> Using keyboard language 0x04060409
+22-05-3918 15:27:37.103> You are using the latest available version of X-Mouse Button Control.
+22-05-3918 17:07:42.839> Power State: System is suspending operation.
+22-05-3918 17:07:42.839> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+22-05-3918 17:07:42.839> Removing any active XMBCHook Timers...
+22-05-3918 17:07:42.840> Timer thread exited with error code 0.
+22-05-3918 17:07:42.847> CSendInput: Exiting SendInput thread.
+22-05-3918 17:07:42.848> HookThread: Finished cleaning up.
+22-05-3918 17:07:42.848> Hook thread exited with error code 0.
+23-05-3918 08:17:36.320> Power State: Operation resuming automatically after event.
+23-05-3918 08:17:36.320> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+23-05-3918 08:17:36.486> Loaded 0 application specific profiles (0 normal and 0 custom window).
+23-05-3918 08:17:36.486> NewApplicationSettings: SPIThread is not initialised.
+23-05-3918 08:17:36.488> Using keyboard language 0x04060409
+23-05-3918 08:19:36.403> You are using the latest available version of X-Mouse Button Control.
+23-05-3918 14:19:36.427> You are using the latest available version of X-Mouse Button Control.
+23-05-3918 18:36:06.644> Power State: System is suspending operation.
+23-05-3918 18:36:06.644> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+23-05-3918 18:36:06.644> Removing any active XMBCHook Timers...
+23-05-3918 18:36:06.644> Timer thread exited with error code 0.
+23-05-3918 18:36:06.662> CSendInput: Exiting SendInput thread.
+23-05-3918 18:36:06.663> HookThread: Finished cleaning up.
+23-05-3918 18:36:06.663> Hook thread exited with error code 0.
+23-05-3918 18:36:06.663> RemoveMouseHook took 31ms
+24-05-3918 09:00:20.303> Power State: Operation resuming automatically after event.
+24-05-3918 09:00:20.303> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+24-05-3918 09:00:20.438> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-05-3918 09:00:20.438> NewApplicationSettings: SPIThread is not initialised.
+24-05-3918 09:00:20.439> Using keyboard language 0x04060409
+24-05-3918 09:02:20.432> You are using the latest available version of X-Mouse Button Control.
+24-05-3918 15:02:20.413> You are using the latest available version of X-Mouse Button Control.
+24-05-3918 16:43:08.939> Power State: System is suspending operation.
+24-05-3918 16:43:08.939> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+24-05-3918 16:43:08.939> Removing any active XMBCHook Timers...
+24-05-3918 16:43:08.940> Timer thread exited with error code 0.
+24-05-3918 16:43:08.951> CSendInput: Exiting SendInput thread.
+24-05-3918 16:43:08.952> HookThread: Finished cleaning up.
+24-05-3918 16:43:08.952> Hook thread exited with error code 0.
+25-05-3918 08:30:22.509> Power State: Operation resuming automatically after event.
+25-05-3918 08:30:22.509> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+25-05-3918 08:30:22.685> Loaded 0 application specific profiles (0 normal and 0 custom window).
+25-05-3918 08:30:22.685> NewApplicationSettings: SPIThread is not initialised.
+25-05-3918 08:30:22.689> Using keyboard language 0x04060409
+25-05-3918 08:32:22.581> You are using the latest available version of X-Mouse Button Control.
+25-05-3918 13:40:35.828> Power State: System is suspending operation.
+25-05-3918 13:40:35.828> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+25-05-3918 13:40:35.828> Removing any active XMBCHook Timers...
+25-05-3918 13:40:35.829> Timer thread exited with error code 0.
+25-05-3918 13:40:35.837> CSendInput: Exiting SendInput thread.
+25-05-3918 13:40:35.838> HookThread: Finished cleaning up.
+25-05-3918 13:40:35.838> Hook thread exited with error code 0.
+28-05-3918 08:37:23.509> Power State: Operation resuming automatically after event.
+28-05-3918 08:37:23.509> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+28-05-3918 08:37:23.546> Loaded 0 application specific profiles (0 normal and 0 custom window).
+28-05-3918 08:37:23.546> NewApplicationSettings: SPIThread is not initialised.
+28-05-3918 08:37:23.549> Using keyboard language 0x04060409
+28-05-3918 08:39:23.609> You are using the latest available version of X-Mouse Button Control.
+28-05-3918 14:39:23.574> You are using the latest available version of X-Mouse Button Control.
+28-05-3918 16:00:27.690> Power State: System is suspending operation.
+28-05-3918 16:00:27.690> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+28-05-3918 16:00:27.690> Removing any active XMBCHook Timers...
+28-05-3918 16:00:27.691> Timer thread exited with error code 0.
+28-05-3918 16:00:27.701> CSendInput: Exiting SendInput thread.
+28-05-3918 16:00:27.701> HookThread: Finished cleaning up.
+28-05-3918 16:00:27.702> Hook thread exited with error code 0.
+29-05-3918 09:01:15.513> Power State: Operation resuming automatically after event.
+29-05-3918 09:01:15.513> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+29-05-3918 09:01:15.844> Loaded 0 application specific profiles (0 normal and 0 custom window).
+29-05-3918 09:01:15.844> NewApplicationSettings: SPIThread is not initialised.
+29-05-3918 09:01:15.848> Using keyboard language 0x04060409
+29-05-3918 09:03:15.572> You are using the latest available version of X-Mouse Button Control.
+29-05-3918 15:03:15.615> You are using the latest available version of X-Mouse Button Control.
+29-05-3918 17:22:34.082> Power State: System is suspending operation.
+29-05-3918 17:22:34.082> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+29-05-3918 17:22:34.082> Removing any active XMBCHook Timers...
+29-05-3918 17:22:34.082> Timer thread exited with error code 0.
+29-05-3918 17:22:34.082> CSendInput: Exiting SendInput thread.
+29-05-3918 17:22:34.082> HookThread: Finished cleaning up.
+29-05-3918 17:22:34.082> Hook thread exited with error code 0.
+30-05-3918 08:41:37.524> Power State: Operation resuming automatically after event.
+30-05-3918 08:41:37.524> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+30-05-3918 08:41:37.886> Loaded 0 application specific profiles (0 normal and 0 custom window).
+30-05-3918 08:41:37.886> NewApplicationSettings: SPIThread is not initialised.
+30-05-3918 08:41:37.886> Using keyboard language 0x04060409
+30-05-3918 08:43:37.652> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+30-05-3918 11:56:54.755> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+30-05-3918 11:56:54.771> Running in high integrity mode (0x00003000)
+30-05-3918 11:56:54.771> Loaded 0 application specific profiles (0 normal and 0 custom window).
+30-05-3918 11:56:54.771> NewApplicationSettings: SPIThread is not initialised.
+30-05-3918 11:56:54.771> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+30-05-3918 11:56:54.771> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+30-05-3918 11:56:54.771> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+30-05-3918 11:56:54.771> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+30-05-3918 11:56:54.771> Using keyboard language 0x04060409
+30-05-3918 11:58:54.891> You are using the latest available version of X-Mouse Button Control.
+30-05-3918 16:55:30.009> Power State: System is suspending operation.
+30-05-3918 16:55:30.010> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+30-05-3918 16:55:30.012> Removing any active XMBCHook Timers...
+30-05-3918 16:55:30.012> Timer thread exited with error code 0.
+30-05-3918 16:55:30.025> CSendInput: Exiting SendInput thread.
+30-05-3918 16:55:30.026> HookThread: Finished cleaning up.
+30-05-3918 16:55:30.026> Hook thread exited with error code 0.
+31-05-3918 08:47:47.450> Power State: Operation resuming automatically after event.
+31-05-3918 08:47:47.450> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+31-05-3918 08:47:47.742> Loaded 0 application specific profiles (0 normal and 0 custom window).
+31-05-3918 08:47:47.742> NewApplicationSettings: SPIThread is not initialised.
+31-05-3918 08:47:47.742> Using keyboard language 0x04060409
+31-05-3918 08:49:47.705> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+31-05-3918 09:02:04.853> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+31-05-3918 09:02:04.868> Running in high integrity mode (0x00003000)
+31-05-3918 09:02:04.868> Loaded 0 application specific profiles (0 normal and 0 custom window).
+31-05-3918 09:02:04.868> NewApplicationSettings: SPIThread is not initialised.
+31-05-3918 09:02:04.868> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+31-05-3918 09:02:04.868> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+31-05-3918 09:02:04.868> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+31-05-3918 09:02:04.868> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+31-05-3918 09:02:04.868> Using keyboard language 0x04060409
+31-05-3918 09:04:04.875> You are using the latest available version of X-Mouse Button Control.
+31-05-3918 15:04:04.935> You are using the latest available version of X-Mouse Button Control.
+31-05-3918 17:25:23.439> Power State: System is suspending operation.
+31-05-3918 17:25:23.439> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+31-05-3918 17:25:23.439> Removing any active XMBCHook Timers...
+31-05-3918 17:25:23.455> Timer thread exited with error code 0.
+31-05-3918 17:25:23.455> CSendInput: Exiting SendInput thread.
+31-05-3918 17:25:23.455> HookThread: Finished cleaning up.
+31-05-3918 17:25:23.455> Hook thread exited with error code 0.
+01-06-3918 08:59:42.563> Power State: Operation resuming automatically after event.
+01-06-3918 08:59:42.563> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+01-06-3918 08:59:42.913> Loaded 0 application specific profiles (0 normal and 0 custom window).
+01-06-3918 08:59:42.913> NewApplicationSettings: SPIThread is not initialised.
+01-06-3918 08:59:42.913> Using keyboard language 0x04060409
+01-06-3918 09:01:45.236> You are using the latest available version of X-Mouse Button Control.
+01-06-3918 15:01:45.279> You are using the latest available version of X-Mouse Button Control.
+01-06-3918 15:49:01.913> Power State: System is suspending operation.
+01-06-3918 15:49:01.913> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+01-06-3918 15:49:01.913> Removing any active XMBCHook Timers...
+01-06-3918 15:49:01.913> Timer thread exited with error code 0.
+01-06-3918 15:49:01.929> CSendInput: Exiting SendInput thread.
+01-06-3918 15:49:01.929> HookThread: Finished cleaning up.
+01-06-3918 15:49:01.929> Hook thread exited with error code 0.
+02-06-3918 12:24:21.523> Power State: Operation resuming automatically after event.
+02-06-3918 12:24:21.523> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+02-06-3918 12:24:21.784> Loaded 0 application specific profiles (0 normal and 0 custom window).
+02-06-3918 12:24:21.784> NewApplicationSettings: SPIThread is not initialised.
+02-06-3918 12:24:21.784> Using keyboard language 0x04060409
+02-06-3918 12:26:21.854> You are using the latest available version of X-Mouse Button Control.
+02-06-3918 14:43:25.001> Power State: System is suspending operation.
+02-06-3918 14:43:25.001> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+02-06-3918 14:43:25.001> Removing any active XMBCHook Timers...
+02-06-3918 14:43:25.001> Timer thread exited with error code 0.
+02-06-3918 14:43:25.017> CSendInput: Exiting SendInput thread.
+02-06-3918 14:43:25.017> HookThread: Finished cleaning up.
+02-06-3918 14:43:25.017> Hook thread exited with error code 0.
+04-06-3918 08:54:20.541> Power State: Operation resuming automatically after event.
+04-06-3918 08:54:20.541> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+04-06-3918 08:54:20.868> Loaded 0 application specific profiles (0 normal and 0 custom window).
+04-06-3918 08:54:20.868> NewApplicationSettings: SPIThread is not initialised.
+04-06-3918 08:54:20.868> Using keyboard language 0x04060409
+04-06-3918 08:56:22.315> You are using the latest available version of X-Mouse Button Control.
+04-06-3918 14:56:20.630> You are using the latest available version of X-Mouse Button Control.
+04-06-3918 18:00:01.587> Power State: System is suspending operation.
+04-06-3918 18:00:01.587> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+04-06-3918 18:00:01.587> Removing any active XMBCHook Timers...
+04-06-3918 18:00:01.587> Timer thread exited with error code 0.
+04-06-3918 18:00:01.602> CSendInput: Exiting SendInput thread.
+04-06-3918 18:00:01.602> HookThread: Finished cleaning up.
+04-06-3918 18:00:01.602> Hook thread exited with error code 0.
+05-06-3918 08:32:22.445> Power State: Operation resuming automatically after event.
+05-06-3918 08:32:22.445> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+05-06-3918 08:32:22.784> Loaded 0 application specific profiles (0 normal and 0 custom window).
+05-06-3918 08:32:22.784> NewApplicationSettings: SPIThread is not initialised.
+05-06-3918 08:32:22.799> Using keyboard language 0x04060409
+05-06-3918 08:34:22.709> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+05-06-3918 13:44:29.063> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+05-06-3918 13:44:29.063> Running in high integrity mode (0x00003000)
+05-06-3918 13:44:29.079> Loaded 0 application specific profiles (0 normal and 0 custom window).
+05-06-3918 13:44:29.079> NewApplicationSettings: SPIThread is not initialised.
+05-06-3918 13:44:29.079> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+05-06-3918 13:44:29.079> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+05-06-3918 13:44:29.079> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+05-06-3918 13:44:29.079> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+05-06-3918 13:44:29.079> Using keyboard language 0x04060409
+05-06-3918 13:46:29.130> You are using the latest available version of X-Mouse Button Control.
+05-06-3918 16:04:15.466> Power State: System is suspending operation.
+05-06-3918 16:04:15.466> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+05-06-3918 16:04:15.466> Removing any active XMBCHook Timers...
+05-06-3918 16:04:15.466> Timer thread exited with error code 0.
+05-06-3918 16:04:15.476> CSendInput: Exiting SendInput thread.
+05-06-3918 16:04:15.476> HookThread: Finished cleaning up.
+05-06-3918 16:04:15.476> Hook thread exited with error code 0.
+06-06-3918 09:06:38.450> Power State: Operation resuming automatically after event.
+06-06-3918 09:06:38.450> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+06-06-3918 09:06:38.762> Loaded 0 application specific profiles (0 normal and 0 custom window).
+06-06-3918 09:06:38.762> NewApplicationSettings: SPIThread is not initialised.
+06-06-3918 09:06:38.772> Using keyboard language 0x04060409
+06-06-3918 09:08:38.656> You are using the latest available version of X-Mouse Button Control.
+06-06-3918 15:08:38.541> You are using the latest available version of X-Mouse Button Control.
+06-06-3918 20:09:12.798> Power State: System is suspending operation.
+06-06-3918 20:09:12.799> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+06-06-3918 20:09:12.799> Removing any active XMBCHook Timers...
+06-06-3918 20:09:12.800> Timer thread exited with error code 0.
+06-06-3918 20:09:12.819> CSendInput: Exiting SendInput thread.
+06-06-3918 20:09:12.820> HookThread: Finished cleaning up.
+06-06-3918 20:09:12.820> Hook thread exited with error code 0.
+06-06-3918 20:09:12.820> RemoveMouseHook took 32ms
+07-06-3918 11:31:58.685> Power State: Operation resuming automatically after event.
+07-06-3918 11:31:58.685> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+07-06-3918 11:31:58.861> Loaded 0 application specific profiles (0 normal and 0 custom window).
+07-06-3918 11:31:58.861> NewApplicationSettings: SPIThread is not initialised.
+07-06-3918 11:31:58.861> Using keyboard language 0x04060409
+07-06-3918 11:34:01.905> You are using the latest available version of X-Mouse Button Control.
+07-06-3918 16:37:18.180> Power State: System is suspending operation.
+07-06-3918 16:37:18.180> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+07-06-3918 16:37:18.180> Removing any active XMBCHook Timers...
+07-06-3918 16:37:18.180> Timer thread exited with error code 0.
+07-06-3918 16:37:18.196> CSendInput: Exiting SendInput thread.
+07-06-3918 16:37:18.196> HookThread: Finished cleaning up.
+07-06-3918 16:37:18.196> Hook thread exited with error code 0.
+08-06-3918 08:44:53.430> Power State: Operation resuming automatically after event.
+08-06-3918 08:44:53.430> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+08-06-3918 08:44:53.757> Loaded 0 application specific profiles (0 normal and 0 custom window).
+08-06-3918 08:44:53.757> NewApplicationSettings: SPIThread is not initialised.
+08-06-3918 08:44:53.773> Using keyboard language 0x04060409
+08-06-3918 08:46:53.605> You are using the latest available version of X-Mouse Button Control.
+08-06-3918 14:47:04.598> Failed to query the version DNS record. Status=9002
+08-06-3918 14:47:04.598> You are using the latest available version of X-Mouse Button Control.
+08-06-3918 15:48:25.672> Power State: System is suspending operation.
+08-06-3918 15:48:25.672> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+08-06-3918 15:48:25.672> Removing any active XMBCHook Timers...
+08-06-3918 15:48:25.673> Timer thread exited with error code 0.
+08-06-3918 15:48:25.683> CSendInput: Exiting SendInput thread.
+08-06-3918 15:48:25.684> HookThread: Finished cleaning up.
+08-06-3918 15:48:25.684> Hook thread exited with error code 0.
+11-06-3918 08:32:37.805> Power State: Operation resuming automatically after event.
+11-06-3918 08:32:37.805> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+11-06-3918 08:32:37.961> Loaded 0 application specific profiles (0 normal and 0 custom window).
+11-06-3918 08:32:37.961> NewApplicationSettings: SPIThread is not initialised.
+11-06-3918 08:32:37.961> Using keyboard language 0x04060409
+11-06-3918 08:34:48.930> Failed to query the version DNS record. Status=9002
+11-06-3918 08:34:48.930> You are using the latest available version of X-Mouse Button Control.
+11-06-3918 14:34:38.679> You are using the latest available version of X-Mouse Button Control.
+11-06-3918 16:55:37.894> Power State: System is suspending operation.
+11-06-3918 16:55:37.894> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+11-06-3918 16:55:37.894> Removing any active XMBCHook Timers...
+11-06-3918 16:55:37.895> Timer thread exited with error code 0.
+11-06-3918 16:55:37.905> CSendInput: Exiting SendInput thread.
+11-06-3918 16:55:37.906> HookThread: Finished cleaning up.
+11-06-3918 16:55:37.906> Hook thread exited with error code 0.
+12-06-3918 09:50:06.587> Power State: Operation resuming automatically after event.
+12-06-3918 09:50:06.587> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+12-06-3918 09:50:06.750> Loaded 0 application specific profiles (0 normal and 0 custom window).
+12-06-3918 09:50:06.750> NewApplicationSettings: SPIThread is not initialised.
+12-06-3918 09:50:06.750> Using keyboard language 0x04060409
+12-06-3918 09:52:07.665> You are using the latest available version of X-Mouse Button Control.
+12-06-3918 15:52:17.757> Failed to query the version DNS record. Status=9002
+12-06-3918 15:52:17.757> You are using the latest available version of X-Mouse Button Control.
+12-06-3918 17:39:23.037> Power State: System is suspending operation.
+12-06-3918 17:39:23.038> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+12-06-3918 17:39:23.038> Removing any active XMBCHook Timers...
+12-06-3918 17:39:23.038> Timer thread exited with error code 0.
+12-06-3918 17:39:23.068> CSendInput: Exiting SendInput thread.
+12-06-3918 17:39:23.069> HookThread: Finished cleaning up.
+12-06-3918 17:39:23.069> Hook thread exited with error code 0.
+12-06-3918 17:39:23.069> RemoveMouseHook took 32ms
+13-06-3918 08:13:27.547> Power State: Operation resuming automatically after event.
+13-06-3918 08:13:27.547> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+13-06-3918 08:13:27.828> Loaded 0 application specific profiles (0 normal and 0 custom window).
+13-06-3918 08:13:27.828> NewApplicationSettings: SPIThread is not initialised.
+13-06-3918 08:13:27.844> Using keyboard language 0x04060409
+13-06-3918 08:15:29.812> You are using the latest available version of X-Mouse Button Control.
+13-06-3918 14:15:29.778> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+14-06-3918 08:39:31.799> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+14-06-3918 08:39:31.799> Running in high integrity mode (0x00003000)
+14-06-3918 08:39:31.799> Loaded 0 application specific profiles (0 normal and 0 custom window).
+14-06-3918 08:39:31.799> NewApplicationSettings: SPIThread is not initialised.
+14-06-3918 08:39:31.799> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+14-06-3918 08:39:31.799> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+14-06-3918 08:39:31.799> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+14-06-3918 08:39:31.799> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+14-06-3918 08:39:31.815> Using keyboard language 0x04060409
+14-06-3918 08:41:35.828> You are using the latest available version of X-Mouse Button Control.
+14-06-3918 14:41:31.920> You are using the latest available version of X-Mouse Button Control.
+14-06-3918 16:02:49.238> Power State: System is suspending operation.
+14-06-3918 16:02:49.238> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+14-06-3918 16:02:49.238> Removing any active XMBCHook Timers...
+14-06-3918 16:02:49.239> Timer thread exited with error code 0.
+14-06-3918 16:02:49.251> CSendInput: Exiting SendInput thread.
+14-06-3918 16:02:49.251> HookThread: Finished cleaning up.
+14-06-3918 16:02:49.251> Hook thread exited with error code 0.
+15-06-3918 09:02:07.448> Power State: Operation resuming automatically after event.
+15-06-3918 09:02:07.448> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+15-06-3918 09:02:07.745> Loaded 0 application specific profiles (0 normal and 0 custom window).
+15-06-3918 09:02:07.745> NewApplicationSettings: SPIThread is not initialised.
+15-06-3918 09:02:07.745> Using keyboard language 0x04060409
+15-06-3918 09:04:16.506> You are using the latest available version of X-Mouse Button Control.
+15-06-3918 15:04:09.443> You are using the latest available version of X-Mouse Button Control.
+15-06-3918 16:02:22.204> Power State: System is suspending operation.
+15-06-3918 16:02:22.204> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+15-06-3918 16:02:22.204> Removing any active XMBCHook Timers...
+15-06-3918 16:02:22.204> Timer thread exited with error code 0.
+15-06-3918 16:02:22.219> CSendInput: Exiting SendInput thread.
+15-06-3918 16:02:22.219> HookThread: Finished cleaning up.
+15-06-3918 16:02:22.219> Hook thread exited with error code 0.
+18-06-3918 09:06:26.319> Power State: Operation resuming automatically after event.
+18-06-3918 09:06:26.319> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+18-06-3918 09:06:26.625> Loaded 0 application specific profiles (0 normal and 0 custom window).
+18-06-3918 09:06:26.625> NewApplicationSettings: SPIThread is not initialised.
+18-06-3918 09:06:26.625> Using keyboard language 0x04060409
+18-06-3918 09:08:29.251> You are using the latest available version of X-Mouse Button Control.
+18-06-3918 15:08:39.927> Failed to query the version DNS record. Status=9002
+18-06-3918 15:08:39.927> You are using the latest available version of X-Mouse Button Control.
+18-06-3918 17:10:19.250> Power State: System is suspending operation.
+18-06-3918 17:10:19.250> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+18-06-3918 17:10:19.250> Removing any active XMBCHook Timers...
+18-06-3918 17:10:19.250> Timer thread exited with error code 0.
+18-06-3918 17:10:19.250> CSendInput: Exiting SendInput thread.
+18-06-3918 17:10:19.250> HookThread: Finished cleaning up.
+18-06-3918 17:10:19.250> Hook thread exited with error code 0.
+19-06-3918 09:06:41.365> Power State: Operation resuming automatically after event.
+19-06-3918 09:06:41.365> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+19-06-3918 09:06:41.661> Loaded 0 application specific profiles (0 normal and 0 custom window).
+19-06-3918 09:06:41.661> NewApplicationSettings: SPIThread is not initialised.
+19-06-3918 09:06:41.661> Using keyboard language 0x04060409
+19-06-3918 09:08:41.599> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+19-06-3918 11:23:57.367> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+19-06-3918 11:23:57.430> Running in high integrity mode (0x00003000)
+19-06-3918 11:23:57.445> Loaded 0 application specific profiles (0 normal and 0 custom window).
+19-06-3918 11:23:57.445> NewApplicationSettings: SPIThread is not initialised.
+19-06-3918 11:23:57.445> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+19-06-3918 11:23:57.445> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+19-06-3918 11:23:57.445> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+19-06-3918 11:23:57.445> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+19-06-3918 11:23:57.445> Using keyboard language 0x04060409
+19-06-3918 11:25:58.305> You are using the latest available version of X-Mouse Button Control.
+19-06-3918 16:51:37.060> Power State: System is suspending operation.
+19-06-3918 16:51:37.060> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+19-06-3918 16:51:37.060> Removing any active XMBCHook Timers...
+19-06-3918 16:51:37.060> Timer thread exited with error code 0.
+19-06-3918 16:51:37.076> CSendInput: Exiting SendInput thread.
+19-06-3918 16:51:37.076> HookThread: Finished cleaning up.
+19-06-3918 16:51:37.076> Hook thread exited with error code 0.
+20-06-3918 11:48:05.461> Power State: Operation resuming automatically after event.
+20-06-3918 11:48:05.461> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+20-06-3918 11:48:05.756> Loaded 0 application specific profiles (0 normal and 0 custom window).
+20-06-3918 11:48:05.756> NewApplicationSettings: SPIThread is not initialised.
+20-06-3918 11:48:05.756> Using keyboard language 0x04060409
+20-06-3918 11:50:11.551> You are using the latest available version of X-Mouse Button Control.
+20-06-3918 17:18:56.515> Power State: System is suspending operation.
+20-06-3918 17:18:56.515> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+20-06-3918 17:18:56.515> Removing any active XMBCHook Timers...
+20-06-3918 17:18:56.516> Timer thread exited with error code 0.
+20-06-3918 17:18:56.526> CSendInput: Exiting SendInput thread.
+20-06-3918 17:18:56.527> HookThread: Finished cleaning up.
+20-06-3918 17:18:56.527> Hook thread exited with error code 0.
+21-06-3918 08:49:49.566> Power State: Operation resuming automatically after event.
+21-06-3918 08:49:49.566> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+21-06-3918 08:49:49.862> Loaded 0 application specific profiles (0 normal and 0 custom window).
+21-06-3918 08:49:49.862> NewApplicationSettings: SPIThread is not initialised.
+21-06-3918 08:49:49.862> Using keyboard language 0x04060409
+21-06-3918 08:51:49.675> You are using the latest available version of X-Mouse Button Control.
+21-06-3918 14:51:49.680> You are using the latest available version of X-Mouse Button Control.
+21-06-3918 16:02:36.430> Power State: System is suspending operation.
+21-06-3918 16:02:36.430> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+21-06-3918 16:02:36.431> Removing any active XMBCHook Timers...
+21-06-3918 16:02:36.432> Timer thread exited with error code 0.
+21-06-3918 16:02:36.440> CSendInput: Exiting SendInput thread.
+21-06-3918 16:02:36.440> HookThread: Finished cleaning up.
+21-06-3918 16:02:36.441> Hook thread exited with error code 0.
+22-06-3918 08:51:24.841> Power State: Operation resuming automatically after event.
+22-06-3918 08:51:24.841> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+22-06-3918 08:51:24.962> Loaded 0 application specific profiles (0 normal and 0 custom window).
+22-06-3918 08:51:24.962> NewApplicationSettings: SPIThread is not initialised.
+22-06-3918 08:51:24.964> Using keyboard language 0x04060409
+22-06-3918 08:53:26.106> You are using the latest available version of X-Mouse Button Control.
+22-06-3918 12:09:45.355> Power State: System is suspending operation.
+22-06-3918 12:09:45.355> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+22-06-3918 12:09:45.355> Removing any active XMBCHook Timers...
+22-06-3918 12:09:45.356> Timer thread exited with error code 0.
+22-06-3918 12:09:45.364> CSendInput: Exiting SendInput thread.
+22-06-3918 12:09:45.365> HookThread: Finished cleaning up.
+22-06-3918 12:09:45.365> Hook thread exited with error code 0.
+25-06-3918 09:02:30.476> Power State: Operation resuming automatically after event.
+25-06-3918 09:02:30.476> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+25-06-3918 09:02:30.772> Loaded 0 application specific profiles (0 normal and 0 custom window).
+25-06-3918 09:02:30.772> NewApplicationSettings: SPIThread is not initialised.
+25-06-3918 09:02:30.772> Using keyboard language 0x04060409
+25-06-3918 09:04:30.696> You are using the latest available version of X-Mouse Button Control.
+25-06-3918 15:04:33.514> You are using the latest available version of X-Mouse Button Control.
+25-06-3918 17:02:52.068> Power State: System is suspending operation.
+25-06-3918 17:02:52.068> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+25-06-3918 17:02:52.068> Removing any active XMBCHook Timers...
+25-06-3918 17:02:52.076> Timer thread exited with error code 0.
+25-06-3918 17:02:52.086> CSendInput: Exiting SendInput thread.
+25-06-3918 17:02:52.088> HookThread: Finished cleaning up.
+25-06-3918 17:02:52.088> Hook thread exited with error code 0.
+26-06-3918 09:06:31.568> Power State: Operation resuming automatically after event.
+26-06-3918 09:06:31.568> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+26-06-3918 09:06:31.850> Loaded 0 application specific profiles (0 normal and 0 custom window).
+26-06-3918 09:06:31.850> NewApplicationSettings: SPIThread is not initialised.
+26-06-3918 09:06:31.904> Using keyboard language 0x04060409
+26-06-3918 09:08:39.114> You are using the latest available version of X-Mouse Button Control.
+26-06-3918 15:08:32.438> You are using the latest available version of X-Mouse Button Control.
+26-06-3918 16:47:53.804> Power State: System is suspending operation.
+26-06-3918 16:47:53.804> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+26-06-3918 16:47:53.804> Removing any active XMBCHook Timers...
+26-06-3918 16:47:53.805> Timer thread exited with error code 0.
+26-06-3918 16:47:53.814> CSendInput: Exiting SendInput thread.
+26-06-3918 16:47:53.815> HookThread: Finished cleaning up.
+26-06-3918 16:47:53.815> Hook thread exited with error code 0.
+27-06-3918 10:13:46.500> Power State: Operation resuming automatically after event.
+27-06-3918 10:13:46.500> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+27-06-3918 10:13:46.800> Loaded 0 application specific profiles (0 normal and 0 custom window).
+27-06-3918 10:13:46.815> NewApplicationSettings: SPIThread is not initialised.
+27-06-3918 10:13:46.815> Using keyboard language 0x04060409
+27-06-3918 10:15:46.845> You are using the latest available version of X-Mouse Button Control.
+27-06-3918 16:15:48.678> You are using the latest available version of X-Mouse Button Control.
+27-06-3918 16:52:26.310> Power State: System is suspending operation.
+27-06-3918 16:52:26.310> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+27-06-3918 16:52:26.310> Removing any active XMBCHook Timers...
+27-06-3918 16:52:26.311> Timer thread exited with error code 0.
+27-06-3918 16:52:26.320> CSendInput: Exiting SendInput thread.
+27-06-3918 16:52:26.321> HookThread: Finished cleaning up.
+27-06-3918 16:52:26.321> Hook thread exited with error code 0.
+02-07-3918 08:35:18.421> Power State: Operation resuming automatically after event.
+02-07-3918 08:35:18.421> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+02-07-3918 08:35:18.701> Loaded 0 application specific profiles (0 normal and 0 custom window).
+02-07-3918 08:35:18.701> NewApplicationSettings: SPIThread is not initialised.
+02-07-3918 08:35:18.701> Using keyboard language 0x04060409
+02-07-3918 08:37:20.619> You are using the latest available version of X-Mouse Button Control.
+02-07-3918 14:37:21.560> You are using the latest available version of X-Mouse Button Control.
+02-07-3918 16:03:53.721> Power State: System is suspending operation.
+02-07-3918 16:03:53.721> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+02-07-3918 16:03:53.721> Removing any active XMBCHook Timers...
+02-07-3918 16:03:53.722> Timer thread exited with error code 0.
+02-07-3918 16:03:53.732> CSendInput: Exiting SendInput thread.
+02-07-3918 16:03:53.736> HookThread: Finished cleaning up.
+02-07-3918 16:03:53.736> Hook thread exited with error code 0.
+03-07-3918 13:03:32.591> Power State: Operation resuming automatically after event.
+03-07-3918 13:03:32.591> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+03-07-3918 13:03:32.918> Loaded 0 application specific profiles (0 normal and 0 custom window).
+03-07-3918 13:03:32.918> NewApplicationSettings: SPIThread is not initialised.
+03-07-3918 13:03:32.918> Using keyboard language 0x04060409
+03-07-3918 13:05:32.761> You are using the latest available version of X-Mouse Button Control.
+03-07-3918 16:29:45.821> Power State: System is suspending operation.
+03-07-3918 16:29:45.821> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+03-07-3918 16:29:45.821> Removing any active XMBCHook Timers...
+03-07-3918 16:29:45.822> Timer thread exited with error code 0.
+03-07-3918 16:29:45.835> CSendInput: Exiting SendInput thread.
+03-07-3918 16:29:45.835> HookThread: Finished cleaning up.
+03-07-3918 16:29:45.835> Hook thread exited with error code 0.
+05-07-3918 09:09:38.457> Power State: Operation resuming automatically after event.
+05-07-3918 09:09:38.457> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+05-07-3918 09:09:38.769> Loaded 0 application specific profiles (0 normal and 0 custom window).
+05-07-3918 09:09:38.769> NewApplicationSettings: SPIThread is not initialised.
+05-07-3918 09:09:38.776> Using keyboard language 0x04060409
+05-07-3918 09:11:42.388> You are using the latest available version of X-Mouse Button Control.
+05-07-3918 15:11:38.807> You are using the latest available version of X-Mouse Button Control.
+05-07-3918 15:13:42.757> Power State: System is suspending operation.
+05-07-3918 15:13:42.757> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+05-07-3918 15:13:42.757> Removing any active XMBCHook Timers...
+05-07-3918 15:13:42.757> Timer thread exited with error code 0.
+05-07-3918 15:13:42.769> CSendInput: Exiting SendInput thread.
+05-07-3918 15:13:42.770> HookThread: Finished cleaning up.
+05-07-3918 15:13:42.770> Hook thread exited with error code 0.
+06-07-3918 08:53:52.568> Power State: Operation resuming automatically after event.
+06-07-3918 08:53:52.568> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+06-07-3918 08:53:52.906> Loaded 0 application specific profiles (0 normal and 0 custom window).
+06-07-3918 08:53:52.906> NewApplicationSettings: SPIThread is not initialised.
+06-07-3918 08:53:52.906> Using keyboard language 0x04060409
+06-07-3918 08:56:01.374> You are using the latest available version of X-Mouse Button Control.
+06-07-3918 14:55:52.752> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+23-07-3918 08:44:13.962> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+23-07-3918 08:44:13.978> Running in high integrity mode (0x00003000)
+23-07-3918 08:44:13.993> Loaded 0 application specific profiles (0 normal and 0 custom window).
+23-07-3918 08:44:13.993> NewApplicationSettings: SPIThread is not initialised.
+23-07-3918 08:44:13.993> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+23-07-3918 08:44:13.993> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+23-07-3918 08:44:13.993> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+23-07-3918 08:44:13.993> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+23-07-3918 08:44:13.993> Using keyboard language 0x04060409
+23-07-3918 08:46:25.222> Failed to query the version DNS record. Status=9002
+23-07-3918 08:46:25.222> You are using the latest available version of X-Mouse Button Control.
+23-07-3918 14:46:24.086> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+24-07-3918 10:02:56.492> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+24-07-3918 10:02:56.492> Running in high integrity mode (0x00003000)
+24-07-3918 10:02:56.492> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-07-3918 10:02:56.492> NewApplicationSettings: SPIThread is not initialised.
+24-07-3918 10:02:56.492> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+24-07-3918 10:02:56.492> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+24-07-3918 10:02:56.492> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+24-07-3918 10:02:56.492> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+24-07-3918 10:02:56.492> Using keyboard language 0x04060409
+24-07-3918 10:04:57.554> You are using the latest available version of X-Mouse Button Control.
+24-07-3918 14:00:51.975> Power State: System is suspending operation.
+24-07-3918 14:00:51.975> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+24-07-3918 14:00:51.975> Removing any active XMBCHook Timers...
+24-07-3918 14:00:51.975> Timer thread exited with error code 0.
+24-07-3918 14:00:51.975> CSendInput: Exiting SendInput thread.
+24-07-3918 14:00:51.975> HookThread: Finished cleaning up.
+24-07-3918 14:00:51.975> Hook thread exited with error code 0.
+26-07-3918 19:04:28.319> Power State: Operation resuming automatically after event.
+26-07-3918 19:04:28.319> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+26-07-3918 19:04:28.621> Loaded 0 application specific profiles (0 normal and 0 custom window).
+26-07-3918 19:04:28.621> NewApplicationSettings: SPIThread is not initialised.
+26-07-3918 19:04:28.621> Using keyboard language 0x04060409
+26-07-3918 19:06:39.544> Failed to query the version DNS record. Status=9002
+26-07-3918 19:06:39.544> You are using the latest available version of X-Mouse Button Control.
+27-07-3918 01:06:32.395> You are using the latest available version of X-Mouse Button Control.
+27-07-3918 07:06:28.417> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+30-07-3918 09:08:31.522> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+30-07-3918 09:08:31.522> Running in high integrity mode (0x00003000)
+30-07-3918 09:08:31.537> Loaded 0 application specific profiles (0 normal and 0 custom window).
+30-07-3918 09:08:31.537> NewApplicationSettings: SPIThread is not initialised.
+30-07-3918 09:08:31.537> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+30-07-3918 09:08:31.537> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+30-07-3918 09:08:31.537> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+30-07-3918 09:08:31.537> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+30-07-3918 09:08:31.537> Using keyboard language 0x04060409
+30-07-3918 09:10:41.576> You are using the latest available version of X-Mouse Button Control.
+30-07-3918 15:10:31.596> You are using the latest available version of X-Mouse Button Control.
+30-07-3918 17:34:50.611> Power State: System is suspending operation.
+30-07-3918 17:34:50.611> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+30-07-3918 17:34:50.611> Removing any active XMBCHook Timers...
+30-07-3918 17:34:50.611> Timer thread exited with error code 0.
+30-07-3918 17:34:50.627> CSendInput: Exiting SendInput thread.
+30-07-3918 17:34:50.627> HookThread: Finished cleaning up.
+30-07-3918 17:34:50.627> Hook thread exited with error code 0.
+31-07-3918 07:33:50.418> Power State: Operation resuming automatically after event.
+31-07-3918 07:33:50.418> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+31-07-3918 07:33:50.713> Loaded 0 application specific profiles (0 normal and 0 custom window).
+31-07-3918 07:33:50.713> NewApplicationSettings: SPIThread is not initialised.
+31-07-3918 07:33:50.729> Using keyboard language 0x04060409
+31-07-3918 07:35:50.761> You are using the latest available version of X-Mouse Button Control.
+31-07-3918 13:35:59.072> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+01-08-3918 08:11:48.496> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+01-08-3918 08:11:48.502> Running in high integrity mode (0x00003000)
+01-08-3918 08:11:48.506> Loaded 0 application specific profiles (0 normal and 0 custom window).
+01-08-3918 08:11:48.507> NewApplicationSettings: SPIThread is not initialised.
+01-08-3918 08:11:48.507> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+01-08-3918 08:11:48.507> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+01-08-3918 08:11:48.507> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+01-08-3918 08:11:48.507> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+01-08-3918 08:11:48.508> Using keyboard language 0x04060409
+01-08-3918 08:14:00.555> Failed to query the version DNS record. Status=1460
+01-08-3918 08:14:00.555> You are using the latest available version of X-Mouse Button Control.
+01-08-3918 14:07:05.302> Power State: System is suspending operation.
+01-08-3918 14:07:05.302> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+01-08-3918 14:07:05.302> Removing any active XMBCHook Timers...
+01-08-3918 14:07:05.303> Timer thread exited with error code 0.
+01-08-3918 14:07:05.317> CSendInput: Exiting SendInput thread.
+01-08-3918 14:07:05.317> HookThread: Finished cleaning up.
+01-08-3918 14:07:05.318> Hook thread exited with error code 0.
+02-08-3918 08:36:50.477> Power State: Operation resuming automatically after event.
+02-08-3918 08:36:50.477> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+02-08-3918 08:36:52.456> The lock for 'LoadSettings' took 1984ms to release!
+02-08-3918 08:36:52.511> Loaded 0 application specific profiles (0 normal and 0 custom window).
+02-08-3918 08:36:52.511> NewApplicationSettings: SPIThread is not initialised.
+02-08-3918 08:36:52.511> The lock for 'LoadSettings' took 2031ms to release!
+02-08-3918 08:36:52.514> Using keyboard language 0x04060409
+02-08-3918 08:38:50.595> You are using the latest available version of X-Mouse Button Control.
+02-08-3918 14:38:50.547> You are using the latest available version of X-Mouse Button Control.
+02-08-3918 15:51:36.953> Power State: System is suspending operation.
+02-08-3918 15:51:36.953> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+02-08-3918 15:51:36.953> Removing any active XMBCHook Timers...
+02-08-3918 15:51:36.953> Timer thread exited with error code 0.
+02-08-3918 15:51:36.964> CSendInput: Exiting SendInput thread.
+02-08-3918 15:51:36.964> HookThread: Finished cleaning up.
+02-08-3918 15:51:36.964> Hook thread exited with error code 0.
+03-08-3918 10:01:56.456> Power State: Operation resuming automatically after event.
+03-08-3918 10:01:56.456> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+03-08-3918 10:01:56.745> Loaded 0 application specific profiles (0 normal and 0 custom window).
+03-08-3918 10:01:56.745> NewApplicationSettings: SPIThread is not initialised.
+03-08-3918 10:01:56.747> Using keyboard language 0x04060409
+03-08-3918 10:03:56.852> You are using the latest available version of X-Mouse Button Control.
+03-08-3918 16:03:58.780> You are using the latest available version of X-Mouse Button Control.
+03-08-3918 16:39:28.145> Power State: System is suspending operation.
+03-08-3918 16:39:28.145> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+03-08-3918 16:39:28.145> Removing any active XMBCHook Timers...
+03-08-3918 16:39:28.146> Timer thread exited with error code 0.
+03-08-3918 16:39:28.154> CSendInput: Exiting SendInput thread.
+03-08-3918 16:39:28.155> HookThread: Finished cleaning up.
+03-08-3918 16:39:28.155> Hook thread exited with error code 0.
+06-08-3918 09:14:36.536> Power State: Operation resuming automatically after event.
+06-08-3918 09:14:36.536> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+06-08-3918 09:14:36.811> Loaded 0 application specific profiles (0 normal and 0 custom window).
+06-08-3918 09:14:36.811> NewApplicationSettings: SPIThread is not initialised.
+06-08-3918 09:14:36.814> Using keyboard language 0x04060409
+06-08-3918 09:16:38.927> You are using the latest available version of X-Mouse Button Control.
+06-08-3918 15:16:47.862> Failed to query the version DNS record. Status=9002
+06-08-3918 15:16:47.862> You are using the latest available version of X-Mouse Button Control.
+06-08-3918 16:23:56.515> Power State: System is suspending operation.
+06-08-3918 16:23:56.515> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+06-08-3918 16:23:56.515> Removing any active XMBCHook Timers...
+06-08-3918 16:23:56.516> Timer thread exited with error code 0.
+06-08-3918 16:23:56.523> CSendInput: Exiting SendInput thread.
+06-08-3918 16:23:56.524> HookThread: Finished cleaning up.
+06-08-3918 16:23:56.524> Hook thread exited with error code 0.
+07-08-3918 11:05:16.473> Power State: Operation resuming automatically after event.
+07-08-3918 11:05:16.473> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+07-08-3918 11:05:16.752> Loaded 0 application specific profiles (0 normal and 0 custom window).
+07-08-3918 11:05:16.752> NewApplicationSettings: SPIThread is not initialised.
+07-08-3918 11:05:16.755> Using keyboard language 0x04060409
+07-08-3918 11:07:17.015> You are using the latest available version of X-Mouse Button Control.
+07-08-3918 16:50:56.338> Power State: System is suspending operation.
+07-08-3918 16:50:56.338> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+07-08-3918 16:50:56.338> Removing any active XMBCHook Timers...
+07-08-3918 16:50:56.339> Timer thread exited with error code 0.
+07-08-3918 16:50:56.352> CSendInput: Exiting SendInput thread.
+07-08-3918 16:50:56.352> HookThread: Finished cleaning up.
+07-08-3918 16:50:56.352> Hook thread exited with error code 0.
+08-08-3918 08:59:05.530> Power State: Operation resuming automatically after event.
+08-08-3918 08:59:05.530> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+08-08-3918 08:59:05.888> Loaded 0 application specific profiles (0 normal and 0 custom window).
+08-08-3918 08:59:05.888> NewApplicationSettings: SPIThread is not initialised.
+08-08-3918 08:59:05.890> Using keyboard language 0x04060409
+08-08-3918 09:01:10.653> You are using the latest available version of X-Mouse Button Control.
+08-08-3918 15:01:05.894> You are using the latest available version of X-Mouse Button Control.
+08-08-3918 17:02:30.785> Power State: System is suspending operation.
+08-08-3918 17:02:30.786> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+08-08-3918 17:02:30.786> Removing any active XMBCHook Timers...
+08-08-3918 17:02:30.786> Timer thread exited with error code 0.
+08-08-3918 17:02:30.795> CSendInput: Exiting SendInput thread.
+08-08-3918 17:02:30.796> HookThread: Finished cleaning up.
+08-08-3918 17:02:30.796> Hook thread exited with error code 0.
+09-08-3918 08:54:29.618> Power State: Operation resuming automatically after event.
+09-08-3918 08:54:29.619> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+09-08-3918 08:54:29.912> Loaded 0 application specific profiles (0 normal and 0 custom window).
+09-08-3918 08:54:29.912> NewApplicationSettings: SPIThread is not initialised.
+09-08-3918 08:54:29.915> Using keyboard language 0x04060409
+09-08-3918 08:56:40.777> Failed to query the version DNS record. Status=9002
+09-08-3918 08:56:40.777> You are using the latest available version of X-Mouse Button Control.
+09-08-3918 14:56:40.789> Failed to query the version DNS record. Status=9002
+09-08-3918 14:56:40.791> You are using the latest available version of X-Mouse Button Control.
+09-08-3918 17:18:20.277> Power State: System is suspending operation.
+09-08-3918 17:18:20.277> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+09-08-3918 17:18:20.277> Removing any active XMBCHook Timers...
+09-08-3918 17:18:20.278> Timer thread exited with error code 0.
+09-08-3918 17:18:20.286> CSendInput: Exiting SendInput thread.
+09-08-3918 17:18:20.287> HookThread: Finished cleaning up.
+09-08-3918 17:18:20.287> Hook thread exited with error code 0.
+10-08-3918 08:31:50.470> Power State: Operation resuming automatically after event.
+10-08-3918 08:31:50.470> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+10-08-3918 08:31:50.776> Loaded 0 application specific profiles (0 normal and 0 custom window).
+10-08-3918 08:31:50.776> NewApplicationSettings: SPIThread is not initialised.
+10-08-3918 08:31:50.781> Using keyboard language 0x04060409
+10-08-3918 08:34:01.872> Failed to query the version DNS record. Status=9002
+10-08-3918 08:34:01.874> You are using the latest available version of X-Mouse Button Control.
+10-08-3918 14:33:53.805> You are using the latest available version of X-Mouse Button Control.
+10-08-3918 17:00:28.569> Power State: System is suspending operation.
+10-08-3918 17:00:28.569> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+10-08-3918 17:00:28.569> Removing any active XMBCHook Timers...
+10-08-3918 17:00:28.571> Timer thread exited with error code 0.
+10-08-3918 17:00:28.578> CSendInput: Exiting SendInput thread.
+10-08-3918 17:00:28.579> HookThread: Finished cleaning up.
+10-08-3918 17:00:28.579> Hook thread exited with error code 0.
+12-08-3918 10:18:41.592> Power State: Operation resuming automatically after event.
+12-08-3918 10:18:41.592> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+12-08-3918 10:18:41.897> Loaded 0 application specific profiles (0 normal and 0 custom window).
+12-08-3918 10:18:41.897> NewApplicationSettings: SPIThread is not initialised.
+12-08-3918 10:18:41.902> Using keyboard language 0x04060409
+12-08-3918 10:20:41.834> You are using the latest available version of X-Mouse Button Control.
+12-08-3918 16:20:44.752> You are using the latest available version of X-Mouse Button Control.
+12-08-3918 22:20:41.834> You are using the latest available version of X-Mouse Button Control.
+13-08-3918 04:20:41.809> You are using the latest available version of X-Mouse Button Control.
+13-08-3918 10:20:39.543> You are using the latest available version of X-Mouse Button Control.
+13-08-3918 16:20:42.504> You are using the latest available version of X-Mouse Button Control.
+13-08-3918 16:23:49.982> Power State: System is suspending operation.
+13-08-3918 16:23:49.982> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+13-08-3918 16:23:49.982> Removing any active XMBCHook Timers...
+13-08-3918 16:23:49.983> Timer thread exited with error code 0.
+13-08-3918 16:23:49.994> CSendInput: Exiting SendInput thread.
+13-08-3918 16:23:49.995> HookThread: Finished cleaning up.
+13-08-3918 16:23:49.995> Hook thread exited with error code 0.
+14-08-3918 08:59:57.547> Power State: Operation resuming automatically after event.
+14-08-3918 08:59:57.547> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+14-08-3918 08:59:57.886> Loaded 0 application specific profiles (0 normal and 0 custom window).
+14-08-3918 08:59:57.886> NewApplicationSettings: SPIThread is not initialised.
+14-08-3918 08:59:57.907> Using keyboard language 0x04060409
+14-08-3918 09:02:06.147> You are using the latest available version of X-Mouse Button Control.
+14-08-3918 15:01:57.644> You are using the latest available version of X-Mouse Button Control.
+14-08-3918 15:55:56.988> Power State: System is suspending operation.
+14-08-3918 15:55:56.988> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+14-08-3918 15:55:56.988> Removing any active XMBCHook Timers...
+14-08-3918 15:55:56.989> Timer thread exited with error code 0.
+14-08-3918 15:55:57.001> CSendInput: Exiting SendInput thread.
+14-08-3918 15:55:57.001> HookThread: Finished cleaning up.
+14-08-3918 15:55:57.002> Hook thread exited with error code 0.
+14-08-3918 17:29:00.403> Power State: Operation resuming automatically after event.
+14-08-3918 17:29:00.403> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+14-08-3918 17:29:00.691> Loaded 0 application specific profiles (0 normal and 0 custom window).
+14-08-3918 17:29:00.691> NewApplicationSettings: SPIThread is not initialised.
+14-08-3918 17:29:00.699> Using keyboard language 0x04060409
+14-08-3918 17:31:01.080> You are using the latest available version of X-Mouse Button Control.
+14-08-3918 23:31:00.769> You are using the latest available version of X-Mouse Button Control.
+15-08-3918 05:31:00.785> You are using the latest available version of X-Mouse Button Control.
+15-08-3918 11:31:00.771> You are using the latest available version of X-Mouse Button Control.
+15-08-3918 17:22:06.675> Power State: System is suspending operation.
+15-08-3918 17:22:06.675> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+15-08-3918 17:22:06.675> Removing any active XMBCHook Timers...
+15-08-3918 17:22:06.676> Timer thread exited with error code 0.
+15-08-3918 17:22:06.684> CSendInput: Exiting SendInput thread.
+15-08-3918 17:22:06.684> HookThread: Finished cleaning up.
+15-08-3918 17:22:06.685> Hook thread exited with error code 0.
+15-08-3918 17:27:27.459> Power State: Operation resuming automatically after event.
+15-08-3918 17:27:27.460> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+15-08-3918 17:27:27.726> Loaded 0 application specific profiles (0 normal and 0 custom window).
+15-08-3918 17:27:27.726> NewApplicationSettings: SPIThread is not initialised.
+15-08-3918 17:27:27.736> Using keyboard language 0x04060409
+15-08-3918 17:29:27.523> You are using the latest available version of X-Mouse Button Control.
+
+*******************************************************************************************************************************************
+15-08-3918 17:44:54.256> X-Mouse Button Control v2.17 (x64) Startup. Commandline ''
+15-08-3918 17:44:54.256> Running in high integrity mode (0x00003000)
+15-08-3918 17:44:54.272> Loaded 0 application specific profiles (0 normal and 0 custom window).
+15-08-3918 17:44:54.272> NewApplicationSettings: SPIThread is not initialised.
+15-08-3918 17:44:54.272> Running on Microsoft Windows 10 Professional Edition (build 17134), 64-bit, Hook Timeout: 0 ms
+15-08-3918 17:44:54.272> Warning: Low Level Hook Timeout is low. If you have problems try increasing this value.
+15-08-3918 17:44:54.272> Startup folder: 'C:\Program Files\Highresolution Enterprises\X-Mouse Button Control\'
+15-08-3918 17:44:54.272> Settings (and log) folder: 'C:\repositories\windows-config\x-mouse\'
+15-08-3918 17:44:54.272> Using keyboard language 0x04060409
+15-08-3918 17:45:22.774> Power State: System is suspending operation.
+15-08-3918 17:45:22.774> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+15-08-3918 17:45:22.774> Removing any active XMBCHook Timers...
+15-08-3918 17:45:22.774> Timer thread exited with error code 0.
+15-08-3918 17:45:22.789> CSendInput: Exiting SendInput thread.
+15-08-3918 17:45:22.789> HookThread: Finished cleaning up.
+15-08-3918 17:45:22.789> Hook thread exited with error code 0.
+16-08-3918 04:57:57.201> Power State: Operation resuming automatically after event.
+16-08-3918 04:57:57.201> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+16-08-3918 04:57:57.482> Loaded 0 application specific profiles (0 normal and 0 custom window).
+16-08-3918 04:57:57.494> NewApplicationSettings: SPIThread is not initialised.
+16-08-3918 04:57:57.495> Using keyboard language 0x04060409
+16-08-3918 04:59:58.068> You are using the latest available version of X-Mouse Button Control.
+16-08-3918 05:06:37.023> Power State: System is suspending operation.
+16-08-3918 05:06:37.023> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+16-08-3918 05:06:37.023> Removing any active XMBCHook Timers...
+16-08-3918 05:06:37.023> Timer thread exited with error code 0.
+16-08-3918 05:06:37.039> CSendInput: Exiting SendInput thread.
+16-08-3918 05:06:37.039> HookThread: Finished cleaning up.
+16-08-3918 05:06:37.039> Hook thread exited with error code 0.
+16-08-3918 08:50:27.194> Power State: Operation resuming automatically after event.
+16-08-3918 08:50:27.194> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+16-08-3918 08:50:27.447> Loaded 0 application specific profiles (0 normal and 0 custom window).
+16-08-3918 08:50:27.447> NewApplicationSettings: SPIThread is not initialised.
+16-08-3918 08:50:27.463> Using keyboard language 0x04060409
+16-08-3918 08:52:27.244> You are using the latest available version of X-Mouse Button Control.
+16-08-3918 14:52:27.288> You are using the latest available version of X-Mouse Button Control.
+16-08-3918 16:01:54.795> Power State: System is suspending operation.
+16-08-3918 16:01:54.795> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+16-08-3918 16:01:54.795> Removing any active XMBCHook Timers...
+16-08-3918 16:01:54.795> Timer thread exited with error code 0.
+16-08-3918 16:01:54.811> CSendInput: Exiting SendInput thread.
+16-08-3918 16:01:54.811> HookThread: Finished cleaning up.
+16-08-3918 16:01:54.811> Hook thread exited with error code 0.
+17-08-3918 08:42:39.313> Power State: Operation resuming automatically after event.
+17-08-3918 08:42:39.313> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+17-08-3918 08:42:39.631> Loaded 0 application specific profiles (0 normal and 0 custom window).
+17-08-3918 08:42:39.631> NewApplicationSettings: SPIThread is not initialised.
+17-08-3918 08:42:39.631> Using keyboard language 0x04060409
+17-08-3918 08:44:39.367> You are using the latest available version of X-Mouse Button Control.
+17-08-3918 14:44:39.428> You are using the latest available version of X-Mouse Button Control.
+17-08-3918 18:53:21.404> Power State: System is suspending operation.
+17-08-3918 18:53:21.404> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+17-08-3918 18:53:21.404> Removing any active XMBCHook Timers...
+17-08-3918 18:53:21.420> Timer thread exited with error code 0.
+17-08-3918 18:53:21.420> CSendInput: Exiting SendInput thread.
+17-08-3918 18:53:21.420> HookThread: Finished cleaning up.
+17-08-3918 18:53:21.420> Hook thread exited with error code 0.
+17-08-3918 18:56:45.448> Power State: Operation resuming automatically after event.
+17-08-3918 18:56:45.448> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+17-08-3918 18:56:45.702> Loaded 0 application specific profiles (0 normal and 0 custom window).
+17-08-3918 18:56:45.702> NewApplicationSettings: SPIThread is not initialised.
+17-08-3918 18:56:45.718> Using keyboard language 0x04060409
+17-08-3918 18:58:45.774> You are using the latest available version of X-Mouse Button Control.
+18-08-3918 00:58:45.557> You are using the latest available version of X-Mouse Button Control.
+18-08-3918 06:58:45.571> You are using the latest available version of X-Mouse Button Control.
+18-08-3918 12:58:45.510> You are using the latest available version of X-Mouse Button Control.
+18-08-3918 18:58:45.517> You are using the latest available version of X-Mouse Button Control.
+19-08-3918 00:58:42.999> You are using the latest available version of X-Mouse Button Control.
+19-08-3918 06:58:42.978> You are using the latest available version of X-Mouse Button Control.
+19-08-3918 12:58:42.925> You are using the latest available version of X-Mouse Button Control.
+19-08-3918 18:58:42.965> You are using the latest available version of X-Mouse Button Control.
+20-08-3918 00:58:43.006> You are using the latest available version of X-Mouse Button Control.
+20-08-3918 06:58:42.978> You are using the latest available version of X-Mouse Button Control.
+20-08-3918 12:58:42.966> You are using the latest available version of X-Mouse Button Control.
+20-08-3918 17:14:31.137> Power State: System is suspending operation.
+20-08-3918 17:14:31.137> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+20-08-3918 17:14:31.137> Removing any active XMBCHook Timers...
+20-08-3918 17:14:31.137> Timer thread exited with error code 0.
+20-08-3918 17:14:31.153> CSendInput: Exiting SendInput thread.
+20-08-3918 17:14:31.153> HookThread: Finished cleaning up.
+20-08-3918 17:14:31.153> Hook thread exited with error code 0.
+21-08-3918 09:13:11.440> Power State: Operation resuming automatically after event.
+21-08-3918 09:13:11.440> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+21-08-3918 09:13:11.766> Loaded 0 application specific profiles (0 normal and 0 custom window).
+21-08-3918 09:13:11.766> NewApplicationSettings: SPIThread is not initialised.
+21-08-3918 09:13:11.782> Using keyboard language 0x04060409
+21-08-3918 09:15:11.667> You are using the latest available version of X-Mouse Button Control.
+21-08-3918 15:15:11.659> You are using the latest available version of X-Mouse Button Control.
+21-08-3918 18:04:38.802> Power State: System is suspending operation.
+21-08-3918 18:04:38.802> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+21-08-3918 18:04:38.802> Removing any active XMBCHook Timers...
+21-08-3918 18:04:38.802> Timer thread exited with error code 0.
+21-08-3918 18:04:38.818> CSendInput: Exiting SendInput thread.
+21-08-3918 18:04:38.818> HookThread: Finished cleaning up.
+21-08-3918 18:04:38.818> Hook thread exited with error code 0.
+22-08-3918 09:06:35.549> Power State: Operation resuming automatically after event.
+22-08-3918 09:06:35.549> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+22-08-3918 09:06:35.870> Loaded 0 application specific profiles (0 normal and 0 custom window).
+22-08-3918 09:06:35.870> NewApplicationSettings: SPIThread is not initialised.
+22-08-3918 09:06:35.870> Using keyboard language 0x04060409
+22-08-3918 09:08:35.711> You are using the latest available version of X-Mouse Button Control.
+22-08-3918 15:08:35.804> You are using the latest available version of X-Mouse Button Control.
+22-08-3918 16:11:14.045> Power State: System is suspending operation.
+22-08-3918 16:11:14.046> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+22-08-3918 16:11:14.046> Removing any active XMBCHook Timers...
+22-08-3918 16:11:14.046> Timer thread exited with error code 0.
+22-08-3918 16:11:14.081> CSendInput: Exiting SendInput thread.
+22-08-3918 16:11:14.082> HookThread: Finished cleaning up.
+22-08-3918 16:11:14.082> Hook thread exited with error code 0.
+22-08-3918 16:11:14.082> RemoveMouseHook took 32ms
+23-08-3918 08:51:43.508> Power State: Operation resuming automatically after event.
+23-08-3918 08:51:43.508> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+23-08-3918 08:51:43.839> Loaded 0 application specific profiles (0 normal and 0 custom window).
+23-08-3918 08:51:43.839> NewApplicationSettings: SPIThread is not initialised.
+23-08-3918 08:51:43.843> Using keyboard language 0x04060409
+23-08-3918 08:53:43.548> You are using the latest available version of X-Mouse Button Control.
+23-08-3918 14:53:43.595> You are using the latest available version of X-Mouse Button Control.
+23-08-3918 14:58:57.486> Power State: System is suspending operation.
+23-08-3918 14:58:57.486> Reinstall mouse hook on resume is enabled. Remove hook before suspending...
+23-08-3918 14:58:57.486> Removing any active XMBCHook Timers...
+23-08-3918 14:58:57.486> Timer thread exited with error code 0.
+23-08-3918 14:58:57.502> CSendInput: Exiting SendInput thread.
+23-08-3918 14:58:57.502> HookThread: Finished cleaning up.
+23-08-3918 14:58:57.502> Hook thread exited with error code 0.
+24-08-3918 09:06:19.330> Power State: Operation resuming automatically after event.
+24-08-3918 09:06:19.330> Reinstall mouse hook on resume is enabled. Re-hooking mouse...
+24-08-3918 09:06:19.649> Loaded 0 application specific profiles (0 normal and 0 custom window).
+24-08-3918 09:06:19.649> NewApplicationSettings: SPIThread is not initialised.
+24-08-3918 09:06:19.649> Using keyboard language 0x04060409
+24-08-3918 09:08:19.438> You are using the latest available version of X-Mouse Button Control.
+24-08-3918 15:08:19.445> You are using the latest available version of X-Mouse Button Control.
